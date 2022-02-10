@@ -30,6 +30,7 @@ public class NPC : MonoBehaviour {
     {
         this.gameObject.GetComponent<NPC>().enabled = true;
         FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
+        //need to change Inputkey to Space
         if ((other.gameObject.tag == "Player") && Input.GetKeyDown(KeyCode.F))
         {
             this.gameObject.GetComponent<NPC>().enabled = true;
