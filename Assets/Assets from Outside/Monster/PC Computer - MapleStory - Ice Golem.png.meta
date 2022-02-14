@@ -1,0 +1,2196 @@
+fileFormatVersion: 2
+guid: 196ebd99fc13b1448847c30c27bd0f4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2115240189003878474
+    second: PC Computer - MapleStory - Ice Golem_0
+  - first:
+      213: -5545630564045788003
+    second: PC Computer - MapleStory - Ice Golem_1
+  - first:
+      213: 594553977882328083
+    second: PC Computer - MapleStory - Ice Golem_2
+  - first:
+      213: 8813262309195675939
+    second: PC Computer - MapleStory - Ice Golem_3
+  - first:
+      213: 516723235172925398
+    second: PC Computer - MapleStory - Ice Golem_4
+  - first:
+      213: -6085211429200135172
+    second: PC Computer - MapleStory - Ice Golem_5
+  - first:
+      213: -6242361790301133817
+    second: PC Computer - MapleStory - Ice Golem_6
+  - first:
+      213: 5941861420169762345
+    second: PC Computer - MapleStory - Ice Golem_7
+  - first:
+      213: -4076945115794707763
+    second: PC Computer - MapleStory - Ice Golem_8
+  - first:
+      213: 859099838350199314
+    second: PC Computer - MapleStory - Ice Golem_9
+  - first:
+      213: -4493852694541771736
+    second: PC Computer - MapleStory - Ice Golem_10
+  - first:
+      213: 1306681350714810106
+    second: PC Computer - MapleStory - Ice Golem_11
+  - first:
+      213: 1209945467382205085
+    second: PC Computer - MapleStory - Ice Golem_12
+  - first:
+      213: 604689442049601434
+    second: PC Computer - MapleStory - Ice Golem_13
+  - first:
+      213: 4449722232629701837
+    second: PC Computer - MapleStory - Ice Golem_14
+  - first:
+      213: 3305381845900081799
+    second: PC Computer - MapleStory - Ice Golem_15
+  - first:
+      213: -7780299529967845547
+    second: PC Computer - MapleStory - Ice Golem_16
+  - first:
+      213: 8106335440672994533
+    second: PC Computer - MapleStory - Ice Golem_17
+  - first:
+      213: -4280301688852308897
+    second: PC Computer - MapleStory - Ice Golem_18
+  - first:
+      213: 6957653696643143704
+    second: PC Computer - MapleStory - Ice Golem_19
+  - first:
+      213: 6194721114081654579
+    second: PC Computer - MapleStory - Ice Golem_20
+  - first:
+      213: -2898632660905369422
+    second: PC Computer - MapleStory - Ice Golem_21
+  - first:
+      213: 2284329594745212373
+    second: PC Computer - MapleStory - Ice Golem_22
+  - first:
+      213: 8900399806012406992
+    second: PC Computer - MapleStory - Ice Golem_23
+  - first:
+      213: -1100746773979710319
+    second: PC Computer - MapleStory - Ice Golem_24
+  - first:
+      213: -839590585545371475
+    second: PC Computer - MapleStory - Ice Golem_25
+  - first:
+      213: 6210960359833097057
+    second: PC Computer - MapleStory - Ice Golem_26
+  - first:
+      213: 5590634272595881963
+    second: PC Computer - MapleStory - Ice Golem_27
+  - first:
+      213: -7401958433623922488
+    second: PC Computer - MapleStory - Ice Golem_28
+  - first:
+      213: 5216132604536104452
+    second: PC Computer - MapleStory - Ice Golem_29
+  - first:
+      213: -634433082766359106
+    second: PC Computer - MapleStory - Ice Golem_30
+  - first:
+      213: 3718070472550563004
+    second: PC Computer - MapleStory - Ice Golem_31
+  - first:
+      213: 3479349669092419540
+    second: PC Computer - MapleStory - Ice Golem_32
+  - first:
+      213: -738242304215944501
+    second: PC Computer - MapleStory - Ice Golem_34
+  - first:
+      213: -3182281414929262457
+    second: PC Computer - MapleStory - Ice Golem_39
+  - first:
+      213: -5805936049256172679
+    second: PC Computer - MapleStory - Ice Golem_41
+  - first:
+      213: -7171392404422681169
+    second: PC Computer - MapleStory - Ice Golem_42
+  - first:
+      213: 1371048704674665970
+    second: PC Computer - MapleStory - Ice Golem_45
+  - first:
+      213: -6083431103319704191
+    second: PC Computer - MapleStory - Ice Golem_50
+  - first:
+      213: 6461340814625918444
+    second: PC Computer - MapleStory - Ice Golem_51
+  - first:
+      213: -6133092481690068100
+    second: PC Computer - MapleStory - Ice Golem_52
+  - first:
+      213: -2408446224613875646
+    second: PC Computer - MapleStory - Ice Golem_53
+  - first:
+      213: -1048442743057024201
+    second: PC Computer - MapleStory - Ice Golem_54
+  - first:
+      213: 7664093415963322784
+    second: PC Computer - MapleStory - Ice Golem_55
+  - first:
+      213: 2390406009419736808
+    second: PC Computer - MapleStory - Ice Golem_56
+  - first:
+      213: 734809027841563154
+    second: PC Computer - MapleStory - Ice Golem_57
+  - first:
+      213: 3989206193968755290
+    second: PC Computer - MapleStory - Ice Golem_58
+  - first:
+      213: -3100357564701329927
+    second: PC Computer - MapleStory - Ice Golem_59
+  - first:
+      213: -749957772698039652
+    second: PC Computer - MapleStory - Ice Golem_60
+  - first:
+      213: -5498347230794072993
+    second: PC Computer - MapleStory - Ice Golem_61
+  - first:
+      213: -8204675525874691800
+    second: PC Computer - MapleStory - Ice Golem_62
+  - first:
+      213: -3026210426407252319
+    second: PC Computer - MapleStory - Ice Golem_63
+  - first:
+      213: -3022352780988800646
+    second: PC Computer - MapleStory - Ice Golem_64
+  - first:
+      213: -4660211449872093683
+    second: PC Computer - MapleStory - Ice Golem_65
+  - first:
+      213: 1650480130788736244
+    second: PC Computer - MapleStory - Ice Golem_66
+  - first:
+      213: -7487794658023061747
+    second: PC Computer - MapleStory - Ice Golem_67
+  - first:
+      213: 6634782669000990243
+    second: PC Computer - MapleStory - Ice Golem_68
+  - first:
+      213: -1527206482325298537
+    second: PC Computer - MapleStory - Ice Golem_69
+  - first:
+      213: 6764503561770041235
+    second: PC Computer - MapleStory - Ice Golem_70
+  - first:
+      213: -3025498239811156487
+    second: PC Computer - MapleStory - Ice Golem_71
+  - first:
+      213: -254331007105345210
+    second: PC Computer - MapleStory - Ice Golem_72
+  - first:
+      213: -4391303465155708546
+    second: PC Computer - MapleStory - Ice Golem_73
+  - first:
+      213: 9210846493146528305
+    second: PC Computer - MapleStory - Ice Golem_74
+  - first:
+      213: -3676660936012929019
+    second: PC Computer - MapleStory - Ice Golem_75
+  - first:
+      213: 2399832894405761474
+    second: PC Computer - MapleStory - Ice Golem_76
+  - first:
+      213: -1817574881018171114
+    second: PC Computer - MapleStory - Ice Golem_77
+  - first:
+      213: 7745320383499746159
+    second: PC Computer - MapleStory - Ice Golem_78
+  - first:
+      213: -8545895885468261636
+    second: PC Computer - MapleStory - Ice Golem_79
+  - first:
+      213: 8152445873502189656
+    second: PC Computer - MapleStory - Ice Golem_80
+  - first:
+      213: 7637800368281252924
+    second: PC Computer - MapleStory - Ice Golem_81
+  - first:
+      213: -2540168632708107097
+    second: PC Computer - MapleStory - Ice Golem_82
+  - first:
+      213: 1758100661595903386
+    second: PC Computer - MapleStory - Ice Golem_83
+  - first:
+      213: -3896409501363979809
+    second: PC Computer - MapleStory - Ice Golem_84
+  - first:
+      213: -6216112551417547682
+    second: PC Computer - MapleStory - Ice Golem_85
+  - first:
+      213: -6638477242678975481
+    second: PC Computer - MapleStory - Ice Golem_86
+  - first:
+      213: -1714310708947201159
+    second: PC Computer - MapleStory - Ice Golem_87
+  - first:
+      213: -4528862608385707609
+    second: PC Computer - MapleStory - Ice Golem_88
+  - first:
+      213: 8251469309827199658
+    second: PC Computer - MapleStory - Ice Golem_89
+  - first:
+      213: 2490148088163385565
+    second: PC Computer - MapleStory - Ice Golem_90
+  - first:
+      213: -3412546445188758801
+    second: PC Computer - MapleStory - Ice Golem_91
+  - first:
+      213: -6912180454836954756
+    second: PC Computer - MapleStory - Ice Golem_92
+  - first:
+      213: 425027225676028557
+    second: PC Computer - MapleStory - Ice Golem_93
+  - first:
+      213: 2421128307649765555
+    second: PC Computer - MapleStory - Ice Golem_94
+  - first:
+      213: -8614590516656699149
+    second: PC Computer - MapleStory - Ice Golem_95
+  - first:
+      213: -8502873178829803418
+    second: PC Computer - MapleStory - Ice Golem_96
+  - first:
+      213: 4219201747790654160
+    second: PC Computer - MapleStory - Ice Golem_97
+  - first:
+      213: -2274823711062682104
+    second: PC Computer - MapleStory - Ice Golem_98
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 759
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40d430beb7da5d10800000000000000
+      internalID: 2115240189003878474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 787
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c608e4266f903b0800000000000000
+      internalID: -5545630564045788003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 759
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb87b51b7404800800000000000000
+      internalID: 594553977882328083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 760
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32972f3206ffe4a70800000000000000
+      internalID: 8813262309195675939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 787
+        width: 170
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df3caf6b05cb2700800000000000000
+      internalID: 516723235172925398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 760
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf06b227cfc8ba0800000000000000
+      internalID: -6085211429200135172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 761
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70421a1760dae59a0800000000000000
+      internalID: -6242361790301133817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 787
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92611d5fa7bb57250800000000000000
+      internalID: 5941861420169762345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 761
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaea4c8408cb67c0800000000000000
+      internalID: -4076945115794707763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 755
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a857350c22ceb00800000000000000
+      internalID: 859099838350199314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 755
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cd7e4a8c0a2a1c0800000000000000
+      internalID: -4493852694541771736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 755
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afedbffe3c3422210800000000000000
+      internalID: 1306681350714810106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 755
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a09e4fdf69ac010800000000000000
+      internalID: 1209945467382205085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 755
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fabc008d9446800800000000000000
+      internalID: 604689442049601434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 755
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc2d018bc690cd30800000000000000
+      internalID: 4449722232629701837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 587
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a36e3b6431fdd20800000000000000
+      internalID: 3305381845900081799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 165
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fb02e9cc2d60490800000000000000
+      internalID: -7780299529967845547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 584
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e43973522d7f7070800000000000000
+      internalID: 8106335440672994533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 587
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c1470ca405994c0800000000000000
+      internalID: -4280301688852308897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 583
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81819928c2d8e8060800000000000000
+      internalID: 6957653696643143704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 581
+        width: 165
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337f27f380218f550800000000000000
+      internalID: 6194721114081654579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 583
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0e368d3fcf5c7d0800000000000000
+      internalID: -2898632660905369422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 587
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd43bcd9a193bf10800000000000000
+      internalID: 2284329594745212373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_23
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 584
+        width: 165
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc335c9772948b70800000000000000
+      internalID: 8900399806012406992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_24
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 587
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c384d14ac59b0f0800000000000000
+      internalID: -1100746773979710319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 583
+        width: 49
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da05ecf8fcc2954f0800000000000000
+      internalID: -839590585545371475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 581
+        width: 165
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16352e94a83c13650800000000000000
+      internalID: 6210960359833097057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_27
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 583
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befa33f104ce59d40800000000000000
+      internalID: 5590634272595881963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 581
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a3a99506f64990800000000000000
+      internalID: -7401958433623922488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 581
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40625b2b7fc636840800000000000000
+      internalID: 5216132604536104452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 501
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb584fbf87a0237f0800000000000000
+      internalID: -634433082766359106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 371
+        width: 183
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbe36456d399330800000000000000
+      internalID: 3718070472550563004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 486
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d760a3f612294030800000000000000
+      internalID: 3479349669092419540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 473
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2fa03298c31c5f0800000000000000
+      internalID: -738242304215944501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_39
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 459
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78850dfd9e346d3d0800000000000000
+      internalID: -3182281414929262457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9737373aceb2d6fa0800000000000000
+      internalID: -5805936049256172679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 371
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad93759a981a7c90800000000000000
+      internalID: -7171392404422681169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_45
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 443
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f594e36881f60310800000000000000
+      internalID: 1371048704674665970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18df01794af439ba0800000000000000
+      internalID: -6083431103319704191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedc28cbc3b4ba950800000000000000
+      internalID: 6461340814625918444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_52
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b9e36e1e0e2eaa0800000000000000
+      internalID: -6133092481690068100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24062415bea739ed0800000000000000
+      internalID: -2408446224613875646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_54
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bffbc41ee2371f0800000000000000
+      internalID: -1048442743057024201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_55
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a967ef0b545c5a60800000000000000
+      internalID: 7664093415963322784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_56
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e62c64c99d6c2120800000000000000
+      internalID: 2390406009419736808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a1f3aeae0923a00800000000000000
+      internalID: 734809027841563154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bb4fc5e18c5730800000000000000
+      internalID: 3989206193968755290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_59
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f53847a83159f4d0800000000000000
+      internalID: -3100357564701329927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a4ac1116d9795f0800000000000000
+      internalID: -749957772698039652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_61
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c34c83352f1b3b0800000000000000
+      internalID: -5498347230794072993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_62
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821d5e65413232e80800000000000000
+      internalID: -8204675525874691800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae896696adb006d0800000000000000
+      internalID: -3026210426407252319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_64
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71af37a8227e06d0800000000000000
+      internalID: -3022352780988800646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_65
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e6a20906a935fb0800000000000000
+      internalID: -4660211449872093683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_66
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcb0803feea7e610800000000000000
+      internalID: 1650480130788736244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_67
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07c7793e62061890800000000000000
+      internalID: -7487794658023061747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_68
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ed8b35fab731c50800000000000000
+      internalID: 6634782669000990243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_69
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792a35abbc54ecae0800000000000000
+      internalID: -1527206482325298537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_70
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ffa29462850ed50800000000000000
+      internalID: 6764503561770041235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_71
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 197
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58c7371654306d0800000000000000
+      internalID: -3025498239811156487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_72
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 223
+        width: 174
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6495e1aeb4f687cf0800000000000000
+      internalID: -254331007105345210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_73
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 197
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b37ab3c4fe03c0800000000000000
+      internalID: -4391303465155708546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_74
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab6a8951083df70800000000000000
+      internalID: 9210846493146528305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_75
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e465cb50e9fcc0800000000000000
+      internalID: -3676660936012929019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_76
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95a577d4bed4120800000000000000
+      internalID: 2399832894405761474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_77
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6113d30964da6c6e0800000000000000
+      internalID: -1817574881018171114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_78
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b38123ad7ec7b60800000000000000
+      internalID: 7745320383499746159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_79
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2213368f0e66980800000000000000
+      internalID: -8545895885468261636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_80
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85872b4145e432170800000000000000
+      internalID: 8152445873502189656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_81
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3470c8d7faeef960800000000000000
+      internalID: 7637800368281252924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_82
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4f7d146128fbcd0800000000000000
+      internalID: -2540168632708107097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_83
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959dc5ac37066810800000000000000
+      internalID: 1758100661595903386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_84
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93ebbd33c2de9c0800000000000000
+      internalID: -3896409501363979809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_85
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f8e0a19eebb9a0800000000000000
+      internalID: -6216112551417547682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_86
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ea94be146fd3a0800000000000000
+      internalID: -6638477242678975481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_87
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973dd863e7b8538e0800000000000000
+      internalID: -1714310708947201159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_88
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 191
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1fe9ed37f3621c0800000000000000
+      internalID: -4528862608385707609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_89
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 191
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b94f7e9b138270800000000000000
+      internalID: 8251469309827199658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 29
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0c8192e78ce8220800000000000000
+      internalID: 2490148088163385565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 13
+        width: 166
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2800ba61334a0d0800000000000000
+      internalID: -3412546445188758801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_92
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 13
+        width: 228
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c799b06af700310a0800000000000000
+      internalID: -6912180454836954756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_93
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 13
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a1a46820006e500800000000000000
+      internalID: 425027225676028557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_94
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 13
+        width: 215
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b06b1d3e53999120800000000000000
+      internalID: 2421128307649765555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_95
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 13
+        width: 215
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f88a313193d27880800000000000000
+      internalID: -8614590516656699149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_96
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 13
+        width: 215
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66037add4e9bff980800000000000000
+      internalID: -8502873178829803418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_97
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 13
+        width: 215
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae4c4a2ad9d8a30800000000000000
+      internalID: 4219201747790654160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Ice Golem_98
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806197723e33e60e0800000000000000
+      internalID: -2274823711062682104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
