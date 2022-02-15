@@ -1,0 +1,1428 @@
+fileFormatVersion: 2
+guid: 20301173cd5d87f4c96d046b2399cfe0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4698604449021631865
+    second: PC Computer - MapleStory - Shark_0
+  - first:
+      213: 1454456052479583428
+    second: PC Computer - MapleStory - Shark_1
+  - first:
+      213: -573840673015089262
+    second: PC Computer - MapleStory - Shark_2
+  - first:
+      213: -7527132902826745332
+    second: PC Computer - MapleStory - Shark_3
+  - first:
+      213: -6288671273388515166
+    second: PC Computer - MapleStory - Shark_4
+  - first:
+      213: -4901932189381116957
+    second: PC Computer - MapleStory - Shark_5
+  - first:
+      213: -8512032881109025810
+    second: PC Computer - MapleStory - Shark_6
+  - first:
+      213: 2625288403508718163
+    second: PC Computer - MapleStory - Shark_7
+  - first:
+      213: 1447713583502409089
+    second: PC Computer - MapleStory - Shark_8
+  - first:
+      213: 3493237944185712335
+    second: PC Computer - MapleStory - Shark_9
+  - first:
+      213: -2760802215909524524
+    second: PC Computer - MapleStory - Shark_10
+  - first:
+      213: -807058068629836820
+    second: PC Computer - MapleStory - Shark_11
+  - first:
+      213: -8597304813497177074
+    second: PC Computer - MapleStory - Shark_12
+  - first:
+      213: 4289660270757405042
+    second: PC Computer - MapleStory - Shark_13
+  - first:
+      213: 6359076920575368183
+    second: PC Computer - MapleStory - Shark_14
+  - first:
+      213: -3995893418439932422
+    second: PC Computer - MapleStory - Shark_15
+  - first:
+      213: 1543826043767234348
+    second: PC Computer - MapleStory - Shark_24
+  - first:
+      213: -9014589834376653896
+    second: PC Computer - MapleStory - Shark_29
+  - first:
+      213: 7081760274551964305
+    second: PC Computer - MapleStory - Shark_30
+  - first:
+      213: -4033388303826016487
+    second: PC Computer - MapleStory - Shark_32
+  - first:
+      213: 4924283137002697511
+    second: PC Computer - MapleStory - Shark_34
+  - first:
+      213: 276807634459677689
+    second: PC Computer - MapleStory - Shark_35
+  - first:
+      213: 3943213289046224917
+    second: PC Computer - MapleStory - Shark_36
+  - first:
+      213: 8074411462271298161
+    second: PC Computer - MapleStory - Shark_37
+  - first:
+      213: -1316465204357446898
+    second: PC Computer - MapleStory - Shark_41
+  - first:
+      213: 7784432528195427730
+    second: PC Computer - MapleStory - Shark_42
+  - first:
+      213: 609801830211294812
+    second: PC Computer - MapleStory - Shark_46
+  - first:
+      213: -3022335639833183720
+    second: PC Computer - MapleStory - Shark_51
+  - first:
+      213: 2547390666904436688
+    second: PC Computer - MapleStory - Shark_59
+  - first:
+      213: 4210067085563232451
+    second: PC Computer - MapleStory - Shark_61
+  - first:
+      213: 5332233426822167162
+    second: PC Computer - MapleStory - Shark_62
+  - first:
+      213: 659320304341917544
+    second: PC Computer - MapleStory - Shark_63
+  - first:
+      213: 3121389308672942969
+    second: PC Computer - MapleStory - Shark_64
+  - first:
+      213: 7791402238852374979
+    second: PC Computer - MapleStory - Shark_65
+  - first:
+      213: 4219779235420231732
+    second: PC Computer - MapleStory - Shark_66
+  - first:
+      213: -3639405775659933196
+    second: PC Computer - MapleStory - Shark_67
+  - first:
+      213: 3264812513263429077
+    second: PC Computer - MapleStory - Shark_68
+  - first:
+      213: 404165314789523323
+    second: PC Computer - MapleStory - Shark_69
+  - first:
+      213: -5114016767307655229
+    second: PC Computer - MapleStory - Shark_70
+  - first:
+      213: -583352124007595998
+    second: PC Computer - MapleStory - Shark_71
+  - first:
+      213: 7259211220469730635
+    second: PC Computer - MapleStory - Shark_72
+  - first:
+      213: 6761249239100264375
+    second: PC Computer - MapleStory - Shark_73
+  - first:
+      213: 4247602358887630287
+    second: PC Computer - MapleStory - Shark_74
+  - first:
+      213: -3498930616410953631
+    second: PC Computer - MapleStory - Shark_75
+  - first:
+      213: -1738174697728111550
+    second: PC Computer - MapleStory - Shark_76
+  - first:
+      213: -2727602761194878100
+    second: PC Computer - MapleStory - Shark_77
+  - first:
+      213: -645481474561347614
+    second: PC Computer - MapleStory - Shark_78
+  - first:
+      213: -8349795997182125251
+    second: PC Computer - MapleStory - Shark_79
+  - first:
+      213: 3013185276439049377
+    second: PC Computer - MapleStory - Shark_80
+  - first:
+      213: -3394699162579535446
+    second: PC Computer - MapleStory - Shark_81
+  - first:
+      213: 3864405024202830507
+    second: PC Computer - MapleStory - Shark_82
+  - first:
+      213: -3268470321863344587
+    second: PC Computer - MapleStory - Shark_83
+  - first:
+      213: 2479339913783016700
+    second: PC Computer - MapleStory - Shark_84
+  - first:
+      213: -9221149028776556710
+    second: PC Computer - MapleStory - Shark_85
+  - first:
+      213: -7912031360413162574
+    second: PC Computer - MapleStory - Shark_86
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 917
+        width: 121
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782eefbd5243bceb0800000000000000
+      internalID: -4698604449021631865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 917
+        width: 122
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4667dd2144f2410800000000000000
+      internalID: 1454456052479583428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 917
+        width: 123
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b34fb2fe4908f0800000000000000
+      internalID: -573840673015089262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 917
+        width: 122
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c026bdd51804a8790800000000000000
+      internalID: -7527132902826745332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 917
+        width: 121
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a06970bbc62ab8a0800000000000000
+      internalID: -6288671273388515166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_5
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 917
+        width: 120
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb2e235a6d8fbb0800000000000000
+      internalID: -4901932189381116957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 917
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3d0d713f2fd980800000000000000
+      internalID: -8512032881109025810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 781
+        width: 121
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae614c4e5ee6420800000000000000
+      internalID: 2625288403508718163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 781
+        width: 119
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d3b2975df471410800000000000000
+      internalID: 1447713583502409089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 781
+        width: 111
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceea1bf6697a7030800000000000000
+      internalID: 3493237944185712335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 781
+        width: 104
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbf9911309afa9d0800000000000000
+      internalID: -2760802215909524524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_11
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 781
+        width: 109
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceba43a66f0ccc4f0800000000000000
+      internalID: -807058068629836820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_12
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 781
+        width: 111
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0caeb592dc30b880800000000000000
+      internalID: -8597304813497177074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_13
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 781
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271e995e94fe78b30800000000000000
+      internalID: 4289660270757405042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 781
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb974674caff3850800000000000000
+      internalID: 6359076920575368183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 657
+        width: 127
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af501996b1cbb88c0800000000000000
+      internalID: -3995893418439932422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 694
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f1eb57b95cc6510800000000000000
+      internalID: 1543826043767234348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 525
+        width: 149
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d1269e4eb5e280800000000000000
+      internalID: -9014589834376653896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_30
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 525
+        width: 159
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192842de277774260800000000000000
+      internalID: 7081760274551964305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_32
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 525
+        width: 161
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9172c3d15b68608c0800000000000000
+      internalID: -4033388303826016487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_34
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 525
+        width: 166
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723fd725c61965440800000000000000
+      internalID: 4924283137002697511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_35
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 525
+        width: 147
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3d513b31b67d300800000000000000
+      internalID: 276807634459677689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 525
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5103337289b19b630800000000000000
+      internalID: 3943213289046224917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 525
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae503e1721e0070800000000000000
+      internalID: 8074411462271298161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_41
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 525
+        width: 143
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03cc1f1fd9fabde0800000000000000
+      internalID: -1316465204357446898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_42
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 525
+        width: 122
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d9515042cd70c60800000000000000
+      internalID: 7784432528195427730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 593
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c569021a883767800800000000000000
+      internalID: 609801830211294812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_51
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 564
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a7db3afb18e06d0800000000000000
+      internalID: -3022335639833183720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_59
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 536
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dffbfc90562a5320800000000000000
+      internalID: 2547390666904436688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_61
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 365
+        width: 145
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c08f8b55b92d6a30800000000000000
+      internalID: 4210067085563232451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_62
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 465
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7af231ec06eff940800000000000000
+      internalID: 5332233426822167162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_63
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 365
+        width: 143
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f9085d250662900800000000000000
+      internalID: 659320304341917544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_64
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 365
+        width: 147
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732725d907615b20800000000000000
+      internalID: 3121389308672942969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_65
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 416
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1aafc3e0f902c60800000000000000
+      internalID: 7791402238852374979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_66
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 365
+        width: 128
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438dac57bdaaf8a30800000000000000
+      internalID: 4219779235420231732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_67
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 365
+        width: 144
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e84cbabb3e7dc0800000000000000
+      internalID: -3639405775659933196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_68
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 365
+        width: 139
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5215fdea1fe4d20800000000000000
+      internalID: 3264812513263429077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 365
+        width: 134
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f30926632eb9500800000000000000
+      internalID: 404165314789523323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_70
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 365
+        width: 116
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c75c3968dc5709b0800000000000000
+      internalID: -5114016767307655229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_71
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 365
+        width: 113
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ce8d755487e7f0800000000000000
+      internalID: -583352124007595998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_72
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 365
+        width: 131
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc0a1e426edb460800000000000000
+      internalID: 7259211220469730635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_73
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 365
+        width: 122
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf837e3c58c4dd50800000000000000
+      internalID: 6761249239100264375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_74
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 406
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5cb9437d382fa30800000000000000
+      internalID: 4247602358887630287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_75
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 381
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168261b742d417fc0800000000000000
+      internalID: -3498930616410953631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_76
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 269
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c08585253c0e7e0800000000000000
+      internalID: -1738174697728111550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_77
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 269
+        width: 87
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bca9a7dbb952ad0800000000000000
+      internalID: -2727602761194878100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_78
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 269
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efecafc40aca07f0800000000000000
+      internalID: -645481474561347614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_79
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 137
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1bf897c09f1c80800000000000000
+      internalID: -8349795997182125251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_80
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 137
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4369c5b0cf0d920800000000000000
+      internalID: 3013185276439049377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 15
+        width: 127
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa97127f81b93e0d0800000000000000
+      internalID: -3394699162579535446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 15
+        width: 135
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba238df15ef11a530800000000000000
+      internalID: 3864405024202830507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_83
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 16
+        width: 144
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ebd623f8f04a2d0800000000000000
+      internalID: -3268470321863344587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_84
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 15
+        width: 119
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcfb76f382686220800000000000000
+      internalID: 2479339913783016700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_85
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 15
+        width: 119
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c5d660d5e70080800000000000000
+      internalID: -9221149028776556710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Shark_86
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 15
+        width: 119
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a2deb561d23290800000000000000
+      internalID: -7912031360413162574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e812c719a61404342aedb67a886443b0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
