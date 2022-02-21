@@ -1,0 +1,3816 @@
+fileFormatVersion: 2
+guid: 0b91fd239c2b88648af4aece6b605ff6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3748092732266558336
+    second: magmatos_0
+  - first:
+      213: 3883719637127389761
+    second: magmatos_1
+  - first:
+      213: 8965190742816999418
+    second: magmatos_2
+  - first:
+      213: -6456355978584857677
+    second: magmatos_3
+  - first:
+      213: 6639682074285261065
+    second: magmatos_4
+  - first:
+      213: -733270977103801391
+    second: magmatos_5
+  - first:
+      213: 141615575763357067
+    second: magmatos_6
+  - first:
+      213: -7713930835693554795
+    second: magmatos_7
+  - first:
+      213: -1139239298144708349
+    second: magmatos_8
+  - first:
+      213: 4510860455898831831
+    second: magmatos_9
+  - first:
+      213: -3230052231647819279
+    second: magmatos_10
+  - first:
+      213: 6604442760626419080
+    second: magmatos_11
+  - first:
+      213: -3119726617999954930
+    second: magmatos_12
+  - first:
+      213: -3460042787732535850
+    second: magmatos_13
+  - first:
+      213: -1117931769868812284
+    second: magmatos_14
+  - first:
+      213: -6062015978451747313
+    second: magmatos_15
+  - first:
+      213: -5350621396706891901
+    second: magmatos_16
+  - first:
+      213: -7650906121378177792
+    second: magmatos_17
+  - first:
+      213: -3524423124306959444
+    second: magmatos_18
+  - first:
+      213: -3482637364432438666
+    second: magmatos_19
+  - first:
+      213: 5918015863528468142
+    second: magmatos_20
+  - first:
+      213: 1225651684735625593
+    second: magmatos_21
+  - first:
+      213: 6721267941140989152
+    second: magmatos_22
+  - first:
+      213: -2794586371621324608
+    second: magmatos_23
+  - first:
+      213: 2110521494063109752
+    second: magmatos_24
+  - first:
+      213: -3543106661226543884
+    second: magmatos_25
+  - first:
+      213: -6072365931317969180
+    second: magmatos_26
+  - first:
+      213: -7702754413265188727
+    second: magmatos_27
+  - first:
+      213: 6914826127958779646
+    second: magmatos_28
+  - first:
+      213: 288437211895649944
+    second: magmatos_29
+  - first:
+      213: 8900075062023980981
+    second: magmatos_30
+  - first:
+      213: 7256466401999247776
+    second: magmatos_31
+  - first:
+      213: 4301904276149418169
+    second: magmatos_32
+  - first:
+      213: 942502566920636244
+    second: magmatos_33
+  - first:
+      213: -6768784124391700029
+    second: magmatos_34
+  - first:
+      213: -1916926945400954251
+    second: magmatos_35
+  - first:
+      213: -7239554437689421275
+    second: magmatos_36
+  - first:
+      213: -5655904489735731334
+    second: magmatos_37
+  - first:
+      213: -8237094038044618618
+    second: magmatos_38
+  - first:
+      213: 9003622747092614667
+    second: magmatos_39
+  - first:
+      213: 4187261964520873239
+    second: magmatos_40
+  - first:
+      213: 6689156939019218234
+    second: magmatos_41
+  - first:
+      213: -842784204520619553
+    second: magmatos_42
+  - first:
+      213: -1195324883848950175
+    second: magmatos_43
+  - first:
+      213: 3346795491248665702
+    second: magmatos_44
+  - first:
+      213: 6937924059934975526
+    second: magmatos_45
+  - first:
+      213: -5941362691473012538
+    second: magmatos_46
+  - first:
+      213: 1024615739593470710
+    second: magmatos_47
+  - first:
+      213: -2052914854498546429
+    second: magmatos_48
+  - first:
+      213: -6313599321720548478
+    second: magmatos_49
+  - first:
+      213: -7505702798386773520
+    second: magmatos_50
+  - first:
+      213: 8273937540384395443
+    second: magmatos_51
+  - first:
+      213: -4106044736054414694
+    second: magmatos_52
+  - first:
+      213: 7622821884192669358
+    second: magmatos_53
+  - first:
+      213: 6232004601043383313
+    second: magmatos_54
+  - first:
+      213: -3817669214677868743
+    second: magmatos_55
+  - first:
+      213: -6254089992680334559
+    second: magmatos_56
+  - first:
+      213: 8987190683262314863
+    second: magmatos_57
+  - first:
+      213: -6432041962726123817
+    second: magmatos_58
+  - first:
+      213: 984180197021920920
+    second: magmatos_59
+  - first:
+      213: -8474296893893502552
+    second: magmatos_60
+  - first:
+      213: -4605759112261003911
+    second: magmatos_61
+  - first:
+      213: 4049695747894403893
+    second: magmatos_62
+  - first:
+      213: 5350042617548853858
+    second: magmatos_63
+  - first:
+      213: 1674221811894853763
+    second: magmatos_64
+  - first:
+      213: 5384315619879680364
+    second: magmatos_65
+  - first:
+      213: -1675594636798522076
+    second: magmatos_66
+  - first:
+      213: 3579287988864519311
+    second: magmatos_67
+  - first:
+      213: -324223040530161955
+    second: magmatos_68
+  - first:
+      213: -1739439623146632558
+    second: magmatos_69
+  - first:
+      213: 1864760614727615718
+    second: magmatos_70
+  - first:
+      213: 6724829772399940996
+    second: magmatos_71
+  - first:
+      213: 403746904923467549
+    second: magmatos_72
+  - first:
+      213: -9151799188043985865
+    second: magmatos_73
+  - first:
+      213: -2320722887058723492
+    second: magmatos_74
+  - first:
+      213: -4339930197945189223
+    second: magmatos_75
+  - first:
+      213: -4556448211315130096
+    second: magmatos_76
+  - first:
+      213: 1152177117941680971
+    second: magmatos_77
+  - first:
+      213: 3991267632297837250
+    second: magmatos_78
+  - first:
+      213: -3397134110720833762
+    second: magmatos_79
+  - first:
+      213: 6009695298788222589
+    second: magmatos_80
+  - first:
+      213: 1229764285289212066
+    second: magmatos_81
+  - first:
+      213: -199989878471048613
+    second: magmatos_82
+  - first:
+      213: -748014681855215183
+    second: magmatos_83
+  - first:
+      213: 3262444153129180612
+    second: magmatos_84
+  - first:
+      213: -6641840575372785715
+    second: magmatos_85
+  - first:
+      213: 6335345972191841621
+    second: magmatos_86
+  - first:
+      213: -5885075741917222706
+    second: magmatos_87
+  - first:
+      213: -2956020256843469954
+    second: magmatos_88
+  - first:
+      213: -7261572931083714583
+    second: magmatos_89
+  - first:
+      213: -578036542665511191
+    second: magmatos_90
+  - first:
+      213: 1464917826768077623
+    second: magmatos_91
+  - first:
+      213: -4407052555319393985
+    second: magmatos_92
+  - first:
+      213: 8040679437187615655
+    second: magmatos_93
+  - first:
+      213: 5587409255379576315
+    second: magmatos_94
+  - first:
+      213: 1810743118541193114
+    second: magmatos_95
+  - first:
+      213: -4023365552943362774
+    second: magmatos_96
+  - first:
+      213: 1774329446461536225
+    second: magmatos_97
+  - first:
+      213: 5276656240899505555
+    second: magmatos_98
+  - first:
+      213: 7707872798821670297
+    second: magmatos_99
+  - first:
+      213: -2091922220367214966
+    second: magmatos_100
+  - first:
+      213: 5932778199369847339
+    second: magmatos_101
+  - first:
+      213: 736514754227825187
+    second: magmatos_102
+  - first:
+      213: -8939598633504661481
+    second: magmatos_103
+  - first:
+      213: -4033468292350402409
+    second: magmatos_104
+  - first:
+      213: -7028225133649349426
+    second: magmatos_105
+  - first:
+      213: -3650441098769267448
+    second: magmatos_106
+  - first:
+      213: 7047259404892687890
+    second: magmatos_107
+  - first:
+      213: 146105911279695239
+    second: magmatos_108
+  - first:
+      213: -7409759803381672958
+    second: magmatos_109
+  - first:
+      213: -8383414707634651808
+    second: magmatos_110
+  - first:
+      213: -2195443879008137981
+    second: magmatos_111
+  - first:
+      213: 2715385224219297305
+    second: magmatos_112
+  - first:
+      213: -6355223521511390702
+    second: magmatos_113
+  - first:
+      213: 8019797958952790114
+    second: magmatos_114
+  - first:
+      213: 8038366001319544718
+    second: magmatos_115
+  - first:
+      213: 2082722576853493661
+    second: magmatos_116
+  - first:
+      213: 7005138343950781715
+    second: magmatos_117
+  - first:
+      213: -1749208835234452450
+    second: magmatos_118
+  - first:
+      213: -8704550276456495791
+    second: magmatos_119
+  - first:
+      213: 7925419171824972924
+    second: magmatos_120
+  - first:
+      213: 8066371181071474989
+    second: magmatos_121
+  - first:
+      213: -778205007272081876
+    second: magmatos_122
+  - first:
+      213: 3084053687714525153
+    second: magmatos_123
+  - first:
+      213: 1579433281671217407
+    second: magmatos_124
+  - first:
+      213: -5696141427799721611
+    second: magmatos_125
+  - first:
+      213: 4821213568216226877
+    second: magmatos_126
+  - first:
+      213: 6073717442030119019
+    second: magmatos_127
+  - first:
+      213: -7366485055136885477
+    second: magmatos_128
+  - first:
+      213: -1705648967724442440
+    second: magmatos_129
+  - first:
+      213: 1854075878073153179
+    second: magmatos_130
+  - first:
+      213: 741658142484540367
+    second: magmatos_131
+  - first:
+      213: -4549814334359594938
+    second: magmatos_132
+  - first:
+      213: 2858467380101345253
+    second: magmatos_133
+  - first:
+      213: 7079498569625013802
+    second: magmatos_134
+  - first:
+      213: -1470248642727094446
+    second: magmatos_135
+  - first:
+      213: -3572075648023145
+    second: magmatos_136
+  - first:
+      213: -3660666372453323635
+    second: magmatos_137
+  - first:
+      213: 7941350386048135543
+    second: magmatos_138
+  - first:
+      213: 388429804502314356
+    second: magmatos_139
+  - first:
+      213: -1344142469988072889
+    second: magmatos_140
+  - first:
+      213: -6504580737991001663
+    second: magmatos_141
+  - first:
+      213: -1106017923959718179
+    second: magmatos_142
+  - first:
+      213: -30321274782976474
+    second: magmatos_143
+  - first:
+      213: -1357713782332084053
+    second: magmatos_144
+  - first:
+      213: -1622676499680703739
+    second: magmatos_145
+  - first:
+      213: -7923214831342833146
+    second: magmatos_146
+  - first:
+      213: -9033873251245451885
+    second: magmatos_147
+  - first:
+      213: -3243166994180969254
+    second: magmatos_148
+  - first:
+      213: 2672496675965803271
+    second: magmatos_149
+  - first:
+      213: 5131184276967206057
+    second: magmatos_150
+  - first:
+      213: 7046389444459964213
+    second: magmatos_151
+  - first:
+      213: -5039345506960551159
+    second: magmatos_152
+  - first:
+      213: -2341325591310068377
+    second: magmatos_153
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magmatos_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 222
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083b8f35b76e30430800000000000000
+      internalID: 3748092732266558336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142ef22ee6eb5e530800000000000000
+      internalID: 3883719637127389761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 222
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af74a312b71ca6c70800000000000000
+      internalID: 8965190742816999418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3eaf8d17a6666a0800000000000000
+      internalID: -6456355978584857677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014d430ba3e42c50800000000000000
+      internalID: 6639682074285261065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3df9d6ee5e2d5f0800000000000000
+      internalID: -733270977103801391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d8908ad9e17f100800000000000000
+      internalID: 141615575763357067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593bd8c66cc92f490800000000000000
+      internalID: -7713930835693554795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3095befe4eb9030f0800000000000000
+      internalID: -1139239298144708349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbd4316fabc99e30800000000000000
+      internalID: 4510860455898831831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f98caedb9c8c23d0800000000000000
+      internalID: -3230052231647819279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885b98ee2b1b7ab50800000000000000
+      internalID: 6604442760626419080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c28c18b2184b4d0800000000000000
+      internalID: -3119726617999954930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 226
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5cc89aa657bffc0800000000000000
+      internalID: -3460042787732535850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 226
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40088d57afe4c70f0800000000000000
+      internalID: -1117931769868812284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 227
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e34a5e5946fdba0800000000000000
+      internalID: -6062015978451747313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 227
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3876ea14036ceb5b0800000000000000
+      internalID: -5350621396706891901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_17
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d54693b6582d590800000000000000
+      internalID: -7650906121378177792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 226
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3e28577dbb61fc0800000000000000
+      internalID: -3524423124306959444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 224
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a7083d4cf2bafc0800000000000000
+      internalID: -3482637364432438666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_20
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeadb8a214012250800000000000000
+      internalID: 5918015863528468142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_21
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 226
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a607a6b3620110800000000000000
+      internalID: 1225651684735625593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 226
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e40ee7e49db64d50800000000000000
+      internalID: 6721267941140989152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8fc595082a739d0800000000000000
+      internalID: -2794586371621324608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 193
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8765578ed141a4d10800000000000000
+      internalID: 2110521494063109752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 193
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f48548834b54dec0800000000000000
+      internalID: -3543106661226543884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 192
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eebb95bb5f9abba0800000000000000
+      internalID: -6072365931317969180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 190
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988814d0ca15a1590800000000000000
+      internalID: -7702754413265188727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 189
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a2902ab566ff50800000000000000
+      internalID: 6914826127958779646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 190
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8965b03bd1cb00400800000000000000
+      internalID: 288437211895649944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b780424d1b638b70800000000000000
+      internalID: 8900075062023980981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 189
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9d8b70fb524b460800000000000000
+      internalID: 7256466401999247776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 189
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8be9d852f63bb30800000000000000
+      internalID: 4301904276149418169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 190
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457c23d4711741d00800000000000000
+      internalID: 942502566920636244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9445093b27012a0800000000000000
+      internalID: -6768784124391700029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 189
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57260077915b565e0800000000000000
+      internalID: -1916926945400954251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_36
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5225b61889fe78b90800000000000000
+      internalID: -7239554437689421275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77c3c535d03281b0800000000000000
+      internalID: -5655904489735731334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_38
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 190
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680dcd84d96ffad80800000000000000
+      internalID: -8237094038044618618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_39
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef41c6f2b43fc70800000000000000
+      internalID: 9003622747092614667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d55c852942c1a30800000000000000
+      internalID: 4187261964520873239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_41
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 190
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d641d9bc8a4dc50800000000000000
+      internalID: 6689156939019218234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10d333b34dd44f0800000000000000
+      internalID: -842784204520619553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_43
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e8ffae95a596fe0800000000000000
+      internalID: -1195324883848950175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 189
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66471c764c4327e20800000000000000
+      internalID: 3346795491248665702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_45
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 190
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6266f0f7c25784060800000000000000
+      internalID: 6937924059934975526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_46
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c80efc5c1a0c8da0800000000000000
+      internalID: -5941362691473012538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_47
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 190
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f23eb5269a283e00800000000000000
+      internalID: 1024615739593470710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dcd7f01d49283e0800000000000000
+      internalID: -2052914854498546429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 155
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28313b62ed69168a0800000000000000
+      internalID: -6313599321720548478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 156
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f14080621366d790800000000000000
+      internalID: -7505702798386773520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 149
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b091641b5ee2d270800000000000000
+      internalID: 8273937540384395443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_52
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 158
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a923d9b31166407c0800000000000000
+      internalID: -4106044736054414694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_53
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 159
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb061cd14b9c960800000000000000
+      internalID: 7622821884192669358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_54
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 159
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1147ac38a278c7650800000000000000
+      internalID: 6232004601043383313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 159
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f5e2d731ae40bc0800000000000000
+      internalID: -3817669214677868743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 158
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b96f889420539a0800000000000000
+      internalID: -6254089992680334559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_57
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 156
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ec8c6f4ae8bc70800000000000000
+      internalID: 8987190683262314863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 156
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d69d4fc9ebccb6a0800000000000000
+      internalID: -6432041962726123817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_59
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 149
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e277ebca288ad00800000000000000
+      internalID: 984180197021920920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 158
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9184eafdf356a80800000000000000
+      internalID: -8474296893893502552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_61
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 159
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751aa06d7e0510c0800000000000000
+      internalID: -4605759112261003911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_62
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 159
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533e7a593d8633830800000000000000
+      internalID: 4049695747894403893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 120
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26253383a6b2f3a40800000000000000
+      internalID: 5350042617548853858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 119
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38024351ed70c3710800000000000000
+      internalID: 1674221811894853763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_65
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 117
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69f389678ee8ba40800000000000000
+      internalID: 5384315619879680364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 115
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d03163e871fb8e0800000000000000
+      internalID: -1675594636798522076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_67
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 115
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c8715467f2ca130800000000000000
+      internalID: 3579287988864519311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 116
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded339ccd0208bf0800000000000000
+      internalID: -324223040530161955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_69
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0b12f0e44cd7e0800000000000000
+      internalID: -1739439623146632558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_70
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e48aff26e5f0e910800000000000000
+      internalID: 1864760614727615718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859ede5c05635d50800000000000000
+      internalID: 6724829772399940996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f602fbba56a9500800000000000000
+      internalID: 403746904923467549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 116
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c0ee470274ef080800000000000000
+      internalID: -9151799188043985865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_74
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 115
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5deeb674d22bcfd0800000000000000
+      internalID: -2320722887058723492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_75
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 115
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c7c799a7875c3c0800000000000000
+      internalID: -4339930197945189223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_76
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 115
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011091f2e7e34c0c0800000000000000
+      internalID: -4556448211315130096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_77
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4f39fbfa5dff00800000000000000
+      internalID: 1152177117941680971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_78
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 115
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c280a2d3c4d36730800000000000000
+      internalID: 3991267632297837250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_79
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 115
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e174f1c6684fad0d0800000000000000
+      internalID: -3397134110720833762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_80
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d766b94980ab66350800000000000000
+      internalID: 6009695298788222589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_81
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a820261a10011110800000000000000
+      internalID: 1229764285289212066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_82
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524f0fd34e793df0800000000000000
+      internalID: -199989878471048613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_83
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 115
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b93e392c948e95f0800000000000000
+      internalID: -748014681855215183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_84
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd90de0ca7864d20800000000000000
+      internalID: 3262444153129180612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7012acf2173d3a0800000000000000
+      internalID: -6641840575372785715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d42b9789babe750800000000000000
+      internalID: 6335345972191841621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec861ce0bc2045ea0800000000000000
+      internalID: -5885075741917222706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b6cf1fc3b1af6d0800000000000000
+      internalID: -2956020256843469954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 82
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efb92484e5b93b90800000000000000
+      internalID: -7261572931083714583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_90
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee2a37b3d66af7f0800000000000000
+      internalID: -578036542665511191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_91
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73306a1800f645410800000000000000
+      internalID: 1464917826768077623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_92
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31c5bdec0107d2c0800000000000000
+      internalID: -4407052555319393985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 81
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0b56c85b369f60800000000000000
+      internalID: 8040679437187615655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_94
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf521a94d177a8d40800000000000000
+      internalID: 5587409255379576315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_95
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7128c54d012910800000000000000
+      internalID: 1810743118541193114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 99
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d8447a8522a28c0800000000000000
+      internalID: -4023365552943362774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_97
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 99
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7fad21b3faf9810800000000000000
+      internalID: 1774329446461536225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_98
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39db9a8e4e27a3940800000000000000
+      internalID: 5276656240899505555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_99
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 81
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d59a3f87dd7fa60800000000000000
+      internalID: 7707872798821670297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_100
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a860445f2dff7f2e0800000000000000
+      internalID: -2091922220367214966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_101
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221f90d656755250800000000000000
+      internalID: 5932778199369847339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_102
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a65994440a83a00800000000000000
+      internalID: 736514754227825187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_103
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7102367286a20f380800000000000000
+      internalID: -8939598633504661481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_104
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 82
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79027a555fd3608c0800000000000000
+      internalID: -4033468292350402409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_105
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 82
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4bb536a7ab67e90800000000000000
+      internalID: -7028225133649349426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_106
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 83
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8050f5a5927075dc0800000000000000
+      internalID: -3650441098769267448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_107
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 81
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ec8ac3715ecc160800000000000000
+      internalID: 7047259404892687890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_108
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785396d5d82170200800000000000000
+      internalID: 146105911279695239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_109
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049778a7be3b2990800000000000000
+      internalID: -7409759803381672958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_110
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06db6aa9db028ab80800000000000000
+      internalID: -8383414707634651808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_111
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 46
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d0a6b8c673881e0800000000000000
+      internalID: -2195443879008137981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_112
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 49
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9168fe5897cfea520800000000000000
+      internalID: 2715385224219297305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_113
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 48
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124b1ce0e5bdc7a0800000000000000
+      internalID: -6355223521511390702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_114
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268a8c1c0cb0c4f60800000000000000
+      internalID: 8019797958952790114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_115
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 49
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e878a330a430e8f60800000000000000
+      internalID: 8038366001319544718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_116
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 48
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e90f162157ec10800000000000000
+      internalID: 2082722576853493661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_117
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d87a18530473160800000000000000
+      internalID: 7005138343950781715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_118
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 48
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c20e105df89b7e0800000000000000
+      internalID: -1749208835234452450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_119
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155484a64a9333780800000000000000
+      internalID: -8704550276456495791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_120
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 46
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74b2b00fbebcfd60800000000000000
+      internalID: 7925419171824972924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_121
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 49
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21a63a0ad181ff60800000000000000
+      internalID: 8066371181071474989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_122
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 48
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c260e134ba24335f0800000000000000
+      internalID: -778205007272081876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_123
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef257c2d72ccca20800000000000000
+      internalID: 3084053687714525153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_124
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 48
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0417493364be510800000000000000
+      internalID: 1579433281671217407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5797c950d8d33f0b0800000000000000
+      internalID: -5696141427799721611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_126
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 46
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c52d7423468e240800000000000000
+      internalID: 4821213568216226877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_127
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ac4665dd2a4450800000000000000
+      internalID: 6073717442030119019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_128
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 48
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1597552fdcf4c990800000000000000
+      internalID: -7366485055136885477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_129
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 47
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcd54ffc415458e0800000000000000
+      internalID: -1705648967724442440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_130
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96bb2310300bb910800000000000000
+      internalID: 1854075878073153179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_131
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb219fa626ea4a00800000000000000
+      internalID: 741658142484540367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_132
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 47
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648148608ffcbd0c0800000000000000
+      internalID: -4549814334359594938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_133
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef6bf8ffe05ba720800000000000000
+      internalID: 2858467380101345253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_134
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e8266b07e6f3260800000000000000
+      internalID: 7079498569625013802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_135
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25750ce26a0a89be0800000000000000
+      internalID: -1470248642727094446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_136
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79583e3573f43fff0800000000000000
+      internalID: -3572075648023145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_137
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca3bc4453b23dc0800000000000000
+      internalID: -3660666372453323635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_138
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717f4dd918553e60800000000000000
+      internalID: 7941350386048135543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_139
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 12
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47de88569daf36500800000000000000
+      internalID: 388429804502314356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_140
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74248dc8b85a85de0800000000000000
+      internalID: -1344142469988072889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_141
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 12
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9b23318461bb5a0800000000000000
+      internalID: -6504580737991001663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_142
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 13
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde7a2fde82a6a0f0800000000000000
+      internalID: -1106017923959718179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_143
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6267c6316f6449ff0800000000000000
+      internalID: -30321274782976474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_144
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0b179228e682de0800000000000000
+      internalID: -1357713782332084053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_145
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 13
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b482322581b79e0800000000000000
+      internalID: -1622676499680703739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_146
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 12
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60234b207161b0290800000000000000
+      internalID: -7923214831342833146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_147
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3959c99342c31a280800000000000000
+      internalID: -9033873251245451885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_148
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 13
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc62944dc4fdf2d0800000000000000
+      internalID: -3243166994180969254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_149
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b9a5a319d961520800000000000000
+      internalID: 2672496675965803271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_150
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac23b9e9e0a53740800000000000000
+      internalID: 5131184276967206057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_151
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 13
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537291acdddc9c160800000000000000
+      internalID: 7046389444459964213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_152
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 12
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d72506f5a01ab0800000000000000
+      internalID: -5039345506960551159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmatos_153
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 12
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7659e6297c0f18fd0800000000000000
+      internalID: -2341325591310068377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5acc583cfe6b2ea4a92fdf0729a27609
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

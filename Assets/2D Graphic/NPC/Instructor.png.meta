@@ -1,0 +1,1992 @@
+fileFormatVersion: 2
+guid: f3b2f38fdb4d11b45aa1ebbdaaafa844
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 664904442331099759
+    second: Instructor_0
+  - first:
+      213: 6160123218916961263
+    second: Instructor_1
+  - first:
+      213: 2175317308941707188
+    second: Instructor_2
+  - first:
+      213: 2132854362800082113
+    second: Instructor_3
+  - first:
+      213: -250791880607849484
+    second: Instructor_4
+  - first:
+      213: -5938615158081901501
+    second: Instructor_5
+  - first:
+      213: -8666375384489943193
+    second: Instructor_6
+  - first:
+      213: 6314018332605024283
+    second: Instructor_7
+  - first:
+      213: -3259151083440509044
+    second: Instructor_8
+  - first:
+      213: -7514870047664367475
+    second: Instructor_9
+  - first:
+      213: 4108785151709349519
+    second: Instructor_10
+  - first:
+      213: -2989171931822870179
+    second: Instructor_11
+  - first:
+      213: -4911770196694395949
+    second: Instructor_12
+  - first:
+      213: -1498684511650536364
+    second: Instructor_13
+  - first:
+      213: 6833256202576517006
+    second: Instructor_14
+  - first:
+      213: -9166214898280109770
+    second: Instructor_15
+  - first:
+      213: 1097193488884189775
+    second: Instructor_16
+  - first:
+      213: 7576855560749836310
+    second: Instructor_17
+  - first:
+      213: -4584385040881317408
+    second: Instructor_18
+  - first:
+      213: -7794181609961005812
+    second: Instructor_19
+  - first:
+      213: 6795052029289299699
+    second: Instructor_20
+  - first:
+      213: -4295035522786598390
+    second: Instructor_21
+  - first:
+      213: -4604149904412932326
+    second: Instructor_22
+  - first:
+      213: 5180203075144698022
+    second: Instructor_23
+  - first:
+      213: -1853659154347496139
+    second: Instructor_24
+  - first:
+      213: 1439101587767626524
+    second: Instructor_25
+  - first:
+      213: -1236475974368425802
+    second: Instructor_26
+  - first:
+      213: 7263724233758637739
+    second: Instructor_27
+  - first:
+      213: -8251978585846902992
+    second: Instructor_28
+  - first:
+      213: 4748191196223598637
+    second: Instructor_29
+  - first:
+      213: -5265233312550500440
+    second: Instructor_30
+  - first:
+      213: 8726705601531707684
+    second: Instructor_31
+  - first:
+      213: -5546939288939027236
+    second: Instructor_32
+  - first:
+      213: -608667957828931267
+    second: Instructor_33
+  - first:
+      213: 2803029382666620416
+    second: Instructor_34
+  - first:
+      213: -2972985580749147643
+    second: Instructor_35
+  - first:
+      213: 316666080688412189
+    second: Instructor_36
+  - first:
+      213: 6500419818644003619
+    second: Instructor_37
+  - first:
+      213: -4903291780777715069
+    second: Instructor_38
+  - first:
+      213: -298962804225829850
+    second: Instructor_39
+  - first:
+      213: -623606280599109271
+    second: Instructor_40
+  - first:
+      213: 2413834914293996008
+    second: Instructor_41
+  - first:
+      213: 2095294184952820589
+    second: Instructor_42
+  - first:
+      213: 6351425397926224513
+    second: Instructor_43
+  - first:
+      213: -7244401636131959123
+    second: Instructor_44
+  - first:
+      213: 8997710117718416179
+    second: Instructor_45
+  - first:
+      213: 3775184736090455740
+    second: Instructor_46
+  - first:
+      213: 4812239250437165679
+    second: Instructor_47
+  - first:
+      213: -5083295493471115420
+    second: Instructor_48
+  - first:
+      213: -4650147537299921339
+    second: Instructor_49
+  - first:
+      213: 5656995377177768758
+    second: Instructor_50
+  - first:
+      213: 2276649660608482939
+    second: Instructor_51
+  - first:
+      213: 8358035575207549326
+    second: Instructor_52
+  - first:
+      213: -7713789488570631610
+    second: Instructor_53
+  - first:
+      213: 2602719415746591466
+    second: Instructor_54
+  - first:
+      213: -6965981296148771823
+    second: Instructor_55
+  - first:
+      213: -7172023046839064206
+    second: Instructor_56
+  - first:
+      213: -6832744718705588109
+    second: Instructor_57
+  - first:
+      213: -1398006935386141914
+    second: Instructor_58
+  - first:
+      213: 7249828457326735156
+    second: Instructor_59
+  - first:
+      213: -5925050129683176516
+    second: Instructor_60
+  - first:
+      213: -280904178937933983
+    second: Instructor_61
+  - first:
+      213: 2570167173550814455
+    second: Instructor_62
+  - first:
+      213: 1307761629843859739
+    second: Instructor_63
+  - first:
+      213: 2410182102057494930
+    second: Instructor_64
+  - first:
+      213: -4705414641034725872
+    second: Instructor_65
+  - first:
+      213: -419059221518881471
+    second: Instructor_66
+  - first:
+      213: 4589291898612183217
+    second: Instructor_67
+  - first:
+      213: 7696002903771521
+    second: Instructor_68
+  - first:
+      213: 9147643832886503064
+    second: Instructor_69
+  - first:
+      213: 8690414835738810005
+    second: Instructor_70
+  - first:
+      213: 2123355581707208596
+    second: Instructor_71
+  - first:
+      213: 6690108280141834549
+    second: Instructor_72
+  - first:
+      213: -3111080197354129387
+    second: Instructor_73
+  - first:
+      213: 6823159789280923849
+    second: Instructor_74
+  - first:
+      213: -8916017790758453257
+    second: Instructor_75
+  - first:
+      213: -5883369447717640461
+    second: Instructor_76
+  - first:
+      213: 5457348899492446440
+    second: Instructor_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Instructor_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 98
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6279b641173a3900800000000000000
+      internalID: 664904442331099759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 98
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb6e2c0e672d7550800000000000000
+      internalID: 6160123218916961263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7aa313197403e10800000000000000
+      internalID: 2175317308941707188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 98
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc475c1ebb699d10800000000000000
+      internalID: 2132854362800082113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f321d30d12058cf0800000000000000
+      internalID: -250791880607849484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 97
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c27c45afcc59da0800000000000000
+      internalID: -5938615158081901501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 97
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f99451189dab780800000000000000
+      internalID: -8666375384489943193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 97
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b180a3c6836ef9750800000000000000
+      internalID: 6314018332605024283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fe23a7b5b25c2d0800000000000000
+      internalID: -3259151083440509044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 97
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d881eb3d181d5b790800000000000000
+      internalID: -7514870047664367475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 97
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8609028356550930800000000000000
+      internalID: 4108785151709349519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 97
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51312f17f35486d0800000000000000
+      internalID: -2989171931822870179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d31eaf9703e5dbb0800000000000000
+      internalID: -4911770196694395949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 97
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a0b4806a933be0800000000000000
+      internalID: -1498684511650536364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87dec5ef4a94de50800000000000000
+      internalID: 6833256202576517006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639ee1d5d101bc080800000000000000
+      internalID: -9166214898280109770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 97
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a40da3aa30a3f00800000000000000
+      internalID: 1097193488884189775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_17
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 97
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618efe41df5662960800000000000000
+      internalID: 7576855560749836310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e987ac281ef060c0800000000000000
+      internalID: -4584385040881317408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 97
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d546ffe1185d390800000000000000
+      internalID: -7794181609961005812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 97
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fef514a1dfdc4e50800000000000000
+      internalID: 6795052029289299699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02ee96b2f7f464c0800000000000000
+      internalID: -4295035522786598390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_22
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 66
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1781d64e06ca10c0800000000000000
+      internalID: -4604149904412932326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8c26e3047c3e740800000000000000
+      internalID: 5180203075144698022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d677af1da7646e0800000000000000
+      internalID: -1853659154347496139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b0796f447b8f310800000000000000
+      internalID: 1439101587767626524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8077607a727dee0800000000000000
+      internalID: -1236475974368425802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 65
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae749ba4beedc460800000000000000
+      internalID: 7263724233758637739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 65
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f077072351b7d80800000000000000
+      internalID: -8251978585846902992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_29
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d207b886cb6f4e140800000000000000
+      internalID: 4748191196223598637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 65
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7cfd9d2322ee6b0800000000000000
+      internalID: -5265233312550500440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42185be228c7b1970800000000000000
+      internalID: 8726705601531707684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4a12c0b105503b0800000000000000
+      internalID: -5546939288939027236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31b17b97b39d87f0800000000000000
+      internalID: -608667957828931267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e83d85f5c56e620800000000000000
+      internalID: 2803029382666620416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_35
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b619ad55ddb6d0800000000000000
+      internalID: -2972985580749147643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_36
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 65
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1619d36f16056400800000000000000
+      internalID: 316666080688412189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_37
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b5f256261263a50800000000000000
+      internalID: 6500419818644003619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_38
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ad6a8aa1204fbb0800000000000000
+      internalID: -4903291780777715069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624901dd9eed9dbf0800000000000000
+      internalID: -298962804225829850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_40
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 65
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961003d44618857f0800000000000000
+      internalID: -623606280599109271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_41
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 65
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9dde4c01aaf7120800000000000000
+      internalID: 2413834914293996008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63fd0ab5faf31d10800000000000000
+      internalID: 2095294184952820589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_43
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18269c48fbbc42850800000000000000
+      internalID: 6351425397926224513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae881c2817b67b90800000000000000
+      internalID: -7244401636131959123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b5b8e1ea94edc70800000000000000
+      internalID: 8997710117718416179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 33
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbef5240486246430800000000000000
+      internalID: 3775184736090455740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 33
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62df781a1288c240800000000000000
+      internalID: 4812239250437165679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4676f4f5ea18479b0800000000000000
+      internalID: -5083295493471115420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_49
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546a41ec37b577fb0800000000000000
+      internalID: -4650147537299921339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_50
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 33
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63335b0d25fa18e40800000000000000
+      internalID: 5656995377177768758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_51
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e059addc8489f10800000000000000
+      internalID: 2276649660608482939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_52
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 33
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d258a215bdf370800000000000000
+      internalID: 8358035575207549326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_53
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 33
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64afa9d545d13f490800000000000000
+      internalID: -7713789488570631610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 33
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea7691d487be1420800000000000000
+      internalID: 2602719415746591466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_55
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 33
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c89032becd35f90800000000000000
+      internalID: -6965981296148771823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_56
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2792e34b90bd77c90800000000000000
+      internalID: -7172023046839064206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_57
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 33
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37880a831e63d21a0800000000000000
+      internalID: -6832744718705588109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_58
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 33
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bc6c66918499ce0800000000000000
+      internalID: -1398006935386141914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 33
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f6a7912909c9460800000000000000
+      internalID: 7249828457326735156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_60
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb32adf9c4ef5cda0800000000000000
+      internalID: -5925050129683176516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 33
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f4b7633270a1cf0800000000000000
+      internalID: -280904178937933983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4bdd05d611ba320800000000000000
+      internalID: 2570167173550814455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_63
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19aab5064a162210800000000000000
+      internalID: 1307761629843859739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29924252adfa27120800000000000000
+      internalID: 2410182102057494930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016f338705203beb0800000000000000
+      internalID: -4705414641034725872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_66
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de389bbd33f2af0800000000000000
+      internalID: -419059221518881471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07b5baaa070bf30800000000000000
+      internalID: 4589291898612183217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_68
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189054f49775b1000800000000000000
+      internalID: 7696002903771521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_69
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8962ef68995f2fe70800000000000000
+      internalID: 9147643832886503064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_70
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5961ff2df3e8a9870800000000000000
+      internalID: 8690414835738810005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497408bc6aca77d10800000000000000
+      internalID: 2123355581707208596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_72
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539e0caf80a08dc50800000000000000
+      internalID: 6690108280141834549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51874f03b0933d4d0800000000000000
+      internalID: -3111080197354129387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_74
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c091dd7dabb0be50800000000000000
+      internalID: 6823159789280923849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_75
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff77c2fe01f34480800000000000000
+      internalID: -8916017790758453257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_76
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f66762a8a21a5ea0800000000000000
+      internalID: -5883369447717640461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Instructor_77
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0cd99e8e56cbb40800000000000000
+      internalID: 5457348899492446440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f971ea49cbcd35d49883a6e4354ec84f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

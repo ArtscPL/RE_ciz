@@ -1,0 +1,3216 @@
+fileFormatVersion: 2
+guid: f4e538a336f040e47b748164b87b95a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4412398466933531221
+    second: Foretina_0
+  - first:
+      213: -5877921909538590111
+    second: Foretina_1
+  - first:
+      213: 1443603559175411782
+    second: Foretina_2
+  - first:
+      213: 1280900056830715264
+    second: Foretina_3
+  - first:
+      213: -226177493848177683
+    second: Foretina_4
+  - first:
+      213: 2092776283174560299
+    second: Foretina_5
+  - first:
+      213: -5606206892546369145
+    second: Foretina_6
+  - first:
+      213: 6352703121707602019
+    second: Foretina_7
+  - first:
+      213: -4408206962595732115
+    second: Foretina_8
+  - first:
+      213: 4829714894312041622
+    second: Foretina_9
+  - first:
+      213: -7201708911629332507
+    second: Foretina_10
+  - first:
+      213: -6734969591801645776
+    second: Foretina_11
+  - first:
+      213: -1774591407644076581
+    second: Foretina_12
+  - first:
+      213: -2412247020577415936
+    second: Foretina_13
+  - first:
+      213: 1374028909783478345
+    second: Foretina_14
+  - first:
+      213: 3702722287182057435
+    second: Foretina_15
+  - first:
+      213: 206763270006793211
+    second: Foretina_16
+  - first:
+      213: 3527420405969347195
+    second: Foretina_17
+  - first:
+      213: -2837246515678976057
+    second: Foretina_18
+  - first:
+      213: 1197946003945704239
+    second: Foretina_19
+  - first:
+      213: -7144329353005539323
+    second: Foretina_20
+  - first:
+      213: -4284475952781914427
+    second: Foretina_21
+  - first:
+      213: -6984715504390413785
+    second: Foretina_22
+  - first:
+      213: 7221257732192181245
+    second: Foretina_23
+  - first:
+      213: -5075810223656032773
+    second: Foretina_24
+  - first:
+      213: -516955441110659454
+    second: Foretina_25
+  - first:
+      213: 8798151628568602842
+    second: Foretina_26
+  - first:
+      213: -3963118639366593424
+    second: Foretina_27
+  - first:
+      213: 2811453927735790722
+    second: Foretina_28
+  - first:
+      213: -6816255138871929706
+    second: Foretina_29
+  - first:
+      213: -8289722651356095735
+    second: Foretina_30
+  - first:
+      213: 3618020915332187818
+    second: Foretina_31
+  - first:
+      213: -8593550413743816492
+    second: Foretina_32
+  - first:
+      213: -6690540619470432938
+    second: Foretina_33
+  - first:
+      213: -750388132628617238
+    second: Foretina_34
+  - first:
+      213: -2853893766468634755
+    second: Foretina_35
+  - first:
+      213: -7560028637362511056
+    second: Foretina_36
+  - first:
+      213: -8616683085783079469
+    second: Foretina_37
+  - first:
+      213: 8125951954933370277
+    second: Foretina_38
+  - first:
+      213: -9129692040081121213
+    second: Foretina_39
+  - first:
+      213: 4530600752221999042
+    second: Foretina_40
+  - first:
+      213: -1640235423123912967
+    second: Foretina_41
+  - first:
+      213: 9047787850762742560
+    second: Foretina_42
+  - first:
+      213: -881453603206416957
+    second: Foretina_43
+  - first:
+      213: 4431092973607849161
+    second: Foretina_44
+  - first:
+      213: 7408968009724200569
+    second: Foretina_45
+  - first:
+      213: -5766043268035855776
+    second: Foretina_46
+  - first:
+      213: -2447363915165442509
+    second: Foretina_47
+  - first:
+      213: 5703047317190132796
+    second: Foretina_48
+  - first:
+      213: 7838409655681015874
+    second: Foretina_49
+  - first:
+      213: -5372259963655723460
+    second: Foretina_50
+  - first:
+      213: -533681788345447420
+    second: Foretina_51
+  - first:
+      213: -4737111955907124970
+    second: Foretina_52
+  - first:
+      213: 3236164180422647445
+    second: Foretina_53
+  - first:
+      213: 7154623118625024543
+    second: Foretina_54
+  - first:
+      213: 3638839184167326715
+    second: Foretina_55
+  - first:
+      213: 268859902770552747
+    second: Foretina_56
+  - first:
+      213: 6072961271294121732
+    second: Foretina_57
+  - first:
+      213: 6467135581030866627
+    second: Foretina_58
+  - first:
+      213: -3724889866631354404
+    second: Foretina_59
+  - first:
+      213: 5050466727370447410
+    second: Foretina_60
+  - first:
+      213: -848284742514471063
+    second: Foretina_61
+  - first:
+      213: 6469881860914144169
+    second: Foretina_62
+  - first:
+      213: -5240266893211614040
+    second: Foretina_63
+  - first:
+      213: 7184790005967734773
+    second: Foretina_64
+  - first:
+      213: 9007805069203468031
+    second: Foretina_65
+  - first:
+      213: -6977292816121726791
+    second: Foretina_66
+  - first:
+      213: -4754575683016336228
+    second: Foretina_67
+  - first:
+      213: -2172763942412183019
+    second: Foretina_68
+  - first:
+      213: -5905795400279016175
+    second: Foretina_69
+  - first:
+      213: 3200485050860422716
+    second: Foretina_70
+  - first:
+      213: -2455744653879281806
+    second: Foretina_71
+  - first:
+      213: -2560718294626836128
+    second: Foretina_72
+  - first:
+      213: -3393443109071116996
+    second: Foretina_73
+  - first:
+      213: 3275943458416731387
+    second: Foretina_74
+  - first:
+      213: -3154473258884839100
+    second: Foretina_75
+  - first:
+      213: -4079633013181501258
+    second: Foretina_76
+  - first:
+      213: 6659238913787530577
+    second: Foretina_77
+  - first:
+      213: -3320979289111026877
+    second: Foretina_78
+  - first:
+      213: -4435624531676305835
+    second: Foretina_79
+  - first:
+      213: 8939420962779624353
+    second: Foretina_80
+  - first:
+      213: -884554351321492370
+    second: Foretina_81
+  - first:
+      213: -1215257786569474432
+    second: Foretina_82
+  - first:
+      213: 4040590305503191565
+    second: Foretina_83
+  - first:
+      213: 2454923904216592242
+    second: Foretina_84
+  - first:
+      213: -5101124490892809354
+    second: Foretina_85
+  - first:
+      213: 4576099862689597630
+    second: Foretina_86
+  - first:
+      213: 1810347243036205930
+    second: Foretina_87
+  - first:
+      213: -7291776367946132410
+    second: Foretina_88
+  - first:
+      213: -7920565187140429858
+    second: Foretina_89
+  - first:
+      213: 6841837986909929593
+    second: Foretina_90
+  - first:
+      213: 2106053582839533570
+    second: Foretina_91
+  - first:
+      213: -5926028507719298102
+    second: Foretina_92
+  - first:
+      213: 66874755950359048
+    second: Foretina_93
+  - first:
+      213: 687176012189404618
+    second: Foretina_94
+  - first:
+      213: -218652087487787715
+    second: Foretina_95
+  - first:
+      213: 6452019751019747943
+    second: Foretina_96
+  - first:
+      213: 1194060930891942700
+    second: Foretina_97
+  - first:
+      213: 1440071316568266045
+    second: Foretina_98
+  - first:
+      213: -7969983555222046233
+    second: Foretina_99
+  - first:
+      213: 6766936811428396819
+    second: Foretina_100
+  - first:
+      213: 2162326247515455917
+    second: Foretina_101
+  - first:
+      213: 204656545029769724
+    second: Foretina_102
+  - first:
+      213: -3669857592427391305
+    second: Foretina_103
+  - first:
+      213: 4399147537728722012
+    second: Foretina_104
+  - first:
+      213: 277252592903733815
+    second: Foretina_105
+  - first:
+      213: -9087955015183662327
+    second: Foretina_106
+  - first:
+      213: -4665933399433697854
+    second: Foretina_107
+  - first:
+      213: -2791669608575879107
+    second: Foretina_108
+  - first:
+      213: -8110163972150744413
+    second: Foretina_109
+  - first:
+      213: -6898155595456318957
+    second: Foretina_110
+  - first:
+      213: -3121399851150275482
+    second: Foretina_111
+  - first:
+      213: 8435660844782281191
+    second: Foretina_112
+  - first:
+      213: -7080779891342742864
+    second: Foretina_113
+  - first:
+      213: 8217718281696575754
+    second: Foretina_114
+  - first:
+      213: -3679274153866772246
+    second: Foretina_115
+  - first:
+      213: -1633685209120570789
+    second: Foretina_116
+  - first:
+      213: 398182573451681040
+    second: Foretina_117
+  - first:
+      213: -3411664118527448773
+    second: Foretina_118
+  - first:
+      213: 7458881402386175253
+    second: Foretina_119
+  - first:
+      213: -8684402148351528517
+    second: Foretina_120
+  - first:
+      213: -9207734480548914481
+    second: Foretina_121
+  - first:
+      213: 2741846183297742335
+    second: Foretina_122
+  - first:
+      213: -6056552667662017385
+    second: Foretina_123
+  - first:
+      213: -5556920366900138922
+    second: Foretina_124
+  - first:
+      213: -5246778798524742560
+    second: Foretina_125
+  - first:
+      213: 1844519876687998419
+    second: Foretina_126
+  - first:
+      213: 3179625631132768490
+    second: Foretina_127
+  - first:
+      213: 6174988504814103471
+    second: Foretina_128
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Foretina_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 221
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5522d0d170dfb3d30800000000000000
+      internalID: 4412398466933531221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16277747a2d6d6ea0800000000000000
+      internalID: -5877921909538590111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 221
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648d32dd9c5b80410800000000000000
+      internalID: 1443603559175411782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0852c20b0dba6c110800000000000000
+      internalID: 1280900056830715264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 228
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3cdf684c47cdcf0800000000000000
+      internalID: -226177493848177683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 228
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b226bf801f80b0d10800000000000000
+      internalID: 2092776283174560299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 228
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7895d60c880c232b0800000000000000
+      internalID: -5606206892546369145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 228
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36095e4c4d5592850800000000000000
+      internalID: 6352703121707602019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65e31a8f17e2d2c0800000000000000
+      internalID: -4408206962595732115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 223
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ce1e18b18960340800000000000000
+      internalID: 4829714894312041622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 225
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef8192b6e36e0c90800000000000000
+      internalID: -7201708911629332507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035fa93f6d49882a0800000000000000
+      internalID: -6734969591801645776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd51ae554826f57e0800000000000000
+      internalID: -1774591407644076581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d1dfb8d1af58ed0800000000000000
+      internalID: -2412247020577415936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940f2c67308811310800000000000000
+      internalID: 1374028909783478345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf88656d46b26330800000000000000
+      internalID: 3702722287182057435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 223
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf36a5d39129ed200800000000000000
+      internalID: 206763270006793211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72644f8b2ae3f030800000000000000
+      internalID: 3527420405969347195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_18
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 223
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c76dbc835310a8d0800000000000000
+      internalID: -2837246515678976057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 225
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b48492b85ff9010800000000000000
+      internalID: 1197946003945704239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_20
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50065b34e4e3adc90800000000000000
+      internalID: -7144329353005539323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce0bb132db7a84c0800000000000000
+      internalID: -4284475952781914427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_22
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72265af514e411f90800000000000000
+      internalID: -6984715504390413785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_23
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 226
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb9bd6c5af073460800000000000000
+      internalID: 7221257732192181245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_24
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5afaf8e791f89b0800000000000000
+      internalID: -5075810223656032773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_25
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 223
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec4e7e3c763d8f0800000000000000
+      internalID: -516955441110659454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_26
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 222
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad82bd4aa40591a70800000000000000
+      internalID: 8798151628568602842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 188
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07423d1589c2009c0800000000000000
+      internalID: -3963118639366593424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 188
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c8119937a440720800000000000000
+      internalID: 2811453927735790722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 187
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6949b15b01cc761a0800000000000000
+      internalID: -6816255138871929706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 188
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b196f5b2df4fc80800000000000000
+      internalID: -8289722651356095735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_31
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 188
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa60f487adac53230800000000000000
+      internalID: 3618020915332187818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d08365ed639db880800000000000000
+      internalID: -8593550413743816492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 187
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655942d21cc6623a0800000000000000
+      internalID: -6690540619470432938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 188
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a00718f51695f0800000000000000
+      internalID: -750388132628617238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_35
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 188
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d777fee6dbee468d0800000000000000
+      internalID: -2853893766468634755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 188
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0332a325202651790800000000000000
+      internalID: -7560028637362511056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_37
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 188
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d568c9f2646b6880800000000000000
+      internalID: -8616683085783079469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_38
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 187
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adc1b7ff3e25c070800000000000000
+      internalID: 8125951954933370277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340e042f571dc4180800000000000000
+      internalID: -9129692040081121213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 187
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf4f47416defde30800000000000000
+      internalID: 4530600752221999042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_41
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 188
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cfa0b296bc39e0800000000000000
+      internalID: -1640235423123912967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 188
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02beecfec13309d70800000000000000
+      internalID: 9047787850762742560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_43
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 188
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5b4e63e9274c3f0800000000000000
+      internalID: -881453603206416957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 188
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc00a225976e7d30800000000000000
+      internalID: 4431092973607849161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_45
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 187
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97608d38621f1d660800000000000000
+      internalID: 7408968009724200569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_46
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 189
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ab0319236eaffa0800000000000000
+      internalID: -5766043268035855776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 189
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e54706c77390ed0800000000000000
+      internalID: -2447363915165442509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_48
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 189
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34cc56a15b452f40800000000000000
+      internalID: 5703047317190132796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_49
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 189
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240ebda5d00a7cc60800000000000000
+      internalID: 7838409655681015874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 189
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c366f39c606e175b0800000000000000
+      internalID: -5372259963655723460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 154
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c0396bd3bf798f0800000000000000
+      internalID: -533681788345447420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_52
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 154
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61166ee36c5624eb0800000000000000
+      internalID: -4737111955907124970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 154
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5fe81d2a29ec20800000000000000
+      internalID: 3236164180422647445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_54
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 151
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a217fc1d35a4360800000000000000
+      internalID: 7154623118625024543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_55
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 151
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d01765f0cf7230800000000000000
+      internalID: 3638839184167326715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 151
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf1cf638ae2bb300800000000000000
+      internalID: 268859902770552747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d03ea91e774450800000000000000
+      internalID: 6072961271294121732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_58
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce52adeb81efb950800000000000000
+      internalID: 6467135581030866627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_59
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 151
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd76cffc6688e4cc0800000000000000
+      internalID: -3724889866631354404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_60
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a58d2eabcd61640800000000000000
+      internalID: 5050466727370447410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f8a0665894a34f0800000000000000
+      internalID: -848284742514471063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_62
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e78a0643a9c950800000000000000
+      internalID: 6469881860914144169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_63
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4c1e55605d647b0800000000000000
+      internalID: -5240266893211614040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_64
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 151
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7cb7b917085b360800000000000000
+      internalID: 7184790005967734773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_65
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 151
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee5db2cf6220d70800000000000000
+      internalID: 9007805069203468031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_66
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 152
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8fd29a62dab2f90800000000000000
+      internalID: -6977292816121726791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_67
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 152
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd91c6b9a540eb0800000000000000
+      internalID: -4754575683016336228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_68
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 152
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a9eb7c4bac8d1e0800000000000000
+      internalID: -2172763942412183019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_69
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 152
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dbb3aaf566a0ea0800000000000000
+      internalID: -5905795400279016175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_70
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 151
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36cb7562386a6c20800000000000000
+      internalID: 3200485050860422716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_71
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 151
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277f5769f317bedd0800000000000000
+      internalID: -2455744653879281806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_72
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 151
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0616cee3740867cd0800000000000000
+      internalID: -2560718294626836128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_73
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 151
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a156b87118e0d0800000000000000
+      internalID: -3393443109071116996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4a13ff73d767d20800000000000000
+      internalID: 3275943458416731387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_75
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44943beb84f0934d0800000000000000
+      internalID: -3154473258884839100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_76
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b03c5ba36b3267c0800000000000000
+      internalID: -4079633013181501258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_77
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 138
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d83ca828e5a6c50800000000000000
+      internalID: 6659238913787530577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_78
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 138
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343ab1e8ee289e1d0800000000000000
+      internalID: -3320979289111026877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556ec684dfe7172c0800000000000000
+      internalID: -4435624531676305835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_80
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 116
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3f828a0043f0c70800000000000000
+      internalID: 8939420962779624353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 118
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d4f8018e69b3f0800000000000000
+      internalID: -884554351321492370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_82
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 116
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ebff85b79822fe0800000000000000
+      internalID: -1215257786569474432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_83
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 115
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a762997f031830800000000000000
+      internalID: 4040590305503191565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_84
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 118
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fe17db844a11220800000000000000
+      internalID: 2454923904216592242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_85
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 116
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be94d6d4a2539b0800000000000000
+      internalID: -5101124490892809354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_86
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 115
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8c3547492918f30800000000000000
+      internalID: 4576099862689597630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 118
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63e745d935af1910800000000000000
+      internalID: 1810347243036205930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_88
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 117
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6449bfed6086eca90800000000000000
+      internalID: -7291776367946132410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_89
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed75b206def741290800000000000000
+      internalID: -7920565187140429858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_90
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 118
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9704a84466713fe50800000000000000
+      internalID: 6841837986909929593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_91
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 117
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200d61343943a3d10800000000000000
+      internalID: 2106053582839533570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_92
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 116
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac39d8c387482cda0800000000000000
+      internalID: -5926028507719298102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_93
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 117
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802bcd87c369de000800000000000000
+      internalID: 66874755950359048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_94
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 116
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd08b831f6598900800000000000000
+      internalID: 687176012189404618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_95
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 115
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d84ebb51137fcf0800000000000000
+      internalID: -218652087487787715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_96
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 118
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a165f77cd2a8950800000000000000
+      internalID: 6452019751019747943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_97
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 117
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b8cf91718229010800000000000000
+      internalID: 1194060930891942700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_98
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 116
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d74b8b392cf310800000000000000
+      internalID: 1440071316568266045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_99
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 81
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9f84dee2ee46190800000000000000
+      internalID: -7969983555222046233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_100
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f34be5d2df8ed50800000000000000
+      internalID: 6766936811428396819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_101
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da189aff340220e10800000000000000
+      internalID: 2162326247515455917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_102
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 82
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9457b1b0617d200800000000000000
+      internalID: 204656545029769724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65813a6fb021dc0800000000000000
+      internalID: -3669857592427391305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_104
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 80
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54dadcb069ec0d30800000000000000
+      internalID: 4399147537728722012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 80
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324519a3cff8d300800000000000000
+      internalID: 277252592903733815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_106
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038f31501911e180800000000000000
+      internalID: -9087955015183662327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_107
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5af1d5b464f3fb0800000000000000
+      internalID: -4665933399433697854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_108
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 80
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38b49a284ff149d0800000000000000
+      internalID: -2791669608575879107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_109
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa8c936d8e27f80800000000000000
+      internalID: -8110163972150744413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_110
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312f37fa804d440a0800000000000000
+      internalID: -6898155595456318957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_111
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 80
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c0b3e8f5f8ea4d0800000000000000
+      internalID: -3121399851150275482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_112
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e16be228dc711570800000000000000
+      internalID: 8435660844782281191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_113
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba69c354340cbd90800000000000000
+      internalID: -7080779891342742864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_114
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 80
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0102c4ec333b0270800000000000000
+      internalID: 8217718281696575754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_115
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ce7396a790fcc0800000000000000
+      internalID: -3679274153866772246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_116
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 80
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b520f8b35fbf359e0800000000000000
+      internalID: -1633685209120570789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_117
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 81
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d965ed0f0a68500800000000000000
+      internalID: 398182573451681040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_118
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 80
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39a93a5f8557a0d0800000000000000
+      internalID: -3411664118527448773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_119
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 80
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515defadd15438760800000000000000
+      internalID: 7458881402386175253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_120
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb13edc024eca7780800000000000000
+      internalID: -8684402148351528517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_121
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 80
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca14cc464e873080800000000000000
+      internalID: -9207734480548914481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_122
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 80
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5f838a39efc0620800000000000000
+      internalID: 2741846183297742335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_123
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 81
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c9f80107dc2fba0800000000000000
+      internalID: -6056552667662017385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_124
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 80
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ca8cd3e5ad1e2b0800000000000000
+      internalID: -5556920366900138922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_125
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 80
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c1ea3b72bf27b0800000000000000
+      internalID: -5246778798524742560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_126
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 81
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dda22f1e0d099910800000000000000
+      internalID: 1844519876687998419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_127
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 44
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae855664aac402c20800000000000000
+      internalID: 3179625631132768490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foretina_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 44
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba0912457f1b550800000000000000
+      internalID: 6174988504814103471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f117d7b0e9735cd49b39a959103d5714
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

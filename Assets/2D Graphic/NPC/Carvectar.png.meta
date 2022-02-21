@@ -1,0 +1,3216 @@
+fileFormatVersion: 2
+guid: 27c8f608beb478b45aaf950c54c37dad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7460905745966574352
+    second: Carvectar_0
+  - first:
+      213: 4732628550761878241
+    second: Carvectar_1
+  - first:
+      213: -8328361258983990461
+    second: Carvectar_2
+  - first:
+      213: -3543644192387603114
+    second: Carvectar_3
+  - first:
+      213: -8288253318909394620
+    second: Carvectar_4
+  - first:
+      213: -246096795121380314
+    second: Carvectar_5
+  - first:
+      213: -704440798946199727
+    second: Carvectar_6
+  - first:
+      213: 5162707232341797280
+    second: Carvectar_7
+  - first:
+      213: 2479467442198644795
+    second: Carvectar_8
+  - first:
+      213: 7056681123279944446
+    second: Carvectar_9
+  - first:
+      213: -2359075428397933936
+    second: Carvectar_10
+  - first:
+      213: -9176115293155338247
+    second: Carvectar_11
+  - first:
+      213: 2974888481140966269
+    second: Carvectar_12
+  - first:
+      213: -8223030501502637679
+    second: Carvectar_13
+  - first:
+      213: -1382659368654931497
+    second: Carvectar_14
+  - first:
+      213: 2570592116196756588
+    second: Carvectar_15
+  - first:
+      213: 3718898205539945289
+    second: Carvectar_16
+  - first:
+      213: -8761945491609539593
+    second: Carvectar_17
+  - first:
+      213: 3799269059907910016
+    second: Carvectar_18
+  - first:
+      213: 8280979182967974
+    second: Carvectar_19
+  - first:
+      213: -4082031741361087672
+    second: Carvectar_20
+  - first:
+      213: -5522253994587816817
+    second: Carvectar_21
+  - first:
+      213: -6033051762802782790
+    second: Carvectar_22
+  - first:
+      213: -6159873805393361902
+    second: Carvectar_23
+  - first:
+      213: -6103970319669448361
+    second: Carvectar_24
+  - first:
+      213: 1338426957955045794
+    second: Carvectar_25
+  - first:
+      213: -4175490113216034154
+    second: Carvectar_26
+  - first:
+      213: 7956198618783107206
+    second: Carvectar_27
+  - first:
+      213: 4562870983203560859
+    second: Carvectar_28
+  - first:
+      213: -2332673810219270757
+    second: Carvectar_29
+  - first:
+      213: -1138993810054080095
+    second: Carvectar_30
+  - first:
+      213: 4785208828052987499
+    second: Carvectar_31
+  - first:
+      213: 8331721868921885473
+    second: Carvectar_32
+  - first:
+      213: -4991832589724057204
+    second: Carvectar_33
+  - first:
+      213: -5385554658040135759
+    second: Carvectar_34
+  - first:
+      213: 6975619261755733878
+    second: Carvectar_35
+  - first:
+      213: 4079104095904632749
+    second: Carvectar_36
+  - first:
+      213: 604575641360501366
+    second: Carvectar_37
+  - first:
+      213: 1015670390369092111
+    second: Carvectar_38
+  - first:
+      213: -5683326040155310967
+    second: Carvectar_39
+  - first:
+      213: -969094719816004147
+    second: Carvectar_40
+  - first:
+      213: 6853966869100213200
+    second: Carvectar_41
+  - first:
+      213: 3766413241662620304
+    second: Carvectar_42
+  - first:
+      213: 2069589751759031318
+    second: Carvectar_43
+  - first:
+      213: -4253140303544493778
+    second: Carvectar_44
+  - first:
+      213: -708123049738418794
+    second: Carvectar_45
+  - first:
+      213: 2940577686922216112
+    second: Carvectar_46
+  - first:
+      213: 6921496930164734272
+    second: Carvectar_47
+  - first:
+      213: 1132127664101971406
+    second: Carvectar_48
+  - first:
+      213: -3645260010350040475
+    second: Carvectar_49
+  - first:
+      213: -314406836473015131
+    second: Carvectar_50
+  - first:
+      213: -8659776977880735046
+    second: Carvectar_51
+  - first:
+      213: -2026612600803980013
+    second: Carvectar_52
+  - first:
+      213: -1493215380017340155
+    second: Carvectar_53
+  - first:
+      213: -2665846555250199043
+    second: Carvectar_54
+  - first:
+      213: -614770795505167499
+    second: Carvectar_55
+  - first:
+      213: -9006001899817712061
+    second: Carvectar_56
+  - first:
+      213: -6127450528800432486
+    second: Carvectar_57
+  - first:
+      213: -7610560032314159119
+    second: Carvectar_58
+  - first:
+      213: -4431071870623672168
+    second: Carvectar_59
+  - first:
+      213: 4428976605711550594
+    second: Carvectar_60
+  - first:
+      213: 1633118987020078142
+    second: Carvectar_61
+  - first:
+      213: 4202226756700579000
+    second: Carvectar_62
+  - first:
+      213: 7323274974889069029
+    second: Carvectar_63
+  - first:
+      213: 1717529337980977745
+    second: Carvectar_64
+  - first:
+      213: 7101253036933374547
+    second: Carvectar_65
+  - first:
+      213: 8082098586767713570
+    second: Carvectar_66
+  - first:
+      213: -6074764792478109604
+    second: Carvectar_67
+  - first:
+      213: -2882214477314685915
+    second: Carvectar_68
+  - first:
+      213: 8696185727043605407
+    second: Carvectar_69
+  - first:
+      213: -5689600430844379074
+    second: Carvectar_70
+  - first:
+      213: -4154858502341926608
+    second: Carvectar_71
+  - first:
+      213: -4166422983492621504
+    second: Carvectar_72
+  - first:
+      213: 9099968199458032836
+    second: Carvectar_73
+  - first:
+      213: 5643544286958575486
+    second: Carvectar_74
+  - first:
+      213: 1284649590047500486
+    second: Carvectar_75
+  - first:
+      213: -4746395577364444606
+    second: Carvectar_76
+  - first:
+      213: 3838847631965584146
+    second: Carvectar_77
+  - first:
+      213: 63036059218175202
+    second: Carvectar_78
+  - first:
+      213: -1337188638845010668
+    second: Carvectar_79
+  - first:
+      213: 1131762623372417037
+    second: Carvectar_80
+  - first:
+      213: -266781331610646127
+    second: Carvectar_81
+  - first:
+      213: 6141396291221303455
+    second: Carvectar_82
+  - first:
+      213: -3122135750008855279
+    second: Carvectar_83
+  - first:
+      213: 5524345407393656556
+    second: Carvectar_84
+  - first:
+      213: -600395557294690220
+    second: Carvectar_85
+  - first:
+      213: 6710339576038159853
+    second: Carvectar_86
+  - first:
+      213: -9159334973790600582
+    second: Carvectar_87
+  - first:
+      213: -3785449290550643425
+    second: Carvectar_88
+  - first:
+      213: -776080567080753816
+    second: Carvectar_89
+  - first:
+      213: 4720563393215061401
+    second: Carvectar_90
+  - first:
+      213: 2224667942247599663
+    second: Carvectar_91
+  - first:
+      213: 4566650206598740414
+    second: Carvectar_92
+  - first:
+      213: -7553565886276676323
+    second: Carvectar_93
+  - first:
+      213: -2460750691248988731
+    second: Carvectar_94
+  - first:
+      213: -6085482511042087954
+    second: Carvectar_95
+  - first:
+      213: -4892734604374723548
+    second: Carvectar_96
+  - first:
+      213: 1703925007079039182
+    second: Carvectar_97
+  - first:
+      213: -8186998306755407932
+    second: Carvectar_98
+  - first:
+      213: 2449593722104831231
+    second: Carvectar_99
+  - first:
+      213: -1722538401735062857
+    second: Carvectar_100
+  - first:
+      213: 361411722332252451
+    second: Carvectar_101
+  - first:
+      213: 1930730381621150854
+    second: Carvectar_102
+  - first:
+      213: -4643953826340053578
+    second: Carvectar_103
+  - first:
+      213: 1512373576679697690
+    second: Carvectar_104
+  - first:
+      213: -7165982908946309015
+    second: Carvectar_105
+  - first:
+      213: 6662478278053248367
+    second: Carvectar_106
+  - first:
+      213: 5212381846182682955
+    second: Carvectar_107
+  - first:
+      213: -5947323568968882824
+    second: Carvectar_108
+  - first:
+      213: 5296796173774607846
+    second: Carvectar_109
+  - first:
+      213: 5691929103462478914
+    second: Carvectar_110
+  - first:
+      213: 5887460527913555415
+    second: Carvectar_111
+  - first:
+      213: -2287925134760270863
+    second: Carvectar_112
+  - first:
+      213: -8901759118496945727
+    second: Carvectar_113
+  - first:
+      213: -7962023600846686698
+    second: Carvectar_114
+  - first:
+      213: 6742581721625001095
+    second: Carvectar_115
+  - first:
+      213: -359081831171967109
+    second: Carvectar_116
+  - first:
+      213: 4750004843083979623
+    second: Carvectar_117
+  - first:
+      213: 5323144968087723632
+    second: Carvectar_118
+  - first:
+      213: 1445259662391038387
+    second: Carvectar_119
+  - first:
+      213: -3567899907612970168
+    second: Carvectar_120
+  - first:
+      213: 505451039846273634
+    second: Carvectar_121
+  - first:
+      213: -4422207967624273624
+    second: Carvectar_122
+  - first:
+      213: -5069788450386104615
+    second: Carvectar_123
+  - first:
+      213: 6367414594803011792
+    second: Carvectar_124
+  - first:
+      213: -2929543936377759944
+    second: Carvectar_125
+  - first:
+      213: -8405748144507261909
+    second: Carvectar_126
+  - first:
+      213: -2196258005795922218
+    second: Carvectar_127
+  - first:
+      213: 5909388903975023326
+    second: Carvectar_128
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carvectar_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4ddfce0c9857890800000000000000
+      internalID: -7460905745966574352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 179
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e29806a79cada140800000000000000
+      internalID: 4732628550761878241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 179
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b522d7f87bb6c80800000000000000
+      internalID: -8328361258983990461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 179
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6556c5ec16272dec0800000000000000
+      internalID: -3543644192387603114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 186
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44104fdf4853afc80800000000000000
+      internalID: -8288253318909394620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 186
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6249d6ac440b59cf0800000000000000
+      internalID: -246096795121380314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 186
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157f48d53d25936f0800000000000000
+      internalID: -704440798946199727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_7
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 186
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a217efde95a740800000000000000
+      internalID: 5162707232341797280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 179
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38856c7086d86220800000000000000
+      internalID: 2479467442198644795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 181
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa3e4ef71e5ee160800000000000000
+      internalID: 7056681123279944446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_10
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 183
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a1df39561e24fd0800000000000000
+      internalID: -2359075428397933936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 183
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7527d02c3e7a080800000000000000
+      internalID: -9176115293155338247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 184
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d730fccdf4de84920800000000000000
+      internalID: 2974888481140966269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 184
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199abbc835de1ed80800000000000000
+      internalID: -8223030501502637679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 183
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f4fd31aecfcce0800000000000000
+      internalID: -1382659368654931497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 181
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cc35cf8e39ca320800000000000000
+      internalID: 2570592116196756588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 179
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bcb01e63e2c9330800000000000000
+      internalID: 3718898205539945289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_17
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 181
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb27478ff0576680800000000000000
+      internalID: -8761945491609539593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_18
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 183
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08971f1a417b9b430800000000000000
+      internalID: 3799269059907910016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 183
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd796b18b6d1000800000000000000
+      internalID: 8280979182967974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 184
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b9d4e32c5b957c0800000000000000
+      internalID: -4082031741361087672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 184
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c7c1500430d53b0800000000000000
+      internalID: -5522253994587816817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 183
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd889ed26b464ca0800000000000000
+      internalID: -6033051762802782790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 181
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2148b40196bb38aa0800000000000000
+      internalID: -6159873805393361902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_24
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 180
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7513390a5575a4ba0800000000000000
+      internalID: -6103970319669448361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_25
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 181
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a997ba1a3c039210800000000000000
+      internalID: 1338426957955045794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a4a9e5dddad06c0800000000000000
+      internalID: -4175490113216034154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 145
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68845037d781a6e60800000000000000
+      internalID: 7956198618783107206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 146
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d19cdebf2925f30800000000000000
+      internalID: 4562870983203560859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_29
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 146
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9df505578da0afd0800000000000000
+      internalID: -2332673810219270757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_30
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a99b561a2b7130f0800000000000000
+      internalID: -1138993810054080095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 145
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5924731a786240800000000000000
+      internalID: 4785208828052987499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 146
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123517c75e830a370800000000000000
+      internalID: 8331721868921885473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81874f15b279bab0800000000000000
+      internalID: -4991832589724057204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_34
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf3119829aa245b0800000000000000
+      internalID: -5385554658040135759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 146
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b25992c06ec060800000000000000
+      internalID: 6975619261755733878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_36
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 145
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf8c3e2093eb9830800000000000000
+      internalID: 4079104095904632749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a8527b752e36800800000000000000
+      internalID: 604575641360501366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_38
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 145
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0205dab6d2681e00800000000000000
+      internalID: 1015670390369092111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_39
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 146
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b0d9f315c021b0800000000000000
+      internalID: -5683326040155310967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 146
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd09af9c751d82f0800000000000000
+      internalID: -969094719816004147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 146
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b307bd8e2e1f50800000000000000
+      internalID: 6853966869100213200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_42
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 146
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092c0a253ecf44430800000000000000
+      internalID: 3766413241662620304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 145
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cc2600ae8a8bc10800000000000000
+      internalID: 2069589751759031318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 147
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2955539d6fc9f4c0800000000000000
+      internalID: -4253140303544493778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_45
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 147
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695431b86dd3c26f0800000000000000
+      internalID: -708123049738418794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_46
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 147
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2407f83d70fc820800000000000000
+      internalID: 2940577686922216112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_47
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 147
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049fc6c49c81e0060800000000000000
+      internalID: 6921496930164734272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_48
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 147
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5d03bbc1026bf00800000000000000
+      internalID: 1132127664101971406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_49
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 147
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2621855f696dc0800000000000000
+      internalID: -3645260010350040475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45215e5a003abf0800000000000000
+      internalID: -314406836473015131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_51
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 112
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2205758ba42d780800000000000000
+      internalID: -8659776977880735046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 109
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d8fb7b39600e3e0800000000000000
+      internalID: -2026612600803980013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_53
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 109
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501aae4f588074be0800000000000000
+      internalID: -1493215380017340155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 109
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5fc98aea2010bd0800000000000000
+      internalID: -2665846555250199043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57351abf735e777f0800000000000000
+      internalID: -614770795505167499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 109
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3464fdaecf0440380800000000000000
+      internalID: -9006001899817712061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_57
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 109
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e121c653ce6faa0800000000000000
+      internalID: -6127450528800432486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_58
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff012c19fbd16690800000000000000
+      internalID: -7610560032314159119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89810494c9ba182c0800000000000000
+      internalID: -4431071870623672168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_60
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c3f5d1c2e67d30800000000000000
+      internalID: 4428976605711550594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c0749e0110aa610800000000000000
+      internalID: 1633118987020078142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_62
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 109
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a7ca88fe415a30800000000000000
+      internalID: 4202226756700579000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 109
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e945ce0acf71a560800000000000000
+      internalID: 7323274974889069029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 110
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1520ba145d3e5d710800000000000000
+      internalID: 1717529337980977745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_65
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 110
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e3965308bc8260800000000000000
+      internalID: 7101253036933374547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_66
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225e9f708d1692070800000000000000
+      internalID: 8082098586767713570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_67
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 110
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50fa425b9912bba0800000000000000
+      internalID: -6074764792478109604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_68
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5248b2914315008d0800000000000000
+      internalID: -2882214477314685915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_69
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 110
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93914928de0fa870800000000000000
+      internalID: 8696185727043605407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_70
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 109
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e308c9d8d8a7a01b0800000000000000
+      internalID: -5689600430844379074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_71
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 109
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e5eb943af656c0800000000000000
+      internalID: -4154858502341926608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_72
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 109
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b26e40f54ed26c0800000000000000
+      internalID: -4166422983492621504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_73
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 109
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc0c0c1dd4994e70800000000000000
+      internalID: 9099968199458032836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fd952d0a5e15e40800000000000000
+      internalID: 5643544286958575486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_75
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 74
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8e1abeefdf3d110800000000000000
+      internalID: 1284649590047500486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_76
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 74
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a05bfae5a612eb0800000000000000
+      internalID: -4746395577364444606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 96
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b782a0593564530800000000000000
+      internalID: 3838847631965584146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e46dbd36f2ffd000800000000000000
+      internalID: 63036059218175202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_79
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 74
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d74f7840a517de0800000000000000
+      internalID: -1337188638845010668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_80
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 74
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d085d201c14d4bf00800000000000000
+      internalID: 1131762623372417037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_81
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 76
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19944a8dac33c4cf0800000000000000
+      internalID: -266781331610646127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_82
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 74
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90b52b636f9a3550800000000000000
+      internalID: 6141396291221303455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_83
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 73
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ac20c312fba4d0800000000000000
+      internalID: -3122135750008855279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_84
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 76
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee6248f0ea6aac40800000000000000
+      internalID: 5524345407393656556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_85
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 74
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4503ab2fb67faa7f0800000000000000
+      internalID: -600395557294690220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_86
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 73
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5ffff9a4aef1d50800000000000000
+      internalID: 6710339576038159853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_87
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 76
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72466c9e5183e080800000000000000
+      internalID: -9159334973790600582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_88
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 75
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1579792de1677bc0800000000000000
+      internalID: -3785449290550643425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_89
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 74
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865611a06deca35f0800000000000000
+      internalID: -776080567080753816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_90
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 76
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ddb40456fc28140800000000000000
+      internalID: 4720563393215061401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_91
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 75
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e0ed8e4bb9fde10800000000000000
+      internalID: 2224667942247599663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_92
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 74
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb938c1fa20006f30800000000000000
+      internalID: 4566650206598740414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_93
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 75
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1558f0d8d75c2790800000000000000
+      internalID: -7553565886276676323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_94
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 74
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd9e4fa848a9ddd0800000000000000
+      internalID: -2460750691248988731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_95
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 73
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3fb7206e50c8ba0800000000000000
+      internalID: -6085482511042087954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_96
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 76
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424bbf5dcc3891cb0800000000000000
+      internalID: -4892734604374723548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_97
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 75
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0e9d224ce85a710800000000000000
+      internalID: 1703925007079039182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_98
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf8e15aa60f16e80800000000000000
+      internalID: -8186998306755407932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_99
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 39
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd5120384bef120800000000000000
+      internalID: 2449593722104831231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_100
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bacc9433705818e0800000000000000
+      internalID: -1722538401735062857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_101
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 37
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329a64feb0ef30500800000000000000
+      internalID: 361411722332252451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_102
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 40
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68445997d055bca10800000000000000
+      internalID: 1930730381621150854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_103
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 39
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd5fa3899c5d8fb0800000000000000
+      internalID: -4643953826340053578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d2ead41c70df410800000000000000
+      internalID: 1512373576679697690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_105
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 38
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9602cb5e2805d8c90800000000000000
+      internalID: -7165982908946309015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_106
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dbe1fc1b0e57c50800000000000000
+      internalID: 6662478278053248367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_107
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41e9673ca9165840800000000000000
+      internalID: 5212381846182682955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_108
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 38
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8752d4b69bcd67da0800000000000000
+      internalID: -5947323568968882824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_109
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5db717e00028940800000000000000
+      internalID: 5296796173774607846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_110
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b69acc5bcdfe40800000000000000
+      internalID: 5691929103462478914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_111
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 38
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5db63382674b150800000000000000
+      internalID: 5887460527913555415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_112
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f32ded3638af30e0800000000000000
+      internalID: -2287925134760270863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_113
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c925e9ce39967480800000000000000
+      internalID: -8901759118496945727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_114
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 38
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b14a38b5318190800000000000000
+      internalID: -7962023600846686698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_115
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cff722a56729d50800000000000000
+      internalID: 6742581721625001095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_116
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 38
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77b2bf1af8440bf0800000000000000
+      internalID: -359081831171967109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_117
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 39
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bd769fc386be140800000000000000
+      internalID: 4750004843083979623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_118
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 38
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed6ce252c9fd940800000000000000
+      internalID: 5323144968087723632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_119
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 38
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d40171089e0410800000000000000
+      internalID: 1445259662391038387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_120
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 39
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843749400f54c7ec0800000000000000
+      internalID: -3567899907612970168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_121
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 38
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2629361fa09b30700800000000000000
+      internalID: 505451039846273634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_122
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 38
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8216ad6884921a2c0800000000000000
+      internalID: -4422207967624273624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_123
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 39
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deab58e34e74a9b0800000000000000
+      internalID: -5069788450386104615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_124
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 38
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d01fd486d99d5850800000000000000
+      internalID: 6367414594803011792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_125
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 38
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837dd4eaf4b2857d0800000000000000
+      internalID: -2929543936377759944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_126
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cee3f1998c85b80800000000000000
+      internalID: -8405748144507261909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_127
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de1d61eaf25581e0800000000000000
+      internalID: -2196258005795922218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carvectar_128
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2f01d16ed520250800000000000000
+      internalID: 5909388903975023326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 62806a70f26814d4a8499796e791778a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

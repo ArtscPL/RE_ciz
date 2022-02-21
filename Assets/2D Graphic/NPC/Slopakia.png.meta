@@ -1,0 +1,3384 @@
+fileFormatVersion: 2
+guid: d1bbad330939a7b4db39645d3439a939
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3025067907691396067
+    second: Slopakia_0
+  - first:
+      213: 5737748254512359489
+    second: Slopakia_1
+  - first:
+      213: 3579076399854615907
+    second: Slopakia_2
+  - first:
+      213: -6259215671463582670
+    second: Slopakia_3
+  - first:
+      213: 3362290133641878237
+    second: Slopakia_4
+  - first:
+      213: -7244852505765120689
+    second: Slopakia_5
+  - first:
+      213: 1941237239585421274
+    second: Slopakia_6
+  - first:
+      213: 7159736406654075258
+    second: Slopakia_7
+  - first:
+      213: -2881957712760437775
+    second: Slopakia_8
+  - first:
+      213: -8715514492117016664
+    second: Slopakia_9
+  - first:
+      213: -6955894341407230627
+    second: Slopakia_10
+  - first:
+      213: -4338436497184471521
+    second: Slopakia_11
+  - first:
+      213: -1760324114167694968
+    second: Slopakia_12
+  - first:
+      213: 3775971073159572991
+    second: Slopakia_13
+  - first:
+      213: -7973243399626412680
+    second: Slopakia_14
+  - first:
+      213: 8459864264564625373
+    second: Slopakia_15
+  - first:
+      213: 410287107833700997
+    second: Slopakia_16
+  - first:
+      213: 597670533636195063
+    second: Slopakia_17
+  - first:
+      213: 6700679705759371055
+    second: Slopakia_18
+  - first:
+      213: -418090514239429621
+    second: Slopakia_19
+  - first:
+      213: 1342089977416055526
+    second: Slopakia_20
+  - first:
+      213: 5870730281616155130
+    second: Slopakia_21
+  - first:
+      213: 4481423526307029169
+    second: Slopakia_22
+  - first:
+      213: -292130342381620090
+    second: Slopakia_23
+  - first:
+      213: 4918891765075262840
+    second: Slopakia_24
+  - first:
+      213: -1529733210636247658
+    second: Slopakia_25
+  - first:
+      213: -628343032972379548
+    second: Slopakia_26
+  - first:
+      213: -3840098415001376411
+    second: Slopakia_27
+  - first:
+      213: -998779118594964144
+    second: Slopakia_28
+  - first:
+      213: -8529404885118360975
+    second: Slopakia_29
+  - first:
+      213: -8324941706015073648
+    second: Slopakia_30
+  - first:
+      213: 8134429503853082659
+    second: Slopakia_31
+  - first:
+      213: -4565498974598565860
+    second: Slopakia_32
+  - first:
+      213: -4155488725447767171
+    second: Slopakia_33
+  - first:
+      213: 6230273565175735347
+    second: Slopakia_34
+  - first:
+      213: -738153658924377106
+    second: Slopakia_35
+  - first:
+      213: -728563126486130533
+    second: Slopakia_36
+  - first:
+      213: -5109445357157039104
+    second: Slopakia_37
+  - first:
+      213: 3292600044558838560
+    second: Slopakia_38
+  - first:
+      213: -1620126055765041567
+    second: Slopakia_39
+  - first:
+      213: -3544090584963335647
+    second: Slopakia_40
+  - first:
+      213: -7826270403812152140
+    second: Slopakia_41
+  - first:
+      213: -7512727127467405375
+    second: Slopakia_42
+  - first:
+      213: -3039088379882240124
+    second: Slopakia_43
+  - first:
+      213: 3011671277618843483
+    second: Slopakia_44
+  - first:
+      213: 1630492251277675041
+    second: Slopakia_45
+  - first:
+      213: -8413114233126466012
+    second: Slopakia_46
+  - first:
+      213: -7687338803119988654
+    second: Slopakia_47
+  - first:
+      213: -3623575515603290939
+    second: Slopakia_48
+  - first:
+      213: -4784407426977670582
+    second: Slopakia_49
+  - first:
+      213: 4727356471958313938
+    second: Slopakia_50
+  - first:
+      213: 7905594670454668469
+    second: Slopakia_51
+  - first:
+      213: -3839106406088353484
+    second: Slopakia_52
+  - first:
+      213: -3830133347242354247
+    second: Slopakia_53
+  - first:
+      213: 6745907525294996530
+    second: Slopakia_54
+  - first:
+      213: 6591149821752257062
+    second: Slopakia_55
+  - first:
+      213: -205006738284180315
+    second: Slopakia_56
+  - first:
+      213: -3331890019226835916
+    second: Slopakia_57
+  - first:
+      213: 6871980521546579412
+    second: Slopakia_58
+  - first:
+      213: 1520478890453517547
+    second: Slopakia_59
+  - first:
+      213: -6209041840529873046
+    second: Slopakia_60
+  - first:
+      213: 8586377008848368487
+    second: Slopakia_61
+  - first:
+      213: 4484632260650494890
+    second: Slopakia_62
+  - first:
+      213: -5653335039781390168
+    second: Slopakia_63
+  - first:
+      213: -6334032208185100734
+    second: Slopakia_64
+  - first:
+      213: 2004618632765740024
+    second: Slopakia_65
+  - first:
+      213: -2291252513466682591
+    second: Slopakia_66
+  - first:
+      213: 4398455896605024943
+    second: Slopakia_67
+  - first:
+      213: 5048495406728600131
+    second: Slopakia_68
+  - first:
+      213: 7294247097391295352
+    second: Slopakia_69
+  - first:
+      213: 4521587129183317763
+    second: Slopakia_70
+  - first:
+      213: -3248668858496645787
+    second: Slopakia_71
+  - first:
+      213: 7184968123624699130
+    second: Slopakia_72
+  - first:
+      213: -816666343293327272
+    second: Slopakia_73
+  - first:
+      213: 6965961542756912389
+    second: Slopakia_74
+  - first:
+      213: -8814034625916573528
+    second: Slopakia_75
+  - first:
+      213: 8433664824965619999
+    second: Slopakia_76
+  - first:
+      213: 5623806365071004913
+    second: Slopakia_77
+  - first:
+      213: 3505638254490363620
+    second: Slopakia_78
+  - first:
+      213: -8223077571336061045
+    second: Slopakia_79
+  - first:
+      213: -5472789642379214640
+    second: Slopakia_80
+  - first:
+      213: 6120228703927690901
+    second: Slopakia_81
+  - first:
+      213: 1657471171754572645
+    second: Slopakia_82
+  - first:
+      213: -5683881321924436511
+    second: Slopakia_83
+  - first:
+      213: 5532334463588496131
+    second: Slopakia_84
+  - first:
+      213: -6610842211287834792
+    second: Slopakia_85
+  - first:
+      213: -8611809819834458325
+    second: Slopakia_86
+  - first:
+      213: -7343431295829644341
+    second: Slopakia_87
+  - first:
+      213: 7337770510830774761
+    second: Slopakia_88
+  - first:
+      213: -3864449096312424759
+    second: Slopakia_89
+  - first:
+      213: -2604847405820634141
+    second: Slopakia_90
+  - first:
+      213: -854787055298884556
+    second: Slopakia_91
+  - first:
+      213: 1440573675605981268
+    second: Slopakia_92
+  - first:
+      213: -1648520550741957057
+    second: Slopakia_93
+  - first:
+      213: -3732645210934211988
+    second: Slopakia_94
+  - first:
+      213: -8894712323986000286
+    second: Slopakia_95
+  - first:
+      213: -8443249649896926412
+    second: Slopakia_96
+  - first:
+      213: 1966424825215532234
+    second: Slopakia_97
+  - first:
+      213: -5982435439133918718
+    second: Slopakia_98
+  - first:
+      213: -6280649041098003727
+    second: Slopakia_99
+  - first:
+      213: -1526164787848910310
+    second: Slopakia_100
+  - first:
+      213: 6801656201454444065
+    second: Slopakia_101
+  - first:
+      213: 4598092280345475856
+    second: Slopakia_102
+  - first:
+      213: -2700275384617559378
+    second: Slopakia_103
+  - first:
+      213: 88141877715560466
+    second: Slopakia_104
+  - first:
+      213: -9048759279550316793
+    second: Slopakia_105
+  - first:
+      213: 5380229587223324435
+    second: Slopakia_106
+  - first:
+      213: -4083975528175270836
+    second: Slopakia_107
+  - first:
+      213: -3067989036364716350
+    second: Slopakia_108
+  - first:
+      213: -2327853756894175673
+    second: Slopakia_109
+  - first:
+      213: -497023176724227234
+    second: Slopakia_110
+  - first:
+      213: -4721348255209613258
+    second: Slopakia_111
+  - first:
+      213: -9152989018400780782
+    second: Slopakia_112
+  - first:
+      213: -902749547244575632
+    second: Slopakia_113
+  - first:
+      213: -6713115433418242837
+    second: Slopakia_114
+  - first:
+      213: -3416464953914201566
+    second: Slopakia_115
+  - first:
+      213: 7783012936326007385
+    second: Slopakia_116
+  - first:
+      213: 6045289429147269289
+    second: Slopakia_117
+  - first:
+      213: -1950325950359840339
+    second: Slopakia_118
+  - first:
+      213: -8644312930429722962
+    second: Slopakia_119
+  - first:
+      213: 8579547153765192951
+    second: Slopakia_120
+  - first:
+      213: -407256036268986882
+    second: Slopakia_121
+  - first:
+      213: 2966308378137697410
+    second: Slopakia_122
+  - first:
+      213: 6353239026011738927
+    second: Slopakia_123
+  - first:
+      213: 294768332722404762
+    second: Slopakia_124
+  - first:
+      213: 1628218596657344552
+    second: Slopakia_125
+  - first:
+      213: -3244969836351041486
+    second: Slopakia_126
+  - first:
+      213: -3251325493528607005
+    second: Slopakia_127
+  - first:
+      213: 3389744305182723855
+    second: Slopakia_128
+  - first:
+      213: 5717391122811437621
+    second: Slopakia_129
+  - first:
+      213: 3524073995100742371
+    second: Slopakia_130
+  - first:
+      213: -6801669875998566167
+    second: Slopakia_131
+  - first:
+      213: 800494745805851166
+    second: Slopakia_132
+  - first:
+      213: 1840440446326199054
+    second: Slopakia_133
+  - first:
+      213: 4668048010410313141
+    second: Slopakia_134
+  - first:
+      213: 4096211094140609654
+    second: Slopakia_135
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slopakia_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb316b0c333bf920800000000000000
+      internalID: 3025067907691396067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 220
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148a3d833a390af40800000000000000
+      internalID: 5737748254512359489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 220
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d715dd50f6ba130800000000000000
+      internalID: 3579076399854615907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 220
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234ead1728cc229a0800000000000000
+      internalID: -6259215671463582670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 227
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda5687ff0149ae20800000000000000
+      internalID: 3362290133641878237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 227
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4575c7e70d157b90800000000000000
+      internalID: -7244852505765120689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7bf3afbf8a0fa10800000000000000
+      internalID: 1941237239585421274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 227
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714c04f35e7c5360800000000000000
+      internalID: 7159736406654075258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_8
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 222
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f38731caba3108d0800000000000000
+      internalID: -2881957712760437775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 224
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af98960fb54c0780800000000000000
+      internalID: -8715514492117016664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 224
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55b54d43f2b77f90800000000000000
+      internalID: -6955894341407230627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_11
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 225
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16cab8edf6cac3c0800000000000000
+      internalID: -4338436497184471521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 225
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889fa757b821297e0800000000000000
+      internalID: -1760324114167694968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 225
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffda3d16fa1f66430800000000000000
+      internalID: 3775971073159572991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 224
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d2a814f59595190800000000000000
+      internalID: -7973243399626412680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 222
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4561f9b9776570800000000000000
+      internalID: 8459864264564625373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 222
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a95663f1a1b500800000000000000
+      internalID: 410287107833700997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 224
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f28a1a0f2a5b4800800000000000000
+      internalID: 597670533636195063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_18
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 224
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fc47fc0b89dfc50800000000000000
+      internalID: 6700679705759371055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b046cc674e4a23af0800000000000000
+      internalID: -418090514239429621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eafe7849bf00a210800000000000000
+      internalID: 1342089977416055526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 189
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af12cdf2616097150800000000000000
+      internalID: 5870730281616155130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 188
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0eb9d14f6313e30800000000000000
+      internalID: 4481423526307029169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 186
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684fa3a500522fbf0800000000000000
+      internalID: -292130342381620090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 185
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87db7e9bff9634440800000000000000
+      internalID: 4918891765075262840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 186
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d98e2ffbb45cae0800000000000000
+      internalID: -1529733210636247658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 186
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af692375da747f0800000000000000
+      internalID: -628343032972379548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 185
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5696d4756da35bac0800000000000000
+      internalID: -3840098415001376411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c113feaf9322f0800000000000000
+      internalID: -998779118594964144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_29
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 186
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e90d927771a980800000000000000
+      internalID: -8529404885118360975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 186
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a132530add77c80800000000000000
+      internalID: -8324941706015073648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_31
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 185
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328be93298c43e070800000000000000
+      internalID: 8134429503853082659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_32
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 184
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1074a42fd614a0c0800000000000000
+      internalID: -4565498974598565860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 185
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b8b8b550db456c0800000000000000
+      internalID: -4155488725447767171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 186
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346ec15cc0667650800000000000000
+      internalID: 6230273565175735347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_35
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 186
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb582a782d81c5f0800000000000000
+      internalID: -738153658924377106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 186
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90a85152bf93e5f0800000000000000
+      internalID: -728563126486130533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_37
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 186
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004c267c48a9719b0800000000000000
+      internalID: -5109445357157039104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 185
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b6d5bab4aa1bd20800000000000000
+      internalID: 3292600044558838560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_39
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 184
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e15c2afe72489e0800000000000000
+      internalID: -1620126055765041567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 149
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a347fe36cd0dec0800000000000000
+      internalID: -3544090584963335647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_41
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 150
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcaf987880836390800000000000000
+      internalID: -7826270403812152140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 150
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf4dd05b7e6db790800000000000000
+      internalID: -7512727127467405375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 150
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870a14683df2d5d0800000000000000
+      internalID: -3039088379882240124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 150
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fc7ba021b9bc920800000000000000
+      internalID: 3011671277618843483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 149
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ace66501ca0a610800000000000000
+      internalID: 1630492251277675041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_46
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 151
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec6b7fd2d9e3b80800000000000000
+      internalID: -8413114233126466012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 151
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e4fb7616115590800000000000000
+      internalID: -7687338803119988654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 151
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4b9af544976bdc0800000000000000
+      internalID: -3623575515603290939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_49
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a51464bce5a9db0800000000000000
+      internalID: -4784407426977670582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_50
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 151
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db18b52aa1fa9140800000000000000
+      internalID: 4727356471958313938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_51
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 151
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcfba6977056bd60800000000000000
+      internalID: 7905594670454668469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_52
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395d2a6011c8bac0800000000000000
+      internalID: -3839106406088353484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_53
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 151
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9dd3b7302a8dac0800000000000000
+      internalID: -3830133347242354247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_54
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 148
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cb7d427274e9d50800000000000000
+      internalID: 6745907525294996530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 148
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a2cea67d7787b50800000000000000
+      internalID: 6591149821752257062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_56
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 148
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac820c257ba72df0800000000000000
+      internalID: -205006738284180315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_57
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 148
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434a05d3eafb2c1d0800000000000000
+      internalID: -3331890019226835916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_58
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 148
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddff2200ed2e5f50800000000000000
+      internalID: 6871980521546579412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be446f9be73d91510800000000000000
+      internalID: 1520478890453517547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 112
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67edabc75d05d9a0800000000000000
+      internalID: -6209041840529873046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_61
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 112
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763fcff9560f82770800000000000000
+      internalID: 8586377008848368487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_62
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab645cc74d9c3e30800000000000000
+      internalID: 4484632260650494890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_63
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8bf85ebb15b81b0800000000000000
+      internalID: -5653335039781390168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_64
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2467e3b044ff818a0800000000000000
+      internalID: -6334032208185100734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_65
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3912c8606d1db10800000000000000
+      internalID: 2004618632765740024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_66
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 113
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123f8148af5d330e0800000000000000
+      internalID: -2291252513466682591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_67
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 113
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa26d5d75547a0d30800000000000000
+      internalID: 4398455896605024943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_68
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 113
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34adf3803dbdf0640800000000000000
+      internalID: 5048495406728600131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_69
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 113
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87baee7a61f5a3560800000000000000
+      internalID: 7294247097391295352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_70
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 112
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f23ff9987efbe30800000000000000
+      internalID: 4521587129183317763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_71
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 112
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650f68a2e86ae2d0800000000000000
+      internalID: -3248668858496645787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_72
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 112
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4b72bd07226b360800000000000000
+      internalID: 7184968123624699130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_73
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 112
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858ebf3a94e9aa4f0800000000000000
+      internalID: -816666343293327272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_74
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dce0bad111ca060800000000000000
+      internalID: 6965961542756912389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_75
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 112
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8ef3cd4324ea580800000000000000
+      internalID: -8814034625916573528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_76
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 130
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1168ce89756a0570800000000000000
+      internalID: 8433664824965619999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_77
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 130
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f453a3c716cb0e40800000000000000
+      internalID: 5623806365071004913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_78
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 112
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e62be53b6786a030800000000000000
+      internalID: 3505638254490363620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f38004482c1ed80800000000000000
+      internalID: -8223077571336061045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_80
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0cc8bf0debc04b0800000000000000
+      internalID: -5472789642379214640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59662c1749b6fe450800000000000000
+      internalID: 6120228703927690901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bb1e1cf35800710800000000000000
+      internalID: 1657471171754572645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_83
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed573d5d0cce11b0800000000000000
+      internalID: -5683881321924436511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 77
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303f7d012ecc6cc40800000000000000
+      internalID: 5532334463588496131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_85
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 77
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd70ad8029144a0800000000000000
+      internalID: -6610842211287834792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_86
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 79
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fdb8f9894bc7880800000000000000
+      internalID: -8611809819834458325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_87
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 79
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb6693c424e61a90800000000000000
+      internalID: -7343431295829644341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_88
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 78
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a765076ff4d560800000000000000
+      internalID: 7337770510830774761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_89
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f7b98508be5ac0800000000000000
+      internalID: -3864449096312424759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_90
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 75
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb96f1e519b9dbd0800000000000000
+      internalID: -2604847405820634141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_91
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 78
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cce4ab3bf2324f0800000000000000
+      internalID: -854787055298884556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_92
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f54f1022fdf310800000000000000
+      internalID: 1440573675605981268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_93
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 75
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3628181b474f19e0800000000000000
+      internalID: -1648520550741957057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_94
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 78
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a04b105faf23cc0800000000000000
+      internalID: -3732645210934211988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_95
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 77
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266768d7442af8480800000000000000
+      internalID: -8894712323986000286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_96
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433d3fb7d2d83da80800000000000000
+      internalID: -8443249649896926412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_97
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 78
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc3b70c5f42a4b10800000000000000
+      internalID: 1966424825215532234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_98
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 77
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20af6b61aae1afca0800000000000000
+      internalID: -5982435439133918718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_99
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 76
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa47239f6a6d8a0800000000000000
+      internalID: -6280649041098003727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a6e8f1639f1dae0800000000000000
+      internalID: -1526164787848910310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_101
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e560c4746546e50800000000000000
+      internalID: 6801656201454444065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_102
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 38
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b35763194bfcf30800000000000000
+      internalID: 4598092280345475856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_103
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 41
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa932828d1b68ad0800000000000000
+      internalID: -2700275384617559378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_104
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 40
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218621f1294293100800000000000000
+      internalID: 88141877715560466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_105
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f326ca0695c6280800000000000000
+      internalID: -9048759279550316793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_106
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 40
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3172e7ccd4a6aaa40800000000000000
+      internalID: 5380229587223324435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_107
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4489bb15edc257c0800000000000000
+      internalID: -4083975528175270836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_108
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 38
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c620b0f9305c65d0800000000000000
+      internalID: -3067989036364716350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_109
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 41
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e9343775dc1bfd0800000000000000
+      internalID: -2327853756894175673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_110
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 40
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b573add083a19f0800000000000000
+      internalID: -497023176724227234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_111
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6381253d6c66a7eb0800000000000000
+      internalID: -4721348255209613258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_112
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 39
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e8b2d7bfc0af080800000000000000
+      internalID: -9152989018400780782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_113
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074a75bd11ac873f0800000000000000
+      internalID: -902749547244575632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_114
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 39
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c9e6b41936d2a0800000000000000
+      internalID: -6713115433418242837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_115
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 39
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a6f52c9374690d0800000000000000
+      internalID: -3416464953914201566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_116
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 39
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a4bf78701d20c60800000000000000
+      internalID: 7783012936326007385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_117
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 39
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a83fbcd4be25e350800000000000000
+      internalID: 6045289429147269289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_118
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 39
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95394a1ec0fe4e0800000000000000
+      internalID: -1950325950359840339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_119
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 39
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9b66703b390880800000000000000
+      internalID: -8644312930429722962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_120
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 39
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f453e11eaca01770800000000000000
+      internalID: 8579547153765192951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_121
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdad81fac2295af0800000000000000
+      internalID: -407256036268986882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_122
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c9925f0c17a2920800000000000000
+      internalID: 2966308378137697410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_123
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f231496bb3d3b2850800000000000000
+      internalID: 6353239026011738927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_124
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9df3f2ac3a371400800000000000000
+      internalID: 294768332722404762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_125
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820327edf28989610800000000000000
+      internalID: 1628218596657344552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_126
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230507d502d87f2d0800000000000000
+      internalID: -3244969836351041486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_127
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e64e0d90b8f0e2d0800000000000000
+      internalID: -3251325493528607005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_128
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fc1d56c7aca0f20800000000000000
+      internalID: 3389744305182723855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_129
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532c5252fe0485f40800000000000000
+      internalID: 5717391122811437621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_130
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2eb2090a608e030800000000000000
+      internalID: 3524073995100742371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_131
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e851a9d84d9b91a0800000000000000
+      internalID: -6801669875998566167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_132
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a0358eabdeb1b00800000000000000
+      internalID: 800494745805851166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_133
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03d889b5de8a8910800000000000000
+      internalID: 1840440446326199054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_134
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c9fedeec38c040800000000000000
+      internalID: 4668048010410313141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slopakia_135
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674e347994aa8d830800000000000000
+      internalID: 4096211094140609654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 726d070b37a7ec945a7f01511bc21b25
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
