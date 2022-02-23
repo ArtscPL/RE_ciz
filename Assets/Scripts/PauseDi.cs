@@ -50,6 +50,11 @@ public class PauseDi : MonoBehaviour
         Debug.Log("Save!");
     }
 
+    public void SoundSetting()
+    {
+        Debug.Log("Sound Setto");
+    }
+
     public void GoMenu()
     {
         SceneManager.LoadScene("StartMenu");
