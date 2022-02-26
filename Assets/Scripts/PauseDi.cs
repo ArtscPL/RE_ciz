@@ -7,6 +7,9 @@ public class PauseDi : MonoBehaviour
 {
     public static bool IsGamePaused = false;
     public GameObject PauseMenuUI;
+    public GameObject QuestUI;
+    public GameObject MapUI;
+    public GameObject InventoryUI;
 
     void Update()
     {
@@ -22,6 +25,43 @@ public class PauseDi : MonoBehaviour
                 Zawarudo();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            if (MapUI.active)
+            {
+                MapUI.SetActive(false);
+            }
+            else
+            {
+                MapUI.SetActive(true);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (QuestUI.active)
+            {
+                QuestUI.SetActive(false);
+            }
+            else
+            {
+                QuestUI.SetActive(true);
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (InventoryUI.active == true)
+            {
+                InventoryUI.SetActive(false);
+            }
+            else
+            {
+                InventoryUI.SetActive(true);
+            }
+        }
+
     }
 
     void Zawarudo()
