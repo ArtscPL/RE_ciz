@@ -34,10 +34,10 @@ public class DialogueSystem: MonoBehaviour {
         dialogueText.text = "";
     }
 
-    void Update()
+    /*void Update()
     {
 
-    }
+    }*/
 
     public void EnterRangeOfNPC()
     {

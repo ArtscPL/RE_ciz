@@ -6,16 +6,13 @@ using UnityEngine.SceneManagement;
 public class PauseDi : MonoBehaviour
 {
     public static bool IsGamePaused = false;
-    public GameObject PauseMenuUI;
-    public GameObject QuestUI;
-    public GameObject MapUI;
-    public GameObject InventoryUI;
+    public ButtonControl Bcon;
+    public QuestReceiver QR;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //Debug.Log("ESC");
             if (IsGamePaused)
             {
                 Resume();
@@ -26,40 +23,19 @@ public class PauseDi : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            if (MapUI.active)
-            {
-                MapUI.SetActive(false);
-            }
-            else
-            {
-                MapUI.SetActive(true);
-            }
-        }
-
         if (Input.GetKeyDown(KeyCode.M))
         {
-            if (QuestUI.active)
-            {
-                QuestUI.SetActive(false);
-            }
-            else
-            {
-                QuestUI.SetActive(true);
-            }
+            Bcon.Map();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            QR.OpenQuestWindow();
         }
 
         if (Input.GetKeyDown(KeyCode.I))
         {
-            if (InventoryUI.active == true)
-            {
-                InventoryUI.SetActive(false);
-            }
-            else
-            {
-                InventoryUI.SetActive(true);
-            }
+            Bcon.Inventory();
         }
 
     }
@@ -67,14 +43,14 @@ public class PauseDi : MonoBehaviour
     void Zawarudo()
     {
         Debug.Log("ZAWARUDO!");
-        PauseMenuUI.SetActive(true);
+        Bcon.Setting();
         IsGamePaused = true;
     }
 
     void Resume()
     {
         Debug.Log("Hoho~");
-        PauseMenuUI.SetActive(false);
+        Bcon.Setting();
         IsGamePaused = false;
     }
 
@@ -106,4 +82,6 @@ public class PauseDi : MonoBehaviour
         //press quit and it'll quick save for player
         Debug.Log("Quick Save and Quit");
     }
+
+    
 }
