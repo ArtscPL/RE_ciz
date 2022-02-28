@@ -16,12 +16,13 @@ public class Movement2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float movex = Input.GetAxis("Horizontal");
+        /*float movex = Input.GetAxis("Horizontal");
         float movey = Input.GetAxis("Vertical");
         movement = new Vector3(movex, 0.0f ,movey);
         speed = run();
         animation();
-        transform.position = transform.position + movement * Time.deltaTime * speed;
+        transform.position = transform.position + movement * Time.deltaTime * speed;*/
+        move();
     }
 
     private float run()
@@ -40,8 +41,30 @@ public class Movement2D : MonoBehaviour
         return speed;
     }
 
+    private void move()
+    {
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            animator.SetFloat("Magnitude", 0);
+            return;
+        }
+
+        float movex = Input.GetAxis("Horizontal");
+        float movey = Input.GetAxis("Vertical");
+        movement = new Vector3(movex, 0.0f, movey);
+        speed = run();
+        animation();
+        transform.position = transform.position + movement * Time.deltaTime * speed;
+    }
+
     private void animation()
     {
+        //0.015
+        /*if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            animator.SetFloat("Magnitude", 0.0001);
+        }*/
+
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.z);
         animator.SetFloat("Magnitude", movement.magnitude);
