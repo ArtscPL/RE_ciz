@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement2D : MonoBehaviour
+public class Movement2D1 : MonoBehaviour
 {
     // Start is called before the first frame update
     public Animator animator;
@@ -43,11 +43,11 @@ public class Movement2D : MonoBehaviour
 
     private void move()
     {
-        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        /*if (DialogueManager.GetInstance().dialogueIsPlaying)
         {
             animator.SetFloat("Magnitude", 0);
             return;
-        }
+        }*/
 
         float movex = Input.GetAxis("Horizontal");
         float movey = Input.GetAxis("Vertical");

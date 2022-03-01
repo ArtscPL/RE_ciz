@@ -11497,11 +11497,11 @@ GameObject:
   - component: {fileID: 2054153363}
   - component: {fileID: 2054153362}
   - component: {fileID: 2054153361}
-  - component: {fileID: 2054153360}
   - component: {fileID: 2054153359}
   - component: {fileID: 2054153358}
   - component: {fileID: 2054153357}
   - component: {fileID: 2054153356}
+  - component: {fileID: 2054153360}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11578,7 +11578,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2054153355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 787c57bfd5796cd4d9627bafab8971e6, type: 3}
+  m_Script: {fileID: 11500000, guid: a4ce82e9330313a4794661265238a7ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2054153361}
