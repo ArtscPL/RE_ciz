@@ -7,6 +7,9 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
+    [Header("Load Globals JSON")]
+    [SerializeField] private TextAsset loadGlobalsJSON;
+
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private Text dialogueText;
@@ -27,6 +30,11 @@ public class DialogueManager : MonoBehaviour
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
 
+    private DialogueVariables dialogueVariables;
+
+    //for quest
+    public QuestBase quest;
+
     private void Awake()
     {
         if (instance != null)
@@ -34,6 +42,8 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("Found more than one Dialogue Manager in the scene");
         }
         instance = this;
+
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
     }
 
     public static DialogueManager GetInstance()
@@ -54,6 +64,9 @@ public class DialogueManager : MonoBehaviour
             choicesText[index] = choice.GetComponentInChildren<Text>();
             index++;
         }
+
+        //for quest
+        quest.InitializeQuest();
     }
 
     private void Update()
@@ -63,7 +76,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.Space))
         {
             ContinueStory();
         }
@@ -76,6 +89,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
+        dialogueVariables.StartListening(currentStory);
+
         //reset tag
         displayNameText.text = "???";
         portraitAnimator.Play("default");
@@ -87,10 +102,15 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator ExitDialogueMode()
     {
         yield return 0;
+
+        dialogueVariables.StopListening(currentStory);
+
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
     }
+
+
 
     private void ContinueStory()
     {

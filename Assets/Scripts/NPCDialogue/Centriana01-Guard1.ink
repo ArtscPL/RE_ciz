@@ -1,4 +1,9 @@
+INCLUDE globals.ink
+
+//{is101Finished == false: -> quest101 | ->quest102}
 -> quest102
+
+//{isFinished101: ->quest101}
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
@@ -18,7 +23,7 @@
 แค่พกใบภารกิจระหว่างที่ไปจัดการมอนสเตอร์ซัก 10 ตัวรอบๆเมืองก็พอแล้วหละ ถ้านายจัดการมอนสเตอร์ด้วยตัวเองจริงๆ  จำนวนของมอนสเตอร์ที่ถูกจัดการในใบภารกิจจะเพิ่มขึ้นเอง #speaker:ยาม1 #portrait:Guard1
 เมื่อครบแล้วชั้นก็สามารถปล่อยให้นายเข้าเมืองได้ อะนี่ใบภารกิจ ชั้นเขียนให้เสร็จเรียบร้อย ระวังตัวด้วยนะหน้าใหม่ #speaker:ยาม1 #portrait:Guard1
 ขอบคุณมากๆครับ! ไว้เจอกันนะครับ!  #speaker:Player #portrait:Player
-
+~is101Finished = true
 -> DONE
 
 === quest102 ===
