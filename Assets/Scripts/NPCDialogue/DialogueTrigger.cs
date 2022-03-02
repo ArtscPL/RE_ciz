@@ -10,12 +10,22 @@ public class DialogueTrigger : MonoBehaviour
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
 
+    [Header("Quest Avaliable")]
+    [SerializeField] public QuestBase quest;
+    public GameObject QuestClearUI;
+
     private bool playerInRange;
+    public static DialogueTrigger instance;
 
     private void Awake()
     {
         playerInRange = false;
         visualCue.SetActive(false);
+        if (instance != null)
+        {
+            Debug.LogWarning("Found more than one Dialogue Trigger in the scene");
+        }
+        instance = this;
     }
     
     private void Update()
@@ -25,7 +35,12 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                //pop up clear clear UI
+                if (quest.IsCompleted)
+                {
+                    QuestManager.instance.setQuestUIonClear(quest);
+                }
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON,quest);
             }
         }
         else
@@ -48,5 +63,10 @@ public class DialogueTrigger : MonoBehaviour
         {
             playerInRange = false;
         }
+    }
+
+    public static DialogueTrigger GetInstance()
+    {
+        return instance;
     }
 }

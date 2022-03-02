@@ -17,9 +17,14 @@ public class QuestBase : ScriptableObject
 
     public bool IsCompleted { get; set; }
 
+    public GameObject NPCTurnIn;
+
     public virtual void InitializeQuest()
     {
+        //IsCompleted = false;
         CurrentAmount = new int[RequiredAmount.Length];
+        //problem cause here
+        QuestReceiver.instance.AddQuestToLog(this);
     }
 
     public void Evaluate()
@@ -31,6 +36,8 @@ public class QuestBase : ScriptableObject
                 return;
             }
         }
+        //add popup or change variable here
+        IsCompleted = true;
         Debug.Log("Quest is Completed");
     }
 }

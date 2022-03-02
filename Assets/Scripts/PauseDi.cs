@@ -8,6 +8,7 @@ public class PauseDi : MonoBehaviour
     public static bool IsGamePaused = false;
     public ButtonControl Bcon;
     public QuestReceiver QR;
+    //public QuestBase myQuest;
 
     void Update()
     {
@@ -30,6 +31,7 @@ public class PauseDi : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            //Bcon.Quest();
             QR.OpenQuestWindow();
         }
 
