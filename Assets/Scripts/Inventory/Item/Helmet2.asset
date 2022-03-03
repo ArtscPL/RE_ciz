@@ -9,17 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e6881d78fa4a414fabf6f7b1b98f80d, type: 3}
-  m_Name: Helmet2
+  m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
+  m_Name: helmet2
   m_EditorClassIdentifier: 
-  ItemName: Helmet of god
+  id: a6df9a27c878e6a4bb8ae7929759fc64
+  ItemName: helmet of god
   Icon: {fileID: 21300000, guid: dfd650e5e237a46408d57083f6b8f525, type: 3}
-  HP_Bonus: 100
-  Def_Bonus: 200
-  Eva_Bonus: 0
-  Res_Bonus: 0
-  HP_Percent_Bonus: 0
-  Def_Percent_Bonus: 0
-  Eva_Percent_Bonus: 0
-  Res_Percent_Bonus: 0
+  MaximumStacks: 1
+  HP_Bonus: 0
+  Def_Bonus: 10
+  Eva_Bonus: 10
+  Res_Bonus: 10
+  HP_PercentBonus: 0
+  Def_PercentBonus: 0
+  Eva_PercentBonus: 0
+  Res_PercentBonus: 0
   EquipmentType: 0

@@ -15,7 +15,7 @@ public class Playercontrol : MonoBehaviour
     void Start()
     {
         R_hp = FindObjectOfType<Random_Enemy_HP>();
-        enemy_hp = R_hp.HP;
+        //enemy_hp = R_hp.HP;
     }
 
     // Update is called once per frame

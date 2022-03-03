@@ -10,4 +10,11 @@ public class OnClick : MonoBehaviour, IPointerClickHandler
     {
         target.gameObject.SetActive(!target.gameObject.activeSelf);
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            target.gameObject.SetActive(!target.gameObject.activeSelf);
+        }
+    }
 }
