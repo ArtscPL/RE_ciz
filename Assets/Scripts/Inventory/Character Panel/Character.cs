@@ -45,11 +45,11 @@ public class Character : MonoBehaviour
 		// Pointer Enter
 		Inventory.OnPointerEnterEvent += ShowTooltip;
 		EquipmentPanel.OnPointerEnterEvent += ShowTooltip;
-		//craftingWindow.OnPointerEnterEvent += ShowTooltip;
+		craftingWindow.OnPointerEnterEvent += ShowTooltip;
 		// Pointer Exit
 		Inventory.OnPointerExitEvent += HideTooltip;
 		EquipmentPanel.OnPointerExitEvent += HideTooltip;
-		//craftingWindow.OnPointerExitEvent += HideTooltip;
+		craftingWindow.OnPointerExitEvent += HideTooltip;
 		// Begin Drag
 		Inventory.OnBeginDragEvent += BeginDrag;
 		EquipmentPanel.OnBeginDragEvent += BeginDrag;
@@ -62,7 +62,7 @@ public class Character : MonoBehaviour
 		// Drop
 		Inventory.OnDropEvent += Drop;
 		EquipmentPanel.OnDropEvent += Drop;
-		//dropItemArea.OnDropEvent += DropItemOutsideUI;
+		dropItemArea.OnDropEvent += DropItemOutsideUI;
 	}
 
 	private void Start()
