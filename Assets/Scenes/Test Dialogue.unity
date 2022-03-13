@@ -5412,7 +5412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &617994414
 Transform:
   m_ObjectHideFlags: 0
@@ -15228,6 +15228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683038952}
   - component: {fileID: 1683038953}
+  - component: {fileID: 1683038954}
   m_Layer: 0
   m_Name: QuestManager
   m_TagString: Untagged
@@ -15268,6 +15269,32 @@ MonoBehaviour:
   questDescription: {fileID: 614140556}
   questProgress: {fileID: 581858998}
   questReward: {fileID: 1373893108}
+--- !u!114 &1683038954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683038951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6805bf965a86e1a4da5d77587194d4ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestAcceptUI: {fileID: 0}
+  questType: 
+  quests: {fileID: 0}
+  QuestList:
+  - QuestName: "\u0E1E\u0E34\u0E2A\u0E39\u0E08\u0E19\u0E4C\u0E15\u0E31\u0E27\u0E15\u0E19!"
+    description: "\u0E22\u0E32\u0E21\u0E40\u0E1D\u0E49\u0E32\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E25\u0E48\u0E2D\u0E22\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E40\u0E02\u0E49\u0E32\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E44\u0E1B\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E07\u0E48\u0E32\u0E22\u0E14\u0E32\u0E22
+      \u0E04\u0E38\u0E13\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E08\u0E31\u0E14\u0E2B\u0E21\u0E32\u0E1B\u0E48\u0E32\u0E14\u0E38\u0E23\u0E49\u0E32\u0E22\u0E23\u0E2D\u0E1A\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E08\u0E33\u0E19\u0E27\u0E19
+      10 \u0E15\u0E31\u0E27\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1E\u0E34\u0E2A\u0E39\u0E08\u0E19\u0E4C\u0E15\u0E31\u0E27\u0E15\u0E19"
+    Todo: "\u0E01\u0E33\u0E08\u0E31\u0E14\u0E2B\u0E21\u0E32\u0E1B\u0E48\u0E32\u0E14\u0E38\u0E23\u0E49\u0E32\u0E22
+      10 \u0E15\u0E31\u0E27"
+    expReward: 50
+    recoinReward: 100
+    itemReward: 
+    Completed: 0
 --- !u!1 &1696100305
 GameObject:
   m_ObjectHideFlags: 0
@@ -16972,14 +16999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6805bf965a86e1a4da5d77587194d4ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quest: {fileID: 11400000, guid: 15f47d0880bce74438ea32c25039a508, type: 2}
   QuestAcceptUI: {fileID: 1590620981}
   questType: Quest101
   quests: {fileID: 779101011}
-  questName: {fileID: 1454422343}
-  questDescription: {fileID: 614140556}
-  questProgress: {fileID: 581858998}
-  questReward: {fileID: 1373893108}
+  QuestList: []
 --- !u!1 &1811510773
 GameObject:
   m_ObjectHideFlags: 0

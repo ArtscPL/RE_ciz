@@ -1,7 +1,7 @@
 INCLUDE globals.ink
 
 {isS101 == false: -> start101}
-{isC101 == true: -> finish101 | ->nothing}
+{isC101 == true && isD101 == false: -> finish101 | ->nothing}
 //-> quest102
 
 //{isFinished101: ->quest101}
@@ -91,7 +91,7 @@ INCLUDE globals.ink
     + [24]
         เก่งมากที่ตอบคำถามได้ครบทุกข้อ เท่านี้ก็ไม่น่าจะมีปัญหาแล้วหละ ขอให้โชคดีนะ  #speaker:ยาม1 #portrait:Guard1
         แนะนำให้ไปที่ร้านขายยาของตาแก่ที่อยู่ข้างหลังก่อนนะ บางทีอาจจะเจอของที่ต้องการจะซื้อก็ได้ #speaker:ยาม1 #portrait:Guard1 #qstatus:clear
-        ~isC101 = true
+        ~isD101 = true
         ->DONE
     + [48]
         เหลืออีกแค่ข้อเดียว พยายามหน่อย! #speaker:ยาม1 #portrait:Guard1
