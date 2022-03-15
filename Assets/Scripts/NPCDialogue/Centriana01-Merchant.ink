@@ -1,6 +1,5 @@
 INCLUDE globals.ink
 
-//{isC102 == true: ->finish102}
 ->general
 
 == general ==

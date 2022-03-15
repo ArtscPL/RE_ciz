@@ -1,16 +1,13 @@
 INCLUDE globals.ink
 
 {isS101 == false: -> start101}
-{isC101 == true && isD101 == false: -> finish101 | ->nothing}
-//-> quest102
-
-//{isFinished101: ->quest101}
+{isC101 == true && isD101 == false: -> finish101 | ->general}
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
 ่//#speaker:ยาม1 #portrait:Guard1
 
-=== nothing ===
+=== general ===
 เดินชมรอบเมืองได้ตามสบายเลย เจ้าหนุ่ม #speaker:ยาม1 #portrait:Guard1
 ->DONE
 

@@ -1,6 +1,10 @@
-// Start = S, Clear = C ,D = Done
+/* 
+Start = S , make it true when player accepted quest
+Clear = C , make it true when player fulfilled quest's progress
+D = Done , make it true when player get quest reward
+*/ 
 VAR questAccepted = false
-//Centriana
+
 VAR isS101 = false
 VAR isC101 = false
 VAR isD101 = false

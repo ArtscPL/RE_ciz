@@ -15440,7 +15440,7 @@ GameObject:
   - component: {fileID: 1710490832}
   - component: {fileID: 1710490831}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Nametag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16963,7 +16963,7 @@ GameObject:
   - component: {fileID: 1810239008}
   - component: {fileID: 1810239009}
   m_Layer: 0
-  m_Name: Guard1Duplicate
+  m_Name: Guard1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17149,7 +17149,7 @@ GameObject:
   - component: {fileID: 1827147351}
   - component: {fileID: 1827147350}
   m_Layer: 0
-  m_Name: DialogueUITester
+  m_Name: DialogueUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

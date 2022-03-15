@@ -1,7 +1,7 @@
 INCLUDE globals.ink
 
 //-> finish103
-{isS103 == true && isD103 == false: ->finish103}
+{isS103 == true && isD103 == false: ->finish103 | ->general}
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
@@ -21,4 +21,8 @@ INCLUDE globals.ink
 เขาก็อยู่ในเมืองนั่นแหละ คอยสั่งการยามรักษาการและดูแลความเรียบร้อยภายในเมือง #speaker:ยาม2 #portrait:Guard2
 ขอบคุณสำหรับข้อมูลมากๆครับ ไว้เจอกันนะครับพี่สาว #speaker:Player #portrait:Player
 ~isD103 = true
+->DONE
+
+=== general ===
+ยินดีต้อนรับสู่เมืองแห่งการค้าขาย #speaker:ยาม2 #portrait:Guard2
 ->DONE
