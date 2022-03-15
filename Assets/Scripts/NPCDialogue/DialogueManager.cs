@@ -29,11 +29,16 @@ public class DialogueManager : MonoBehaviour
 
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
+    //private const string QUEST_TAG = "qstatus";
+    //private bool qstatus = false;
+    //false = accept, true = clear
 
     private DialogueVariables dialogueVariables;
 
+    public GameObject QuestAcceptUI;
+    public GameObject QuestClearUI;
     //for quest
-    public QuestBase quest;
+    //public QuestBase quest;
 
     private void Awake()
     {
@@ -66,7 +71,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         //for quest
-        quest.InitializeQuest();
+        //QuestBase.InitializeQuest();
     }
 
     private void Update()
@@ -78,13 +83,18 @@ public class DialogueManager : MonoBehaviour
 
         if (currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.Space))
         {
-            ContinueStory();
+            ContinueStory(DialogueTrigger.GetInstance().quest);
         }
 
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON)
+    public void EnterDialogueMode(TextAsset inkJSON,QuestBase quest)
     {
+        /*if (qstatus)
+        {
+            QuestManager.instance.setQuestUIonClear(quest);
+        }*/
+
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
@@ -95,11 +105,11 @@ public class DialogueManager : MonoBehaviour
         displayNameText.text = "???";
         portraitAnimator.Play("default");
 
-        ContinueStory();
+        ContinueStory(quest);
     }
         
 
-    private IEnumerator ExitDialogueMode()
+    private IEnumerator ExitDialogueMode(QuestBase quest)
     {
         yield return 0;
 
@@ -108,11 +118,19 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+        //add quest here
+        /*if (qstatus==false)
+        {
+            QuestManager.instance.setQuestUI(quest);
+        }*/
     }
 
+    private void CheckIfQuest()
+    {
 
+    }
 
-    private void ContinueStory()
+    private void ContinueStory(QuestBase quest)
     {
         if (currentStory.canContinue)
         {
@@ -124,7 +142,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            StartCoroutine(ExitDialogueMode());
+            StartCoroutine(ExitDialogueMode(quest));
         }
     }
 
@@ -149,6 +167,10 @@ public class DialogueManager : MonoBehaviour
                 case PORTRAIT_TAG:
                     portraitAnimator.Play(tagValue);
                     break;
+                /*case QUEST_TAG:
+                    if (QUEST_TAG == "accept") { qstatus = false; }
+                    else if(QUEST_TAG == "clear") {qstatus = true; }
+                    break;*/
                 default:
                     Debug.LogWarning("Tag came but can't handle");
                     break;
@@ -192,6 +214,34 @@ public class DialogueManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
-        ContinueStory();
+        ContinueStory(DialogueTrigger.GetInstance().quest);
     }
+
+    public Ink.Runtime.Object GetVariableState(string variableName)
+    {
+        Ink.Runtime.Object variableValue = null;
+        dialogueVariables.variables.TryGetValue(variableName, out variableValue);
+        if (variableValue == null)
+        {
+            Debug.LogWarning("Ink variable was found to be null: " + variableName);
+        }
+        return variableValue;
+    }
+
+    
+    // this method will allow of a variable defined in globals.ink to be set using C# code
+    public void SetVariableState(string variableName, Ink.Runtime.Object variableValue) 
+    {
+        if (dialogueVariables.variables.ContainsKey(variableName)) 
+        {
+            dialogueVariables.variables.Remove(variableName);
+            dialogueVariables.variables.Add(variableName, variableValue);
+        }
+        else 
+        {
+            Debug.LogWarning("Tried to update variable that wasn't initialized by globals.ink: " + variableName);
+        }
+    } 
+     
+
 }

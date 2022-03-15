@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class QuestGoal
 {
-    //public GoalType gt;
-    //public string description;
-    public int requiredAmount;
-    public int currentAmount;
-    public bool isCompleted;
+    public Quest Quest { get; set; }
+    public string Description {get; set;}
+    public string Todo { get; set; }
+    public int RequiredAmount { get; set; }
+    public int CurrentAmount { get; set; }
+    public bool Completed { get; set; }
 
     public virtual void Init()
     {
@@ -17,7 +18,7 @@ public class QuestGoal
 
     public void Evaluate()
     {
-        if (currentAmount >= requiredAmount)
+        if (CurrentAmount >= RequiredAmount)
         {
             Complete();
         }
@@ -25,7 +26,9 @@ public class QuestGoal
     
     public void Complete()
     {
-        isCompleted = true;
+        Quest.CheckGoals();
+        Completed = true;
+        Debug.Log("Goal masked as completed");
     }
 }
 
