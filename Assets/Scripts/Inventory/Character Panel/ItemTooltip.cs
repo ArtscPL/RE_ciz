@@ -5,7 +5,9 @@ public class ItemTooltip : MonoBehaviour
 {
 	[SerializeField] Text ItemNameText;
 	[SerializeField] Text ItemTypeText;
-	[SerializeField] Text ItemDescriptionText;
+	[SerializeField] Text ItemStatsText;
+	[SerializeField] Text ItemTitleText;
+	
 
 	private void Awake()
 	{
@@ -16,7 +18,8 @@ public class ItemTooltip : MonoBehaviour
 	{
 		ItemNameText.text = item.ItemName;
 		ItemTypeText.text = item.GetItemType();
-		ItemDescriptionText.text = item.GetDescription();
+		ItemStatsText.text = item.GetDescription();
+		ItemTitleText.text = item.GetItemTitle();
 		gameObject.SetActive(true);
 	}
 

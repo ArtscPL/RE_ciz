@@ -43,4 +43,8 @@ public class Item : ScriptableObject
 	{
 		return "";
 	}
+	public virtual string GetItemTitle()
+	{
+		return "";
+	}
 }

@@ -17,8 +17,9 @@ public class Random_Number_Number : MonoBehaviour
     {
         
     }
-    private void Random_Number_Marble(int min,int max){
+    public int Random_Number_Marble(int min,int max){
         int Number_Marble = Random.Range(min,max+1);
         showText.text = Number_Marble.ToString();
+        return Number_Marble;
     }
 }
