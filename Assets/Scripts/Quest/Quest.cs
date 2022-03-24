@@ -8,7 +8,7 @@ public class Quest : MonoBehaviour
 {
     public List<QuestGoal> Goals { get; set; } = new List<QuestGoal>();
     //public bool isActive;
-
+    
     public string QuestName { get; set; }
     public string description { get; set; }
     public string Todo { get; set; }

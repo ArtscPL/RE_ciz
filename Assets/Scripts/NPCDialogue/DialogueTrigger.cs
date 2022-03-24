@@ -36,10 +36,10 @@ public class DialogueTrigger : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 //pop up clear clear UI
-                if (quest.IsCompleted)
+                /*if (quest.IsCompleted)
                 {
                     QuestManager.instance.setQuestUIonClear(quest);
-                }
+                }*/
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON,quest);
             }
         }

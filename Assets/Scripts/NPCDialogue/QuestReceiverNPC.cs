@@ -12,12 +12,12 @@ public class QuestReceiverNPC : MonoBehaviour
     [SerializeField] public GameObject quests;
 
 
-    /*public Text questName;
+    public Text questName;
     public Text questDescription;
     public Text questTodo;
-    public Text questReward;*/
+    public Text questReward;
 
-    public Quest Quest { get; set; }
+    public Quest Quests { get; set; }
     public QuestDetail[] QuestList;
     
     private void Start()
@@ -39,19 +39,27 @@ public class QuestReceiverNPC : MonoBehaviour
         {
             
             //Quest = (Quest)quests.AddComponent(System.Type.GetType(questType));
+            Debug.Log(QuestList.Length);
+            Debug.Log(QuestList[0].QuestName);
+            /* null, this to be fixed
+            if(Quests == null){
+            Debug.Log("Null");
+            }
+
             if(QuestList.Length != 0){
-                Quest.QuestName = QuestList[0].QuestName;
-                Quest.description = QuestList[0].description;
-                Quest.Todo = QuestList[0].Todo;
-                Quest.expReward = QuestList[0].expReward;
-                Quest.recoinReward = QuestList[0].recoinReward;
-                Quest.itemReward = QuestList[0].itemReward;
+                Quests.QuestName = QuestList[0].QuestName;
+                Quests.description = QuestList[0].description;
+                Quests.Todo = QuestList[0].Todo;
+                Quests.expReward = QuestList[0].expReward;
+                Quests.recoinReward = QuestList[0].recoinReward;
+                Quests.itemReward = QuestList[0].itemReward;
             }
             Debug.Log("Quest Added");
-
-            //move this to other blank script for setUI especially 
-            QuestManager.instance.setQuestUI(questType);
+            */
+            //QuestManager.instance.setQuestUI(QuestDetail[] QuestList);
+            UpdateQuestUI();
             // for a bool value
+            Quest101Accepted = false;
             DialogueManager.GetInstance().SetVariableState("questAccepted", new Ink.Runtime.BoolValue(false));
         }
 
@@ -62,7 +70,12 @@ public class QuestReceiverNPC : MonoBehaviour
     }
 
     private void UpdateQuestUI(){
-
+        Debug.Log("UI Popup");
+        QuestAcceptUI.SetActive(true);
+        questName.text = QuestList[0].QuestName;
+        questDescription.text = QuestList[0].description;
+        questTodo.text = QuestList[0].Todo;
+        questReward.text = "EXP +" + QuestList[0].expReward.ToString() + ", " + "ReCoin +" + QuestList[0].recoinReward.ToString() + "\n" + QuestList[0].itemReward;
     }
     
     [System.Serializable]

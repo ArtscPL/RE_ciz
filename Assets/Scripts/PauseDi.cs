@@ -31,8 +31,8 @@ public class PauseDi : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //Bcon.Quest();
-            QR.OpenQuestWindow();
+            Bcon.Quest();
+            //QR.OpenQuestWindow();
         }
 
         if (Input.GetKeyDown(KeyCode.I))
