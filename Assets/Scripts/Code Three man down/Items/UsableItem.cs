@@ -5,6 +5,7 @@ using UnityEngine;
 public class UsableItem : Item
 {
 	public bool IsConsumable;
+	public string Title;
 
 	public List<UsableItemEffect> Effects;
 
@@ -29,5 +30,9 @@ public class UsableItem : Item
 			sb.AppendLine(effect.GetDescription());
 		}
 		return sb.ToString();
+	}
+	public override string GetItemTitle()
+	{
+		return Title;
 	}
 }
