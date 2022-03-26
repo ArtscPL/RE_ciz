@@ -17,8 +17,10 @@ INCLUDE globals.ink
     //->start102
 + [เข้าสู่ร้านค้า]
     ~Cshop = true
+    [เข้าสู่ร้านขายของ]
     ->DONE
 + [เดินผ่าน]
+    ไม่มีอะไรครับ ไว้มีเดี๋ยวจะแวะมาใหม่นะครับ #speaker:Player #portrait:Player
     ->DONE
 ->DONE
 

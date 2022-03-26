@@ -7,6 +7,7 @@ INCLUDE globals.ink
 {isD106 == true && isS107 == false: ->start107}
 
 ===general===
+??? #speaker:Player #portrait:Player
 เดินชมรอบเมืองได้เลยหนุ่มน้อย #speaker:เจ้าเมือง #portrait:LordC
 ->DONE
 

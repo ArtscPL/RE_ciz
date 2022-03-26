@@ -40,6 +40,16 @@ public class PauseDi : MonoBehaviour
             Bcon.Inventory();
         }
 
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Bcon.Profile();
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            Bcon.Hint();
+        }
+
     }
 
     void Zawarudo()
