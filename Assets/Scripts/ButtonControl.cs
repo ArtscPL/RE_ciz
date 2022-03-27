@@ -14,6 +14,7 @@ public class ButtonControl : MonoBehaviour
     public GameObject CharacterUI;
     public GameObject RePoUI;
     public Transform player;
+    public PlayerProfile ppro;
 
     public void Reposition(){
         if (RePoUI.active)
@@ -86,6 +87,7 @@ public class ButtonControl : MonoBehaviour
         else
         {
             CharacterUI.SetActive(true);
+            //ppro.ProfileUIchanged();
             QuestUI.SetActive(false);
             PauseMenuUI.SetActive(false);
             MapUI.SetActive(false);
