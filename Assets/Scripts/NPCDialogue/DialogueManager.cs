@@ -83,7 +83,7 @@ public class DialogueManager : MonoBehaviour
 
         if (currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.Space))
         {
-            ContinueStory(DialogueTrigger.GetInstance().quest);
+            ContinueStory();
         }
 
     }
@@ -105,13 +105,13 @@ public class DialogueManager : MonoBehaviour
         displayNameText.text = "???";
         portraitAnimator.Play("default");
 
-        ContinueStory(quest);
+        ContinueStory();
     }
         
 
-    private IEnumerator ExitDialogueMode(QuestBase quest)
+    private IEnumerator ExitDialogueMode()
     {
-        yield return 0;
+        yield return new WaitForSeconds(0.2f);
 
         dialogueVariables.StopListening(currentStory);
 
@@ -130,7 +130,7 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    private void ContinueStory(QuestBase quest)
+    private void ContinueStory()
     {
         if (currentStory.canContinue)
         {
@@ -142,7 +142,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            StartCoroutine(ExitDialogueMode(quest));
+            StartCoroutine(ExitDialogueMode());
         }
     }
 
@@ -214,7 +214,7 @@ public class DialogueManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
-        ContinueStory(DialogueTrigger.GetInstance().quest);
+        ContinueStory();
     }
 
     public Ink.Runtime.Object GetVariableState(string variableName)

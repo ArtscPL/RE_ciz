@@ -7,7 +7,7 @@ INCLUDE globals.ink
 ่//#speaker:ช่างตีเหล็ก #portrait:BlackC
 
 === general ===
-มีอะไรให้ข้าทำรึเปล่าไอหนู กล้ามเนื้อของข้ามันเร่าร้อง!!
+มีอะไรให้ข้าทำรึเปล่าไอหนู กล้ามเนื้อของข้ามันเร่าร้อง!! #speaker:ช่างตีเหล็ก #portrait:BlackC
 + [ทำภารกิจ]
     {
     - isD105 == true && isS105 == false && EverMeetCenBlackS == false: ->start106 
@@ -19,8 +19,10 @@ INCLUDE globals.ink
     }
 + [สร้างอุปกรณ์]
     ~Ccraft = true
+    [เข้าสู่กระบวนการสร้างอุปกรณ์]
     ->DONE
 + [เดินผ่าน]
+    ไม่มีอะไรครับ ไว้มีเดี๋ยวจะมาหานะครับ #speaker:Player #portrait:Player
     ->DONE
 
 === start106 ===

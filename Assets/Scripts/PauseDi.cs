@@ -8,8 +8,13 @@ public class PauseDi : MonoBehaviour
     public static bool IsGamePaused = false;
     public ButtonControl Bcon;
     public QuestReceiver QR;
-    //public QuestBase myQuest;
 
+    public PlayerProfile pprofile;
+    
+    /*void Awake(){
+        PlayerProfile pprofile = player.GetComponent<PlayerProfile>();
+    }
+    */
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -38,6 +43,18 @@ public class PauseDi : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             Bcon.Inventory();
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Bcon.Profile();
+            //might be changed 
+            pprofile.ProfileUIchanged();
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            Bcon.Hint();
         }
 
     }
@@ -83,6 +100,7 @@ public class PauseDi : MonoBehaviour
     {
         //press quit and it'll quick save for player
         Debug.Log("Quick Save and Quit");
+        Application.Quit();
     }
 
     

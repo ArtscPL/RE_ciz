@@ -1,6 +1,7 @@
 INCLUDE globals.ink
 
 //->finish104
+{isD103 == false || (isS104 == true && isC104 == false): ->general}
 {isS104 == false && isD103 == true: ->start104}
 {isC104 == true && isD104 == false: ->finish104}
 
@@ -31,4 +32,9 @@ INCLUDE globals.ink
 === finish104 ===
 ฮะฮ่า คิดถูกจริงๆที่ไว้ใจเธอ รับเงินรางวัลไปสิแล้วก็ ตอนนี้เธอคงไปหาท่านเจ้าเมืองได้แล้วหละ เขากำลังรออยู่เลย  #speaker:หัวหน้ายาม #portrait:GuardLeader
 ~isD104 = true
+->DONE
+
+=== general ===
+??? #speaker:Player #portrait:Player
+โทษนะ ตอนนี้ยังไม่ว่างโปรดชมรอบเมืองโดยไม่มีข้าเถอะ #speaker:หัวหน้ายาม #portrait:GuardLeader
 ->DONE

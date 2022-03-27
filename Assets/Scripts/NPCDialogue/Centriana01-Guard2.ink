@@ -24,5 +24,6 @@ INCLUDE globals.ink
 ->DONE
 
 === general ===
+??? #speaker:Player #portrait:Player
 ยินดีต้อนรับสู่เมืองแห่งการค้าขาย #speaker:ยาม2 #portrait:Guard2
 ->DONE
