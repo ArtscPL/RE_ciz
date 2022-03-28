@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 32542438}
   - component: {fileID: 32542437}
   m_Layer: 0
-  m_Name: Text (4)
+  m_Name: DeathCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1113,7 +1113,7 @@ GameObject:
   - component: {fileID: 32566427}
   - component: {fileID: 32566426}
   m_Layer: 0
-  m_Name: Text (11)
+  m_Name: Total
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 56651691}
   - component: {fileID: 56651690}
   m_Layer: 0
-  m_Name: Text (1)
+  m_Name: MonKill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2435,7 +2435,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2496,7 +2496,7 @@ GameObject:
   - component: {fileID: 107650265}
   - component: {fileID: 107650264}
   m_Layer: 0
-  m_Name: Text (5)
+  m_Name: CraftCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2575,7 +2575,7 @@ GameObject:
   - component: {fileID: 110975838}
   - component: {fileID: 110975837}
   m_Layer: 0
-  m_Name: Text (8)
+  m_Name: Lesson1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6876,7 +6876,7 @@ GameObject:
   - component: {fileID: 360232533}
   - component: {fileID: 360232532}
   m_Layer: 0
-  m_Name: Text (7)
+  m_Name: Lesson1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7477,7 +7477,7 @@ GameObject:
   - component: {fileID: 375249709}
   - component: {fileID: 375249708}
   m_Layer: 0
-  m_Name: Text
+  m_Name: QProgress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10854,7 +10854,7 @@ GameObject:
   - component: {fileID: 614989325}
   - component: {fileID: 614989324}
   m_Layer: 0
-  m_Name: Text (2)
+  m_Name: ChestFound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11459,7 +11459,7 @@ GameObject:
   - component: {fileID: 654907960}
   - component: {fileID: 654907959}
   m_Layer: 0
-  m_Name: Text (9)
+  m_Name: Lesson2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12037,6 +12037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bcon: {fileID: 673093121}
   QR: {fileID: 0}
+  pprofile: {fileID: 740997327}
 --- !u!114 &673093121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12058,6 +12059,7 @@ MonoBehaviour:
   CharacterUI: {fileID: 1892502950}
   RePoUI: {fileID: 652109438}
   player: {fileID: 740997321}
+  ppro: {fileID: 0}
 --- !u!114 &673093122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13510,6 +13512,12 @@ MonoBehaviour:
   Lesson1_2Score: 0
   Lesson2_1Score: 0
   Lesson2_2Score: 0
+  LV: {fileID: 1207313423}
+  EXP: {fileID: 1447280772}
+  MHP: {fileID: 924142083}
+  Def: {fileID: 1170030761}
+  Eva: {fileID: 1592965304}
+  Res: {fileID: 103298927}
 --- !u!1 &753756270
 GameObject:
   m_ObjectHideFlags: 0
@@ -16624,7 +16632,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21438,7 +21446,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -22792,7 +22800,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -26516,7 +26524,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -30054,7 +30062,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2081723369}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -30452,7 +30460,7 @@ GameObject:
   - component: {fileID: 1620357774}
   - component: {fileID: 1620357773}
   m_Layer: 0
-  m_Name: Text (6)
+  m_Name: Lesson1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30531,7 +30539,7 @@ GameObject:
   - component: {fileID: 1622722186}
   - component: {fileID: 1622722185}
   m_Layer: 0
-  m_Name: Text (10)
+  m_Name: Lesson2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34272,7 +34280,7 @@ GameObject:
   - component: {fileID: 1800379948}
   - component: {fileID: 1800379947}
   m_Layer: 0
-  m_Name: Text (3)
+  m_Name: HighAtk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36591,7 +36599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1892502951
 Transform:
   m_ObjectHideFlags: 0
@@ -39561,12 +39569,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1207313422}
   - {fileID: 1447280771}
   - {fileID: 924142082}
   - {fileID: 1170030760}
   - {fileID: 1592965303}
   - {fileID: 103298926}
-  - {fileID: 1207313422}
   m_Father: {fileID: 1892502951}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
