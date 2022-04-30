@@ -40,6 +40,7 @@ public class CraftingRecipeUI : MonoBehaviour
 		{
 			craftingRecipe.Craft(ItemContainer);
 		}
+		Debug.Log(2^2);
 	}
 
 	private void SetCraftingRecipe(CraftingRecipe newCraftingRecipe)

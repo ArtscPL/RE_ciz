@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1535756534693798852}
   - component: {fileID: 1701870399645993170}
   - component: {fileID: 1701153452104307828}
+  - component: {fileID: 4707581516812417959}
   m_Layer: 0
   m_Name: Dark Singularity
-  m_TagString: Untagged
+  m_TagString: Marble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4821,6 +4822,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!65 &4707581516812417959
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538102051281877180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1283996, y: 2.1283996, z: 2.1283996}
+  m_Center: {x: 0.00012207031, y: 0, z: 0.000061035156}
 --- !u!1 &1538198692609426262
 GameObject:
   m_ObjectHideFlags: 0

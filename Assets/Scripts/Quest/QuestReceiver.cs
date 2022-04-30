@@ -8,7 +8,7 @@ public class QuestReceiver : MonoBehaviour
     public static QuestReceiver instance;
 
     public QuestBase quest;
-    public Playercontrol player;
+    public Character player;
 
     public ButtonControl Bcon;
     public Text QName;

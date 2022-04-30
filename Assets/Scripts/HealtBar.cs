@@ -8,17 +8,21 @@ public class HealtBar : MonoBehaviour
     private Image Health_bar;
     public float CurrentHealth;
     private float MaxHealth = 100f;
-    Playercontrol player;
+    Character player;
     void Start()
     {
         Health_bar = GetComponent<Image>();
-        player = FindObjectOfType<Playercontrol>();
+        player = FindObjectOfType<Character>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        CurrentHealth = player.Health;
+        CurrentHealth = player.Health00;
+        
+        if (CurrentHealth > 100)
+        CurrentHealth = 100f;
+
         Health_bar.fillAmount = CurrentHealth/MaxHealth;
     }
 }

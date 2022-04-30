@@ -5,7 +5,6 @@ using UnityEngine;
 public class UsableItem : Item
 {
 	public bool IsConsumable;
-	public string Title;
 
 	public List<UsableItemEffect> Effects;
 

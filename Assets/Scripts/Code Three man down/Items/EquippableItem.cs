@@ -24,7 +24,6 @@ public class EquippableItem : Item
 	public float Res_PercentBonus;
 	[Space]
 	public EquipmentType EquipmentType;
-	public string Title;
 
 	public override Item GetCopy()
 	{

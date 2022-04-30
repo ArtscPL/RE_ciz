@@ -13,7 +13,7 @@ public class Item : ScriptableObject
 	public Sprite Icon;
 	[Range(1,999)]
 	public int MaximumStacks = 1;
-
+	public string Title;
 	protected static readonly StringBuilder sb = new StringBuilder();
 
 	#if UNITY_EDITOR

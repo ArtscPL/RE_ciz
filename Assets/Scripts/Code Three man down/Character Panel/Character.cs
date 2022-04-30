@@ -4,7 +4,7 @@ using Kryz.CharacterStats;
 
 public class Character : MonoBehaviour
 {
-	public int Health00 = 50;
+	public float Health00 = 100f;
 
 	[Header("Stats")]
 	public CharacterStat Health;
@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
 	[Header("Public")]
 	public Inventory Inventory;
 	public EquipmentPanel EquipmentPanel;
+	public float Money;
 
 	[Header("Serialize Field")]
 	[SerializeField] CraftingWindow craftingWindow;
