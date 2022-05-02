@@ -16,6 +16,8 @@ public class ButtonControl : MonoBehaviour
     public Transform player;
     public PlayerProfile ppro;
 
+    //public static ButtonControl instance;
+
     public void Reposition(){
         if (RePoUI.active)
         {
@@ -166,5 +168,15 @@ public class ButtonControl : MonoBehaviour
             CharacterUI.SetActive(false);
             RePoUI.SetActive(false);
         }
+    }
+
+    public void closeALLUI(){
+        HintUI.SetActive(false);
+        PauseMenuUI.SetActive(false);
+        InventoryUI.SetActive(false);
+        QuestUI.SetActive(false);
+        MapUI.SetActive(false);
+        CharacterUI.SetActive(false);
+        RePoUI.SetActive(false);
     }
 }

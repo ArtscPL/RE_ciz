@@ -8,16 +8,26 @@ public class PauseDi : MonoBehaviour
     public static bool IsGamePaused = false;
     public ButtonControl Bcon;
     public QuestReceiver QR;
-
+    public static PauseDi instance;
     public PlayerProfile pprofile;
     
-    /*void Awake(){
-        PlayerProfile pprofile = player.GetComponent<PlayerProfile>();
+    void Awake(){
+        //PlayerProfile pprofile = player.GetComponent<PlayerProfile>();
+        if (instance != null)
+        {
+            Debug.LogWarning("Found more than one PauseDi in the scene");
+        }
+        instance = this;
     }
-    */
+    
+    public static PauseDi GetInstance()
+    {
+        return instance;
+    }
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)&&!ChestControl.GetInstance().triggerUI)
         {
             if (IsGamePaused)
             {
@@ -29,30 +39,30 @@ public class PauseDi : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Map();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Quest();
             //QR.OpenQuestWindow();
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Inventory();
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Profile();
             //might be changed 
             pprofile.ProfileUIchanged();
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.H)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Hint();
         }
