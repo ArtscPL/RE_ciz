@@ -74,6 +74,7 @@ public class ChestHandle : MonoBehaviour
         }
         else
         {
+            Debug.Log(ChestL.ChestAnswer + " is a correct answer of this chest");
             Debug.Log(ans + " is Wrong~, Try again");
             ClearField();
         }
