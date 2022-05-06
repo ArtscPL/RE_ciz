@@ -24,7 +24,7 @@ public class QuestBase : ScriptableObject
         //IsCompleted = false;
         CurrentAmount = new int[RequiredAmount.Length];
         //problem cause here
-        QuestReceiver.instance.AddQuestToLog(this);
+        //QuestReceiver.instance.AddQuestToLog(this);
     }
 
     public void Evaluate()
