@@ -88,6 +88,10 @@ public class ChestHandle : MonoBehaviour
     public void ChestRewardShowUp(ChestInfo ChestL){
         ChestRewardUI.SetActive(true); 
         Reward.text = "ReCoin + " + ChestL.recoinReward + "\n" + ChestL.itemReward + " x1";
+        AddChestReward_Player();
+    }
+
+    public void AddChestReward_Player(){
         //add Reward to player inventory
     }
 
