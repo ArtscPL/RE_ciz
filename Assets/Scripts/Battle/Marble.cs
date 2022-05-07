@@ -17,6 +17,7 @@ public class Marble : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        showText.text = number.ToString();
         if (Input.GetMouseButtonDown(0)) {  
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);  
             RaycastHit hit;  
@@ -31,12 +32,15 @@ public class Marble : MonoBehaviour
     }
     public int Random_Number_Marble(int min,int max){
         int Number_Marble = Random.Range(min,max+1);
-        showText.text = Number_Marble.ToString();
         return Number_Marble;
     }
     public void SetMarbleActive(bool status)
     {
         gameObject.SetActive(status);
     }
-
+    public void Reset()
+    {
+        number = Random_Number_Marble(0,9);
+        SetMarbleActive(true);
+    }
 }
