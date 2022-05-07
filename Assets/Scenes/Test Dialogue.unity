@@ -31993,21 +31993,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 411450949}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1225303508}
-        m_TargetAssemblyTypeName: ChestControl, Assembly-CSharp
-        m_MethodName: changeVariableMove
+      - m_Target: {fileID: 779101013}
+        m_TargetAssemblyTypeName: ChestHandle, Assembly-CSharp
+        m_MethodName: UIClosed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33008,13 +32996,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f19e8316282fdd439334e4a0fc1db42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QUEST: {fileID: 779101011}
-  QuestUI: {fileID: 1590620981}
+  QuestAcceptUI: {fileID: 1590620981}
+  questAName: {fileID: 0}
+  questADescription: {fileID: 0}
+  questAProgress: {fileID: 0}
+  questAReward: {fileID: 0}
   QuestOnClearUI: {fileID: 1861237465}
+  questCName: {fileID: 830616360}
+  questCDescription: {fileID: 1571647949}
+  questCProgress: {fileID: 387542154}
+  questCReward: {fileID: 954102353}
+  QuestUI: {fileID: 617994413}
   questName: {fileID: 1454422343}
   questDescription: {fileID: 614140556}
   questProgress: {fileID: 581858998}
   questReward: {fileID: 1373893108}
+  QuestLists:
+  - QuestID: 1
+    QuestType: 1
+    QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08"
+    description: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E19\u0E35\u0E49\u0E21\u0E35\u0E44\u0E27\u0E49\u0E41\u0E04\u0E48\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
+    Todo: "\u0E2A\u0E48\u0E07\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E44\u0E14\u0E49"
+    RequiredAmount: 01000000
+    expReward: 100
+    recoinReward: 500
+    itemReward: 
+    Completed: 0
+  - QuestID: 2
+    QuestType: 1
+    QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
+    description: "\u0E01\u0E32\u0E23\u0E17\u0E33\u0E2A\u0E2D\u0E1A2"
+    Todo: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2D\u0E30\u0E44\u0E23"
+    RequiredAmount: 0100000001000000
+    expReward: 200
+    recoinReward: 1000
+    itemReward: "\u0E43\u0E1A\u0E08\u0E1A"
+    Completed: 0
 --- !u!114 &1683038954
 MonoBehaviour:
   m_ObjectHideFlags: 0
