@@ -17,7 +17,7 @@ public class QuestReceiver : MonoBehaviour
     public Text QReward;
     public Transform questHolder;
     public GameObject questButtonPrefab;
-
+    /*
     private void Awake()
     {
         if (instance != null) instance = this;
@@ -48,11 +48,11 @@ public class QuestReceiver : MonoBehaviour
         var questButton = Instantiate(questButtonPrefab,questHolder);
 
         questButton.GetComponent<QuestButton>().SetQuest(newQuest);
-        /*quest = newQuest;
+        quest = newQuest;
         QName.text = quest.QuestName;
         QDescription.text = quest.description;
         QTodo.text = quest.todo;
-        QReward.text = "EXP +" + quest.expReward.ToString() + ", " + "ReCoin +" + quest.recoinReward.ToString() + "\n" + quest.itemReward;*/
+        QReward.text = "EXP +" + quest.expReward.ToString() + ", " + "ReCoin +" + quest.recoinReward.ToString() + "\n" + quest.itemReward;
     }
-
+    */
 }

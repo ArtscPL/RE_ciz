@@ -43,7 +43,7 @@ public class Movement2D : MonoBehaviour
 
     private void move()
     {
-        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        if (DialogueManager.GetInstance().dialogueIsPlaying || ChestHandle.GetInstance().ChestIsShowing)
         {
             animator.SetFloat("Magnitude", 0);
             return;
