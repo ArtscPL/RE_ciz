@@ -10,26 +10,42 @@ public class Random_Enemy_HP : MonoBehaviour
     public Transform Enemy;
     public TMP_Text showText;
     public GameObject Number_HP;
-    public int min_hp;
-    public int max_hp;
+    public EnemyStat enemyStat;
+    public PlayerStat player;
+    public TurnUse turn;
     public int HP;
     void Start()
     {
         Number_HP.SetActive(true);
-        HP = Random_Number_Enemy_HP(min_hp,max_hp);
+        HP = Random_Number_Enemy_HP(enemyStat.minhp,enemyStat.maxhp);
     }
 
-    // Update is called once per frame
     void Update()
     {
         showText.text = HP.ToString();
         Vector3 Pos = Camera.main.WorldToScreenPoint(Enemy.position);
-        Pos.y += 175;
+        Pos.y += 135;
         ChatBackGround.position = Pos;
     }
     
     public int Random_Number_Enemy_HP(int min,int max){
        int Enemy_HP = Random.Range(min,max+1);
        return Enemy_HP;
+    }
+
+    public void Attack()
+    {
+        int How = Random.Range(0,10);
+        if (How >= 3)
+        {
+            player.currenthp -= enemyStat.damage;
+            int hp = player.currenthp;
+            player.setHP(hp);
+        }
+        else
+        {
+            Debug.Log("Evasion Success");
+        }
+        turn.turn += 1;
     }
 }
