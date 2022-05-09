@@ -7,7 +7,11 @@ INCLUDE globals.ink
 ่//#speaker:ช่างตีเหล็ก #portrait:BlackC
 
 === general ===
+~questAccepted = false
+~Cshop = false
+~Ccraft = false
 มีอะไรให้ข้าทำรึเปล่าไอหนู กล้ามเนื้อของข้ามันเร่าร้อง!! #speaker:ช่างตีเหล็ก #portrait:BlackC
+
 + [ทำภารกิจ]
     {
     - isD105 == true && isS105 == false && EverMeetCenBlackS == false: ->start106 

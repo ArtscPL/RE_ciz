@@ -106,7 +106,8 @@ public class ButtonControl : MonoBehaviour
         }
         else
         {
-            QuestUI.SetActive(true);
+            //QuestUI.SetActive(true);
+            PlayerOwnQuest.GetInstance().displayQuestonUI();
             PauseMenuUI.SetActive(false);
             MapUI.SetActive(false);
             InventoryUI.SetActive(false);

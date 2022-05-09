@@ -37,6 +37,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject QuestAcceptUI;
     public GameObject QuestClearUI;
+    public GameObject ShopUI;
+    public GameObject CraftUI;
     //for quest
     //public QuestBase quest;
 
@@ -118,16 +120,53 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
-        //add quest here
-        /*if (qstatus==false)
-        {
-            QuestManager.instance.setQuestUI(quest);
-        }*/
+
+        //Check condition and open window correspond to tag
+        EndCheckWindow();
+        //Debug.Log("Quest = "+QuestOpen+", Shop = "+ShopOpen+" and Craft = "+CraftOpen);    
     }
 
-    private void CheckIfQuest()
-    {
+    private void EndCheckWindow(){
+        bool QuestOpen = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("questAccepted")).value;
+        bool ShopOpen = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("Cshop")).value;
+        bool CraftOpen = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("Ccraft")).value;
+        Debug.Log("Quest = "+QuestOpen+", Shop = "+ShopOpen+" and Craft = "+CraftOpen);
+        if(QuestOpen){
+            //quest accept pop up and add quest to player
+            QuestWindowPopup();
+        }
+        else if(ShopOpen){
+            //Shop window popup
+            ShopWindowPopup();
+        }
+        else if(CraftOpen){
+            //Craft window popup
+            CraftWindowPopup();
+        }
+    }
 
+    private void QuestWindowPopup()
+    {
+        //QuestAcceptUI.SetActive(true);
+        QuestManager.GetInstance().FindQuestAvailiable();
+        QuestManager.GetInstance().displayAcceptQuestUI(QuestManager.GetInstance().QuestAvailiable);
+        DialogueManager.GetInstance().SetVariableState("questAccepted", new Ink.Runtime.BoolValue(false));
+    }
+
+    private void ShopWindowPopup(){
+        //ShopUI.SetActive(true);
+        DialogueManager.GetInstance().SetVariableState("Cshop", new Ink.Runtime.BoolValue(false));
+    }
+
+    private void CraftWindowPopup(){
+        CraftUI.SetActive(true);
+        DialogueManager.GetInstance().SetVariableState("Ccraft", new Ink.Runtime.BoolValue(false));
     }
 
     private void ContinueStory()

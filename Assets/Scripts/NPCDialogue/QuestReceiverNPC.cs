@@ -80,13 +80,15 @@ public class QuestReceiverNPC : MonoBehaviour
     
     [System.Serializable]
     public class QuestDetail {
+        public int QuestID;
         public string QuestName;
+        public bool Accepted = false;
         public string description;
         public string Todo;
         public int expReward;
         public int recoinReward;
-        public string itemReward;
-        public bool Completed;
+        public string itemReward;   
+        public bool Completed = false;
     }
 
 }
