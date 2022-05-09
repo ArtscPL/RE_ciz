@@ -3,6 +3,9 @@ INCLUDE globals.ink
 ->general
 
 == general ==
+~questAccepted = false
+~Cshop = false
+~Ccraft = false
 มีธุระอะไรรึเปล่าหนุ่มน้อย ถ้ามาซื้อของละก็ ยินดีต้อนรับเสมอนะ #speaker:เฒ่ายา #portrait:CMerchant
 + [ทำภารกิจ]
     //ถ้ายังไม่รับเควส 102 ก็ไปรับ102ก่อน ถ้าเสร็จ 102แล้วก็ไปรับ103

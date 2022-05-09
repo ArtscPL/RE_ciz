@@ -47,7 +47,7 @@ public class PauseDi : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q)&&!ChestControl.GetInstance().triggerUI)
         {
             Bcon.Quest();
-            //QR.OpenQuestWindow();
+            //PlayerOwnQuest.GetInstance().displayQuestonUI();
         }
 
         if (Input.GetKeyDown(KeyCode.I)&&!ChestControl.GetInstance().triggerUI)
