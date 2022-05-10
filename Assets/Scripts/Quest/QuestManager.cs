@@ -31,12 +31,13 @@ public class QuestManager : MonoBehaviour
     public Text questCDescription;
     public Text questCProgress;
     public Text questCReward;
-    [Header("Quest Windows")]
+    [Header("Quest Lists and Index")]
 
     //public Quest CurrentQuest { get; set; }
     //private Quest handle;
     public QuestInfo[] QuestLists;
     public int QuestAvailiable = 99;
+    public int QuestIndex = 99;
 
     // what if no argument?
     public void displayAcceptQuestUI(int QID)
@@ -53,10 +54,13 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().QuestName = QuestLists[QID].QuestName;
         PlayerOwnQuest.GetInstance().description = QuestLists[QID].description;
         PlayerOwnQuest.GetInstance().Todo = QuestLists[QID].Todo;
+        PlayerOwnQuest.GetInstance().EnemyID = QuestLists[QID].EnemyID;
         PlayerOwnQuest.GetInstance().RequiredAmount = QuestLists[QID].RequiredAmount;
         PlayerOwnQuest.GetInstance().expReward = QuestLists[QID].expReward;
         PlayerOwnQuest.GetInstance().recoinReward = QuestLists[QID].recoinReward;
         PlayerOwnQuest.GetInstance().itemReward = QuestLists[QID].itemReward;
+        PlayerOwnQuest.GetInstance().Vcomplete = QuestLists[QID].Vcomplete;
+        //PlayerOwnQuest.GetInstance().Vdone = QuestLists[QID].Vdone;
     }
 
     public void displayQuestUIonClear(int QID)
@@ -66,18 +70,32 @@ public class QuestManager : MonoBehaviour
         questCDescription.text = QuestLists[QID].description;
         questCProgress.text = QuestLists[QID].Todo;
         questCReward.text = "EXP +" + QuestLists[QID].expReward.ToString() + ", " + "ReCoin +" + QuestLists[QID].recoinReward.ToString() + "\n" + QuestLists[QID].itemReward;
-        AddQuestRewardOnClear();
-        QuestPlayerOwn();
+        PlayerOwnQuest.GetInstance().QuestIDTracking = QuestLists[QID].QuestID;
+        AddQuestRewardOnClear(QID);
+        //ClearPlayerOwn();
     }
 
-    public void AddQuestRewardOnClear(){
+    public void AddQuestRewardOnClear(int QID){
         //this function contains adding reward to player
         Debug.Log("Adding Reward");
+        //DialogueManager.GetInstance().SetVariableState(QuestLists[QID].Vdone, new Ink.Runtime.BoolValue(true));
+        QuestLists[QID].Accepted = true;
         //exp and inventory
     }
 
-    public void QuestPlayerOwn(){
+    public void ClearPlayerOwn(){
         //call after adding quest reward
+        PlayerOwnQuest.GetInstance().QuestID = 0;
+        PlayerOwnQuest.GetInstance().QuestType = 0;
+        PlayerOwnQuest.GetInstance().QuestName = "หางานทำได้แล้ว";
+        PlayerOwnQuest.GetInstance().description = "ขณะนี้ยังไม่ได้อยู่ในระหว่างการทำภารกิจ\nในตอนนี้สิ่งที่คุณต้องทำคือหายใจไปวันๆและรอตังจากขุ่นแม่";
+        PlayerOwnQuest.GetInstance().Todo = "หิวก็กินข้าว หนาวก็ใส่เสื้อ เมื่อเป็นหวัด ทิฟฟี่แผงสีเขียว";
+        PlayerOwnQuest.GetInstance().EnemyID = 0;
+        PlayerOwnQuest.GetInstance().RequiredAmount = 99;
+        PlayerOwnQuest.GetInstance().expReward = 0;
+        PlayerOwnQuest.GetInstance().recoinReward = 0;
+        PlayerOwnQuest.GetInstance().itemReward = "";
+        PlayerOwnQuest.GetInstance().Vcomplete = "";
     }
     /*
     public void displayQuestonUI(int QID){
@@ -95,13 +113,15 @@ public class QuestManager : MonoBehaviour
     }
 
     public void FindQuestAvailiable(){
-        Debug.Log("Quests in list = "+QuestLists.Length);
+        //Debug.Log("Quests in list = "+QuestLists.Length);
         for(int i=QuestLists.Length-1; i>=0; i--){
             if(QuestLists[i].Accepted==false){
                 QuestAvailiable = QuestLists[i].QuestID;
+                QuestIndex = i;
             }
         }
-        Debug.Log("QuestID of first quest availiable is "+QuestAvailiable);
+        /*Debug.Log("QuestID of first quest availiable is "+QuestAvailiable+
+        " have Index = "+QuestIndex);*/
     }
 
     [System.Serializable]
@@ -118,7 +138,7 @@ public class QuestManager : MonoBehaviour
         public string QuestName;
         public string description;
         public string Todo;
-
+        public int EnemyID;
         //there are quests with many needs
         public int RequiredAmount;
         //public int[] RequiredAmount;
@@ -128,6 +148,8 @@ public class QuestManager : MonoBehaviour
 
         // 0 as incompleted, 1 as complete
         public bool Accepted = false;
+        public string Vcomplete;
+        //public string Vdone;
         public bool Completed;
     }
 }

@@ -8,6 +8,7 @@ INCLUDE globals.ink
 ่//#speaker:ยาม2 #portrait:Guard2
 
 === finish103 ===
+~questTurnin = true
 มีธุระอะไรหละรึเปล่าท่านนักผจญภัยหน้าใหม่? #speaker:ยาม2 #portrait:Guard2
 คุณปู่ร้านขายยาฝากนํ้ายาฟื้นฟูมาให้ครับ  #speaker:Player #portrait:Player
 เอ๋? คุณพ่อหนะเหรอ? ทุกวันนี้ก็ทำกำไรไม่ค่อยได้ไม่ใช่เหรอ ทำไมถึงเอามาให้ชั้นหละ? #speaker:ยาม2 #portrait:Guard2

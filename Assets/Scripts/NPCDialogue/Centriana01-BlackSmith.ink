@@ -70,6 +70,7 @@ INCLUDE globals.ink
 
 
 === finish106 ===
+~questTurnin = true
 ยอดเยี่ยม เท่านี้เราก็มีทุกอย่างพร้อมแล้ว รอซักแปปนะไอหนู ถึงเวลาที่ตาแก่คนนี้จะได้ทำงานแล้ว #speaker:ช่างตีเหล็ก #portrait:BlackC
 
 (เริ่มการตีเหล็ก) #speaker:ช่างตีเหล็ก #portrait:BlackC
