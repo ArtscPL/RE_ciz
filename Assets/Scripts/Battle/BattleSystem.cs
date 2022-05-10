@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum battlestate {START , PLAYERTURN , ENEMYTURN , WIN , LOSE}
 public class BattleSystem : MonoBehaviour
 {
     public GameObject PlayerPrefabs;
     public GameObject EnemyPrefabs;
     public Transform PlayerStation;
     public Transform EnemyStation;
-    public battlestate state;
     void Start()
     {
-        state = battlestate.START;
+        EnemyPrefabs = MoveData.enemyPrefabs;
         StartCoroutine(setupBattle());
     }
     IEnumerator setupBattle()

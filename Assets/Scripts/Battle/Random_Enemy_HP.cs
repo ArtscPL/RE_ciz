@@ -16,6 +16,7 @@ public class Random_Enemy_HP : MonoBehaviour
     public int HP;
     void Start()
     {
+        enemyStat = MoveData.enemyPrefabs.GetComponent<EnemyStat>();
         Number_HP.SetActive(true);
         HP = Random_Number_Enemy_HP(enemyStat.minhp,enemyStat.maxhp);
     }
@@ -24,7 +25,7 @@ public class Random_Enemy_HP : MonoBehaviour
     {
         showText.text = HP.ToString();
         Vector3 Pos = Camera.main.WorldToScreenPoint(Enemy.position);
-        Pos.y += 135;
+        Pos.y += 175;
         ChatBackGround.position = Pos;
     }
     
@@ -40,7 +41,11 @@ public class Random_Enemy_HP : MonoBehaviour
         {
             player.currenthp -= enemyStat.damage;
             int hp = player.currenthp;
-            player.setHP(hp);
+            bool isDead = player.setHP(hp);
+            if (isDead == true)
+            {
+                Debug.Log("Player is Dead");
+            }
         }
         else
         {

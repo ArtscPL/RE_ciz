@@ -14,8 +14,11 @@ public class PlayerStat : MonoBehaviour
         hpslider.maxValue = maxhp;
         hpslider.value = currenthp;
     }
-    public void setHP(int hp)
+    public bool setHP(int hp)
     {
         hpslider.value = hp;
+        if (hp <= 0)
+            return true;
+        else return false;
     }
 }

@@ -42,17 +42,15 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     IEnumerator TakeDamage(int DamageFormPlayer)
     {
         DamageResult = Mathf.Abs(DamageFormPlayer - HealthFromEnemy);
+        yield return new WaitForSeconds(2f);
         RandomEnemyHp.HP = DamageResult;
-
         if (DamageResult == 0)
         {
-            yield return new WaitForSeconds(2f);
             calculateState.Objects[9].SetActive(false);
-            Debug.Log("Enemy Dead");
+            Debug.Log("Enemy Dead But Have EnemyID is " + RandomEnemyHp.enemyStat.enemyID.ToString());
         }
         else 
         {
-            yield return new WaitForSeconds(2f);
             calculateState.Objects[9].SetActive(false);
             RandomEnemyHp.Attack();
         }
