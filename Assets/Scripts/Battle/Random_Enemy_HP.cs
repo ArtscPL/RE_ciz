@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class Random_Enemy_HP : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject target;
     public Transform ChatBackGround;
     public Transform Enemy;
     public TMP_Text showText;
@@ -23,10 +23,17 @@ public class Random_Enemy_HP : MonoBehaviour
 
     void Update()
     {
-        showText.text = HP.ToString();
-        Vector3 Pos = Camera.main.WorldToScreenPoint(Enemy.position);
-        Pos.y += 175;
-        ChatBackGround.position = Pos;
+        if (HP != 0)
+        {
+            showText.text = HP.ToString();
+            Vector3 Pos = Camera.main.WorldToScreenPoint(Enemy.position);
+            Pos.y += 175;
+            ChatBackGround.position = Pos;
+        }
+        else
+        {
+            Number_HP.SetActive(false);
+        }
     }
     
     public int Random_Number_Enemy_HP(int min,int max){
@@ -44,6 +51,7 @@ public class Random_Enemy_HP : MonoBehaviour
             bool isDead = player.setHP(hp);
             if (isDead == true)
             {
+                target.gameObject.SetActive(true);
                 Debug.Log("Player is Dead");
             }
         }

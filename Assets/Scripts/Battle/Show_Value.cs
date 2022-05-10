@@ -12,7 +12,7 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     public Random_Enemy_HP RandomEnemyHp;
     public List<Marble> marble;
     public int DamageResult;
-    public int scenesLoad;
+    public GameObject target;
 
     void Start()
     {
@@ -48,6 +48,7 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
         {
             calculateState.Objects[9].SetActive(false);
             Debug.Log("Enemy Dead But Have EnemyID is " + RandomEnemyHp.enemyStat.enemyID.ToString());
+            target.gameObject.SetActive(true);
         }
         else 
         {
