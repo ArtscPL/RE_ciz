@@ -30,6 +30,7 @@ INCLUDE globals.ink
 ->DONE
 
 === finish104 ===
+~questTurnin = true
 ฮะฮ่า คิดถูกจริงๆที่ไว้ใจเธอ รับเงินรางวัลไปสิแล้วก็ ตอนนี้เธอคงไปหาท่านเจ้าเมืองได้แล้วหละ เขากำลังรออยู่เลย  #speaker:หัวหน้ายาม #portrait:GuardLeader
 ~isD104 = true
 ->DONE

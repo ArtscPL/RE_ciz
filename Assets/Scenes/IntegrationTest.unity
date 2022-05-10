@@ -8654,7 +8654,6 @@ GameObject:
   m_Component:
   - component: {fileID: 271571496}
   - component: {fileID: 271571498}
-  - component: {fileID: 271571497}
   m_Layer: 0
   m_Name: QuestManager
   m_TagString: Untagged
@@ -8676,18 +8675,6 @@ Transform:
   m_Father: {fileID: 776192921}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &271571497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271571495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef4ab1ac015008e4bb8462901bf0fda9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &271571498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8716,24 +8703,43 @@ MonoBehaviour:
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08"
     description: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E19\u0E35\u0E49\u0E21\u0E35\u0E44\u0E27\u0E49\u0E41\u0E04\u0E48\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
     Todo: "\u0E2A\u0E48\u0E07\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E44\u0E14\u0E49"
+    EnemyID: 1
     RequiredAmount: 0
-    expReward: 100
+    expReward: 50
     recoinReward: 500
     itemReward: 
     Accepted: 0
+    Vcomplete: isC101
     Completed: 0
   - QuestID: 2
-    QuestType: 1
+    QuestType: 3
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
     description: "\u0E01\u0E32\u0E23\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
     Todo: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E2D\u0E30\u0E44\u0E23"
+    EnemyID: 0
     RequiredAmount: 0
-    expReward: 200
-    recoinReward: 1000
+    expReward: 50
+    recoinReward: 500
     itemReward: "\u0E43\u0E1A\u0E08\u0E1A"
     Accepted: 0
+    Vcomplete: isC102
+    Completed: 0
+  - QuestID: 3
+    QuestType: 3
+    QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A3"
+    description: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E17\u0E35\u0E48
+      3"
+    Todo: "\u0E08\u0E35\u0E1A\u0E25\u0E39\u0E01\u0E2A\u0E32\u0E27\u0E1E\u0E48\u0E2D\u0E04\u0E49\u0E32"
+    EnemyID: 0
+    RequiredAmount: 0
+    expReward: 50
+    recoinReward: 500
+    itemReward: "\u0E42\u0E1B\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19"
+    Accepted: 0
+    Vcomplete: isC103
     Completed: 0
   QuestAvailiable: 99
+  QuestIndex: 99
 --- !u!1 &274140165
 GameObject:
   m_ObjectHideFlags: 0
@@ -11556,7 +11562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -143.8762, y: -46}
+  m_AnchoredPosition: {x: -143.8762, y: -16}
   m_SizeDelta: {x: 236.9185, y: 41.346}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373164649
@@ -11589,10 +11595,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0E04\u0E27\u0E32\u0E21\u0E04\u0E37\u0E1A\u0E2B\u0E19\u0E49\u0E32"
+  m_Text: "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33"
 --- !u!222 &373164650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11767,6 +11773,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 271571498}
+        m_TargetAssemblyTypeName: QuestManager, Assembly-CSharp
+        m_MethodName: ClearPlayerOwn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13320,8 +13338,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3168945, y: 134.27606}
-  m_SizeDelta: {x: 520.933, y: 171.8803}
+  m_AnchoredPosition: {x: 1.3168945, y: 125.1297}
+  m_SizeDelta: {x: 520.933, y: 207.4554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423241685
 MonoBehaviour:
@@ -23416,13 +23434,13 @@ GameObject:
   m_Component:
   - component: {fileID: 740997321}
   - component: {fileID: 740997320}
+  - component: {fileID: 740997322}
   - component: {fileID: 740997319}
   - component: {fileID: 740997325}
   - component: {fileID: 740997323}
   - component: {fileID: 740997324}
   - component: {fileID: 740997327}
   - component: {fileID: 740997326}
-  - component: {fileID: 740997322}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -23538,10 +23556,13 @@ MonoBehaviour:
   QuestName: 
   description: 
   Todo: 
+  EnemyID: 0
+  CurrentAmount: 0
   RequiredAmount: 0
   expReward: 0
   recoinReward: 0
   itemReward: 
+  Vcomplete: 
   Completed: 0
 --- !u!136 &740997323
 CapsuleCollider:
@@ -36501,7 +36522,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 0
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u0E0A\u0E37\u0E48\u0E2D\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08"
@@ -44066,8 +44087,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -107.02}
-  m_SizeDelta: {x: 526.3272, y: 60.054}
+  m_AnchoredPosition: {x: 5, y: -94.503395}
+  m_SizeDelta: {x: 526.3272, y: 85.0872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487968510
 MonoBehaviour:

@@ -130,6 +130,9 @@ public class DialogueManager : MonoBehaviour
         bool QuestOpen = ((Ink.Runtime.BoolValue)DialogueManager
             .GetInstance()
             .GetVariableState("questAccepted")).value;
+        bool QuestDone = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("questTurnin")).value;
         bool ShopOpen = ((Ink.Runtime.BoolValue)DialogueManager
             .GetInstance()
             .GetVariableState("Cshop")).value;
@@ -140,6 +143,9 @@ public class DialogueManager : MonoBehaviour
         if(QuestOpen){
             //quest accept pop up and add quest to player
             QuestWindowPopup();
+        }
+        else if(QuestDone){
+            QuestClearPopup();
         }
         else if(ShopOpen){
             //Shop window popup
@@ -155,8 +161,15 @@ public class DialogueManager : MonoBehaviour
     {
         //QuestAcceptUI.SetActive(true);
         QuestManager.GetInstance().FindQuestAvailiable();
-        QuestManager.GetInstance().displayAcceptQuestUI(QuestManager.GetInstance().QuestAvailiable);
+        QuestManager.GetInstance().displayAcceptQuestUI(QuestManager.GetInstance().QuestIndex);
         DialogueManager.GetInstance().SetVariableState("questAccepted", new Ink.Runtime.BoolValue(false));
+    }
+
+    private void QuestClearPopup(){
+        //check to find index again
+        QuestManager.GetInstance().FindQuestAvailiable();
+        QuestManager.GetInstance().displayQuestUIonClear(QuestManager.GetInstance().QuestIndex);
+        DialogueManager.GetInstance().SetVariableState("questTurnin", new Ink.Runtime.BoolValue(false));
     }
 
     private void ShopWindowPopup(){

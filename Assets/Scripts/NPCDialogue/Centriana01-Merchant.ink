@@ -67,6 +67,7 @@ INCLUDE globals.ink
 ->DONE
 
 === finish102 ===
+~questTurnin = true
 ไม่เลว ๆ ขอบคุณมากเลยเจ้าหนุ่ม เท่านี้ก็ไม่น่าจะมีปัญหาไปอีกซักพักใหญ่ๆ #speaker:เฒ่ายา #portrait:CMerchant
 อย่าลืมมาใช้บริการกันบ่อย ๆ หละ #speaker:เฒ่ายา #portrait:CMerchant
 ~isD102 = true
@@ -94,6 +95,7 @@ INCLUDE globals.ink
     ขอบใจมากๆนะหนุ่มน้อย บุญคุณนี้จะไม่มีวันลืมเลย  #speaker:เฒ่ายา #portrait:CMerchant
     ~questAccepted = true
     ~isS103 = true
+    ~isC103 = true
     -> DONE
 + [ปฏิเสธ]
     ได้โปรดช่วยตัดสินใจอีกครั้งด้วยเถอะ... #speaker:เฒ่ายา #portrait:CMerchant

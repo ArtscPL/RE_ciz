@@ -12,14 +12,7 @@ public class PlayerOwnQuest : MonoBehaviour
     public Text questDescription;
     public Text questProgress;
     public Text questReward;
-    private void Awake()
-    {
-        if(instance!=null){
-            Debug.LogWarning("Found more than one PlayerOwnQuest in the scene");
-        }
-        instance = this;
-        
-    }
+    
 
     public static PlayerOwnQuest GetInstance()
     {
@@ -33,19 +26,43 @@ public class PlayerOwnQuest : MonoBehaviour
     public string description;
     public string Todo;
 
+    public int EnemyID;
     //there are quests with many needs
-    public int RequiredAmount;
+    public int CurrentAmount = 0;
+    public int RequiredAmount = 99;
     //public int[] RequiredAmount;
     public int expReward;
     public int recoinReward;
     public string itemReward;
+
+    public string Vcomplete;
+    //public string Vdone;
     // 0 as incompleted, 1 as complete
     //public bool Accepted = false;
     public bool Completed = false;
+    private void Awake()
+    {
+        if(instance!=null){
+            Debug.LogWarning("Found more than one PlayerOwnQuest in the scene");
+        }
+        instance = this;
+        QuestManager.GetInstance().ClearPlayerOwn();
+    }
+    private void Update() {
+        //QuestManager.GetInstance().FindQuestAvailiable();
+        if(QuestID != 0 &&CurrentAmount==RequiredAmount){
+            QuestTurnin();
+            //ClearQuestOnPlayer();
+        }
+    }
 
-
-    public void ClearQuestOnPlayer(){
-
+    public void QuestTurnin(){
+        //Debug.Log("Can turn-in current quest");
+        DialogueManager.GetInstance().SetVariableState(Vcomplete, new Ink.Runtime.BoolValue(true));
+        /*bool VcomCheck = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState(Vcomplete)).value;
+        Debug.Log(Vcomplete+": "+VcomCheck);*/
     }
 
     public void displayQuestonUI(){
