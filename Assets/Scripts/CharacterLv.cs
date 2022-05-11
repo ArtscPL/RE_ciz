@@ -287,5 +287,11 @@ public class CharacterLv : MonoBehaviour
             BaseEVA = 15;
             BaseRES = 15;
         }
+        else {
+            BaseHP = 500;
+            BaseDEF = 0;
+            BaseEVA = 0;
+            BaseRES = 0;
+        }
     }
 }
