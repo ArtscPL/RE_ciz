@@ -5,10 +5,23 @@ using UnityEngine;
 public class CharacterLv : MonoBehaviour
 {
     //public int playerExp=0;
+    public static CharacterLv instance;
     public int BaseHP;
     public int BaseDEF;
     public int BaseEVA;
     public int BaseRES;
+
+    public static CharacterLv GetInstance()
+    {
+        return instance;
+    }
+
+    private void Awake() {
+        if(instance!=null){
+            Debug.LogWarning("Found more than one LevelManager in the scene");
+        }
+        instance = this;
+    }
 
     public int levelCalculator(int Exp){
         int lv = 1;

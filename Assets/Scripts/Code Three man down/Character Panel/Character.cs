@@ -4,9 +4,14 @@ using Kryz.CharacterStats;
 
 public class Character : MonoBehaviour
 {
+	public static Character instance;
 	public float Health00 = 100f;
 
+	public int PlayerLv;
+	public int PlayerExp;
+
 	[Header("Stats")]
+	//public int CurrentHP;
 	public CharacterStat Health;
 	public CharacterStat Defense;
 	public CharacterStat Evasion;
@@ -34,10 +39,39 @@ public class Character : MonoBehaviour
 			itemTooltip = FindObjectOfType<ItemTooltip>();
 	}
 
-	private void Awake()
-	{
+	public static Character GetInstance()
+    {
+        return instance;
+    }
+
+	public void LevelManage(){
+		PlayerLv = CharacterLv.GetInstance().levelCalculator(PlayerExp);
+		CharacterLv.GetInstance().GetBaseSTAT(PlayerLv);
+		Health.BaseValue = CharacterLv.GetInstance().BaseHP;
+		Defense.BaseValue = CharacterLv.GetInstance().BaseDEF;
+		Evasion.BaseValue = CharacterLv.GetInstance().BaseEVA;
+		Resistance.BaseValue = CharacterLv.GetInstance().BaseRES;
 		statPanel.SetStats(Health, Defense, Evasion, Resistance);
 		statPanel.UpdateStatValues();
+	}
+
+	private void Awake()
+	{
+		if(instance!=null){
+            Debug.LogWarning("Found more than one Character in the scene");
+        }
+        instance = this;
+		LevelManage();
+		Health00 = Health.BaseValue;
+		/*
+		PlayerLv = CharacterLv.GetInstance().levelCalculator(PlayerExp);
+		CharacterLv.GetInstance().GetBaseSTAT(PlayerLv);
+		Health.BaseValue = CharacterLv.GetInstance().BaseHP;
+		Defense.BaseValue = CharacterLv.GetInstance().BaseDEF;
+		Evasion.BaseValue = CharacterLv.GetInstance().BaseEVA;
+		Resistance.BaseValue = CharacterLv.GetInstance().BaseRES;
+		statPanel.SetStats(Health, Defense, Evasion, Resistance);
+		statPanel.UpdateStatValues();*/
 
 		// Setup Events:
 		// Right Click
@@ -73,6 +107,10 @@ public class Character : MonoBehaviour
 			itemSaveManager.LoadEquipment(this);
 			itemSaveManager.LoadInventory(this);
 		}
+	}
+
+	private void Update() {
+		LevelManage();
 	}
 
 	private void OnDestroy()

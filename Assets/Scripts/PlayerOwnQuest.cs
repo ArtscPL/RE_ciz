@@ -58,7 +58,7 @@ public class PlayerOwnQuest : MonoBehaviour
 
     public void UpdateCurrentAmount(int MonID){
         if(EnemyID==MonID){
-            
+            CurrentAmount++;
         }
     }
 
