@@ -6,6 +6,9 @@ public class Character : MonoBehaviour
 {
 	public float Health00 = 100f;
 
+	public int PlayerLevel;
+	public int PlayerExp;
+
 	[Header("Stats")]
 	public CharacterStat Health;
 	public CharacterStat Defense;
