@@ -2531,7 +2531,7 @@ MonoBehaviour:
     ChestObject: {fileID: 1240924701}
     ChestQuestion: 3+4 = ?
     ChestAnswer: 7
-    recoinReward: 0
+    recoinReward: 20
     itemReward: "\u0E04\u0E2D\u0E2B\u0E21\u0E39\u0E22\u0E48\u0E32\u0E07"
   ChestIndex: 99
 --- !u!4 &54337544
@@ -23634,10 +23634,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05626cae2b644594183710d5c3a3bf49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health00: 100
+  Health00: 500
   PlayerLv: 1
   PlayerExp: 0
-  CurrentHP: 0
   Health:
     BaseValue: 500
   Defense:
@@ -51459,6 +51458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisEnemy: {fileID: 0}
   scenesLoad: 10
 --- !u!95 &1716901274
 Animator:
