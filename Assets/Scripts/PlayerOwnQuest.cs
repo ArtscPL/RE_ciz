@@ -12,6 +12,8 @@ public class PlayerOwnQuest : MonoBehaviour
     public Text questDescription;
     public Text questProgress;
     public Text questReward;
+    public GameObject NotiUI;
+    public Text NotiText;
     
 
     public static PlayerOwnQuest GetInstance()
@@ -40,6 +42,7 @@ public class PlayerOwnQuest : MonoBehaviour
     // 0 as incompleted, 1 as complete
     //public bool Accepted = false;
     public bool Completed = false;
+    
     private void Awake()
     {
         if(instance!=null){
@@ -50,7 +53,7 @@ public class PlayerOwnQuest : MonoBehaviour
     }
     private void Update() {
         //QuestManager.GetInstance().FindQuestAvailiable();
-        if(QuestID != 0 &&CurrentAmount==RequiredAmount){
+        if(QuestID != 0 && CurrentAmount==RequiredAmount && Completed == false){
             QuestTurnin();
             //ClearQuestOnPlayer();
         }
@@ -65,10 +68,9 @@ public class PlayerOwnQuest : MonoBehaviour
     public void QuestTurnin(){
         //Debug.Log("Can turn-in current quest");
         DialogueManager.GetInstance().SetVariableState(Vcomplete, new Ink.Runtime.BoolValue(true));
-        /*bool VcomCheck = ((Ink.Runtime.BoolValue)DialogueManager
-            .GetInstance()
-            .GetVariableState(Vcomplete)).value;
-        Debug.Log(Vcomplete+": "+VcomCheck);*/
+        NotiUI.SetActive(true);
+        NotiText.text = "คุณสามารถส่งภารกิจ " +QuestName+ " ได้แล้ว";
+        Completed = true;
     }
 
     public void displayQuestonUI(){
