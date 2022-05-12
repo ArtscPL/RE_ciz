@@ -56,6 +56,12 @@ public class PlayerOwnQuest : MonoBehaviour
         }
     }
 
+    public void UpdateCurrentAmount(int MonID){
+        if(EnemyID==MonID){
+            CurrentAmount++;
+        }
+    }
+
     public void QuestTurnin(){
         //Debug.Log("Can turn-in current quest");
         DialogueManager.GetInstance().SetVariableState(Vcomplete, new Ink.Runtime.BoolValue(true));

@@ -78,7 +78,9 @@ public class QuestManager : MonoBehaviour
     public void AddQuestRewardOnClear(int QID){
         //this function contains adding reward to player
         Debug.Log("Adding Reward");
-        //DialogueManager.GetInstance().SetVariableState(QuestLists[QID].Vdone, new Ink.Runtime.BoolValue(true));
+        Character.GetInstance().PlayerExp+=QuestLists[QID].expReward;
+        Character.GetInstance().Money+=QuestLists[QID].recoinReward;
+        //item left
         QuestLists[QID].Accepted = true;
         //exp and inventory
     }
