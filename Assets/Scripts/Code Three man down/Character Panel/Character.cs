@@ -61,8 +61,7 @@ public class Character : MonoBehaviour
             Debug.LogWarning("Found more than one Character in the scene");
         }
         instance = this;
-		LevelManage();
-		Health00 = Health.BaseValue;
+		//Health00 = Health.BaseValue;
 		/*
 		PlayerLv = CharacterLv.GetInstance().levelCalculator(PlayerExp);
 		CharacterLv.GetInstance().GetBaseSTAT(PlayerLv);
@@ -102,6 +101,8 @@ public class Character : MonoBehaviour
 
 	private void Start()
 	{
+		LevelManage();
+		Health00 = Health.BaseValue;
 		if (itemSaveManager != null)
 		{
 			itemSaveManager.LoadEquipment(this);
