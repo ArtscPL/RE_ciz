@@ -4,8 +4,8 @@ INCLUDE globals.ink
 {
 -isS105 == true && MustLoseInThisFight == false: ->meetMonsterGod
 -isS105 == true && MustLoseInThisFight == true: ->lostat105 
--isS107 == true: ->fightat107
--defeatCBoss == true: ->WintheFight
+-isS107 == true && isB107 == false: ->fightat107
+-isB107 == true && isC107 == false: ->WintheFight
 }
 
 
@@ -22,11 +22,15 @@ INCLUDE globals.ink
 ชั้นว่าจิตของชั้นก็เริ่มโดนปรุงแต่งแล้วเหมือนกัน #speaker:Player #portrait:Player
 เตรียมตัวให้ไว! พ่อนายมาแล้วนั่นหนะ! #speaker:อาซิลรา #portrait:Azilra
 พ่อชั้นไม่ได้ตัวใหญ่ขนาดนี้โว้ย! #speaker:Player #portrait:Player
+~MustLoseInThisFight = true
+~fightBoss = true
+(ผู้เล่นจำเป็นต้องสนทนากับจ้าวหมาป่าอีกครั้งหลังจากจบการต่อสู้)
 ->DONE
 
 === lostat105 ===
 อึก... มันแข็งแกร่งเกินไป พลังชีวิตมหาศาลนั่นมันอะไร นี่มันบอสที่ควรอยู่แถวหมู่บ้านเริ่มต้นหรอฟะ! #speaker:Player #portrait:Player
 อย่าลืมว่าเจ้าเมืองให้เรามาสำรวจ! โกยให้ไวเลย! ไปอธิบายให้เจ้าเมืองฟังก่อน! #speaker:อาซิลรา #portrait:Azilra
+~isC105 = true
 ->DONE
 
 === fightat107 ===
@@ -49,8 +53,11 @@ INCLUDE globals.ink
 ตบมันก่อนค่อยถามละกัน ตอนนี้เราไม่น่าคุยกันรู้เรื่องนะ อย่าลืมใช้พลังของแว่นด้วยหละ #speaker:อาซิลรา #portrait:Azilra
 
 รู้แล้วหน่า จะเอาความจริงออกจากปากของแกให้ได้ #speaker:Player #portrait:Player
+
+(ผู้เล่นจำเป็นต้องสนทนากับจ้าวหมาป่าอีกครั้งหลังจากเอาชนะได้แล้ว)
 //fight scene trigger
-~fightTrigger = true
+~fightBoss = true
+//set isB107 = true when kill boss
 ->DONE
 
 === WintheFight ===
