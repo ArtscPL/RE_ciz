@@ -5,7 +5,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ยาม1 #portrait:Guard1
+//#speaker:ยาม1 #portrait:Guard1
 
 === general ===
 เดินชมรอบเมืองได้ตามสบายเลย เจ้าหนุ่ม #speaker:ยาม1 #portrait:Guard1

@@ -98,6 +98,7 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().recoinReward = 0;
         PlayerOwnQuest.GetInstance().itemReward = "";
         PlayerOwnQuest.GetInstance().Vcomplete = "";
+        PlayerOwnQuest.GetInstance().Completed = false;
     }
     /*
     public void displayQuestonUI(int QID){
