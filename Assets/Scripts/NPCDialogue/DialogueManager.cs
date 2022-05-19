@@ -139,6 +139,9 @@ public class DialogueManager : MonoBehaviour
         bool CraftOpen = ((Ink.Runtime.BoolValue)DialogueManager
             .GetInstance()
             .GetVariableState("Ccraft")).value;
+        bool FightB = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("fightBoss")).value;
         Debug.Log("Quest = "+QuestOpen+", Shop = "+ShopOpen+" and Craft = "+CraftOpen);
         if(QuestOpen){
             //quest accept pop up and add quest to player
@@ -155,6 +158,14 @@ public class DialogueManager : MonoBehaviour
             //Craft window popup
             CraftWindowPopup();
         }
+        else if(FightB){
+            //add boss to fight
+            BossFightInit();
+        }
+    }
+
+    public void BossFightInit(){
+
     }
 
     private void QuestWindowPopup()
