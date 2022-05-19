@@ -8698,7 +8698,7 @@ MonoBehaviour:
   questCProgress: {fileID: 7529688}
   questCReward: {fileID: 1545873665}
   QuestLists:
-  - QuestID: 1
+  - QuestID: 101
     QuestType: 1
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08"
     description: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E19\u0E35\u0E49\u0E21\u0E35\u0E44\u0E27\u0E49\u0E41\u0E04\u0E48\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19"
@@ -8711,7 +8711,7 @@ MonoBehaviour:
     Accepted: 0
     Vcomplete: isC101
     Completed: 0
-  - QuestID: 2
+  - QuestID: 102
     QuestType: 3
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
     description: "\u0E01\u0E32\u0E23\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
@@ -23653,6 +23653,7 @@ GameObject:
   - component: {fileID: 740997324}
   - component: {fileID: 740997327}
   - component: {fileID: 740997326}
+  - component: {fileID: 740997328}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -23851,6 +23852,11 @@ MonoBehaviour:
   Health00: 500
   PlayerLv: 1
   PlayerExp: 0
+  Killcount: 0
+  DeathC: 0
+  MaxDMG: 0
+  CraftEquip: 0
+  ChestUnlocked: 0
   Health:
     BaseValue: 500
   Defense:
@@ -23869,6 +23875,36 @@ MonoBehaviour:
   dropItemArea: {fileID: 212796891}
   reallyDropItemDialog: {fileID: 261313752}
   itemSaveManager: {fileID: 0}
+--- !u!114 &740997328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740997318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd91bccd1364a4f41b317b33e4c34736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LV: {fileID: 1953618594}
+  EXP: {fileID: 1770732829}
+  MHP: {fileID: 1410418396}
+  Def: {fileID: 1523877602}
+  Eva: {fileID: 460706979}
+  Res: {fileID: 1883887339}
+  questProgress: {fileID: 756719640}
+  MonKill: {fileID: 47657348}
+  ChestFound: {fileID: 1570981951}
+  HighestDMG: {fileID: 852918129}
+  DeathCount: {fileID: 1973030358}
+  CraftSuccess: {fileID: 958065235}
+  Lesson1Score: {fileID: 153484771}
+  Lesson1_1Score: {fileID: 957455724}
+  Lesson1_2Score: {fileID: 1578564751}
+  Lesson2_1Score: {fileID: 1954335648}
+  Lesson2_2Score: {fileID: 1559721307}
+  ScoreTotal: {fileID: 614597021}
 --- !u!1 &742655938
 GameObject:
   m_ObjectHideFlags: 0
@@ -37898,7 +37934,7 @@ MonoBehaviour:
   CharacterUI: {fileID: 1307950710}
   RePoUI: {fileID: 1890392167}
   player: {fileID: 740997321}
-  ppro: {fileID: 0}
+  ppro: {fileID: 740997328}
 --- !u!114 &1268840601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37913,7 +37949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bcon: {fileID: 1268840600}
   QR: {fileID: 0}
-  pprofile: {fileID: 0}
+  pprofile: {fileID: 740997328}
 --- !u!114 &1268840602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52247,7 +52283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 200, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1728539087

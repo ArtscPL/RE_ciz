@@ -80,11 +80,11 @@ public class PlayerProfile : MonoBehaviour
             .GetVariableState("CavectarScore")).value;
         int QuestProgress = PlayerOwnQuest.GetInstance().QuestIDTracking;
         questProgress.text = "ความคืบหน้าภารกิจ(%): " + calculateQuestProgress(QuestProgress) +"%";
-        //MonKill
-        //ChestFound
-        //HighestDMG
-        //DeathCount
-        //CraftSuccess
+        MonKill.text = "จำนวนมอนสเตอร์ที่ถูกกำจัด: " + Character.GetInstance().Killcount;
+        ChestFound.text = "กล่องปริศนาที่ถูกเปิด: " + Character.GetInstance().ChestUnlocked + "/21";
+        HighestDMG.text = "ความเสียหายสูงสุดที่ทำได้: " + Character.GetInstance().MaxDMG;
+        DeathCount.text = "พ่ายแพ้ในการต่อสู้: " + Character.GetInstance().DeathC;
+        CraftSuccess.text = "จำนวนอุปกรณ์ที่สร้าง: " + Character.GetInstance().CraftEquip;
         Lesson1Score.text = "หลักการนับ: " + CScore + "/10";
         Lesson1_1Score.text = "การเรียงสับเปลี่ยน: " + SScore + "/5";
         Lesson1_2Score.text = "การจัดหมู่: " + FScore + "/5";
