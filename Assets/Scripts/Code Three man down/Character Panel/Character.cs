@@ -20,7 +20,7 @@ public class Character : MonoBehaviour
 	[Header("Public")]
 	public Inventory Inventory;
 	public EquipmentPanel EquipmentPanel;
-	public float Money;
+	public int Money;
 
 	[Header("Serialize Field")]
 	[SerializeField] CraftingWindow craftingWindow;
@@ -32,7 +32,6 @@ public class Character : MonoBehaviour
 	[SerializeField] ItemSaveManager itemSaveManager;
 
 	private BaseItemSlot dragItemSlot;
-
 	private void OnValidate()
 	{
 		if (itemTooltip == null)
@@ -112,6 +111,11 @@ public class Character : MonoBehaviour
 
 	private void Update() {
 		LevelManage();
+		Debug.Log(MoveData.itemFromEnemy[0].ItemName);
+		if (MoveData.itemFromEnemy[0] != null)
+		{
+			Inventory.AddItem(MoveData.itemFromEnemy[0]);
+		}
 	}
 
 	private void OnDestroy()

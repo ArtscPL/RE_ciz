@@ -14,5 +14,7 @@ public class ShowResult : MonoBehaviour
         showText[0].text = "+" + enemy.MoneyDrop.ToString();
         showText[1].text = "+" + enemy.expDrop.ToString();
         showText[2].text = turn.turn.ToString();
+        showText[3].text = enemy.itemDrop[0].ItemName;
+        showText[4].text = enemy.itemDrop[1].ItemName;
     }
 }

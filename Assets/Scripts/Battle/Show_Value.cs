@@ -9,7 +9,7 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     private int DamageFormPlayer;
     private int HealthFromEnemy;
     public CalculateState calculateState;
-    public Random_Enemy_HP RandomEnemyHp;
+    public Random_Enemy_Hp RandomEnemyHp;
     public List<Marble> marble;
     public int DamageResult;
     public GameObject target;
@@ -44,10 +44,10 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
         DamageResult = Mathf.Abs(DamageFormPlayer - HealthFromEnemy);
         yield return new WaitForSeconds(2f);
         RandomEnemyHp.HP = DamageResult;
-        if (DamageResult == 0)
+        bool deadornot = RandomEnemyHp.DeadorNot(DamageResult);
+        if (deadornot == true)
         {
             calculateState.Objects[9].SetActive(false);
-            Debug.Log("Enemy Dead But Have EnemyID is " + RandomEnemyHp.enemyStat.enemyID.ToString());
             target.gameObject.SetActive(true);
         }
         else 

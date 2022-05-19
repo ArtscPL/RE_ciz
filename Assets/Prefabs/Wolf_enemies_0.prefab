@@ -153,3 +153,6 @@ MonoBehaviour:
   damage: 20
   expDrop: 10
   MoneyDrop: 100
+  itemDrop:
+  - {fileID: 11400000, guid: 7fa5c12c058dd9349be641addd8296ea, type: 2}
+  - {fileID: 11400000, guid: 88282f2899232bc4eb5364431a326bb0, type: 2}

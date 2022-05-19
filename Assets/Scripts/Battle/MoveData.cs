@@ -9,4 +9,8 @@ public class MoveData : MonoBehaviour
     public static int P_Def;
     public static int P_Eva;
     public static int P_Res;
+    public static int Exp;
+    public static int Money;
+    public static int LvPlayer;
+    public static List<Item> itemFromEnemy;
 }

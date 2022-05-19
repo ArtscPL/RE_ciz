@@ -7,7 +7,7 @@ public class HealtBar : MonoBehaviour
 {
     private Image Health_bar;
     public float CurrentHealth;
-    private float MaxHealth = 100f;
+    private float MaxHealth;
     Character player;
     void Start()
     {
@@ -18,10 +18,8 @@ public class HealtBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MaxHealth = player.Health.Value;
         CurrentHealth = player.Health00;
-        
-        if (CurrentHealth > 100)
-        CurrentHealth = 100f;
 
         Health_bar.fillAmount = CurrentHealth/MaxHealth;
     }

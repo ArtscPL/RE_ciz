@@ -10,4 +10,5 @@ public class EnemyStat : MonoBehaviour
     public int damage;
     public int expDrop;
     public int MoneyDrop;
+    public Item[] itemDrop;
 }

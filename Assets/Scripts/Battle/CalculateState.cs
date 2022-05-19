@@ -20,7 +20,6 @@ public class CalculateState : MonoBehaviour
     void Start()
     {
         SetStateValue();
-        Debug.Log(marbleValue.Count);
     }
 
     // Update is called once per frame

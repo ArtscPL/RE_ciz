@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public class Random_Enemy_HP : MonoBehaviour
+public class Random_Enemy_Hp : MonoBehaviour
 {
     public GameObject target;
     public Transform ChatBackGround;
     public Transform Enemy;
     public TMP_Text showText;
     public GameObject Number_HP;
-    public EnemyStat enemyStat;
-    public PlayerStat player;
+    public StatofPlayer player;
     public TurnUse turn;
     public int HP;
+    private EnemyStat enemyStat;
     void Start()
     {
         enemyStat = MoveData.enemyPrefabs.GetComponent<EnemyStat>();
@@ -49,6 +49,7 @@ public class Random_Enemy_HP : MonoBehaviour
             player.currenthp -= enemyStat.damage;
             int hp = player.currenthp;
             bool isDead = player.setHP(hp);
+            Debug.Log(hp);
             if (isDead == true)
             {
                 target.gameObject.SetActive(true);
@@ -60,5 +61,19 @@ public class Random_Enemy_HP : MonoBehaviour
             Debug.Log("Evasion Success");
         }
         turn.turn += 1;
+    }
+
+    public bool DeadorNot(int DamageRecive)
+    {
+        if (DamageRecive == 0)
+        {
+            MoveData.itemFromEnemy = new List<Item>();
+            for (int i = 0; i < enemyStat.itemDrop.Length; i++)
+            {
+                MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
+            }
+            return true;
+        }
+        else return false;
     }
 }
