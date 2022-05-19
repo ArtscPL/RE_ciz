@@ -2,7 +2,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ช่างตีเหล็ก #portrait:BlackS
+//#speaker:ช่างตีเหล็ก #portrait:BlackS
 ->general
 
 === 203part2 ===

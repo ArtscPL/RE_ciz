@@ -75,7 +75,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:เฒ่ายา #portrait:CMerchant
+//#speaker:เฒ่ายา #portrait:CMerchant
 
 === start103 ===
 เราเจอกันอีกแล้ว นักผจญภัยหนุ่ม ช่วงนี้เธอได้ยินข่าวรึเปล่าหละว่าหมาป่าดุร้ายได้ออกอาละวาดมากขึ้น ทำให้ครั้งก่อนเธอต้องไปเก็บส่วนผสมให้ปู่ไง #speaker:เฒ่ายา #portrait:CMerchant

@@ -2,7 +2,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ยาม1 #portrait:GuardF1
+//#speaker:ยาม1 #portrait:GuardF1
 
 {isS209 == true && isSS209 == false: ->Arrival | ->general}
 

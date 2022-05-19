@@ -4,7 +4,7 @@ INCLUDE globals.ink
 ->general
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ช่างตีเหล็ก #portrait:BlackC
+//#speaker:ช่างตีเหล็ก #portrait:BlackC
 
 === general ===
 ~questAccepted = false

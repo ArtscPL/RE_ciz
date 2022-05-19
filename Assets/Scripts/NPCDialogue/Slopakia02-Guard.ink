@@ -78,7 +78,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ยามนํ้าแข็ง #portrait:GuardS
+//#speaker:ยามนํ้าแข็ง #portrait:GuardS
 
 
 === finish201 ===

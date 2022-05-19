@@ -1,7 +1,7 @@
 INCLUDE globals.ink
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:เจ้าเมือง #portrait:LordS
+//#speaker:เจ้าเมือง #portrait:LordS
 //->SecondExamIntro
 {isD204 == true && isS205 == false:->start205}
 {isSS205 == true && isSSS205 == false: ->205part2}
@@ -10,6 +10,18 @@ INCLUDE globals.ink
 {isD207 == true && isS208 == false: ->start208}
 {isC208 == true && isD208 == false: ->finish208 }
 {isD208 == true && isS209 == false: ->start209}
+{isSS404 == true && isCC404 == false: ->404get}
+
+=== 404get ===
+ท่านเจ้าเมือง ผมมีเรื่องจะขอ#speaker:Player #portrait:Player
+
+ว่าไง ข้ายินดีช่วยอยู่แล้ว#speaker:เจ้าเมือง #portrait:LordS
+
+(อธิบายสถานการณ์)#speaker:Player #portrait:Player
+
+เอาหละ ข้าเข้าใจเรื่องราวทั้งหมดแล้ว รับของไป#speaker:เจ้าเมือง #portrait:LordS
+~isCC404 = true
+->DONE
 
 === start205 ===
 เจ้ามาแล้ว เด็กหนุ่มเผ่ามนุษย์!#speaker:เจ้าเมือง #portrait:LordS

@@ -2,12 +2,18 @@ INCLUDE globals.ink
 
 //->WintheFight
 {
+-isS105 == false: ->restriction
 -isS105 == true && MustLoseInThisFight == false: ->meetMonsterGod
 -isS105 == true && MustLoseInThisFight == true: ->lostat105 
 -isS107 == true && isB107 == false: ->fightat107
 -isB107 == true && isC107 == false: ->WintheFight
 }
 
+=== restriction ===
+???
+
+ถอยด่วน เจ้านี่เก่งเกินกว่าที่นายจะรับมือได้ #speaker:อาซิลรา #portrait:Azilra
+->DONE
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra

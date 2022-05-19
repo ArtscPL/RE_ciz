@@ -110,10 +110,12 @@ VAR isD301 = false
 
 VAR isS302 = false
 VAR isC302 = false
+VAR isCC302 = false
 VAR isD302 = false
 
 VAR isS303 = false
 VAR isC303 = false
+VAR isCC303 = false
 VAR isD303 = false
 
 VAR isS304 = false
@@ -125,6 +127,7 @@ VAR isC305 = false
 VAR isD305 = false
 
 VAR isS306 = false
+VAR isB306 = false
 VAR isC306 = false
 VAR isD306 = false
 
@@ -141,20 +144,21 @@ VAR isC403 = false
 VAR isD403 = false
 
 VAR isS404 = false
+VAR isSS404 = false
+VAR isCC404 = false
 VAR isC404 = false
 VAR isD404 = false
 
 VAR isS405 = false
 VAR isC405 = false
+VAR isCC405 = false
 VAR isD405 = false
 
 VAR isS406 = false
 VAR isC406 = false
+VAR isCC406 = false
 VAR isD406 = false
 
-VAR isS407 = false
-VAR isC407 = false
-VAR isD407 = false
 
 VAR isS501 = false
 VAR isC501 = false
@@ -169,6 +173,7 @@ VAR isC503 = false
 VAR isD503 = false
 
 VAR isS504 = false
+VAR isSS504 = false
 VAR isC504 = false
 VAR isD504 = false
 
@@ -178,6 +183,7 @@ VAR isD505 = false
 
 VAR isS506 = false
 VAR isC506 = false
+VAR isB506 = false
 VAR isD506 = false
 
 VAR isS601 = false
@@ -191,3 +197,7 @@ VAR isD602 = false
 VAR isS603 = false
 VAR isC603 = false
 VAR isD603 = false
+
+VAR isS604 = false
+VAR isC604 = false
+VAR isD604 = false

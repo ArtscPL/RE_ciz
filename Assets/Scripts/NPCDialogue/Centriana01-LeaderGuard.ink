@@ -7,7 +7,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:หัวหน้ายาม #portrait:GuardLeader
+//#speaker:หัวหน้ายาม #portrait:GuardLeader
 
 === start104 ===
 เอ่อ ขอโทษครับ คุณหัวหน้ายามรักษาการณ์ ผมอยากจะพบกับท่านเจ้าเมืองครับ 

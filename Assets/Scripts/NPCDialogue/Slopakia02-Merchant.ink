@@ -1,11 +1,11 @@
 INCLUDE globals.ink
 
-#speaker:เจ้าของร้าน #portrait:SMerchant
+//#speaker:เจ้าของร้าน #portrait:SMerchant
 
 ->general
 
 === general ===
-ยินดีต้อนรับสู่ร้านค้าเมืองหนาว 
+ยินดีต้อนรับสู่ร้านค้าเมืองหนาว #speaker:เจ้าของร้าน #portrait:SMerchant
 
 + [เข้าสู่ร้านค้า]
     ~Cshop = true
