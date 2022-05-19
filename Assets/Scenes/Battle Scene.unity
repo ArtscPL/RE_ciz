@@ -6772,7 +6772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f05cb4fd74000a45bc03e68d3b9e204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 933305114}
+  target: {fileID: 1736005517}
   ChatBackGround: {fileID: 191805149}
   Enemy: {fileID: 1181547567}
   showText: {fileID: 191805147}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public class Random_Enemy_Hp : MonoBehaviour
+public class Random_Enemy_HP : MonoBehaviour
 {
     public GameObject target;
     public Transform ChatBackGround;

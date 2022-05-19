@@ -9,7 +9,7 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     private int DamageFormPlayer;
     private int HealthFromEnemy;
     public CalculateState calculateState;
-    public Random_Enemy_Hp RandomEnemyHp;
+    public Random_Enemy_HP RandomEnemyHp;
     public List<Marble> marble;
     public int DamageResult;
     public GameObject target;
