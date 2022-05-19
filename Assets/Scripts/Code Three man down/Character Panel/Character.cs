@@ -9,10 +9,11 @@ public class Character : MonoBehaviour
 
 	public int PlayerLv;
 	public int PlayerExp;
-	public int DeathC;
-	public int MaxDMG;
-	public int CraftEquip;
-	public int ChestUnlocked;
+	public int Killcount=0;
+	public int DeathC=0;
+	public int MaxDMG=0;
+	public int CraftEquip=0;
+	public int ChestUnlocked=0;
 
 
 	[Header("Stats")]
@@ -48,6 +49,26 @@ public class Character : MonoBehaviour
     {
         return instance;
     }
+
+	public void ChestUp(){
+		ChestUnlocked++;
+	}
+
+	public void KillUp(){
+		Killcount++;
+	}
+
+	public void DeathUp(){
+		DeathC++;
+	}
+
+	public void ChestUp(int dmg){
+		MaxDMG = dmg;
+	}
+
+	public void CraftUp(){
+		CraftEquip++;
+	}
 
 	public void LevelManage(){
 		PlayerLv = CharacterLv.GetInstance().levelCalculator(PlayerExp);

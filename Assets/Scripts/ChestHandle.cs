@@ -68,7 +68,8 @@ public class ChestHandle : MonoBehaviour
         // submitted
         if(ans==ChestL.ChestAnswer){
             Debug.Log(ChestL.ChestAnswer + " is a correct answer of this chest");
-            Debug.Log(ans + " is Correct~!!");
+            //Debug.Log(ans + " is Correct~!!");
+            Character.GetInstance().ChestUp();
             ClearField();
             ChestRewardShowUp(ChestL); 
         }
