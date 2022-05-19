@@ -7525,7 +7525,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e703a56401810504b8cf6dad7adc490f, type: 2}
     - target: {fileID: 4024657915402203352, guid: f8877b02425dbab499e5172a1c8e464a, type: 3}
       propertyPath: m_Name
-      value: sf_chest_GOLD_empty (3)
+      value: ChestQuest
       objectReference: {fileID: 0}
     - target: {fileID: 4024657915624390561, guid: f8877b02425dbab499e5172a1c8e464a, type: 3}
       propertyPath: m_RootOrder
@@ -7545,7 +7545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4024657915624390561, guid: f8877b02425dbab499e5172a1c8e464a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.37
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4024657915624390561, guid: f8877b02425dbab499e5172a1c8e464a, type: 3}
       propertyPath: m_LocalPosition.y
