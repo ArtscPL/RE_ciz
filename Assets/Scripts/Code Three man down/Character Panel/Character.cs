@@ -9,6 +9,11 @@ public class Character : MonoBehaviour
 
 	public int PlayerLv;
 	public int PlayerExp;
+	public int DeathC;
+	public int MaxDMG;
+	public int CraftEquip;
+	public int ChestUnlocked;
+
 
 	[Header("Stats")]
 	//public int CurrentHP;

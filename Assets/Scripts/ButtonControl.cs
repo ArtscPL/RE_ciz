@@ -89,7 +89,7 @@ public class ButtonControl : MonoBehaviour
         else
         {
             CharacterUI.SetActive(true);
-            //ppro.ProfileUIchanged();
+            ppro.ProfileUIchanged();
             QuestUI.SetActive(false);
             PauseMenuUI.SetActive(false);
             MapUI.SetActive(false);
