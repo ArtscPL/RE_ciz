@@ -5,7 +5,7 @@ INCLUDE globals.ink
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
-่//#speaker:ยาม2 #portrait:Guard2
+//#speaker:ยาม2 #portrait:Guard2
 
 === finish103 ===
 ~questTurnin = true

@@ -1,14 +1,40 @@
 INCLUDE globals.ink
 
+//#speaker:Player #portrait:Player
+//#speaker:อาซิลรา #portrait:Azilra
+//#speaker:เจ้าเมือง #portrait:Lord
+
 //->start108
-{isD103 == false || isS108 == true: ->general}
 {isD104 == true && isS105 == false: ->start105}
 {isC105 == true && isD105 == false: ->finish105}
 {isD106 == true && isS107 == false: ->start107}
+{isS205 == true && isSS205 == false: ->205part1}
+{isS406 == true && isCC406 == false: ->406con}
+{isD103 == false || isS108 == true: ->general}
 
 ===general===
 ??? #speaker:Player #portrait:Player
 เดินชมรอบเมืองได้เลยหนุ่มน้อย #speaker:เจ้าเมือง #portrait:LordC
+->DONE
+
+=== 205part1 ===
+โอ้เธอกลับมาแล้วเจ้าหนุ่ม ดูเหมือนเจ้าจะมีปัญหานะ ถ้าข้าช่วยได้ข้าก็พร้อมจะช่วย#speaker:เจ้าเมือง #portrait:Lord
+(อธิบายสถานการณ์)#speaker:Player #portrait:Player
+ข้ายินดีจะช่วยเจ้าอยู่แล้วเจ้าหนุ่ม ข้ามีผลึกไฟอเวจีอยู่จริงๆนั่นแหละ ข้าได้มันมาในตอนที่ข้าเป็นทหารที่ปกป้องเจ้าเมืองฟอเรติน่า รับไปซะ หากเจ้ามีปัญหาอะไรข้ายินดีจะช่วยเจ้าเสมอ#speaker:เจ้าเมือง #portrait:Lord
+~isSS205 = true
+->DONE
+
+=== 406con ===
+รู้อยู่แล้วหละว่ายังไงเธอก็ต้องไปที่นั่นแน่ๆ ฝากความคิดถึงไปหาลูกชายข้าด้วยหละ #speaker:เจ้าเมือง #portrait:Lord
+
+เขาไม่ความคิดเห็นไม่ตรงกับกับข้า ทำให้พวกเราต้องแยกทางกัน โฮะๆๆ วัยรุ่นนี่ละนะมันก็ต้องมีวัยต่อต้านกันบ้าง#speaker:เจ้าเมือง #portrait:Lord
+
+เอ่อ... นั่นสินะครับ#speaker:Player #portrait:Player
+
+ข้าได้ยินมาว่าชาวเมืองที่นั่นไม่ค่อยต้อนรับคนนอกเท่าไหร่ อย่าพยายามยั่วยุพวกเขาหละ เอ้านี่จดหมายแนะนำตัว เอาไว้ไปให้ยามดู#speaker:เจ้าเมือง #portrait:Lord
+
+ขอบคุณมากๆครับ ว่าแต่ท่านเจ้าเมืองเห็นผมเป็นคนยังไงเนี่ย...#speaker:Player #portrait:Player
+~isCC406 = true
 ->DONE
 
 === start105 ===
