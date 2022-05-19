@@ -59,7 +59,7 @@ public class PauseDi : MonoBehaviour
         {
             Bcon.Profile();
             //might be changed 
-            pprofile.ProfileUIchanged();
+            //pprofile.ProfileUIchanged();
         }
 
         if (Input.GetKeyDown(KeyCode.H)&&!ChestControl.GetInstance().triggerUI)
