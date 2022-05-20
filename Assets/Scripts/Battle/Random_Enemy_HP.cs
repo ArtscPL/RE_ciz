@@ -72,6 +72,7 @@ public class Random_Enemy_HP : MonoBehaviour
             {
                 MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
             }
+            MoveData.Youwin = true;
             return true;
         }
         else return false;

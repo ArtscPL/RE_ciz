@@ -133,17 +133,23 @@ public class Character : MonoBehaviour
 			itemSaveManager.LoadEquipment(this);
 			itemSaveManager.LoadInventory(this);
 		}
+		AddItemFromBattle();
 	}
 
 	private void Update() {
 		LevelManage();
-		Debug.Log(MoveData.itemFromEnemy[0].ItemName);
-		if (MoveData.itemFromEnemy[0] != null)
+	}
+	private void AddItemFromBattle()
+	{
+		if (MoveData.Youwin)
 		{
-			Inventory.AddItem(MoveData.itemFromEnemy[0]);
+			foreach (Item item in MoveData.itemFromEnemy)
+				{
+					Inventory.AddItem(item.GetCopy());
+				}
+			MoveData.Youwin = false;
 		}
 	}
-
 	private void OnDestroy()
 	{
 		if (itemSaveManager != null)

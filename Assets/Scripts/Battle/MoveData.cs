@@ -13,4 +13,5 @@ public class MoveData : MonoBehaviour
     public static int Money;
     public static int LvPlayer;
     public static List<Item> itemFromEnemy;
+    public static bool Youwin;
 }
