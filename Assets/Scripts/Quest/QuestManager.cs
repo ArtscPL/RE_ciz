@@ -60,6 +60,7 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().recoinReward = QuestLists[QID].recoinReward;
         PlayerOwnQuest.GetInstance().itemReward = QuestLists[QID].itemReward;
         PlayerOwnQuest.GetInstance().Vcomplete = QuestLists[QID].Vcomplete;
+        PlayerOwnQuest.GetInstance().ItemComplete = QuestLists[QID].ItemInstance;
         //PlayerOwnQuest.GetInstance().Vdone = QuestLists[QID].Vdone;
     }
 
@@ -71,6 +72,10 @@ public class QuestManager : MonoBehaviour
         questCProgress.text = QuestLists[QID].Todo;
         questCReward.text = "EXP +" + QuestLists[QID].expReward.ToString() + ", " + "ReCoin +" + QuestLists[QID].recoinReward.ToString() + "\n" + QuestLists[QID].itemReward;
         PlayerOwnQuest.GetInstance().QuestIDTracking = QuestLists[QID].QuestID;
+        if(PlayerOwnQuest.GetInstance().ItemComplete != null){
+            Character.GetInstance().Inventory.AddItem(PlayerOwnQuest.GetInstance().ItemComplete);
+            Debug.Log(PlayerOwnQuest.GetInstance().ItemComplete+ " Added");
+        }
         AddQuestRewardOnClear(QID);
         //ClearPlayerOwn();
     }
@@ -99,6 +104,7 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().itemReward = "";
         PlayerOwnQuest.GetInstance().Vcomplete = "";
         PlayerOwnQuest.GetInstance().Completed = false;
+        PlayerOwnQuest.GetInstance().ItemComplete = null;
     }
     /*
     public void displayQuestonUI(int QID){
@@ -154,5 +160,6 @@ public class QuestManager : MonoBehaviour
         public string Vcomplete;
         //public string Vdone;
         public bool Completed;
+        public Item ItemInstance;
     }
 }

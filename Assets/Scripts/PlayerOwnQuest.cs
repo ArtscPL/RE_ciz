@@ -42,6 +42,7 @@ public class PlayerOwnQuest : MonoBehaviour
     // 0 as incompleted, 1 as complete
     //public bool Accepted = false;
     public bool Completed = false;
+    public Item ItemComplete;
     
     private void Awake()
     {
