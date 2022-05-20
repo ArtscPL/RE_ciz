@@ -150,6 +150,7 @@ MonoBehaviour:
   enemyID: 3
   minhp: 500
   maxhp: 750
-  damage: 50
+  damage: 500
   expDrop: 30
   MoneyDrop: 500
+  itemDrop: []

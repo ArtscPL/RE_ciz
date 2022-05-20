@@ -1,23 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
 
 public class ShowResult : MonoBehaviour
 {
     private EnemyStat enemy;
     public TurnUse turn;
-    public TMP_Text[] showText;
     public Text[] EndText;
+    int i = 3;
     void Start()
     {
         enemy = MoveData.enemyPrefabs.GetComponent<EnemyStat>();
-        /*showText[0].text = "+" + enemy.MoneyDrop.ToString();
-        showText[1].text = "+" + enemy.expDrop.ToString();
-        showText[2].text = turn.turn.ToString();
-        showText[3].text = enemy.itemDrop[0].ItemName;
-        showText[4].text = enemy.itemDrop[1].ItemName;*/
         Show_Result();
     }
 
@@ -25,7 +19,11 @@ public class ShowResult : MonoBehaviour
         EndText[0].text = "+" + enemy.MoneyDrop.ToString();
         EndText[1].text = "+" + enemy.expDrop.ToString();
         EndText[2].text = turn.turn.ToString();
-        EndText[3].text = enemy.itemDrop[0].ItemName+"x1";
-        EndText[4].text = enemy.itemDrop[1].ItemName+"x1";
+        foreach (Item item in MoveData.itemFromEnemy)
+        {
+            EndText[i].gameObject.SetActive(true);
+            EndText[i].text = item.ItemName+"x1";
+            i++;
+        }
     }
 }

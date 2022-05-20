@@ -11,9 +11,11 @@ public class StatofPlayer : MonoBehaviour
     public int Eva;
     public int Res;
     public Slider hpslider;
+    public Text showHP;
     void Start()
     {
         Setstat();
+        setHP(currenthp);
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class StatofPlayer : MonoBehaviour
     public bool setHP(int hp)
     {
         hpslider.value = hp;
+        showHP.text = hp.ToString() + "/" + maxhp.ToString();
         if (hp <= 0)
             return true;
         else return false;
@@ -38,5 +41,9 @@ public class StatofPlayer : MonoBehaviour
         currenthp = maxhp;
         hpslider.maxValue = maxhp;
         hpslider.value = currenthp;
+        Debug.Log(maxhp);
+        Debug.Log(Def);
+        Debug.Log(Eva);
+        Debug.Log(Res);
     }
 }

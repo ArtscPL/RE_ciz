@@ -16,3 +16,4 @@ MonoBehaviour:
   ItemName: Devil Root
   Icon: {fileID: 21300000, guid: e21069b2c064f3b4aa0d82e8acb3cd02, type: 3}
   MaximumStacks: 999
+  Title: "\u0E40\u0E2B \u0E2B\u0E31\u0E01\u0E0A\u0E48\u0E32"

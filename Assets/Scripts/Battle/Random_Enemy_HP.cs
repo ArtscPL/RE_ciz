@@ -43,10 +43,10 @@ public class Random_Enemy_HP : MonoBehaviour
 
     public void Attack()
     {
-        int How = Random.Range(0,10);
-        if (How >= 3)
+        int How = Random_Number_Enemy_HP(0,100);
+        if (How > MoveData.P_Eva)
         {
-            player.currenthp -= enemyStat.damage;
+            player.currenthp -= (enemyStat.damage - MoveData.P_Def);
             int hp = player.currenthp;
             bool isDead = player.setHP(hp);
             Debug.Log(hp);
@@ -70,7 +70,9 @@ public class Random_Enemy_HP : MonoBehaviour
             MoveData.itemFromEnemy = new List<Item>();
             for (int i = 0; i < enemyStat.itemDrop.Length; i++)
             {
-                MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
+                int j = Random_Number_Enemy_HP(0,100);
+                if (j <= enemyStat.itemDrop[i].Droprate)
+                    MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
             }
             MoveData.Youwin = true;
             return true;

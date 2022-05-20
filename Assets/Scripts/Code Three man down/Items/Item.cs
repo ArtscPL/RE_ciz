@@ -15,6 +15,7 @@ public class Item : ScriptableObject
 	public int MaximumStacks = 1;
 	public string Title;
 	protected static readonly StringBuilder sb = new StringBuilder();
+	public int Droprate;
 
 	#if UNITY_EDITOR
 	protected virtual void OnValidate()
@@ -36,7 +37,7 @@ public class Item : ScriptableObject
 
 	public virtual string GetItemType()
 	{
-		return "";
+		return "Misc";
 	}
 
 	public virtual string GetDescription()
@@ -45,6 +46,6 @@ public class Item : ScriptableObject
 	}
 	public virtual string GetItemTitle()
 	{
-		return "";
+		return Title;
 	}
 }
