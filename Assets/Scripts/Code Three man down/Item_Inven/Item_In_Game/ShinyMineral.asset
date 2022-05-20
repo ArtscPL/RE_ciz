@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f098b1f861fd94bb6f09f84fe87404, type: 3}
   m_Name: ShinyMineral
   m_EditorClassIdentifier: 
-  id: 
-  ItemName: 
-  Icon: {fileID: 0}
-  MaximumStacks: 1
-  Title: 
+  id: ded03cfdf9bb6c8458fa8eecc30cb963
+  ItemName: "\u0E41\u0E23\u0E48\u0E2A\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E22"
+  Icon: {fileID: 21300000, guid: 6e144e06249edde49b4b761241ad69c3, type: 3}
+  MaximumStacks: 999
+  Title: "\u0E41\u0E23\u0E48\u0E1E\u0E34\u0E40\u0E28\u0E29\u0E17\u0E35\u0E48\u0E1E\u0E1A\u0E44\u0E14\u0E49\u0E43\u0E19\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E07\u0E17\u0E35\u0E48\u0E25\u0E36\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14
+    \u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E01\u0E48\u0E2D\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E41\u0E2A\u0E07
+    \u0E44\u0E14\u0E49\u0E14\u0E49\u0E27\u0E22\u0E15\u0E31\u0E27\u0E21\u0E31\u0E19\u0E40\u0E2D\u0E07"

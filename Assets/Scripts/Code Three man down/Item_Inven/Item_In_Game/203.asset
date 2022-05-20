@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
   m_Name: 203
   m_EditorClassIdentifier: 
-  id: 
-  ItemName: 
-  Icon: {fileID: 0}
+  id: 7b5ef137e2e261b4dadce92cde671e1a
+  ItemName: "\u0E2B\u0E21\u0E27\u0E01\u0E2D\u0E31\u0E28\u0E27\u0E34\u0E19\u0E40\u0E2B\u0E25\u0E47\u0E01"
+  Icon: {fileID: 21300000, guid: b04d6617c7cdadb448e628815c757b8a, type: 3}
   MaximumStacks: 1
-  Title: 
-  HP_Bonus: 0
+  Title: "\u0E2B\u0E21\u0E27\u0E01\u0E17\u0E35\u0E48\u0E01\u0E47\u0E40\u0E2B\u0E47\u0E19\u0E01\u0E47\u0E2B\u0E19\u0E31\u0E01\u0E2B\u0E31\u0E27\u0E41\u0E25\u0E49\u0E27"
+  HP_Bonus: 200
   Def_Bonus: 0
   Eva_Bonus: 0
   Res_Bonus: 0

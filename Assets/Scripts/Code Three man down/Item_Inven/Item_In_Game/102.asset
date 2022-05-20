@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
   m_Name: 102
   m_EditorClassIdentifier: 
-  id: 
-  ItemName: 
-  Icon: {fileID: 0}
+  id: a805b626dfe8741408bf5f4e2eda06ed
+  ItemName: "\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E01\u0E31\u0E19\u0E2B\u0E19\u0E32\u0E27"
+  Icon: {fileID: 21300000, guid: 9553c7ff2fb230a4aaac062f942295fe, type: 3}
   MaximumStacks: 1
-  Title: 
+  Title: "\u0E01\u0E47\u0E41\u0E04\u0E48\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E01\u0E31\u0E19\u0E2B\u0E19\u0E32\u0E27\u0E17\u0E35\u0E48\u0E43\u0E2A\u0E48\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E31\u0E19\u0E2B\u0E19\u0E32\u0E27
+    \u0E07\u0E07\u0E2D\u0E30\u0E44\u0E23"
   HP_Bonus: 0
-  Def_Bonus: 0
+  Def_Bonus: 300
   Eva_Bonus: 0
-  Res_Bonus: 0
+  Res_Bonus: 20
   HP_PercentBonus: 0
   Def_PercentBonus: 0
   Eva_PercentBonus: 0
   Res_PercentBonus: 0
-  EquipmentType: 0
+  EquipmentType: 1

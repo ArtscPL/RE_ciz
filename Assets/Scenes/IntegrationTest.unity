@@ -23654,6 +23654,7 @@ GameObject:
   - component: {fileID: 740997327}
   - component: {fileID: 740997326}
   - component: {fileID: 740997328}
+  - component: {fileID: 740997329}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -23905,6 +23906,19 @@ MonoBehaviour:
   Lesson2_1Score: {fileID: 1954335648}
   Lesson2_2Score: {fileID: 1559721307}
   ScoreTotal: {fileID: 614597021}
+--- !u!114 &740997329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740997318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd853c27763a7d04c88e27413bebcaaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 740997327}
 --- !u!1 &742655938
 GameObject:
   m_ObjectHideFlags: 0
@@ -51982,7 +51996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisEnemy: {fileID: 0}
+  thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   scenesLoad: 10
 --- !u!95 &1716901274
 Animator:
