@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
   m_Name: 208
   m_EditorClassIdentifier: 
-  id: 
-  ItemName: 
-  Icon: {fileID: 0}
+  id: 38a6e54a1926d6044a642dd7bf1ddeb9
+  ItemName: "\u0E14\u0E32\u0E1A\u0E01\u0E23\u0E30\u0E14\u0E39\u0E01\u0E09\u0E25\u0E32\u0E21"
+  Icon: {fileID: 21300000, guid: 3d520f195ec5a074285e9adaaeb4f9c3, type: 3}
   MaximumStacks: 1
-  Title: 
+  Title: "\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E27\u0E48\u0E32\u0E01\u0E23\u0E30\u0E14\u0E39\u0E01\u0E09\u0E25\u0E32\u0E21\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E08\u0E30\u0E41\u0E02\u0E47\u0E07\u0E41\u0E23\u0E07\u0E16\u0E36\u0E07\u0E02\u0E19\u0E32\u0E14\u0E17\u0E35\u0E48\u0E17\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E14\u0E32\u0E1A\u0E44\u0E14\u0E49"
   HP_Bonus: 0
   Def_Bonus: 0
   Eva_Bonus: 0
@@ -25,4 +25,4 @@ MonoBehaviour:
   Def_PercentBonus: 0
   Eva_PercentBonus: 0
   Res_PercentBonus: 0
-  EquipmentType: 0
+  EquipmentType: 2
