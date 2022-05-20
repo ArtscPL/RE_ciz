@@ -150,9 +150,9 @@ MonoBehaviour:
   enemyID: 1
   minhp: 30
   maxhp: 100
-  damage: 20
+  damage: 200
   expDrop: 10
   MoneyDrop: 100
   itemDrop:
-  - {fileID: 11400000, guid: 7fa5c12c058dd9349be641addd8296ea, type: 2}
-  - {fileID: 11400000, guid: 88282f2899232bc4eb5364431a326bb0, type: 2}
+  - {fileID: 11400000, guid: 5b1b3df10b4de8640ad79eeaf73866a0, type: 2}
+  - {fileID: 11400000, guid: 6f265d9af56890d4e86aabb2e6f178dd, type: 2}

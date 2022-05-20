@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c896565b734b104f8c3c04bd3e7e7f8, type: 3}
+  m_Name: 210
+  m_EditorClassIdentifier: 
+  id: 49847fd713ccc0b4b81fd4977c228690
+  ItemName: "\u0E2B\u0E21\u0E27\u0E01\u0E41\u0E0A\u0E21\u0E1B\u0E4C\u0E40\u0E1B\u0E35\u0E49\u0E22\u0E19"
+  Icon: {fileID: 21300000, guid: b668d153cccbc13468f64472e965006a, type: 3}
+  MaximumStacks: 1
+  Title: "\u0E43\u0E2A\u0E48\u0E2B\u0E21\u0E27\u0E01\u0E19\u0E35\u0E49 \u0E04\u0E38\u0E13\u0E08\u0E30\u0E14\u0E39\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E41\u0E0A\u0E21\u0E1B\u0E4C\u0E40\u0E1B\u0E35\u0E48\u0E49\u0E22\u0E19\u0E17\u0E31\u0E49\u0E07\u0E46\u0E17\u0E35\u0E48\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E41\u0E02\u0E48\u0E07\u0E2D\u0E30\u0E44\u0E23\u0E17\u0E31\u0E49\u0E07\u0E19\u0E31\u0E49\u0E19"
+  HP_Bonus: 700
+  Def_Bonus: 0
+  Eva_Bonus: 30
+  Res_Bonus: 0
+  HP_PercentBonus: 0
+  Def_PercentBonus: 0
+  Eva_PercentBonus: 0
+  Res_PercentBonus: 0
+  EquipmentType: 0
