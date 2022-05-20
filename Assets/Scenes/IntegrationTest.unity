@@ -8713,6 +8713,7 @@ MonoBehaviour:
     Accepted: 0
     Vcomplete: isC101
     Completed: 0
+    ItemInstance: {fileID: 0}
   - QuestID: 102
     QuestType: 3
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A2"
@@ -8726,6 +8727,7 @@ MonoBehaviour:
     Accepted: 0
     Vcomplete: isC102
     Completed: 0
+    ItemInstance: {fileID: 0}
   - QuestID: 3
     QuestType: 3
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A3"
@@ -8740,6 +8742,7 @@ MonoBehaviour:
     Accepted: 0
     Vcomplete: isC103
     Completed: 0
+    ItemInstance: {fileID: 0}
   QuestAvailiable: 99
   QuestIndex: 99
 --- !u!1 &274140165
@@ -23782,6 +23785,7 @@ MonoBehaviour:
   itemReward: 
   Vcomplete: 
   Completed: 0
+  ItemComplete: {fileID: 0}
 --- !u!136 &740997323
 CapsuleCollider:
   m_ObjectHideFlags: 0
