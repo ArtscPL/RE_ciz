@@ -94,6 +94,10 @@ public class ChestHandle : MonoBehaviour
 
     public void AddChestReward_Player(ChestInfo ChestL){
         //add Reward to player inventory
+        if(ChestL.ItemInstance != null){
+            Character.GetInstance().Inventory.AddItem(ChestL.ItemInstance);
+            Debug.Log(ChestL.ItemInstance.ToString() +" Added");
+        }
         Character.GetInstance().Money+=ChestL.recoinReward;
     }
 
@@ -114,5 +118,6 @@ public class ChestHandle : MonoBehaviour
         public string ChestAnswer;
         public int recoinReward;
         public string itemReward;
+        public Item ItemInstance;
     }
 }

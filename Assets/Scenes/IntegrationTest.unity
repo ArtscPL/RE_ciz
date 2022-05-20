@@ -2527,12 +2527,14 @@ MonoBehaviour:
     ChestAnswer: 2
     recoinReward: 10
     itemReward: "\u0E02\u0E49\u0E32\u0E27\u0E40\u0E2B\u0E19\u0E35\u0E22\u0E27\u0E44\u0E01\u0E48\u0E17\u0E2D\u0E14"
+    ItemInstance: {fileID: 11400000, guid: 6342eb73d03c8744c8662c1b7dd1ef4f, type: 2}
   - ChestID: 2
     ChestObject: {fileID: 1240924701}
     ChestQuestion: 3+4 = ?
     ChestAnswer: 7
     recoinReward: 20
     itemReward: "\u0E04\u0E2D\u0E2B\u0E21\u0E39\u0E22\u0E48\u0E32\u0E07"
+    ItemInstance: {fileID: 0}
   ChestIndex: 99
 --- !u!4 &54337544
 Transform:
