@@ -134,13 +134,15 @@ public class Character : MonoBehaviour
 			itemSaveManager.LoadInventory(this);
 		}
 		//AddItemFromBattle();
+		
+		AddItemToPlayer.GetInstance().StoreinStorage();
 	}
 
 	private void Update() {
 		LevelManage();
-		AddItemFromBattle();
+	//	AddItemFromBattle();
 	}
-	private void AddItemFromBattle()
+	/*private void AddItemFromBattle()
 	{
 		
 		if (MoveData.Youwin)
@@ -150,10 +152,11 @@ public class Character : MonoBehaviour
 				{
 					//Debug.Log(item.ItemName);
 					Inventory.AddItem(item.GetCopy());
+					//Character.GetInstance().Inventory.AddItem(item);
 				}
 			MoveData.Youwin = false;
 		}
-	}
+	}*/
 	private void OnDestroy()
 	{
 		if (itemSaveManager != null)

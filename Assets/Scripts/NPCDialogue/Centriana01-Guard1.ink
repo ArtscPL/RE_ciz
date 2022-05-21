@@ -8,8 +8,6 @@ INCLUDE globals.ink
 //#speaker:ยาม1 #portrait:Guard1
 
 === general ===
-...
-
 เดินชมรอบเมืองได้ตามสบายเลย เจ้าหนุ่ม #speaker:ยาม1 #portrait:Guard1
 ->DONE
 
