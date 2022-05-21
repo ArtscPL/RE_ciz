@@ -18,6 +18,9 @@ public class PauseDi : MonoBehaviour
             Debug.LogWarning("Found more than one PauseDi in the scene");
         }
         instance = this;
+        //initialize inventory
+        Bcon.Inventory();
+        Bcon.Inventory();
     }
     
     public static PauseDi GetInstance()
