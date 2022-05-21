@@ -21891,7 +21891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
-  scenesLoad: 10
+  MoveTo: 10
 --- !u!95 &1716901274
 Animator:
   serializedVersion: 3

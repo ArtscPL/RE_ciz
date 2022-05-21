@@ -28,7 +28,7 @@ public class PlayerOwnQuest : MonoBehaviour
     public string description;
     public string Todo;
 
-    public int EnemyID;
+    public int E_ID;
     //there are quests with many needs
     public int CurrentAmount = 0;
     public int RequiredAmount = 99;
@@ -50,8 +50,13 @@ public class PlayerOwnQuest : MonoBehaviour
             Debug.LogWarning("Found more than one PlayerOwnQuest in the scene");
         }
         instance = this;
+        
+    }
+
+    private void Start(){
         QuestManager.GetInstance().ClearPlayerOwn();
     }
+
     private void Update() {
         //QuestManager.GetInstance().FindQuestAvailiable();
         if(QuestID != 0 && CurrentAmount==RequiredAmount && Completed == false){
@@ -61,7 +66,7 @@ public class PlayerOwnQuest : MonoBehaviour
     }
 
     public void UpdateCurrentAmount(int MonID){
-        if(EnemyID==MonID){
+        if(E_ID==MonID){
             CurrentAmount++;
         }
     }

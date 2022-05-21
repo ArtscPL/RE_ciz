@@ -23539,7 +23539,7 @@ MonoBehaviour:
   QuestName: 
   description: 
   Todo: 
-  EnemyID: 0
+  E_ID: 0
   CurrentAmount: 0
   RequiredAmount: 0
   expReward: 0
@@ -23656,8 +23656,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd91bccd1364a4f41b317b33e4c34736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LV: {fileID: 1953618594}
-  EXP: {fileID: 1770732829}
+  LV_Text: {fileID: 0}
+  EXP_Text: {fileID: 0}
   MHP: {fileID: 1410418396}
   Def: {fileID: 1523877602}
   Eva: {fileID: 460706979}
@@ -36746,7 +36746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
-  scenesLoad: 10
+  MoveTo: 10
 --- !u!136 &1240240743
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -51656,7 +51656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
-  scenesLoad: 10
+  MoveTo: 0
 --- !u!95 &1716901274
 Animator:
   serializedVersion: 3

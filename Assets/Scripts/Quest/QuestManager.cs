@@ -54,7 +54,7 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().QuestName = QuestLists[QID].QuestName;
         PlayerOwnQuest.GetInstance().description = QuestLists[QID].description;
         PlayerOwnQuest.GetInstance().Todo = QuestLists[QID].Todo;
-        PlayerOwnQuest.GetInstance().EnemyID = QuestLists[QID].EnemyID;
+        PlayerOwnQuest.GetInstance().E_ID = QuestLists[QID].EnemyID;
         PlayerOwnQuest.GetInstance().RequiredAmount = QuestLists[QID].RequiredAmount;
         PlayerOwnQuest.GetInstance().expReward = QuestLists[QID].expReward;
         PlayerOwnQuest.GetInstance().recoinReward = QuestLists[QID].recoinReward;
@@ -97,7 +97,7 @@ public class QuestManager : MonoBehaviour
         PlayerOwnQuest.GetInstance().QuestName = "หางานทำได้แล้ว";
         PlayerOwnQuest.GetInstance().description = "ขณะนี้ยังไม่ได้อยู่ในระหว่างการทำภารกิจ\nในตอนนี้สิ่งที่คุณต้องทำคือหายใจไปวันๆและรอตังจากขุ่นแม่";
         PlayerOwnQuest.GetInstance().Todo = "หิวก็กินข้าว หนาวก็ใส่เสื้อ เมื่อเป็นหวัด ทิฟฟี่แผงสีเขียว";
-        PlayerOwnQuest.GetInstance().EnemyID = 0;
+        PlayerOwnQuest.GetInstance().E_ID = 0;
         PlayerOwnQuest.GetInstance().RequiredAmount = 99;
         PlayerOwnQuest.GetInstance().expReward = 0;
         PlayerOwnQuest.GetInstance().recoinReward = 0;
