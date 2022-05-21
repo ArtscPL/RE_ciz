@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class OnClick : MonoBehaviour, IPointerClickHandler
 {
+    public KeyCode key;
     [SerializeField] private GameObject target;
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -12,7 +13,7 @@ public class OnClick : MonoBehaviour, IPointerClickHandler
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(key))
         {
             target.gameObject.SetActive(!target.gameObject.activeSelf);
         }
