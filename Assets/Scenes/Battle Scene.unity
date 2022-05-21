@@ -6277,7 +6277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1736005517}
-  scenesLoad: 2
+  scenesLoad: 0
 --- !u!114 &1038498106
 MonoBehaviour:
   m_ObjectHideFlags: 0

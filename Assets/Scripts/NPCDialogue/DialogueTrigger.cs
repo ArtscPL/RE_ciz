@@ -23,7 +23,7 @@ public class DialogueTrigger : MonoBehaviour
         visualCue.SetActive(false);
         if (instance != null)
         {
-            Debug.LogWarning("Found more than one Dialogue Trigger in the scene");
+            //Debug.LogWarning("Found more than one Dialogue Trigger in the scene");
         }
         instance = this;
     }

@@ -14,4 +14,5 @@ public class MoveData : MonoBehaviour
     public static int LvPlayer;
     public static List<Item> itemFromEnemy;
     public static bool Youwin;
+    public static int Scene_index;
 }

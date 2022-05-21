@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 public class TriggerPlayer : MonoBehaviour
 {
     public GameObject thisEnemy;
-    public int scenesLoad;
+    public int MoveTo;
     private void OnTriggerEnter(Collider other) 
     {
         MoveData.enemyPrefabs = thisEnemy;
         if (other.CompareTag("Player"))
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(scenesLoad);
+            SceneManager.LoadScene(MoveTo);
         }
     }
 }

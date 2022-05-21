@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StatPlayerMove : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class StatPlayerMove : MonoBehaviour
             MoveData.P_Def = (int)character.Defense.Value;
             MoveData.P_Eva = (int)character.Evasion.Value;
             MoveData.P_Res = (int)character.Resistance.Value;
+            MoveData.Scene_index = SceneManager.GetActiveScene().buildIndex;
         }
     }
 }

@@ -18,7 +18,7 @@ public class ChestControl : MonoBehaviour
         triggerUI = false;
         if (instance != null)
         {
-            Debug.LogWarning("Found more than one ChestController in the scene");
+            //Debug.LogWarning("Found more than one ChestController in the scene");
         }
         instance = this;
     }

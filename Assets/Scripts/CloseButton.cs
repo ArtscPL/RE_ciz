@@ -11,6 +11,8 @@ public class CloseButton : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         target.gameObject.SetActive(!target.gameObject.activeSelf);
+        scenesLoad = MoveData.Scene_index;
+        Debug.Log("Move to Scene "+scenesLoad);
         SceneManager.LoadScene(scenesLoad);
     }
 }

@@ -28,8 +28,8 @@ public class PlayerProfile : MonoBehaviour
     public int Lesson2_2Score;*/
 
     [Header("Stat UI")]
-    public Text LV;
-    public Text EXP;
+    public Text LV_Text;
+    public Text EXP_Text;
     public Text MHP;
     public Text Def;
     public Text Eva;
@@ -53,8 +53,8 @@ public class PlayerProfile : MonoBehaviour
 
     public void ProfileUIchanged(){
         //Debug.Log("Profile called");
-        LV.text = "เลเวล:"+ Character.GetInstance().PlayerLv.ToString();
-        EXP.text = "ค่าประสบการณ์:" + Character.GetInstance().PlayerExp.ToString();
+        LV_Text.text = "เลเวล:"+ Character.GetInstance().PlayerLv.ToString();
+        EXP_Text.text = "ค่าประสบการณ์:" + Character.GetInstance().PlayerExp.ToString();
         MHP.text = "พลังชีวิตสูงสุด:"+ CharacterLv.GetInstance().BaseHP.ToString();
         Def.text = "พลังป้องกัน:"+ CharacterLv.GetInstance().BaseDEF.ToString();
         Eva.text = "หลบหลีก:"+ CharacterLv.GetInstance().BaseEVA.ToString();
