@@ -45,7 +45,7 @@ public class ItemDatabase : ScriptableObject
 
 	private void LoadItems()
 	{
-		items = FindAssetsByType<Item>("Assets/Scripts/Inventory/Item_Inven");
+		items = FindAssetsByType<Item>("Assets/Scripts/Code Three man down/Item_Inven");
 	}
 
 	// Slightly modified version of this answer: http://answers.unity.com/answers/1216386/view.html

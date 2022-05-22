@@ -159,11 +159,8 @@ public class Character : MonoBehaviour
 	}*/
 	private void OnDestroy()
 	{
-		if (itemSaveManager != null)
-		{
-			itemSaveManager.SaveEquipment(this);
-			itemSaveManager.SaveInventory(this);
-		}
+		itemSaveManager.SaveEquipment(this);
+		itemSaveManager.SaveInventory(this);
 	}
 
 	private void InventoryRightClick(BaseItemSlot itemSlot)
