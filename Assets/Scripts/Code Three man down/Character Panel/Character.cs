@@ -36,6 +36,7 @@ public class Character : MonoBehaviour
 	[SerializeField] DropItemArea dropItemArea;
 	[SerializeField] QuestionDialog reallyDropItemDialog;
 	[SerializeField] ItemSaveManager itemSaveManager;
+	[SerializeField] Text ShowMeYourMoney;
 
 	private BaseItemSlot dragItemSlot;
 	private void OnValidate()
@@ -133,21 +134,27 @@ public class Character : MonoBehaviour
 			itemSaveManager.LoadEquipment(this);
 			itemSaveManager.LoadInventory(this);
 		}
-		//AddItemFromBattle();
-		
-		AddItemToPlayer.GetInstance().StoreinStorage();
+		AddRewardFromBattle();
+
+		//AddItemToPlayer.GetInstance().StoreinStorage();
 	}
 
 	private void Update() {
 		LevelManage();
+		if(ShowMeYourMoney.IsActive()){
+			ShowMeYourMoney.text = Money.ToString();
+		}
 	//	AddItemFromBattle();
 	}
-	/*private void AddItemFromBattle()
+	private void AddRewardFromBattle()
 	{
 		
 		if (MoveData.Youwin)
 		{
-			//Debug.Log("You win");
+			Debug.Log("EXP+"+MoveData.EXPBattle);
+			Debug.Log("Recoin+"+MoveData.MoneyBattle);
+			PlayerExp += MoveData.EXPBattle;
+			Money += MoveData.MoneyBattle;
 			foreach (Item item in MoveData.itemFromEnemy)
 				{
 					//Debug.Log(item.ItemName);
@@ -155,8 +162,10 @@ public class Character : MonoBehaviour
 					//Character.GetInstance().Inventory.AddItem(item);
 				}
 			MoveData.Youwin = false;
+			MoveData.EXPBattle = 0;
+			MoveData.MoneyBattle = 0;
 		}
-	}*/
+	}
 	private void OnDestroy()
 	{
 		itemSaveManager.SaveEquipment(this);
