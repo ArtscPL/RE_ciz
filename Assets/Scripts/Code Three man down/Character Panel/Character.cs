@@ -36,6 +36,7 @@ public class Character : MonoBehaviour
 	[SerializeField] DropItemArea dropItemArea;
 	[SerializeField] QuestionDialog reallyDropItemDialog;
 	[SerializeField] ItemSaveManager itemSaveManager;
+	[SerializeField] Text ShowMeYourMoney;
 
 	private BaseItemSlot dragItemSlot;
 	private void OnValidate()
@@ -140,6 +141,9 @@ public class Character : MonoBehaviour
 
 	private void Update() {
 		LevelManage();
+		if(ShowMeYourMoney.IsActive()){
+			ShowMeYourMoney.text = Money.ToString();
+		}
 	//	AddItemFromBattle();
 	}
 	private void AddRewardFromBattle()
