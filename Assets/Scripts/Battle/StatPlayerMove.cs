@@ -16,6 +16,9 @@ public class StatPlayerMove : MonoBehaviour
             MoveData.P_Eva = (int)character.Evasion.Value;
             MoveData.P_Res = (int)character.Resistance.Value;
             MoveData.Scene_index = SceneManager.GetActiveScene().buildIndex;
+            //EnemyStat monstat = MoveData.enemyPrefabs.GetComponent<EnemyStat>();
+            //MoveData.EXPBattle = monstat.expDrop;
+            //MoveData.MoneyBattle = monstat.MoneyDrop;
         }
     }
 }
