@@ -25,5 +25,7 @@ public class ShowResult : MonoBehaviour
             EndText[i].text = item.ItemName+"x1";
             i++;
         }
+        MoveData.EXPBattle = enemy.expDrop;
+        MoveData.MoneyBattle = enemy.MoneyDrop;
     }
 }

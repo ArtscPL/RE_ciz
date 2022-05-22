@@ -15,4 +15,6 @@ public class MoveData : MonoBehaviour
     public static List<Item> itemFromEnemy;
     public static bool Youwin;
     public static int Scene_index;
+    public static int EXPBattle;
+    public static int MoneyBattle;
 }
