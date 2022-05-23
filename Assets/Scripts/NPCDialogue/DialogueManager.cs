@@ -160,7 +160,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void BossFightInit(){
-
+        
     }
 
     private void QuestWindowPopup()

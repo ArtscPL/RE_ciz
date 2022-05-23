@@ -110,25 +110,12 @@ public class SaveManager : MonoBehaviour
         return saveManager;
     }
 
-    private void Start(){
-        Debug.Log("SceneLoaded");
-        int y = SceneManager.GetActiveScene().buildIndex;
-        if(y!=10){
-            //LoadAssetToGame();
-        }
+    public void SaveToFile(){
+
     }
 
-    private void Update(){
-        //SavetoAsset();
-        //SaveGameData();
-    }
-
-    private void OnDestroy(){
-        int y = SceneManager.GetActiveScene().buildIndex;
-        if(y!=10){
-            //SaveGameData();
-            //SavetoAsset();
-        }
+    public void LoadFromFile(){
+        
     }
 }
 

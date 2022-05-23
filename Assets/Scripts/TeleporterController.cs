@@ -121,11 +121,15 @@ public class TeleporterController : MonoBehaviour
     public void Click1(){
         if (text1.text == "Centriana"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Centriana");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Centriana");
             StartCoroutine(LoadScene());
         }
         else if (text1.text == "Slopakia"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Slopakia");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Slopakia");
             StartCoroutine(LoadScene());
         }
@@ -137,11 +141,15 @@ public class TeleporterController : MonoBehaviour
     public void Click2(){
         if (text2.text == "Slopakia"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Slopakia");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Slopakia");
             StartCoroutine(LoadScene());
         }
         else if (text2.text == "Foretina"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Foretina");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Foretina");
             StartCoroutine(LoadScene());
         }
@@ -153,11 +161,15 @@ public class TeleporterController : MonoBehaviour
     public void Click3(){
         if (text3.text == "Foretina"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Foretina");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Foretina");
             StartCoroutine(LoadScene());
         }
         else if (text3.text == "Probocean"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Probocean");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Probocean");
             StartCoroutine(LoadScene());
         }
@@ -169,11 +181,15 @@ public class TeleporterController : MonoBehaviour
     public void Click4(){
         if (text4.text == "Probocean"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Probocean");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Probocean");
             StartCoroutine(LoadScene());
         }
         else if (text4.text == "Cavectar"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Cavectar");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Cavectar");
             StartCoroutine(LoadScene());
         }
@@ -185,11 +201,15 @@ public class TeleporterController : MonoBehaviour
     public void Click5(){
         if (text5.text == "Cavectar"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Cavectar");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Cavectar");
             StartCoroutine(LoadScene());
         }
         else if (text5.text == "Magmatos"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Magmatos");
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Magmatos");
             StartCoroutine(LoadScene());
         }
