@@ -8632,7 +8632,6 @@ MonoBehaviour:
     RequiredAmount: 0
     expReward: 50000
     recoinReward: 500
-    itemReward: 
     Accepted: 0
     Vcomplete: isC101
     Completed: 0
@@ -8646,12 +8645,11 @@ MonoBehaviour:
     RequiredAmount: 0
     expReward: 50
     recoinReward: 500
-    itemReward: "\u0E43\u0E1A\u0E08\u0E1A"
     Accepted: 0
     Vcomplete: isC102
     Completed: 0
     ItemInstance: {fileID: 0}
-  - QuestID: 3
+  - QuestID: 103
     QuestType: 3
     QuestName: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A3"
     description: "\u0E17\u0E14\u0E2A\u0E2D\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E17\u0E35\u0E48
@@ -8661,7 +8659,6 @@ MonoBehaviour:
     RequiredAmount: 0
     expReward: 50
     recoinReward: 500
-    itemReward: "\u0E42\u0E1B\u0E2A\u0E40\u0E15\u0E2D\u0E23\u0E4C\u0E23\u0E32\u0E22\u0E07\u0E32\u0E19"
     Accepted: 0
     Vcomplete: isC103
     Completed: 0
@@ -23611,21 +23608,22 @@ MonoBehaviour:
   questReward: {fileID: 1290710234}
   NotiUI: {fileID: 825481004}
   NotiText: {fileID: 404432397}
+  QuestOwn:
+    QuestID: 0
+    QuestType: 0
+    QuestName: 
+    description: 
+    Todo: 
+    EnemyID: 0
+    RequiredAmount: 0
+    expReward: 0
+    recoinReward: 0
+    Accepted: 0
+    Vcomplete: 
+    Completed: 0
+    ItemInstance: {fileID: 0}
   QuestIDTracking: 0
-  QuestID: 0
-  QuestType: 0
-  QuestName: 
-  description: 
-  Todo: 
-  E_ID: 0
   CurrentAmount: 0
-  RequiredAmount: 0
-  expReward: 0
-  recoinReward: 0
-  itemReward: 
-  Vcomplete: 
-  Completed: 0
-  ItemComplete: {fileID: 0}
 --- !u!136 &740997323
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23721,7 +23719,7 @@ MonoBehaviour:
   draggableItem: {fileID: 346230645}
   dropItemArea: {fileID: 212796891}
   reallyDropItemDialog: {fileID: 261313752}
-  itemSaveManager: {fileID: 2125913091}
+  itemSaveManager: {fileID: 0}
   ShowMeYourMoney: {fileID: 1998122343}
 --- !u!114 &740997328
 MonoBehaviour:
