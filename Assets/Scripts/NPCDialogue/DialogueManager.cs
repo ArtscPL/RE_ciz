@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
         }
         instance = this;
 
-        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON,"");
     }
 
     public static DialogueManager GetInstance()
@@ -302,5 +302,15 @@ public class DialogueManager : MonoBehaviour
         }
     } 
      
+    public void SaveInk(){
+        //Debug.Log("Before Get JSON");
+        string globalStateJson = dialogueVariables.GetGlobalVariablesStateJson();
+        //Debug.Log(globalStateJson);
+        SaveManager.GetInstance().data.globalVariablesStateJson = globalStateJson;
+    }
+
+    public void LoadInk(){
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON, SaveManager.GetInstance().data.globalVariablesStateJson);
+    }
 
 }

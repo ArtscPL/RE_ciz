@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 public class SaveManager : MonoBehaviour
 {
@@ -129,7 +128,12 @@ public class SaveManager : MonoBehaviour
         data.SaveDeathC = Character.GetInstance().DeathC;
         data.SaveMaxDMG = Character.GetInstance().MaxDMG;
         data.SaveCraftEquip = Character.GetInstance().CraftEquip;
-        data.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
+        //data.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
+        
+        
+        //string globalStateJson = DialogueManager.GetInstance().dialogueVariables.GetGlobalVariablesStateJson();
+        //data.globalVariablesStateJson = globalStateJson;
+        DialogueManager.GetInstance().SaveInk();
         data.SaveBossFight = BossManager.GetInstance().PlayerFightBossIndex;
         Debug.Log("Player Lv:"+data.SaveLV+" is saved");
         //BinaryFormatter formatter = GetBinaryFormatter();
@@ -148,6 +152,7 @@ public class SaveManager : MonoBehaviour
         using StreamReader reader = new StreamReader(path);
         string json = reader.ReadToEnd();
         data = JsonUtility.FromJson<DataToFile>(json);
+        DialogueManager.GetInstance().LoadInk();
     }
 }
 
@@ -167,6 +172,7 @@ public class DataToFile{
 	public int SaveMaxDMG;
 	public int SaveCraftEquip;
     public DialogueVariables SaveDialogueVariables;
+    public string globalVariablesStateJson="";
     public int SaveBossFight;
 }
 

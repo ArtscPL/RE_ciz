@@ -38,11 +38,11 @@ public class SaveFileManager : MonoBehaviour
     public void ClickSave2(){
         string saveName = "slot2";
         SaveManager.GetInstance().SaveToFile(saveName);
-        text1.text = "Save 2 - Saved";
+        text2.text = "Save 2 - Saved";
     }
     public void ClickSave3(){
         string saveName = "slot3";
         SaveManager.GetInstance().SaveToFile(saveName);
-        text1.text = "Save 3 - Saved";
+        text3.text = "Save 3 - Saved";
     }
 }
