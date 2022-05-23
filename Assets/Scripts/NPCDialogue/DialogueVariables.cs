@@ -1,16 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
+using System.IO;
 
 [System.Serializable]
 public class DialogueVariables
 {
     public Dictionary<string, Ink.Runtime.Object> variables { get; set; }
-
-    public DialogueVariables(TextAsset loadGlobalsJSON)
+    public Story globalVariablesStory;
+    public DialogueVariables(TextAsset loadGlobalsJSON,string globalStateJson)
     {
         //create the story
-        Story globalVariablesStory = new Story(loadGlobalsJSON.text);
+        globalVariablesStory = new Story(loadGlobalsJSON.text);
+
+        if (!globalStateJson.Equals(""))
+        {
+            globalVariablesStory.state.LoadJson(globalStateJson);
+        }
 
         //initialize the dictionary
         variables = new Dictionary<string, Ink.Runtime.Object>();
@@ -20,6 +26,14 @@ public class DialogueVariables
             variables.Add(name, value);
             //Debug.Log("Initialized global dialogue variable: " + name + " = " + value);
         }
+    }
+
+    public string GetGlobalVariablesStateJson() 
+    {
+        // Load the current state of all of our variables to the globals story
+        VariablesToStory(globalVariablesStory);
+        // return the story variable state
+        return  globalVariablesStory.state.ToJson();
     }
 
     public void StartListening(Story story)
