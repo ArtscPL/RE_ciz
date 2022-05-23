@@ -161,8 +161,6 @@ public class DialogueManager : MonoBehaviour
 
     public void BossFightInit(){
         DialogueManager.GetInstance().SetVariableState("fightBoss", new Ink.Runtime.BoolValue(false));
-        SaveManager.GetInstance().SavetoAsset();
-        SaveManager.GetInstance().SaveGameData();
         BossManager.GetInstance().TriggerBoss();
     }
 

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager saveManager;
+    public DataToFile data;
     public int SaveCalled=0;
     public int SaveLV;
     public int SaveExp; 
@@ -16,11 +18,12 @@ public class SaveManager : MonoBehaviour
     public int SaveCurrentAmount;
     public List<int> SaveChestSolved = new List<int>();
     public int SaveChestUnlocked;
-    public int SaveKillcount;
-	public int SaveDeathC;
+    public int SaveKillcount=0;
+	public int SaveDeathC=0;
 	public int SaveMaxDMG;
 	public int SaveCraftEquip;
     public DialogueVariables SaveDialogueVariables;
+    public int SaveBossFight;
     //public GameData datasaving;
     [SerializeField] public SaveSO SaveAsset;
 
@@ -38,6 +41,7 @@ public class SaveManager : MonoBehaviour
         SaveMaxDMG = Character.GetInstance().MaxDMG;
         SaveCraftEquip = Character.GetInstance().CraftEquip;
         SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
+        SaveBossFight = BossManager.GetInstance().PlayerFightBossIndex;
         SaveCalled++;
         Debug.Log("Save Called~");
     }
@@ -57,6 +61,7 @@ public class SaveManager : MonoBehaviour
         Character.GetInstance().MaxDMG = SaveMaxDMG;
         Character.GetInstance().CraftEquip = SaveCraftEquip;
         DialogueManager.GetInstance().dialogueVariables = SaveDialogueVariables;
+        BossManager.GetInstance().PlayerFightBossIndex = SaveBossFight;
     } 
 
     public void SavetoAsset(){
@@ -72,7 +77,7 @@ public class SaveManager : MonoBehaviour
         SaveAsset.SaveDeathC = Character.GetInstance().DeathC;
         SaveAsset.SaveMaxDMG = Character.GetInstance().MaxDMG;
         SaveAsset.SaveCraftEquip = Character.GetInstance().CraftEquip;
-        //SaveAsset.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
+        SaveAsset.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
         //SaveAsset.SaveCalled++;
         Debug.Log("Save!");
     }
@@ -110,12 +115,58 @@ public class SaveManager : MonoBehaviour
         return saveManager;
     }
 
-    public void SaveToFile(){
-
+    public void SaveToFile(string saveName){
+        //Debug.Log("Touch Save to File");
+        data.SaveLV = Character.GetInstance().PlayerLv;
+        data.SaveExp = Character.GetInstance().PlayerExp;
+        data.SaveMoney = Character.GetInstance().Money;
+        data.SaveQuestOwn = PlayerOwnQuest.GetInstance().QuestOwn;
+        data.SaveQTrack = PlayerOwnQuest.GetInstance().QuestIDTracking;
+        data.SaveCurrentAmount = PlayerOwnQuest.GetInstance().CurrentAmount;
+        data.SaveChestSolved = Character.GetInstance().ChestSolved;
+        data.SaveChestUnlocked = Character.GetInstance().ChestUnlocked;
+        data.SaveKillcount = Character.GetInstance().Killcount;
+        data.SaveDeathC = Character.GetInstance().DeathC;
+        data.SaveMaxDMG = Character.GetInstance().MaxDMG;
+        data.SaveCraftEquip = Character.GetInstance().CraftEquip;
+        data.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
+        data.SaveBossFight = BossManager.GetInstance().PlayerFightBossIndex;
+        Debug.Log("Player Lv:"+data.SaveLV+" is saved");
+        //BinaryFormatter formatter = GetBinaryFormatter();
+        if(!Directory.Exists(Application.persistentDataPath + "/saves")){
+            Directory.CreateDirectory(Application.persistentDataPath + "/saves");
+        }
+        string path = Application.persistentDataPath + "/saves/" + saveName + ".rez";
+        string json = JsonUtility.ToJson(data);
+        using StreamWriter writer = new StreamWriter(path);
+        writer.Write(json);
+        Debug.Log(saveName+":File Saved at "+path);
     }
 
-    public void LoadFromFile(){
-        
+
+    public void LoadFromFile(string path){
+        using StreamReader reader = new StreamReader(path);
+        string json = reader.ReadToEnd();
+        data = JsonUtility.FromJson<DataToFile>(json);
     }
+}
+
+[System.Serializable]
+public class DataToFile{
+    public int SaveLV;
+    public int SaveExp; 
+    public int SaveMoney;
+    //quest
+    public QuestManager.QuestInfo SaveQuestOwn;
+    public int SaveQTrack;
+    public int SaveCurrentAmount;
+    public List<int> SaveChestSolved = new List<int>();
+    public int SaveChestUnlocked;
+    public int SaveKillcount=0;
+	public int SaveDeathC=0;
+	public int SaveMaxDMG;
+	public int SaveCraftEquip;
+    public DialogueVariables SaveDialogueVariables;
+    public int SaveBossFight;
 }
 
