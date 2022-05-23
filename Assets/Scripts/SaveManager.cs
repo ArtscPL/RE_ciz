@@ -16,8 +16,8 @@ public class SaveManager : MonoBehaviour
     public int SaveCurrentAmount;
     public List<int> SaveChestSolved = new List<int>();
     public int SaveChestUnlocked;
-    public int SaveKillcount;
-	public int SaveDeathC;
+    public int SaveKillcount=0;
+	public int SaveDeathC=0;
 	public int SaveMaxDMG;
 	public int SaveCraftEquip;
     public DialogueVariables SaveDialogueVariables;
@@ -115,7 +115,7 @@ public class SaveManager : MonoBehaviour
     }
 
     public void LoadFromFile(){
-        
+
     }
 }
 

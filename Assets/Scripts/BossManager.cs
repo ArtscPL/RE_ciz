@@ -26,6 +26,12 @@ public class BossManager : MonoBehaviour
     public void TriggerBoss(){
         MoveData.enemyPrefabs = BossList[PlayerFightBossIndex];
         PlayerFightBossIndex++;
+        MoveData.LvPlayer = Character.GetInstance().PlayerLv;
+            MoveData.P_Hp = (int)Character.GetInstance().Health.Value;
+            MoveData.P_Def = (int)Character.GetInstance().Defense.Value;
+            MoveData.P_Eva = (int)Character.GetInstance().Evasion.Value;
+            MoveData.P_Res = (int)Character.GetInstance().Resistance.Value;
+            MoveData.Scene_index = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(10);
     }
 }
