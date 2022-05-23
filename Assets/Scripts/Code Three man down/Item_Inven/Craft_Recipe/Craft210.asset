@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b0baef2a7532c43a6da303ab6c1ea6, type: 3}
   m_Name: Craft210
   m_EditorClassIdentifier: 
-  Materials: []
-  Results: []
+  Materials:
+  - Item: {fileID: 11400000, guid: 5b1b3df10b4de8640ad79eeaf73866a0, type: 2}
+    Amount: 50
+  - Item: {fileID: 11400000, guid: ded03cfdf9bb6c8458fa8eecc30cb963, type: 2}
+    Amount: 10
+  - Item: {fileID: 11400000, guid: 7db07f7f001bfff4ab625da7b38d2142, type: 2}
+    Amount: 10
+  Results:
+  - Item: {fileID: 11400000, guid: 49847fd713ccc0b4b81fd4977c228690, type: 2}
+    Amount: 1
