@@ -21,28 +21,10 @@ public class PlayerOwnQuest : MonoBehaviour
         return instance;
     }
     [Header("Quest Active")]
+    public QuestManager.QuestInfo QuestOwn;
     public int QuestIDTracking = 0;
-    public int QuestID;
-    public int QuestType;
-    public string QuestName;
-    public string description;
-    public string Todo;
-
-    public int E_ID;
-    //there are quests with many needs
     public int CurrentAmount = 0;
-    public int RequiredAmount = 99;
-    //public int[] RequiredAmount;
-    public int expReward;
-    public int recoinReward;
-    public string itemReward;
-
-    public string Vcomplete;
-    //public string Vdone;
-    // 0 as incompleted, 1 as complete
-    //public bool Accepted = false;
-    public bool Completed = false;
-    public Item ItemComplete;
+    //public bool Completed = false;
     
     private void Awake()
     {
@@ -54,36 +36,49 @@ public class PlayerOwnQuest : MonoBehaviour
     }
 
     private void Start(){
-        QuestManager.GetInstance().ClearPlayerOwn();
+        //QuestManager.GetInstance().ClearPlayerOwn();
     }
 
     private void Update() {
         //QuestManager.GetInstance().FindQuestAvailiable();
-        if(QuestID != 0 && CurrentAmount==RequiredAmount && Completed == false){
+        if(QuestOwn != null){
+            if(QuestOwn.QuestID != 0 && CurrentAmount==QuestOwn.RequiredAmount && QuestOwn.Completed == false){
             QuestTurnin();
-            //ClearQuestOnPlayer();
+            }
         }
+        
     }
 
     public void UpdateCurrentAmount(int MonID){
-        if(E_ID==MonID){
+        if(QuestOwn.EnemyID==MonID){
             CurrentAmount++;
         }
     }
 
     public void QuestTurnin(){
         //Debug.Log("Can turn-in current quest");
-        DialogueManager.GetInstance().SetVariableState(Vcomplete, new Ink.Runtime.BoolValue(true));
+        DialogueManager.GetInstance().SetVariableState(QuestOwn.Vcomplete, new Ink.Runtime.BoolValue(true));
         NotiUI.SetActive(true);
-        NotiText.text = "คุณสามารถส่งภารกิจ " +QuestName+ " ได้แล้ว";
-        Completed = true;
+        NotiText.text = "คุณสามารถส่งภารกิจ " +QuestOwn.QuestName+ " ได้แล้ว";
+        QuestOwn.Completed = true;
     }
 
     public void displayQuestonUI(){
         QuestUI.SetActive(true);
-        questName.text = QuestName;
-        questDescription.text = description;
-        questProgress.text = Todo;
-        questReward.text = "EXP +" + expReward.ToString() + ", " + "ReCoin +" + recoinReward.ToString() + "\n" + itemReward;
+        if(QuestOwn.QuestID!=0){
+            questName.text = QuestOwn.QuestName;
+            questDescription.text = QuestOwn.description;
+            questProgress.text = QuestOwn.Todo;
+            questReward.text = "EXP +" + QuestOwn.expReward.ToString() + ", " + "ReCoin +" + QuestOwn.recoinReward.ToString();
+            if(QuestOwn.ItemInstance != null){
+                questReward.text = questReward.text  + "\n" + QuestOwn.ItemInstance.ItemName;
+            }
+        }
+        else if(QuestOwn.QuestID==0){
+            questName.text = "หางานทำได้แล้ว";
+            questDescription.text = "ขณะนี้ยังไม่ได้อยู่ในระหว่างการทำภารกิจ\nในตอนนี้สิ่งที่คุณต้องทำคือหายใจไปวันๆและรอตังจากขุ่นแม่";
+            questProgress.text = "หิวก็กินข้าว หนาวก็ใส่เสื้อ เมื่อเป็นหวัด ทิฟฟี่แผงสีเขียว";
+            questReward.text = "มีชีวิตอยู่ไปวันๆ";
+        }
     }
 }
