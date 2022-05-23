@@ -53,6 +53,7 @@ public class Random_Enemy_HP : MonoBehaviour
             if (isDead == true)
             {
                 target.gameObject.SetActive(true);
+                SaveManager.GetInstance().SaveDeathC++;
                 Debug.Log("Player is Dead");
             }
         }
@@ -75,6 +76,7 @@ public class Random_Enemy_HP : MonoBehaviour
                     MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
             }
             MoveData.Youwin = true;
+            SaveManager.GetInstance().SaveKillcount++;
             return true;
         }
         else return false;
