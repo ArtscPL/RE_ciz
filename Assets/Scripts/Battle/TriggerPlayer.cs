@@ -12,6 +12,8 @@ public class TriggerPlayer : MonoBehaviour
         MoveData.enemyPrefabs = thisEnemy;
         if (other.CompareTag("Player"))
         {
+            SaveManager.GetInstance().SavetoAsset();
+            SaveManager.GetInstance().SaveGameData();
             Destroy(gameObject);
             SceneManager.LoadScene(MoveTo);
         }

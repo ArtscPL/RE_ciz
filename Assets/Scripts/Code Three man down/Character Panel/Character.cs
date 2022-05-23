@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Kryz.CharacterStats;
+using System.Collections.Generic;
 
 public class Character : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Character : MonoBehaviour
 	public int MaxDMG=0;
 	public int CraftEquip=0;
 	public int ChestUnlocked=0;
+	public List<int> ChestSolved = new List<int>();
+  
 
 
 	[Header("Stats")]
@@ -133,6 +136,9 @@ public class Character : MonoBehaviour
 		{
 			itemSaveManager.LoadEquipment(this);
 			itemSaveManager.LoadInventory(this);
+		}
+		if(SaveManager.GetInstance()!=null&&SaveManager.GetInstance().SaveCalled>0){
+			SaveManager.GetInstance().LoadGameData();
 		}
 		AddRewardFromBattle();
 

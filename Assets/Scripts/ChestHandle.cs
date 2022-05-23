@@ -35,6 +35,7 @@ public class ChestHandle : MonoBehaviour
             Debug.LogWarning("Found more than ChestHandler in this scene");
         }
         instance = this;
+        InitailizedChest();
     }
     
     public void UIDisplay(int ID){
@@ -63,6 +64,18 @@ public class ChestHandle : MonoBehaviour
         CheckAnswer(answer,ChestLists[ChestIndex]);
     }
 
+    public void InitailizedChest(){
+        List<int> Solved = Character.GetInstance().ChestSolved;
+        foreach(ChestInfo j in ChestLists){
+            foreach(int i in Solved){
+                if(j.ChestID==i){
+                    Debug.Log(j.ChestID+" found to be solved");
+                    j.ChestObject.SetActive(false);
+                }
+            }
+        }
+    }
+
     public void CheckAnswer(string ans,ChestInfo ChestL){
         //get a correct answer from list and check it with current input field that been
         // submitted
@@ -70,6 +83,7 @@ public class ChestHandle : MonoBehaviour
             Debug.Log(ChestL.ChestAnswer + " is a correct answer of this chest");
             //Debug.Log(ans + " is Correct~!!");
             Character.GetInstance().ChestUp();
+            Character.GetInstance().ChestSolved.Add(ChestL.ChestID);
             ClearField();
             ChestRewardShowUp(ChestL); 
         }

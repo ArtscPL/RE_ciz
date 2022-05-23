@@ -11,7 +11,6 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private TextAsset inkJSON;
 
     [Header("Quest Avaliable")]
-    [SerializeField] public QuestBase quest;
     public GameObject QuestClearUI;
 
     private bool playerInRange;
@@ -40,7 +39,7 @@ public class DialogueTrigger : MonoBehaviour
                 {
                     QuestManager.instance.setQuestUIonClear(quest);
                 }*/
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON,quest);
+                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
         }
         else

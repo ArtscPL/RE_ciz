@@ -29,18 +29,13 @@ public class DialogueManager : MonoBehaviour
 
     private const string SPEAKER_TAG = "speaker";
     private const string PORTRAIT_TAG = "portrait";
-    //private const string QUEST_TAG = "qstatus";
-    //private bool qstatus = false;
-    //false = accept, true = clear
 
-    private DialogueVariables dialogueVariables;
+    public DialogueVariables dialogueVariables;
 
     public GameObject QuestAcceptUI;
     public GameObject QuestClearUI;
     public GameObject ShopUI;
     public GameObject CraftUI;
-    //for quest
-    //public QuestBase quest;
 
     private void Awake()
     {
@@ -90,7 +85,7 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON,QuestBase quest)
+    public void EnterDialogueMode(TextAsset inkJSON)
     {
         /*if (qstatus)
         {
@@ -165,7 +160,10 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void BossFightInit(){
-
+        DialogueManager.GetInstance().SetVariableState("fightBoss", new Ink.Runtime.BoolValue(false));
+        SaveManager.GetInstance().SavetoAsset();
+        SaveManager.GetInstance().SaveGameData();
+        BossManager.GetInstance().TriggerBoss();
     }
 
     private void QuestWindowPopup()
