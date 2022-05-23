@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Random = UnityEngine.Random;
 
 public class CraftingRecipeUI : MonoBehaviour
 {
@@ -41,13 +40,7 @@ public class CraftingRecipeUI : MonoBehaviour
 	{
 		if (craftingRecipe != null && ItemContainer != null)
 		{
-			Debug.Log("Fuck");
-			int i = Random.Range(0, 101);
-			if (i <= 50)
-			{
-				craftingRecipe.Craft(ItemContainer);
-			}
-			else Debug.Log("Fail");
+			craftingRecipe.Craft(ItemContainer);
 		}
 	}
 	public void OnShowButtonClick()

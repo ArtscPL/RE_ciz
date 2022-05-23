@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [Serializable]
 public struct ItemAmount
@@ -50,10 +51,16 @@ public class CraftingRecipe : ScriptableObject
 
 	public void Craft(IItemContainer itemContainer)
 	{
-		if (CanCraft(itemContainer))
+		int i = Random.Range(0,101);
+		if (CanCraft(itemContainer) && (i <= MoveData.rate))
 		{
 			RemoveMaterials(itemContainer);
 			AddResults(itemContainer);
+		}
+		else
+		{
+			//RemoveMaterials(itemContainer);
+			Debug.Log("Fail");
 		}
 	}
 	public void Show()
