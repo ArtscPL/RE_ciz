@@ -7875,6 +7875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6a13bdf6dae8748ac46ad7b1ce26b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: 0
   target: {fileID: 800219059}
 --- !u!4 &1351238290 stripped
 Transform:

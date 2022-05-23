@@ -4,7 +4,7 @@ using Ink.Runtime;
 
 public class DialogueVariables
 {
-    public Dictionary<string, Ink.Runtime.Object> variables { get; private set; }
+    public Dictionary<string, Ink.Runtime.Object> variables { get; set; }
 
     public DialogueVariables(TextAsset loadGlobalsJSON)
     {

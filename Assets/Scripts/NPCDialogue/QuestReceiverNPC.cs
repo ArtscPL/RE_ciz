@@ -16,8 +16,6 @@ public class QuestReceiverNPC : MonoBehaviour
     public Text questDescription;
     public Text questTodo;
     public Text questReward;
-
-    public Quest Quests { get; set; }
     public QuestDetail[] QuestList;
     
     private void Start()
