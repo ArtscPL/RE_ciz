@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
+[System.Serializable]
 [CreateAssetMenu(menuName = "Items/Item")]
 public class Item : ScriptableObject
 {

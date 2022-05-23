@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
 
+[System.Serializable]
 public class DialogueVariables
 {
     public Dictionary<string, Ink.Runtime.Object> variables { get; set; }
