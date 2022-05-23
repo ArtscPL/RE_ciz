@@ -17024,6 +17024,7 @@ MonoBehaviour:
     SaveDeathC: 0
     SaveMaxDMG: 0
     SaveCraftEquip: 0
+    globalVariablesStateJson: 
     SaveBossFight: 0
   SaveCalled: 0
   SaveLV: 0
@@ -24809,7 +24810,7 @@ MonoBehaviour:
   Button1: {fileID: 1006828006}
   text1: {fileID: 540365533}
   Button2: {fileID: 1456489708}
-  text2: {fileID: 540365533}
+  text2: {fileID: 1891074438}
   Button3: {fileID: 358842637}
   text3: {fileID: 1320358949}
 --- !u!1 &776937176
@@ -52936,7 +52937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 200, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1728539087
