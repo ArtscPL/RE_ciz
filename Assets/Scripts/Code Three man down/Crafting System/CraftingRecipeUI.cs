@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class CraftingRecipeUI : MonoBehaviour
 {
@@ -38,8 +41,17 @@ public class CraftingRecipeUI : MonoBehaviour
 	{
 		if (craftingRecipe != null && ItemContainer != null)
 		{
-			craftingRecipe.Craft(ItemContainer);
+			int i = Random.Range(0, 101);
+			if (i <= MoveData.rate)
+			{
+				craftingRecipe.Craft(ItemContainer);
+			}
+			else Debug.Log("Fail");
 		}
+	}
+	public void OnShowButtonClick()
+	{
+		craftingRecipe.Show();
 	}
 
 	private void SetCraftingRecipe(CraftingRecipe newCraftingRecipe)

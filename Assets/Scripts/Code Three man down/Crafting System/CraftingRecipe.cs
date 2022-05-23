@@ -15,6 +15,7 @@ public class CraftingRecipe : ScriptableObject
 {
 	public List<ItemAmount> Materials;
 	public List<ItemAmount> Results;
+	public int Rate;
 
 	public bool CanCraft(IItemContainer itemContainer)
 	{
@@ -54,6 +55,22 @@ public class CraftingRecipe : ScriptableObject
 			RemoveMaterials(itemContainer);
 			AddResults(itemContainer);
 		}
+	}
+	public void Show()
+	{
+		MoveData.craftData = new List<Item>();
+		MoveData.craftSize = new List<int>();
+		foreach (ItemAmount itemAmount in Materials)
+		{
+			MoveData.craftData.Add(itemAmount.Item);
+			MoveData.craftSize.Add(itemAmount.Amount);
+		}
+		foreach (ItemAmount itemAmount in Results)
+		{
+			MoveData.craftData.Add(itemAmount.Item);
+			MoveData.craftSize.Add(itemAmount.Amount);
+		}
+		MoveData.rate = Rate;
 	}
 
 	private void RemoveMaterials(IItemContainer itemContainer)

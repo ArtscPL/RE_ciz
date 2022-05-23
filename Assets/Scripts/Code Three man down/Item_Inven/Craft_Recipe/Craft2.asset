@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Craft2
   m_EditorClassIdentifier: 
   Materials:
-  - Item: {fileID: 11400000, guid: b428eb917217b79488bc6f2e8d3b7f01, type: 2}
+  - Item: {fileID: 11400000, guid: 5b1b3df10b4de8640ad79eeaf73866a0, type: 2}
     Amount: 1
-  - Item: {fileID: 11400000, guid: 31fea590dd1a29342980a416ba97cd20, type: 2}
-    Amount: 8
+  - Item: {fileID: 11400000, guid: 6f265d9af56890d4e86aabb2e6f178dd, type: 2}
+    Amount: 1
   Results:
   - Item: {fileID: 11400000, guid: e821ac0f604062d4da7da770fd188cc5, type: 2}
     Amount: 1
+  Rate: 50

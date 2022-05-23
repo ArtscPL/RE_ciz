@@ -22,3 +22,4 @@ MonoBehaviour:
   Results:
   - Item: {fileID: 11400000, guid: b6ef0cc2123873d44a8e76a3fbeeb530, type: 2}
     Amount: 1
+  Rate: 50
