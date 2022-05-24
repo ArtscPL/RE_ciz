@@ -53,6 +53,7 @@ public class DialogueManager : MonoBehaviour
         return instance;
     }
 
+
     private void Start()
     {
         dialogueIsPlaying = false;

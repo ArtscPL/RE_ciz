@@ -5,9 +5,26 @@ using UnityEngine;
 public class Movement2D : MonoBehaviour
 {
     // Start is called before the first frame update
+    public static Movement2D instance;
     public Animator animator;
     private float speed;
     public Vector3 movement;
+    public Transform location;
+    
+    private void Awake(){
+        if (instance != null)
+        {
+            Debug.LogWarning("Found more than one Movement2D in the scene");
+        }
+        instance = this;
+    }
+
+    public static Movement2D GetInstance(){
+        return instance;
+    }
+    public Transform GetLocation(){
+        return location;
+    }
     void Start()
     {
         animator = GetComponent<Animator>();

@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager saveManager;
     public DataToFile data;
     public int SaveCalled=0;
+    public int GetLoad=0;
     public int SaveLV;
     public int SaveExp; 
     public int SaveMoney;
@@ -107,7 +109,24 @@ public class SaveManager : MonoBehaviour
         if(saveManager!=this){
             Destroy(gameObject);
         }
-        
+        DataToFile loaddata = LoadSave.GetLoadManager().data;
+        if(loaddata.SaveLV != 0){
+            data = loaddata;
+            GetLoad++;
+            LoadSave.GetLoadManager().getRektLoadkun();
+            LoadtoManager(loaddata);
+        }
+    }
+
+    private void Start(){
+        if(SaveLV!=0){
+            LoadGameData();
+            DialogueManager.GetInstance().LoadInk();
+            ChestHandle.GetInstance().InitailizedChest();
+        }
+        if(GetLoad!=0){
+            Movement2D.GetInstance().GetLocation().transform.position = new Vector3(data.SavePositionX,data.SavePositionY,data.SavePositionZ); 
+        }
     }
 
     public static SaveManager GetInstance(){
@@ -116,6 +135,11 @@ public class SaveManager : MonoBehaviour
 
     public void SaveToFile(string saveName){
         //Debug.Log("Touch Save to File");
+        data.SaveScene = SceneManager.GetActiveScene().name;
+        Debug.Log(data.SaveScene+" Scene is saving");
+        data.SavePositionX = Movement2D.GetInstance().GetLocation().transform.position.x;
+        data.SavePositionY = Movement2D.GetInstance().GetLocation().transform.position.y;
+        data.SavePositionZ = Movement2D.GetInstance().GetLocation().transform.position.z;
         data.SaveLV = Character.GetInstance().PlayerLv;
         data.SaveExp = Character.GetInstance().PlayerExp;
         data.SaveMoney = Character.GetInstance().Money;
@@ -148,16 +172,31 @@ public class SaveManager : MonoBehaviour
     }
 
 
-    public void LoadFromFile(string path){
-        using StreamReader reader = new StreamReader(path);
-        string json = reader.ReadToEnd();
-        data = JsonUtility.FromJson<DataToFile>(json);
-        DialogueManager.GetInstance().LoadInk();
+    public void LoadtoManager(DataToFile load){
+        SaveLV = load.SaveLV;
+        SaveExp = load.SaveExp;
+        SaveMoney = load.SaveMoney;
+        SaveQuestOwn = load.SaveQuestOwn;
+        SaveQTrack = load.SaveQTrack;
+        SaveCurrentAmount = load.SaveCurrentAmount;
+        SaveChestSolved = load.SaveChestSolved;
+        SaveChestUnlocked = load.SaveChestUnlocked;
+        SaveKillcount = load.SaveKillcount;
+        SaveDeathC = load.SaveDeathC;
+        SaveMaxDMG = load.SaveMaxDMG;
+        SaveCraftEquip = load.SaveCraftEquip;
+        SaveDialogueVariables = load.SaveDialogueVariables;
+        SaveBossFight = load.SaveBossFight;
+        Debug.Log("Load Complete");
     }
 }
 
 [System.Serializable]
 public class DataToFile{
+    public string SaveScene;
+    public float SavePositionX;
+    public float SavePositionY;
+    public float SavePositionZ;  
     public int SaveLV;
     public int SaveExp; 
     public int SaveMoney;
