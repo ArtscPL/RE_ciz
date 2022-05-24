@@ -52,21 +52,29 @@ public class CraftingRecipe : ScriptableObject
 	public void Craft(IItemContainer itemContainer)
 	{
 		int i = Random.Range(0,101);
+		bool x = QuestionStorage.GetInstance().GuessRight;
+		if (x == true)
+		{
+			MoveData.rate += 50;
+			if (MoveData.rate > 100) MoveData.rate = 100;
+		}
 		if (CanCraft(itemContainer) && (i <= MoveData.rate))
 		{
 			RemoveMaterials(itemContainer);
 			AddResults(itemContainer);
 		}
-		else
+		else if (CanCraft(itemContainer))
 		{
-			//RemoveMaterials(itemContainer);
+			RemoveMaterials(itemContainer);
 			Debug.Log("Fail");
 		}
+		else Debug.Log("No Mat");
 	}
 	public void Show()
 	{
 		MoveData.craftData = new List<Item>();
 		MoveData.craftSize = new List<int>();
+		
 		foreach (ItemAmount itemAmount in Materials)
 		{
 			MoveData.craftData.Add(itemAmount.Item);
@@ -78,6 +86,13 @@ public class CraftingRecipe : ScriptableObject
 			MoveData.craftSize.Add(itemAmount.Amount);
 		}
 		MoveData.rate = Rate;
+		
+		bool x = QuestionStorage.GetInstance().GuessRight;
+		if (x == true)
+		{
+			MoveData.rate += 50;
+			if (MoveData.rate > 100) MoveData.rate = 100;
+		}
 	}
 
 	private void RemoveMaterials(IItemContainer itemContainer)
