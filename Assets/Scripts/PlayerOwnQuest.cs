@@ -52,6 +52,7 @@ public class PlayerOwnQuest : MonoBehaviour
     public void UpdateCurrentAmount(int MonID){
         if(QuestOwn.EnemyID==MonID){
             CurrentAmount++;
+            Debug.Log("added current amount");
         }
     }
 

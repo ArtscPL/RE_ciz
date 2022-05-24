@@ -167,6 +167,8 @@ public class Character : MonoBehaviour
 					Inventory.AddItem(item.GetCopy());
 					//Character.GetInstance().Inventory.AddItem(item);
 				}
+			//Debug.Log("EnemyID:"+MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID);
+			PlayerOwnQuest.GetInstance().UpdateCurrentAmount(MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID);
 			MoveData.Youwin = false;
 			MoveData.EXPBattle = 0;
 			MoveData.MoneyBattle = 0;

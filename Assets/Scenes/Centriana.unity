@@ -6773,6 +6773,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4377587, y: 3.0028224, z: 2.6832101}
   m_Center: {x: 0.063802525, y: 1.0014113, z: 0.047406904}
+--- !u!114 &1032164429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032164427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d2d704c852953418a160d2478531c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CID: 2
+  visualCue: {fileID: 883016290}
 --- !u!1 &1046068660
 GameObject:
   m_ObjectHideFlags: 0
@@ -8988,6 +9002,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4377587, y: 3.0028224, z: 2.6832101}
   m_Center: {x: 0.063802525, y: 1.0014113, z: 0.047406904}
+--- !u!114 &1372712508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372712506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d2d704c852953418a160d2478531c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CID: 4
+  visualCue: {fileID: 67036306}
 --- !u!1001 &1380780808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10603,6 +10631,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4377587, y: 3.0028224, z: 2.6832101}
   m_Center: {x: 0.063802525, y: 1.0014113, z: 0.047406904}
+--- !u!114 &1639685018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639685016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d2d704c852953418a160d2478531c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CID: 3
+  visualCue: {fileID: 2133755601}
 --- !u!1 &1649534236
 GameObject:
   m_ObjectHideFlags: 0
@@ -10790,6 +10832,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.4377587, y: 3.0028224, z: 2.6832101}
   m_Center: {x: 0.063802525, y: 1.0014113, z: 0.047406904}
+--- !u!114 &1675541689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675541687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d2d704c852953418a160d2478531c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CID: 1
+  visualCue: {fileID: 99873181}
 --- !u!1 &1684414462
 GameObject:
   m_ObjectHideFlags: 0
