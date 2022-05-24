@@ -289,7 +289,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1792468510}
+      - m_Target: {fileID: 146996220}
         m_TargetAssemblyTypeName: LoadSave, Assembly-CSharp
         m_MethodName: LoadSave2
         m_Mode: 1
@@ -339,6 +339,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50832616}
   m_CullTransparentMesh: 1
+--- !u!1 &146996219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146996221}
+  - component: {fileID: 146996220}
+  m_Layer: 0
+  m_Name: LoadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &146996220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146996219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae7552aff736404f90cb99bd25c957f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    SaveScene: 
+    SavePositionX: 0
+    SavePositionY: 0
+    SavePositionZ: 0
+    SaveLV: 0
+    SaveExp: 0
+    SaveMoney: 0
+    SaveQuestOwn:
+      QuestID: 0
+      QuestType: 0
+      QuestName: 
+      description: 
+      Todo: 
+      EnemyID: 0
+      RequiredAmount: 0
+      expReward: 0
+      recoinReward: 0
+      Accepted: 0
+      Vcomplete: 
+      Completed: 0
+      ItemInstance: {fileID: 0}
+    SaveQTrack: 0
+    SaveCurrentAmount: 0
+    SaveChestSolved: 
+    SaveChestUnlocked: 0
+    SaveKillcount: 0
+    SaveDeathC: 0
+    SaveMaxDMG: 0
+    SaveCraftEquip: 0
+    globalVariablesStateJson: 
+    SaveBossFight: 0
+--- !u!4 &146996221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146996219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 938.89984, y: 448.9142, z: 71.9483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262985524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,7 +1699,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1792468510}
+      - m_Target: {fileID: 146996220}
         m_TargetAssemblyTypeName: LoadSave, Assembly-CSharp
         m_MethodName: LoadSave1
         m_Mode: 1
@@ -1731,7 +1806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAVE 2  - EMPTY
+  m_text: 'SAVE 2 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
@@ -2025,7 +2100,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1792468510}
+      - m_Target: {fileID: 146996220}
         m_TargetAssemblyTypeName: LoadSave, Assembly-CSharp
         m_MethodName: LoadSave3
         m_Mode: 1
@@ -2132,7 +2207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAVE 3  - EMPTY
+  m_text: 'SAVE 3 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
@@ -2266,7 +2341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAVE 1  - EMPTY
+  m_text: 'SAVE 1 '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
@@ -2752,7 +2827,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1792468509}
-  - component: {fileID: 1792468510}
   m_Layer: 5
   m_Name: LoadMenu
   m_TagString: Untagged
@@ -2785,18 +2859,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.9375, y: -32.3749}
   m_SizeDelta: {x: 270.045, y: 286.9418}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1792468510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792468508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ae7552aff736404f90cb99bd25c957f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1826324112
 GameObject:
   m_ObjectHideFlags: 0
