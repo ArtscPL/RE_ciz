@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class QuestionStorage : MonoBehaviour
 {
+    //create only QuestionStorage 1 per scene , as a child in GameManager
     public static QuestionStorage instance;
     public QStorage[] storage;
     public GameObject RateUpUI;
@@ -21,6 +22,7 @@ public class QuestionStorage : MonoBehaviour
     public int IndexOnActive;
 
     //get this variable to double rate 
+    //when want to use , call this command: bool x = QuestionStorage.GetInstance().GuessRight;
     public bool GuessRight = false;
 
     void Awake(){
@@ -29,7 +31,7 @@ public class QuestionStorage : MonoBehaviour
             Debug.LogWarning("Found more than one Question Storage in the scene");
         }
         instance = this;
-
+        //Add listener to each button so we can track player decision
         Button b1 = Button1.GetComponent<Button>();
 		b1.onClick.AddListener(Choice1);
         Button b2 = Button2.GetComponent<Button>();
