@@ -14,6 +14,12 @@ public class CraftSS : MonoBehaviour
 
     void Update()
     {
+        bool x = QuestionStorage.GetInstance().GuessRight;
+		if (x == true)
+		{
+			MoveData.rate += 50;
+			if (MoveData.rate > 100) MoveData.rate = 100;
+		}
         if (MoveData.craftData != null)
         {
             int j = MoveData.craftData.Count;
