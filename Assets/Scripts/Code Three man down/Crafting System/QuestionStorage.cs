@@ -38,7 +38,7 @@ public class QuestionStorage : MonoBehaviour
 		b2.onClick.AddListener(Choice2);
         Button b3 = Button3.GetComponent<Button>();
 		b3.onClick.AddListener(Choice3);
-        Button b4 = Button3.GetComponent<Button>();
+        Button b4 = Button4.GetComponent<Button>();
 		b4.onClick.AddListener(Choice4);
     }
     public static QuestionStorage GetInstance()
