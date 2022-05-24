@@ -12,7 +12,7 @@ public class IntroScene : MonoBehaviour
     {    
         timechange += Time.deltaTime;
         if(timechange>=25){
-            SceneManager.LoadScene("TestScene");
+            SceneManager.LoadScene("Centriana");
             StartCoroutine(LoadScene());
         } 
     }

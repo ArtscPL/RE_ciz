@@ -69,7 +69,7 @@ public class PlayerOwnQuest : MonoBehaviour
         if(QuestOwn.QuestID!=0){
             questName.text = QuestOwn.QuestName;
             questDescription.text = QuestOwn.description;
-            questProgress.text = QuestOwn.Todo;
+            questProgress.text = QuestOwn.Todo + " (" + CurrentAmount + "/" + QuestOwn.RequiredAmount +")";
             questReward.text = "EXP +" + QuestOwn.expReward.ToString() + ", " + "ReCoin +" + QuestOwn.recoinReward.ToString();
             if(QuestOwn.ItemInstance != null){
                 questReward.text = questReward.text  + "\n" + QuestOwn.ItemInstance.ItemName;

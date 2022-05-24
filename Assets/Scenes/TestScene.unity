@@ -3187,17 +3187,46 @@ MonoBehaviour:
   ChestLists:
   - ChestID: 1
     ChestObject: {fileID: 1335472213}
-    ChestQuestion: 1+1 = ?
-    ChestAnswer: 2
-    recoinReward: 10
-    itemReward: "\u0E02\u0E49\u0E32\u0E27\u0E40\u0E2B\u0E19\u0E35\u0E22\u0E27\u0E44\u0E01\u0E48\u0E17\u0E2D\u0E14"
+    ChestQuestion: "\u0E16\u0E49\u0E32\u0E19\u0E4D\u0E32\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E08\u0E32\u0E01\u0E04\u0E4D\u0E32\u0E27\u0E48\u0E32
+      DEGREE \u0E21\u0E32\u0E08\u0E31\u0E14\u0E40\u0E23\u0E35\u0E22\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E4D\u0E32\u0E15\u0E48\u0E32\u0E07\u0E46
+      \u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E08\u0E4D\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E2B\u0E21\u0E32\u0E22
+      \u0E08\u0E30\u0E08\u0E31\u0E14\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E4D\u0E32\u0E17\u0E35\u0E48
+      \u0E41\u0E15\u0E01\u0E15\u0E48\u0E32\u0E07\u0E01\u0E31\u0E19\u0E44\u0E14\u0E49\u0E01\u0E35\u0E48\u0E27\u0E34\u0E18\u0E35"
+    ChestAnswer: 120
+    recoinReward: 500
+    itemReward: "\u0E21\u0E35\u0E14\u0E17\u0E33\u0E04\u0E23\u0E31\u0E27"
     ItemInstance: {fileID: 11400000, guid: 6342eb73d03c8744c8662c1b7dd1ef4f, type: 2}
   - ChestID: 2
     ChestObject: {fileID: 1240924701}
-    ChestQuestion: 3+4 = ?
-    ChestAnswer: 7
-    recoinReward: 20
-    itemReward: "\u0E04\u0E2D\u0E2B\u0E21\u0E39\u0E22\u0E48\u0E32\u0E07"
+    ChestQuestion: "\u0E16\u0E49\u0E32\u0E01\u0E32\u0E23\u0E17\u0E35\u0E48\u0E04\u0E23\u0E2D\u0E1A\u0E04\u0E23\u0E31\u0E27\u0E08\u0E30\u0E21\u0E35\u0E25\u0E39\u0E01\u0E0A\u0E32\u0E22\u0E2B\u0E23\u0E37\u0E2D\u0E25\u0E39\u0E01\u0E2A\u0E32\u0E27\u0E21\u0E35\u0E42\u0E2D\u0E01\u0E32\u0E2A\u0E40\u0E17\u0E48\u0E32\u0E46
+      \u0E01\u0E31\u0E19 \u0E41\u0E25\u0E49\u0E27 \u0E08\u0E33\u0E19\u0E27\u0E19\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E02\u0E2D\u0E07\u0E40\u0E2B\u0E15\u0E38\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E17\u0E35\u0E48\u0E04\u0E23\u0E2D\u0E1A\u0E04\u0E23\u0E31\u0E27\u0E17\u0E35\u0E48\u0E21\u0E35\u0E25\u0E39\u0E01
+      4 \u0E04\u0E19 \u0E21\u0E35\u0E25\u0E39\u0E01\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E0D\u0E34\u0E07
+      \u0E41\u0E25\u0E30\u0E25\u0E39\u0E01\u0E04\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E35\u0E48\u0E40\u0E1B\u0E47\u0E19\u0E0A\u0E32\u0E22
+      \u0E40\u0E17\u0E48\u0E32\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E48\u0E32\u0E43\u0E14"
+    ChestAnswer: 4
+    recoinReward: 500
+    itemReward: 
+    ItemInstance: {fileID: 0}
+  - ChestID: 3
+    ChestObject: {fileID: 0}
+    ChestQuestion: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E08\u0E31\u0E14\u0E04\u0E19
+      7 \u0E04\u0E19\u0E19\u0E31\u0E48\u0E07\u0E1A\u0E19\u0E23\u0E16\u0E42\u0E14\u0E22\u0E2A\u0E32\u0E23
+      7 \u0E17\u0E35\u0E48\u0E19\u0E31\u0E48\u0E07(\u0E23\u0E27\u0E21\u0E17\u0E35\u0E48\u0E19\u0E31\u0E48\u0E07\u0E04\u0E19\u0E02\u0E31\u0E1A\u0E41\u0E25\u0E49\u0E27)
+      \u0E42\u0E14\u0E22\u0E21\u0E35\u0E04\u0E19\u0E02\u0E31\u0E1A\u0E23\u0E16\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E1E\u0E35\u0E22\u0E07
+      3 \u0E04\u0E19 \u0E08\u0E30\u0E21\u0E35\u0E08\u0E33\u0E19\u0E27\u0E19\u0E27\u0E34\u0E18\u0E35\u0E01\u0E32\u0E23\u0E08\u0E31\u0E14\u0E44\u0E14\u0E49\u0E01\u0E35\u0E48\u0E27\u0E34\u0E18\u0E35"
+    ChestAnswer: 2160
+    recoinReward: 500
+    itemReward: 
+    ItemInstance: {fileID: 0}
+  - ChestID: 4
+    ChestObject: {fileID: 0}
+    ChestQuestion: "\u0E16\u0E49\u0E32\u0E42\u0E22\u0E19\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E40\u0E17\u0E35\u0E48\u0E22\u0E07\u0E15\u0E23\u0E07\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D
+      4 \u0E04\u0E23\u0E31\u0E49\u0E07 \u0E41\u0E25\u0E49\u0E27\u0E08\u0E33\u0E19\u0E27\u0E19\u0E2A\u0E21\u0E32\u0E0A\u0E34\u0E01\u0E02\u0E2D\u0E07\u0E40\u0E2B\u0E15\u0E38\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E17\u0E35\u0E48\u0E40\u0E2B\u0E23\u0E35\u0E22\u0E0D\u0E08\u0E30\u0E2D\u0E2D\u0E01\u0E2B\u0E31\u0E27
+      2 \u0E04\u0E23\u0E31\u0E49\u0E07 \u0E41\u0E25\u0E30\u0E01\u0E49\u0E2D\u0E22
+      2\u0E04\u0E23\u0E31\u0E49\u0E07 \u0E40\u0E17\u0E48\u0E32\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E48\u0E32\u0E43\u0E14"
+    ChestAnswer: 6
+    recoinReward: 500
+    itemReward: 
     ItemInstance: {fileID: 0}
   ChestIndex: 99
 --- !u!4 &54337544
@@ -61869,7 +61898,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7beb628167e1aa343a27730b11137775, type: 3}
-    m_FontSize: 40
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -61877,7 +61906,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u0E04\u0E33\u0E16\u0E32\u0E21\u0E41\u0E25\u0E30\u0E1B\u0E23\u0E34\u0E28\u0E19\u0E32"
@@ -61916,16 +61945,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1515360729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &1515360731
 MonoBehaviour:
   m_ObjectHideFlags: 0
