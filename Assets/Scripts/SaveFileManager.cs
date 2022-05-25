@@ -31,16 +31,19 @@ public class SaveFileManager : MonoBehaviour
     }*/
 
     public void ClickSave1(){
+        SFXmanager.GetInstance().ButtonPressSound();
         string saveName = "slot1";
         SaveManager.GetInstance().SaveToFile(saveName);
         text1.text = "Save 1 - Saved";
     }
     public void ClickSave2(){
+        SFXmanager.GetInstance().ButtonPressSound();
         string saveName = "slot2";
         SaveManager.GetInstance().SaveToFile(saveName);
         text2.text = "Save 2 - Saved";
     }
     public void ClickSave3(){
+        SFXmanager.GetInstance().ButtonPressSound();
         string saveName = "slot3";
         SaveManager.GetInstance().SaveToFile(saveName);
         text3.text = "Save 3 - Saved";

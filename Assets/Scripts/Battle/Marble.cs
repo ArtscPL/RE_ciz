@@ -18,7 +18,8 @@ public class Marble : MonoBehaviour
     void Update()
     {
         showText.text = number.ToString();
-        if (Input.GetMouseButtonDown(0)) {  
+        if (Input.GetMouseButtonDown(0)) { 
+            SFXmanager.GetInstance().ButtonPressSound(); 
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);  
             RaycastHit hit;  
             if (Physics.Raycast(ray, out hit)) {  

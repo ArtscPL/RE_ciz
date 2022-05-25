@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseDi : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class PauseDi : MonoBehaviour
     public ButtonControl Bcon;
     public static PauseDi instance;
     public PlayerProfile pprofile;
+    public GameObject PauseUI;
+    public GameObject SaveMenu;
+    public GameObject ConfirmMainMenu;
+    public GameObject ConfirmQuite;
+    //public AudioMixer audioMixer;
+    public AudioSource audioSource;
     
     void Awake(){
         //PlayerProfile pprofile = player.GetComponent<PlayerProfile>();
@@ -20,6 +27,11 @@ public class PauseDi : MonoBehaviour
         //initialize inventory
         Bcon.Inventory();
         Bcon.Inventory();
+    }
+
+    public void ShowSaveUI(){
+        SFXmanager.GetInstance().ButtonPressSound();
+        SaveMenu.SetActive(true);
     }
     
     public static PauseDi GetInstance()
@@ -99,11 +111,29 @@ public class PauseDi : MonoBehaviour
 
     public void SoundSetting()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         Debug.Log("Sound Setto");
+    }
+
+    public void SetVolumn(float volumn){
+        //Debug.Log(volumn);
+        //audioMixer.SetFloat("volume", volumn);
+        audioSource.volume = volumn;
+    }
+
+    public void ClickMainMenu(){
+        SFXmanager.GetInstance().ButtonPressSound();
+        ConfirmMainMenu.SetActive(true);
+    }
+
+    public void ClickQuit(){
+        SFXmanager.GetInstance().ButtonPressSound();
+        ConfirmQuite.SetActive(true);
     }
 
     public void GoMenu()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         SaveManager.GetInstance().DestroySaveManager();
         BossManager.GetInstance().DestroyBossManager();
         SceneManager.LoadScene("StartMenu");
@@ -113,8 +143,13 @@ public class PauseDi : MonoBehaviour
     public void QuickSave()
     {
         //press quit and it'll quick save for player
+        SFXmanager.GetInstance().ButtonPressSound();
         Debug.Log("Quick Save and Quit");
         Application.Quit();
+    }
+
+    public void callSoundClick(){
+        SFXmanager.GetInstance().ButtonPressSound();
     }
 
     

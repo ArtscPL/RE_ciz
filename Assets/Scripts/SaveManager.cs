@@ -25,6 +25,7 @@ public class SaveManager : MonoBehaviour
 	public int SaveCraftEquip;
     public DialogueVariables SaveDialogueVariables;
     public int SaveBossFight;
+    public float AudioVolume;
     //public GameData datasaving;
     [SerializeField] public SaveSO SaveAsset;
 
@@ -44,6 +45,7 @@ public class SaveManager : MonoBehaviour
         SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
         SaveBossFight = BossManager.GetInstance().PlayerFightBossIndex;
         SaveCalled++;
+        AudioVolume = SFXmanager.GetInstance().Audio.volume;
         Debug.Log("Save Called~");
     }
 
@@ -63,6 +65,7 @@ public class SaveManager : MonoBehaviour
         Character.GetInstance().CraftEquip = SaveCraftEquip;
         DialogueManager.GetInstance().dialogueVariables = SaveDialogueVariables;
         BossManager.GetInstance().PlayerFightBossIndex = SaveBossFight;
+        SFXmanager.GetInstance().Audio.volume = AudioVolume;
     } 
 
     public void SavetoAsset(){
@@ -80,7 +83,7 @@ public class SaveManager : MonoBehaviour
         SaveAsset.SaveCraftEquip = Character.GetInstance().CraftEquip;
         SaveAsset.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
         //SaveAsset.SaveCalled++;
-        Debug.Log("Save!");
+        //Debug.Log("Save!");
     }
 
     public void LoadAssetToGame(){
@@ -152,6 +155,7 @@ public class SaveManager : MonoBehaviour
         data.SaveDeathC = Character.GetInstance().DeathC;
         data.SaveMaxDMG = Character.GetInstance().MaxDMG;
         data.SaveCraftEquip = Character.GetInstance().CraftEquip;
+        data.AudioVolume = SFXmanager.GetInstance().Audio.volume;
         //data.SaveDialogueVariables = DialogueManager.GetInstance().dialogueVariables;
         
         
@@ -187,6 +191,7 @@ public class SaveManager : MonoBehaviour
         SaveCraftEquip = load.SaveCraftEquip;
         SaveDialogueVariables = load.SaveDialogueVariables;
         SaveBossFight = load.SaveBossFight;
+        AudioVolume = load.AudioVolume;
         Debug.Log("Load Complete");
     }
 
@@ -217,5 +222,6 @@ public class DataToFile{
     public DialogueVariables SaveDialogueVariables;
     public string globalVariablesStateJson="";
     public int SaveBossFight;
+    public float AudioVolume;
 }
 
