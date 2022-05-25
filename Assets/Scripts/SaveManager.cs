@@ -46,6 +46,7 @@ public class SaveManager : MonoBehaviour
         SaveBossFight = BossManager.GetInstance().PlayerFightBossIndex;
         SaveCalled++;
         AudioVolume = SFXmanager.GetInstance().Audio.volume;
+        
         Debug.Log("Save Called~");
     }
 
@@ -66,6 +67,7 @@ public class SaveManager : MonoBehaviour
         DialogueManager.GetInstance().dialogueVariables = SaveDialogueVariables;
         BossManager.GetInstance().PlayerFightBossIndex = SaveBossFight;
         SFXmanager.GetInstance().Audio.volume = AudioVolume;
+    
     } 
 
     public void SavetoAsset(){
@@ -115,7 +117,7 @@ public class SaveManager : MonoBehaviour
         DataToFile loaddata = LoadSave.GetLoadManager().data;
         if(loaddata.SaveLV != 0){
             data = loaddata;
-            GetLoad++;
+            GetLoad = LoadSave.GetLoadManager().pick;
             LoadSave.GetLoadManager().getRektLoadkun();
             LoadtoManager(loaddata);
         }
@@ -172,7 +174,12 @@ public class SaveManager : MonoBehaviour
         string json = JsonUtility.ToJson(data);
         using StreamWriter writer = new StreamWriter(path);
         writer.Write(json);
+        //Character.GetInstance();
         Debug.Log(saveName+":File Saved at "+path);
+        string path2 = "/saves/" + saveName + "_item";
+        string path3 = "/saves/" + saveName + "_equip";
+        ItemSaveManager.GetInstance().SaveInventory(Character.GetInstance(),path2);
+        ItemSaveManager.GetInstance().SaveEquipment(Character.GetInstance(),path3);
     }
 
 
@@ -192,6 +199,7 @@ public class SaveManager : MonoBehaviour
         SaveDialogueVariables = load.SaveDialogueVariables;
         SaveBossFight = load.SaveBossFight;
         AudioVolume = load.AudioVolume;
+        
         Debug.Log("Load Complete");
     }
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class MainMenu : MonoBehaviour
 {
@@ -10,6 +11,13 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        string pathI = Application.persistentDataPath + "/" + "Inventory" + ".dat";
+        string pathE = Application.persistentDataPath + "/" + "Equipment" + ".dat";
+        if(File.Exists(pathI))
+        {
+            File.Delete(pathI);
+            File.Delete(pathE);
+        }
         SceneManager.LoadScene("Intro");
         StartCoroutine(LoadScene());
     }
