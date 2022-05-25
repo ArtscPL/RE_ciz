@@ -400,6 +400,7 @@ MonoBehaviour:
     SaveCraftEquip: 0
     globalVariablesStateJson: 
     SaveBossFight: 0
+    AudioVolume: 0
   data1:
     SaveScene: 
     SavePositionX: 0
@@ -432,6 +433,7 @@ MonoBehaviour:
     SaveCraftEquip: 0
     globalVariablesStateJson: 
     SaveBossFight: 0
+    AudioVolume: 0
   data2:
     SaveScene: 
     SavePositionX: 0
@@ -464,6 +466,7 @@ MonoBehaviour:
     SaveCraftEquip: 0
     globalVariablesStateJson: 
     SaveBossFight: 0
+    AudioVolume: 0
   data3:
     SaveScene: 
     SavePositionX: 0
@@ -496,6 +499,7 @@ MonoBehaviour:
     SaveCraftEquip: 0
     globalVariablesStateJson: 
     SaveBossFight: 0
+    AudioVolume: 0
   save1: {fileID: 1525957467}
   save2: {fileID: 1001751157}
   save3: {fileID: 1458193576}
@@ -1421,10 +1425,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 146996220}
+        m_TargetAssemblyTypeName: LoadSave, Assembly-CSharp
+        m_MethodName: getRektLoadkun
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
