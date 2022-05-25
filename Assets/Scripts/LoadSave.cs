@@ -15,6 +15,7 @@ public class LoadSave : MonoBehaviour
     public TextMeshProUGUI save1;
     public TextMeshProUGUI save2;
     public TextMeshProUGUI save3;
+    public int pick;
     private void Awake() {
         DontDestroyOnLoad(gameObject);
         LoadManager = this;
@@ -57,6 +58,7 @@ public class LoadSave : MonoBehaviour
         //load game save 1
         //string path = Application.persistentDataPath + "/saves/" + "slot1" + ".rez";
         //Debug.Log(path);
+        pick = 1;
         SelectSave(data1);
     }
     public void LoadSave2()
@@ -65,6 +67,7 @@ public class LoadSave : MonoBehaviour
         //load game save 2
         //string path = Application.persistentDataPath + "/saves/" + "slot2" + ".rez";
         //Debug.Log(path);
+        pick = 2;
         SelectSave(data2);
     }
     public void LoadSave3()
@@ -73,6 +76,7 @@ public class LoadSave : MonoBehaviour
         //load game save 3
         //string path = Application.persistentDataPath + "/saves/" + "slot3" + ".rez";
         //Debug.Log(path);
+        pick = 3;
         SelectSave(data3);
     }
 

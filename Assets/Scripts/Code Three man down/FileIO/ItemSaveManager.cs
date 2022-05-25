@@ -7,9 +7,26 @@ public class ItemSaveManager : MonoBehaviour
 
 	public string InventoryFileName = "Inventory";
 	public string EquipmentFileName = "Equipment";
-	public void LoadInventory(Character character)
+
+	public static ItemSaveManager instance;
+
+	public static ItemSaveManager GetInstance(){
+		return instance;
+	}
+
+	private void Awake() {
+		instance = this;
+	}
+
+	public void LoadInventory(Character character,string path)
 	{
-		ItemContainerSaveData savedSlots = ItemSaveIO.LoadItems(InventoryFileName);
+		ItemContainerSaveData savedSlots;
+		if(path == ""){
+			savedSlots = ItemSaveIO.LoadItems(InventoryFileName);
+		}
+		else{
+			savedSlots = ItemSaveIO.LoadItems(path);
+		}
 		if (savedSlots == null) return;
 		character.Inventory.Clear();
 
@@ -31,9 +48,15 @@ public class ItemSaveManager : MonoBehaviour
 		}
 	}
 
-	public void LoadEquipment(Character character)
+	public void LoadEquipment(Character character,string path)
 	{
-		ItemContainerSaveData savedSlots = ItemSaveIO.LoadItems(EquipmentFileName);
+		ItemContainerSaveData savedSlots;
+		if(path == ""){
+			savedSlots = ItemSaveIO.LoadItems(EquipmentFileName);
+		}
+		else{
+			savedSlots = ItemSaveIO.LoadItems(path);
+		}
 		if (savedSlots == null) return;
 
 		foreach (ItemSlotSaveData savedSlot in savedSlots.SavedSlots)
@@ -48,14 +71,25 @@ public class ItemSaveManager : MonoBehaviour
 		}
 	}
 
-	public void SaveInventory(Character character)
+	public void SaveInventory(Character character,string path)
 	{
-		SaveItems(character.Inventory.ItemSlots, InventoryFileName);
+		if(path == ""){
+			SaveItems(character.Inventory.ItemSlots, InventoryFileName);
+		}
+		else{
+			SaveItems(character.Inventory.ItemSlots, path);
+		}
 	}
 
-	public void SaveEquipment(Character character)
+	public void SaveEquipment(Character character,string path)
 	{
-		SaveItems(character.EquipmentPanel.EquipmentSlots, EquipmentFileName);
+		//SaveItems(character.EquipmentPanel.EquipmentSlots, EquipmentFileName);
+		if(path == ""){
+			SaveItems(character.EquipmentPanel.EquipmentSlots, EquipmentFileName);
+		}
+		else{
+			SaveItems(character.EquipmentPanel.EquipmentSlots, path);
+		}
 	}
 
 	private void SaveItems(IList<ItemSlot> itemSlots, string fileName)
