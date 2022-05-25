@@ -19,6 +19,7 @@ public class ButtonControl : MonoBehaviour
     //public static ButtonControl instance;
 
     public void Reposition(){
+        SFXmanager.GetInstance().ButtonPressSound();
         if (RePoUI.active)
         {
             RePoUI.SetActive(false);
@@ -65,6 +66,7 @@ public class ButtonControl : MonoBehaviour
     public void Setting()
     {
             //for setting button to close and open pause tab
+        SFXmanager.GetInstance().ButtonPressSound();
         if (PauseMenuUI.active)
         {
             PauseMenuUI.SetActive(false);
@@ -82,6 +84,7 @@ public class ButtonControl : MonoBehaviour
     }
 
     public void Profile(){
+        SFXmanager.GetInstance().ButtonPressSound();
         if (CharacterUI.active)
         {
             CharacterUI.SetActive(false);
@@ -100,6 +103,7 @@ public class ButtonControl : MonoBehaviour
     }
     public void Quest()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         if (QuestUI.active)
         {
             QuestUI.SetActive(false);
@@ -119,6 +123,7 @@ public class ButtonControl : MonoBehaviour
 
     public void Map()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         if (MapUI.active)
         {
             MapUI.SetActive(false);
@@ -137,6 +142,7 @@ public class ButtonControl : MonoBehaviour
 
     public void Inventory()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         if (InventoryUI.active)
         {
             InventoryUI.SetActive(false);
@@ -155,6 +161,7 @@ public class ButtonControl : MonoBehaviour
 
     public void Hint()
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         if (HintUI.active)
         {
             HintUI.SetActive(false);
