@@ -176,7 +176,7 @@ public class Character : MonoBehaviour
 	public void AddItemFromShop()
 	{
 		Money -= MoveData.totalPriceShop;
-		for(int i = 0; i < MoveData.amountShop; i++)
+		for(int i = 0; i < MoveData.amountShop-1; i++)
 			Inventory.AddItem(MoveData.shopData.GetCopy());
 	}
 	private void OnDestroy()
