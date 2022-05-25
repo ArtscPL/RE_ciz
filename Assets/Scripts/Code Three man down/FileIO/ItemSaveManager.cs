@@ -5,9 +5,8 @@ public class ItemSaveManager : MonoBehaviour
 {
 	[SerializeField] ItemDatabase itemDatabase;
 
-	private const string InventoryFileName = "Inventory";
-	private const string EquipmentFileName = "Equipment";
-
+	public string InventoryFileName = "Inventory";
+	public string EquipmentFileName = "Equipment";
 	public void LoadInventory(Character character)
 	{
 		ItemContainerSaveData savedSlots = ItemSaveIO.LoadItems(InventoryFileName);
