@@ -181,7 +181,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     private void ShopWindowPopup(){
-        //ShopUI.SetActive(true);
+        ShopUI.SetActive(true);
         DialogueManager.GetInstance().SetVariableState("Cshop", new Ink.Runtime.BoolValue(false));
     }
 
