@@ -400,6 +400,105 @@ MonoBehaviour:
     SaveCraftEquip: 0
     globalVariablesStateJson: 
     SaveBossFight: 0
+  data1:
+    SaveScene: 
+    SavePositionX: 0
+    SavePositionY: 0
+    SavePositionZ: 0
+    SaveLV: 0
+    SaveExp: 0
+    SaveMoney: 0
+    SaveQuestOwn:
+      QuestID: 0
+      QuestType: 0
+      QuestName: 
+      description: 
+      Todo: 
+      EnemyID: 0
+      RequiredAmount: 0
+      expReward: 0
+      recoinReward: 0
+      Accepted: 0
+      Vcomplete: 
+      Completed: 0
+      ItemInstance: {fileID: 0}
+    SaveQTrack: 0
+    SaveCurrentAmount: 0
+    SaveChestSolved: 
+    SaveChestUnlocked: 0
+    SaveKillcount: 0
+    SaveDeathC: 0
+    SaveMaxDMG: 0
+    SaveCraftEquip: 0
+    globalVariablesStateJson: 
+    SaveBossFight: 0
+  data2:
+    SaveScene: 
+    SavePositionX: 0
+    SavePositionY: 0
+    SavePositionZ: 0
+    SaveLV: 0
+    SaveExp: 0
+    SaveMoney: 0
+    SaveQuestOwn:
+      QuestID: 0
+      QuestType: 0
+      QuestName: 
+      description: 
+      Todo: 
+      EnemyID: 0
+      RequiredAmount: 0
+      expReward: 0
+      recoinReward: 0
+      Accepted: 0
+      Vcomplete: 
+      Completed: 0
+      ItemInstance: {fileID: 0}
+    SaveQTrack: 0
+    SaveCurrentAmount: 0
+    SaveChestSolved: 
+    SaveChestUnlocked: 0
+    SaveKillcount: 0
+    SaveDeathC: 0
+    SaveMaxDMG: 0
+    SaveCraftEquip: 0
+    globalVariablesStateJson: 
+    SaveBossFight: 0
+  data3:
+    SaveScene: 
+    SavePositionX: 0
+    SavePositionY: 0
+    SavePositionZ: 0
+    SaveLV: 0
+    SaveExp: 0
+    SaveMoney: 0
+    SaveQuestOwn:
+      QuestID: 0
+      QuestType: 0
+      QuestName: 
+      description: 
+      Todo: 
+      EnemyID: 0
+      RequiredAmount: 0
+      expReward: 0
+      recoinReward: 0
+      Accepted: 0
+      Vcomplete: 
+      Completed: 0
+      ItemInstance: {fileID: 0}
+    SaveQTrack: 0
+    SaveCurrentAmount: 0
+    SaveChestSolved: 
+    SaveChestUnlocked: 0
+    SaveKillcount: 0
+    SaveDeathC: 0
+    SaveMaxDMG: 0
+    SaveCraftEquip: 0
+    globalVariablesStateJson: 
+    SaveBossFight: 0
+  save1: {fileID: 1525957467}
+  save2: {fileID: 1001751157}
+  save3: {fileID: 1458193576}
 --- !u!4 &146996221
 Transform:
   m_ObjectHideFlags: 0
@@ -2697,6 +2796,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 146996220}
+        m_TargetAssemblyTypeName: LoadSave, Assembly-CSharp
+        m_MethodName: ShowLoadMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

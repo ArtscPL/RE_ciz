@@ -36,4 +36,8 @@ public class BossManager : MonoBehaviour
         SaveManager.GetInstance().SaveGameData();
         SceneManager.LoadScene(10);
     }
+
+    public void DestroyBossManager(){
+        Destroy(gameObject);
+    }
 }
