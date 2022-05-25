@@ -22,4 +22,10 @@ public class MoveData : MonoBehaviour
     public static List<Item> craftData;
     public static List<int> craftSize;
     public static int rate = 50;
+
+    [Header("Shop")]
+    public static Item shopData;
+    public static int moneyItemShop;
+    public static int amountShop = 1;
+    public static int totalPriceShop;
 }

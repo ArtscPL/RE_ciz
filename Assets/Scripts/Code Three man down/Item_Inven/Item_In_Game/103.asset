@@ -17,6 +17,8 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 50a3b13c943781749ae99e8d44ec1e35, type: 3}
   MaximumStacks: 1
   Title: "\u0E18\u0E19\u0E39\u0E17\u0E35\u0E48\u0E40\u0E1C\u0E32\u0E44\u0E14\u0E49\u0E41\u0E21\u0E49\u0E01\u0E23\u0E30\u0E17\u0E31\u0E48\u0E07\u0E19\u0E4D\u0E49\u0E32\u0E41\u0E02\u0E47\u0E07\u0E17\u0E35\u0E48\u0E40\u0E22\u0E47\u0E19\u0E08\u0E31\u0E14"
+  Droprate: 0
+  Price: 500
   HP_Bonus: 0
   Def_Bonus: 0
   Eva_Bonus: 0

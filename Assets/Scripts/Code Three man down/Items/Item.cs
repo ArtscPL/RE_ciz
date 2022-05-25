@@ -17,6 +17,7 @@ public class Item : ScriptableObject
 	public string Title;
 	protected static readonly StringBuilder sb = new StringBuilder();
 	public int Droprate;
+	public int Price;
 
 	#if UNITY_EDITOR
 	protected virtual void OnValidate()

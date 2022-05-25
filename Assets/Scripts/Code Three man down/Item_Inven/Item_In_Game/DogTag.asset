@@ -17,3 +17,5 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: b4937da0b5b2a154c836ce7ad711347b, type: 3}
   MaximumStacks: 999
   Title: 
+  Droprate: 0
+  Price: 100

@@ -21,6 +21,7 @@ MonoBehaviour:
     - \u0E1F\u0E37\u0E49\u0E19\u0E1F\u0E39\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
     300"
   Droprate: 0
+  Price: 1000
   IsConsumable: 1
   Effects:
   - {fileID: 11400000, guid: 64c75961eeb4f64408632227f85ac728, type: 2}

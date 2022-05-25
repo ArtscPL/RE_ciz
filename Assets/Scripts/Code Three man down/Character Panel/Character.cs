@@ -154,7 +154,6 @@ public class Character : MonoBehaviour
 	}
 	private void AddRewardFromBattle()
 	{
-		
 		if (MoveData.Youwin)
 		{
 			Debug.Log("EXP+"+MoveData.EXPBattle);
@@ -173,6 +172,12 @@ public class Character : MonoBehaviour
 			MoveData.EXPBattle = 0;
 			MoveData.MoneyBattle = 0;
 		}
+	}
+	public void AddItemFromShop()
+	{
+		Money -= MoveData.totalPriceShop;
+		for(int i = 0; i < MoveData.amountShop; i++)
+			Inventory.AddItem(MoveData.shopData.GetCopy());
 	}
 	private void OnDestroy()
 	{
