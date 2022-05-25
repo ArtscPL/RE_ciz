@@ -36255,7 +36255,6 @@ GameObject:
   - component: {fileID: 756390157}
   - component: {fileID: 756390156}
   - component: {fileID: 756390155}
-  - component: {fileID: 756390154}
   m_Layer: 5
   m_Name: Crafting Windows
   m_TagString: Untagged
@@ -36286,19 +36285,6 @@ RectTransform:
   m_AnchoredPosition: {x: 11.917725, y: 7.871216}
   m_SizeDelta: {x: 1520.7686, y: 846.1558}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &756390154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 756390152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1351b5b9ad9e904458632b4b542a47cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1665383340}
 --- !u!114 &756390155
 MonoBehaviour:
   m_ObjectHideFlags: 0
