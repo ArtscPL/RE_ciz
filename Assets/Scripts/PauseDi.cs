@@ -104,6 +104,8 @@ public class PauseDi : MonoBehaviour
 
     public void GoMenu()
     {
+        SaveManager.GetInstance().DestroySaveManager();
+        BossManager.GetInstance().DestroyBossManager();
         SceneManager.LoadScene("StartMenu");
         Debug.Log("Go to StartMenu");
     }

@@ -24,13 +24,31 @@ public class LoadSave : MonoBehaviour
         data1 = LoadFromFile(path1);
         data2 = LoadFromFile(path2);
         data3 = LoadFromFile(path3);
-        save1.text = "Save 1 (LV:"+data1.SaveLV+",Map:"+data1.SaveScene+")";
-        save2.text = "Save 2 (LV:"+data2.SaveLV+",Map:"+data2.SaveScene+")";
-        save3.text = "Save 3 (LV:"+data3.SaveLV+",Map:"+data3.SaveScene+")";
     }
 
     public static LoadSave GetLoadManager(){
         return LoadManager;
+    }
+
+    public void ShowLoadMenu(){
+        if(data1.SaveLV!=0){
+            save1.text = "Save 1 (LV:"+data1.SaveLV+",Map:"+data1.SaveScene+")";
+        }
+        else {
+            save1.text = "Save 1 - Empty";
+        }
+        if(data2.SaveLV!=0){
+            save2.text = "Save 2 (LV:"+data2.SaveLV+",Map:"+data2.SaveScene+")";
+        }
+        else {
+            save2.text = "Save 2 - Empty";
+        }
+        if(data3.SaveLV!=0){   
+            save3.text = "Save 3 (LV:"+data3.SaveLV+",Map:"+data3.SaveScene+")";
+        }
+        else {
+            save3.text = "Save 3 - Empty";
+        }
     }
 
     public void LoadSave1()

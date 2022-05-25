@@ -189,6 +189,10 @@ public class SaveManager : MonoBehaviour
         SaveBossFight = load.SaveBossFight;
         Debug.Log("Load Complete");
     }
+
+    public void DestroySaveManager(){
+        Destroy(gameObject);
+    }
 }
 
 [System.Serializable]
