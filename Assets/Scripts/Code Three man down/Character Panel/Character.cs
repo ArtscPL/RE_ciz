@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using Kryz.CharacterStats;
 using System.Collections.Generic;
+using System;
 
 public class Character : MonoBehaviour
 {
@@ -137,29 +138,10 @@ public class Character : MonoBehaviour
 		int load = SaveManager.GetInstance().GetLoad;
 		if (itemSaveManager != null)
 		{
-			string path1_1 = "/saves/" + "slot1" + "_item";
-        	string path1_2 = "/saves/" + "slot1" + "_equip";
-        	string path2_1 = "/saves/" + "slot2" + "_item";
-        	string path2_2 = "/saves/" + "slot2" + "_equip";
-        	string path3_1 = "/saves/" + "slot3" + "_item";
-        	string path3_2 = "/saves/" + "slot3" + "_equip";
-			if(load == 0){
-				itemSaveManager.LoadEquipment(this,"");
-				itemSaveManager.LoadInventory(this,"");
-			}
-			else if(load == 1){
-				itemSaveManager.LoadEquipment(this,path1_1);
-				itemSaveManager.LoadInventory(this,path1_2);
-			}
-			else if(load == 2){
-				itemSaveManager.LoadEquipment(this,path2_1);
-				itemSaveManager.LoadInventory(this,path2_2);
-			}
-			else if(load == 3){
-				itemSaveManager.LoadEquipment(this,path3_1);
-				itemSaveManager.LoadInventory(this,path3_2);
-			}
+			itemSaveManager.LoadEquipment(this);
+			itemSaveManager.LoadInventory(this);
 			SaveManager.GetInstance().GetLoad = 0;
+			MoveData.SlotPick = 0;
 		}
 		if(SaveManager.GetInstance()!=null&&SaveManager.GetInstance().SaveCalled>0){
 			SaveManager.GetInstance().LoadGameData();

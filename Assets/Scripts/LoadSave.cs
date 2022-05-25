@@ -59,6 +59,7 @@ public class LoadSave : MonoBehaviour
         //string path = Application.persistentDataPath + "/saves/" + "slot1" + ".rez";
         //Debug.Log(path);
         pick = 1;
+        MoveData.SlotPick = 1;
         SelectSave(data1);
     }
     public void LoadSave2()
@@ -68,6 +69,7 @@ public class LoadSave : MonoBehaviour
         //string path = Application.persistentDataPath + "/saves/" + "slot2" + ".rez";
         //Debug.Log(path);
         pick = 2;
+        MoveData.SlotPick = 2;
         SelectSave(data2);
     }
     public void LoadSave3()
@@ -77,6 +79,7 @@ public class LoadSave : MonoBehaviour
         //string path = Application.persistentDataPath + "/saves/" + "slot3" + ".rez";
         //Debug.Log(path);
         pick = 3;
+        MoveData.SlotPick = 3;
         SelectSave(data3);
     }
 
@@ -99,6 +102,7 @@ public class LoadSave : MonoBehaviour
     }
 
     public void getRektLoadkun(){
+        if(gameObject!=null)
         Destroy(gameObject);
     }
 }

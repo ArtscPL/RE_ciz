@@ -117,8 +117,13 @@ public class SaveManager : MonoBehaviour
         DataToFile loaddata = LoadSave.GetLoadManager().data;
         if(loaddata.SaveLV != 0){
             data = loaddata;
-            GetLoad = LoadSave.GetLoadManager().pick;
-            LoadSave.GetLoadManager().getRektLoadkun();
+            GetLoad = MoveData.SlotPick;
+            try{
+                LoadSave.GetLoadManager().getRektLoadkun();
+            }
+            catch(MissingReferenceException){
+                Debug.Log("bye load kun~");
+            }
             LoadtoManager(loaddata);
         }
     }
