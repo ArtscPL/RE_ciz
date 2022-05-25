@@ -8,6 +8,7 @@ public class Character : MonoBehaviour
 	public static Character instance;
 	public float Health00 = 100f;
 
+	public bool GTrigger = false;
 	public int PlayerLv;
 	public int PlayerExp;
 	public int Killcount=0;
@@ -126,6 +127,7 @@ public class Character : MonoBehaviour
 		Inventory.OnDropEvent += Drop;
 		EquipmentPanel.OnDropEvent += Drop;
 		dropItemArea.OnDropEvent += DropItemOutsideUI;
+
 	}
 
 	private void Start()
@@ -141,6 +143,9 @@ public class Character : MonoBehaviour
 			SaveManager.GetInstance().LoadGameData();
 		}
 		AddRewardFromBattle();
+		if(GTrigger){
+			GuideTrigger.GetInstance().GuideUi.SetActive(true);
+		}
 
 		//AddItemToPlayer.GetInstance().StoreinStorage();
 	}
