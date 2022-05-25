@@ -14,6 +14,7 @@ public class Reset : MonoBehaviour, IPointerClickHandler
     }
     public void OnPointerClick(PointerEventData eventData)
     {
+        SFXmanager.GetInstance().ButtonPressSound();
         for (int i = 0; i < 10 ; i++)
         {
             calculateState.Objects[i].SetActive(false);

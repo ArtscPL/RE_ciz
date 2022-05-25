@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseDi : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PauseDi : MonoBehaviour
     public GameObject SaveMenu;
     public GameObject ConfirmMainMenu;
     public GameObject ConfirmQuite;
+    //public AudioMixer audioMixer;
+    public AudioSource audioSource;
     
     void Awake(){
         //PlayerProfile pprofile = player.GetComponent<PlayerProfile>();
@@ -110,6 +113,12 @@ public class PauseDi : MonoBehaviour
     {
         SFXmanager.GetInstance().ButtonPressSound();
         Debug.Log("Sound Setto");
+    }
+
+    public void SetVolumn(float volumn){
+        //Debug.Log(volumn);
+        //audioMixer.SetFloat("volume", volumn);
+        audioSource.volume = volumn;
     }
 
     public void ClickMainMenu(){

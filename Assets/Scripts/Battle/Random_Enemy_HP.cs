@@ -52,6 +52,7 @@ public class Random_Enemy_HP : MonoBehaviour
             Debug.Log(hp);
             if (isDead == true)
             {
+                SFXmanager.GetInstance().LostSound();
                 target.gameObject.SetActive(true);
                 SaveManager.GetInstance().SaveDeathC++;
                 Debug.Log("Player is Dead");
@@ -76,6 +77,8 @@ public class Random_Enemy_HP : MonoBehaviour
                     MoveData.itemFromEnemy.Add(enemyStat.itemDrop[i]);
             }
             MoveData.Youwin = true;
+            SFXmanager.GetInstance().Audio.Stop();
+            SFXmanager.GetInstance().EpicWin();
             SaveManager.GetInstance().SaveKillcount++;
             return true;
         }

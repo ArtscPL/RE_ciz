@@ -24,6 +24,7 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     }
     public void OnPointerClick(PointerEventData eventData)
     {
+        SFXmanager.GetInstance().PressAttack();
         for (int i = 0; i < 9 ; i++)
         {
             calculateState.Objects[i].SetActive(false);

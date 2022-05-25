@@ -6,6 +6,9 @@ public class SFXmanager : MonoBehaviour
 {   
     public AudioSource Audio;
     public AudioClip Click;
+    public AudioClip Lost;
+    public AudioClip Attack;
+    public AudioClip Victory;
     public static SFXmanager instance;
 
     private void Awake(){
@@ -20,6 +23,22 @@ public class SFXmanager : MonoBehaviour
     }
 
     public void ButtonPressSound(){
+        if(Click!=null)
         Audio.PlayOneShot(Click);
+    }
+
+    public void LostSound(){
+        if(Lost!=null)
+        Audio.PlayOneShot(Lost);
+    }
+
+    public void PressAttack(){
+        if(Attack!=null)
+        Audio.PlayOneShot(Attack);
+    }
+
+    public void EpicWin(){
+        if(Victory!=null)
+        Audio.PlayOneShot(Victory);
     }
 }
