@@ -9,6 +9,7 @@ public class SFXmanager : MonoBehaviour
     public AudioClip Lost;
     public AudioClip Attack;
     public AudioClip Victory;
+    public AudioClip Ora;
     public static SFXmanager instance;
 
     private void Awake(){
@@ -25,6 +26,11 @@ public class SFXmanager : MonoBehaviour
     public void ButtonPressSound(){
         if(Click!=null)
         Audio.PlayOneShot(Click);
+    }
+
+    public void StarPlatinum(){
+        if(Ora!=null)
+        Audio.PlayOneShot(Ora);
     }
 
     public void LostSound(){

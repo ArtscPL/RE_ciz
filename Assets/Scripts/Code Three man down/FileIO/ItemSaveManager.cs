@@ -7,7 +7,12 @@ public class ItemSaveManager : MonoBehaviour
 
 	public string InventoryFileName = "Inventory";
 	public string EquipmentFileName = "Equipment";
-
+	public string path1_I = "/saves/" + "slot1" + "_item";
+    public string path1_E = "/saves/" + "slot1" + "_equip";
+    public string path2_I = "/saves/" + "slot2" + "_item";
+    public string path2_E = "/saves/" + "slot2" + "_equip";
+    public string path3_I = "/saves/" + "slot3" + "_item";
+    public string path3_E = "/saves/" + "slot3" + "_equip";
 	public static ItemSaveManager instance;
 
 	public static ItemSaveManager GetInstance(){
@@ -18,14 +23,20 @@ public class ItemSaveManager : MonoBehaviour
 		instance = this;
 	}
 
-	public void LoadInventory(Character character,string path)
+	public void LoadInventory(Character character)
 	{
 		ItemContainerSaveData savedSlots;
-		if(path == ""){
+		if(MoveData.SlotPick == 0){
 			savedSlots = ItemSaveIO.LoadItems(InventoryFileName);
 		}
+		else if(MoveData.SlotPick == 1){
+			savedSlots = ItemSaveIO.LoadItems(path1_I);
+		}
+		else if(MoveData.SlotPick == 2){
+			savedSlots = ItemSaveIO.LoadItems(path1_I);
+		}
 		else{
-			savedSlots = ItemSaveIO.LoadItems(path);
+			savedSlots = ItemSaveIO.LoadItems(path3_I);
 		}
 		if (savedSlots == null) return;
 		character.Inventory.Clear();
@@ -48,14 +59,20 @@ public class ItemSaveManager : MonoBehaviour
 		}
 	}
 
-	public void LoadEquipment(Character character,string path)
+	public void LoadEquipment(Character character)
 	{
 		ItemContainerSaveData savedSlots;
-		if(path == ""){
+		if(MoveData.SlotPick == 0){
 			savedSlots = ItemSaveIO.LoadItems(EquipmentFileName);
 		}
+		else if(MoveData.SlotPick == 1){
+			savedSlots = ItemSaveIO.LoadItems(path1_E);
+		}
+		else if(MoveData.SlotPick == 2){
+			savedSlots = ItemSaveIO.LoadItems(path2_E);
+		}
 		else{
-			savedSlots = ItemSaveIO.LoadItems(path);
+			savedSlots = ItemSaveIO.LoadItems(path3_E);
 		}
 		if (savedSlots == null) return;
 

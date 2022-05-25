@@ -48,6 +48,7 @@ public class Random_Enemy_HP : MonoBehaviour
         {
             player.currenthp -= (enemyStat.damage - MoveData.P_Def);
             int hp = player.currenthp;
+            SFXmanager.GetInstance().StarPlatinum();
             bool isDead = player.setHP(hp);
             Debug.Log(hp);
             if (isDead == true)

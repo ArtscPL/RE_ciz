@@ -17,6 +17,7 @@ public class MoveData : MonoBehaviour
     public static int Scene_index;
     public static int EXPBattle;
     public static int MoneyBattle;
+    public static int SlotPick=0;
 
     [Header("Craft")]
     public static List<Item> craftData;
