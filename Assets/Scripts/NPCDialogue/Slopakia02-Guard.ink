@@ -6,6 +6,8 @@ INCLUDE globals.ink
 {isC201 == true && isD201 == false:->finish201 | ->general}
 
 === general ===
+.
+
 ยินดีต้อนรับสู่สโลปาเคียร์ เมืองแห่งความแข็งแกร่ง! #speaker:ยามนํ้าแข็ง #portrait:GuardS
 ->DONE
 

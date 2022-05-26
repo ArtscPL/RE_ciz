@@ -6,9 +6,12 @@ INCLUDE globals.ink
 {isD203 == true && isS204 == false:->start204}
 {isC204 == true && isD204 == false:->finish204}
 {isD204 == true:->general}
+->general
 //->start202
 
 === general ===
+.
+
 หัวใจสำคัญของความแข็งแกร่งก็คือการฝึกฝนอยู่ตลอดเวลายังไงหละ!#speaker:ครูฝึก #portrait:Instructor
 ->DONE
 

@@ -26118,6 +26118,9 @@ MonoBehaviour:
     AudioVolume: 0
   SaveCalled: 0
   GetLoad: 0
+  SavePositionX: 0
+  SavePositionY: 0
+  SavePositionZ: 0
   SaveLV: 0
   SaveExp: 0
   SaveMoney: 0
@@ -57393,6 +57396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 0
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 10
 --- !u!136 &1240240743
@@ -71567,6 +71571,11 @@ MonoBehaviour:
   BossList:
   - {fileID: 3706689701985645145, guid: 0b6ff34e20c1d6b449633dd81cc24799, type: 3}
   - {fileID: 3706689701985645145, guid: 22414e54d21861242af4f9abb8d7fc61, type: 3}
+  - {fileID: 8124176114355936762, guid: 053f386df4b47624389c9d9fc34ab789, type: 3}
+  - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
+  - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
+  - {fileID: 3502955011306665748, guid: 63d1f58219eea9a42a43f98c2a753b45, type: 3}
+  - {fileID: 6948831984726534271, guid: 44eba983d930a1e44a8173c2e421e47a, type: 3}
   PlayerFightBossIndex: 0
 --- !u!1 &1552878878
 GameObject:
@@ -78705,6 +78714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 0
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 0
 --- !u!95 &1716901274

@@ -19221,6 +19221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 2
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 10
 --- !u!136 &348203667
@@ -19233,10 +19234,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.88521606
-  m_Height: 1.05
+  m_Radius: 0.72621214
+  m_Height: 1.7704321
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: -0.15900385}
 --- !u!1 &348703563
 GameObject:
   m_ObjectHideFlags: 0
@@ -24133,6 +24134,11 @@ MonoBehaviour:
   BossList:
   - {fileID: 3706689701985645145, guid: 0b6ff34e20c1d6b449633dd81cc24799, type: 3}
   - {fileID: 3706689701985645145, guid: 22414e54d21861242af4f9abb8d7fc61, type: 3}
+  - {fileID: 8124176114355936762, guid: 053f386df4b47624389c9d9fc34ab789, type: 3}
+  - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
+  - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
+  - {fileID: 3502955011306665748, guid: 63d1f58219eea9a42a43f98c2a753b45, type: 3}
+  - {fileID: 6948831984726534271, guid: 44eba983d930a1e44a8173c2e421e47a, type: 3}
   PlayerFightBossIndex: 0
 --- !u!4 &430641154
 Transform:
@@ -32375,6 +32381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 3
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 10
 --- !u!136 &583249281
@@ -32387,10 +32394,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.88521606
-  m_Height: 1.05
+  m_Radius: 0.77779335
+  m_Height: 1.7704321
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.10742277}
 --- !u!1 &583272372
 GameObject:
   m_ObjectHideFlags: 0
@@ -39945,8 +39952,6 @@ GameObject:
   m_Component:
   - component: {fileID: 764232112}
   - component: {fileID: 764232113}
-  - component: {fileID: 764232115}
-  - component: {fileID: 764232114}
   m_Layer: 0
   m_Name: wolf_0001_brown_0 (5)
   m_TagString: Enemy
@@ -40019,34 +40024,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &764232114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764232111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
-  MoveTo: 10
---- !u!136 &764232115
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764232111}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.88521606
-  m_Height: 1.05
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &764925384
 GameObject:
   m_ObjectHideFlags: 0
@@ -50557,6 +50534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 1
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 10
 --- !u!136 &950135533
@@ -68639,6 +68617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a724bb0938d0e9e49996fadc2793e8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAssignedID: 4
   thisEnemy: {fileID: 3706689701985645145, guid: a383c60e6779b3d43a8a1dbb358b2fa5, type: 3}
   MoveTo: 10
 --- !u!136 &1358220834
@@ -68651,10 +68630,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.88521606
-  m_Height: 1.05
+  m_Radius: 0.7807971
+  m_Height: 1.7704321
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.10441899}
 --- !u!1 &1359406079
 GameObject:
   m_ObjectHideFlags: 0
@@ -86319,6 +86298,9 @@ MonoBehaviour:
     AudioVolume: 0
   SaveCalled: 0
   GetLoad: 0
+  SavePositionX: 0
+  SavePositionY: 0
+  SavePositionZ: 0
   SaveLV: 0
   SaveExp: 0
   SaveMoney: 0
