@@ -10542,7 +10542,9 @@ MonoBehaviour:
   Lost: {fileID: 8300000, guid: d3077008e702ded4cad407ddad5c5849, type: 3}
   Attack: {fileID: 8300000, guid: 930a567037122544d8c9d58859f13045, type: 3}
   Victory: {fileID: 8300000, guid: 46a3274786663244cb17daa6f6e941d7, type: 3}
-  Ora: {fileID: 8300000, guid: 6d1a3f41b8586cb448e059f432426025, type: 3}
+  Ora: {fileID: 8300000, guid: b14e1b141cca90e4d961947a9e184633, type: 3}
+  onepunch: {fileID: 8300000, guid: c675eb0143af70d4ebcffc16333ffa43, type: 3}
+  nope: {fileID: 8300000, guid: 61dd689b4944b964ca23c477374c25f9, type: 3}
 --- !u!82 &1761020365
 AudioSource:
   m_ObjectHideFlags: 0
