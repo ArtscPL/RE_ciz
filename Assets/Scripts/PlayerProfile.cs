@@ -6,26 +6,6 @@ using UnityEngine.UI;
 [System.Serializable]
 public class PlayerProfile : MonoBehaviour
 {
-    /*
-    public int questProgress;
-    //all quest = 39/604
-    public int questMax;
-    public int MonKill;
-    //all chest 21
-    public int ChestMax;
-    public int ChestFound;
-    public int HighestDMG;
-    public int CraftSuccess;
-    public int L1scoreMax;
-    public int L1_1scoreMax;
-    public int L1_2scoreMax;
-    public int L2_1scoreMax;
-    public int L2_2scoreMax;
-    public int Lesson1Score;
-    public int Lesson1_1Score;
-    public int Lesson1_2Score;
-    public int Lesson2_1Score;
-    public int Lesson2_2Score;*/
 
     [Header("Stat UI")]
     public Text LV_Text;

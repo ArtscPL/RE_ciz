@@ -56,6 +56,7 @@ public class CraftingRecipe : ScriptableObject
 		{
 			RemoveMaterials(itemContainer);
 			AddResults(itemContainer);
+			Character.GetInstance().CraftUp();
 			SFXmanager.GetInstance().WiseChoice();
 		}
 		else if (CanCraft(itemContainer))
