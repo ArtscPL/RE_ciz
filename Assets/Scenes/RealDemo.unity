@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -35087,10 +35087,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1153937320}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724061263
 GameObject:
@@ -36051,7 +36050,7 @@ MonoBehaviour:
     BaseValue: 0
   Inventory: {fileID: 173525293}
   EquipmentPanel: {fileID: 1277017028}
-  Money: 10000
+  Money: 0
   craftingWindow: {fileID: 756390155}
   statPanel: {fileID: 36954175}
   itemTooltip: {fileID: 1520183209}
@@ -36060,6 +36059,9 @@ MonoBehaviour:
   reallyDropItemDialog: {fileID: 261313752}
   itemSaveManager: {fileID: 2125913091}
   ShowMeYourMoney: {fileID: 1998122343}
+  PotionL: {fileID: 11400000, guid: b0d361dd68000cf4da1533c3027a0c3c, type: 2}
+  PotionM: {fileID: 11400000, guid: 20071e6c48b90f545874c07dda5172f0, type: 2}
+  PotionS: {fileID: 11400000, guid: 05b265ff3f88083448ba592834c805f0, type: 2}
 --- !u!114 &740997328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53866,12 +53868,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153937319}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 723100921}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1153937321
 MonoBehaviour:

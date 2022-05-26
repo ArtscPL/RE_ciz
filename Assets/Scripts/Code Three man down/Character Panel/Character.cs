@@ -164,14 +164,13 @@ public class Character : MonoBehaviour
 		if(ShowMeYourMoney.IsActive()){
 			ShowMeYourMoney.text = Money.ToString();
 		}
-		if (Inventory.ItemCount(PotionL.ID) != null)
+		if (Inventory.ItemCount(PotionL.ID) != 0)
 			MoveData.havepotionL = Inventory.ItemCount(PotionL.ID);
-		if (Inventory.ItemCount(PotionM.ID) != null)
+		if (Inventory.ItemCount(PotionM.ID) != 0)
 			MoveData.havepotionM = Inventory.ItemCount(PotionM.ID);
-		if (Inventory.ItemCount(PotionS.ID) != null)
+		if (Inventory.ItemCount(PotionS.ID) != 0)
 			MoveData.havepotionS = Inventory.ItemCount(PotionS.ID);
-	//	AddItemFromBattle();
-		Debug.Log(MoveData.havepotionS);
+		//Debug.Log(MoveData.havepotionS);
 	}
 	private void AddRewardFromBattle()
 	{

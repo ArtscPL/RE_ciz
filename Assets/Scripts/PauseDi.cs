@@ -25,6 +25,10 @@ public class PauseDi : MonoBehaviour
         }
         instance = this;
         //initialize inventory
+        
+    }
+
+    void Start(){
         Bcon.Inventory();
         Bcon.Inventory();
     }

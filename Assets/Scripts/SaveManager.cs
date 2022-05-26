@@ -114,6 +114,21 @@ public class SaveManager : MonoBehaviour
         if(saveManager!=this){
             Destroy(gameObject);
         }
+        /*DataToFile loaddata = LoadSave.GetLoadManager().data;
+        if(loaddata.SaveLV != 0){
+            data = loaddata;
+            GetLoad = MoveData.SlotPick;
+            try{
+                LoadSave.GetLoadManager().getRektLoadkun();
+            }
+            catch(MissingReferenceException){
+                Debug.Log("bye load kun~");
+            }
+            LoadtoManager(loaddata);
+        }*/
+    }
+
+    private void Start(){
         DataToFile loaddata = LoadSave.GetLoadManager().data;
         if(loaddata.SaveLV != 0){
             data = loaddata;
@@ -126,9 +141,6 @@ public class SaveManager : MonoBehaviour
             }
             LoadtoManager(loaddata);
         }
-    }
-
-    private void Start(){
         if(SaveLV!=0){
             LoadGameData();
             DialogueManager.GetInstance().LoadInk();
