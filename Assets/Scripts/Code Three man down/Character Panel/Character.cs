@@ -43,6 +43,11 @@ public class Character : MonoBehaviour
 	[SerializeField] ItemSaveManager itemSaveManager;
 	[SerializeField] Text ShowMeYourMoney;
 
+	[Header("Potion")]
+	public Item PotionL;
+	public Item PotionM;
+	public Item PotionS;
+
 	private BaseItemSlot dragItemSlot;
 	private void OnValidate()
 	{
@@ -159,7 +164,14 @@ public class Character : MonoBehaviour
 		if(ShowMeYourMoney.IsActive()){
 			ShowMeYourMoney.text = Money.ToString();
 		}
+		if (Inventory.ItemCount(PotionL.ID) != null)
+			MoveData.havepotionL = Inventory.ItemCount(PotionL.ID);
+		if (Inventory.ItemCount(PotionM.ID) != null)
+			MoveData.havepotionM = Inventory.ItemCount(PotionM.ID);
+		if (Inventory.ItemCount(PotionS.ID) != null)
+			MoveData.havepotionS = Inventory.ItemCount(PotionS.ID);
 	//	AddItemFromBattle();
+		Debug.Log(MoveData.havepotionS);
 	}
 	private void AddRewardFromBattle()
 	{
@@ -180,6 +192,12 @@ public class Character : MonoBehaviour
 			MoveData.Youwin = false;
 			MoveData.EXPBattle = 0;
 			MoveData.MoneyBattle = 0;
+			for (int i = 0; i < MoveData.usepotionL; i++)
+				Inventory.RemoveItem(PotionL);
+			for (int i = 0; i < MoveData.usepotionM; i++)
+				Inventory.RemoveItem(PotionM);
+			for (int i = 0; i < MoveData.usepotionS; i++)
+				Inventory.RemoveItem(PotionS);
 		}
 	}
 	public void AddItemFromShop()

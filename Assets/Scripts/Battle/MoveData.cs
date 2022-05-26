@@ -29,4 +29,12 @@ public class MoveData : MonoBehaviour
     public static int moneyItemShop;
     public static int amountShop = 1;
     public static int totalPriceShop;
+
+    [Header("Potion")]
+    public static int havepotionL = 0;
+    public static int havepotionM = 0;
+    public static int havepotionS = 0;
+    public static int usepotionL = 0;
+    public static int usepotionM = 0;
+    public static int usepotionS = 0;
 }

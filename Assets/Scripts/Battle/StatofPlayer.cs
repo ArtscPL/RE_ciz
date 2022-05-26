@@ -21,7 +21,8 @@ public class StatofPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (currenthp > maxhp)
+            currenthp = maxhp;
     }
     public bool setHP(int hp)
     {
@@ -41,9 +42,5 @@ public class StatofPlayer : MonoBehaviour
         currenthp = maxhp;
         hpslider.maxValue = maxhp;
         hpslider.value = currenthp;
-        Debug.Log(maxhp);
-        Debug.Log(Def);
-        Debug.Log(Eva);
-        Debug.Log(Res);
     }
 }
