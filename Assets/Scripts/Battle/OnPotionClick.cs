@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class OnPotionClick : MonoBehaviour, IPointerClickHandler
@@ -8,6 +9,7 @@ public class OnPotionClick : MonoBehaviour, IPointerClickHandler
     public StatofPlayer statofPlayer;
     public PotionSys potionSys;
     public string whatPotion;
+    public Text tt;
     private int useL = 0;
     private int useM = 0;
     private int useS = 0;
@@ -20,7 +22,8 @@ public class OnPotionClick : MonoBehaviour, IPointerClickHandler
             if (statofPlayer.currenthp > statofPlayer.maxhp)
                 statofPlayer.setHP(statofPlayer.maxhp);
             else statofPlayer.setHP(statofPlayer.currenthp);
-            potionSys.potioncalculate(whatPotion,useL);
+            potionSys.potioncalculate(whatPotion);
+            tt.text = (MoveData.havepotionL-useL).ToString();
         }
         else if (whatPotion == "M" && MoveData.havepotionM > 0 && useM < MoveData.havepotionM) 
         {
@@ -29,7 +32,8 @@ public class OnPotionClick : MonoBehaviour, IPointerClickHandler
             if (statofPlayer.currenthp > statofPlayer.maxhp)
                 statofPlayer.setHP(statofPlayer.maxhp);
             else statofPlayer.setHP(statofPlayer.currenthp);
-            potionSys.potioncalculate(whatPotion,useM);
+            potionSys.potioncalculate(whatPotion);
+            tt.text = (MoveData.havepotionM-useM).ToString();
         }
         else if (whatPotion == "S" && MoveData.havepotionS > 0 && useS < MoveData.havepotionS)
         {
@@ -38,7 +42,8 @@ public class OnPotionClick : MonoBehaviour, IPointerClickHandler
             if (statofPlayer.currenthp > statofPlayer.maxhp)
                 statofPlayer.setHP(statofPlayer.maxhp);
             else statofPlayer.setHP(statofPlayer.currenthp);
-            potionSys.potioncalculate(whatPotion,useS);
+            potionSys.potioncalculate(whatPotion);
+            tt.text = (MoveData.havepotionS-useS).ToString();
         }
         else Debug.Log("No Potion In Inventory");
     }
