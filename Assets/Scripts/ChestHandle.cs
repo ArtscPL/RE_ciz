@@ -89,6 +89,7 @@ public class ChestHandle : MonoBehaviour
         }
         else
         {
+            SFXmanager.GetInstance().CallNope();
             Debug.Log(ChestL.ChestAnswer + " is a correct answer of this chest");
             Debug.Log(ans + " is Wrong~, Try again");
             ClearField();
@@ -105,6 +106,7 @@ public class ChestHandle : MonoBehaviour
         Reward.text = "ReCoin + " + ChestL.recoinReward;
         if(ChestL.ItemInstance!=null) Reward.text += "\n" + ChestL.itemReward + " x1";
         AddChestReward_Player(ChestL);
+        SFXmanager.GetInstance().EpicWin();
     }
 
     public void AddChestReward_Player(ChestInfo ChestL){

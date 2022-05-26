@@ -61,6 +61,7 @@ public class Random_Enemy_HP : MonoBehaviour
         }
         else
         {
+            SFXmanager.GetInstance().CallNope();
             Debug.Log("Evasion Success");
         }
         turn.turn += 1;
@@ -79,7 +80,12 @@ public class Random_Enemy_HP : MonoBehaviour
             }
             MoveData.Youwin = true;
             SFXmanager.GetInstance().Audio.Stop();
-            SFXmanager.GetInstance().EpicWin();
+            if(turn.turn == 1){
+                SFXmanager.GetInstance().ONEPANCHHH();
+            }
+            else{
+                SFXmanager.GetInstance().EpicWin();
+            }
             SaveManager.GetInstance().SaveKillcount++;
             return true;
         }

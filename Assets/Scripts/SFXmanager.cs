@@ -10,6 +10,8 @@ public class SFXmanager : MonoBehaviour
     public AudioClip Attack;
     public AudioClip Victory;
     public AudioClip Ora;
+    public AudioClip onepunch;
+    public AudioClip nope;
     public static SFXmanager instance;
 
     private void Awake(){
@@ -26,6 +28,16 @@ public class SFXmanager : MonoBehaviour
     public void ButtonPressSound(){
         if(Click!=null)
         Audio.PlayOneShot(Click);
+    }
+
+    public void ONEPANCHHH(){
+        if(onepunch!=null)
+        Audio.PlayOneShot(onepunch);
+    }
+
+    public void CallNope(){
+        if(nope!=null)
+        Audio.PlayOneShot(nope);
     }
 
     public void StarPlatinum(){
