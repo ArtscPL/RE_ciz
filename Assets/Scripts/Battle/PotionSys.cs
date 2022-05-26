@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PotionSys : MonoBehaviour
 {
-    public void potioncalculate(string whatpotion,int use)
+    public void potioncalculate(string whatpotion)
     {
         if (whatpotion == "L")
-            MoveData.usepotionL += use;
-        else if (whatpotion == "M") MoveData.usepotionM += use;
-        else MoveData.usepotionS += use;
+            MoveData.usepotionL += 1;
+        else if (whatpotion == "M") MoveData.usepotionM += 1;
+        else MoveData.usepotionS += 1;
         Debug.Log(MoveData.usepotionL);
         Debug.Log(MoveData.usepotionM);
         Debug.Log(MoveData.usepotionS);
