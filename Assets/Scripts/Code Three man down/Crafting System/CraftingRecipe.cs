@@ -56,13 +56,18 @@ public class CraftingRecipe : ScriptableObject
 		{
 			RemoveMaterials(itemContainer);
 			AddResults(itemContainer);
+			SFXmanager.GetInstance().WiseChoice();
 		}
 		else if (CanCraft(itemContainer))
 		{
 			RemoveMaterials(itemContainer);
 			Debug.Log("Fail");
+			SFXmanager.GetInstance().RIPCraft();
 		}
-		else Debug.Log("No Mat");
+		else{
+			Debug.Log("No Mat");
+			SFXmanager.GetInstance().NotEnough();
+		}
 	}
 	public void Show()
 	{

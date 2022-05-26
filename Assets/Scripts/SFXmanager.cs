@@ -12,6 +12,12 @@ public class SFXmanager : MonoBehaviour
     public AudioClip Ora;
     public AudioClip onepunch;
     public AudioClip nope;
+    public AudioClip OpenShop;
+    public AudioClip Transactioncomplete;
+    public AudioClip OpenCraft;
+    public AudioClip Craft;
+    public AudioClip NoMat;
+    public AudioClip Guts;
     public static SFXmanager instance;
 
     private void Awake(){
@@ -19,6 +25,32 @@ public class SFXmanager : MonoBehaviour
             Debug.Log("Found more than 1 sfx manager here");      
         }
         instance = this;              
+    }
+
+    public void craftopen(){
+        if(OpenCraft!=null)
+        Audio.PlayOneShot(OpenCraft);
+    }
+    public void NotEnough(){
+        if(NoMat!=null)
+        Audio.PlayOneShot(NoMat);
+    }
+    public void WiseChoice(){
+        if(Craft!=null)
+        Audio.PlayOneShot(Craft);
+    }
+    public void RIPCraft(){
+        if(Guts!=null)
+        Audio.PlayOneShot(Guts);
+    }
+
+    public void transac(){
+        if(Transactioncomplete!=null)
+        Audio.PlayOneShot(Transactioncomplete);
+    }
+    public void shopopen(){
+        if(OpenShop!=null)
+        Audio.PlayOneShot(OpenShop);
     }
 
     public static SFXmanager GetInstance(){

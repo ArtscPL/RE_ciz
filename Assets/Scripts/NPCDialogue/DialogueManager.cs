@@ -148,10 +148,12 @@ public class DialogueManager : MonoBehaviour
         }
         else if(ShopOpen){
             //Shop window popup
+            SFXmanager.GetInstance().shopopen();
             ShopWindowPopup();
         }
         else if(CraftOpen){
             //Craft window popup
+            SFXmanager.GetInstance().craftopen();
             CraftWindowPopup();
         }
         else if(FightB){
