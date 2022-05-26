@@ -8,11 +8,15 @@ INCLUDE globals.ink
 //#speaker:ยาม1 #portrait:Guard1
 
 === general ===
+.
+
 เดินชมรอบเมืองได้ตามสบายเลย เจ้าหนุ่ม #speaker:ยาม1 #portrait:Guard1
 ->DONE
 
 === start101 ===
 //dialogue ของยาม 1 เซนเทรียน่า เริ่มด้วยเควสตีมอน
+.
+
 หยุดก่อนเจ้าหนุ่ม เธอเป็นหน้าใหม่รึเปล่า? #speaker:ยาม1 #portrait:Guard1
 ใช่ครับ ว่าแต่ รู้ได้ไงอะ? #speaker:Player #portrait:Player
 บรรยากาศหนะ ใครๆก็มองออกทั้งนั้นแหละว่าเธอเป็นหน้าใหม่ จะมาเข้าพักที่เมืองนี้ใช่รึเปล่าหละ?   #speaker:ยาม1 #portrait:Guard1

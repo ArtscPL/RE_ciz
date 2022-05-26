@@ -170,8 +170,7 @@ public class Character : MonoBehaviour
 			MoveData.havepotionM = Inventory.ItemCount(PotionM.ID);
 		if (Inventory.ItemCount(PotionS.ID) != 0)
 			MoveData.havepotionS = Inventory.ItemCount(PotionS.ID);
-	//	AddItemFromBattle();
-		Debug.Log(MoveData.havepotionS);
+		//Debug.Log(MoveData.havepotionS);
 	}
 	private void AddRewardFromBattle()
 	{
