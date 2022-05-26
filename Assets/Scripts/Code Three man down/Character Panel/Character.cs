@@ -184,13 +184,16 @@ public class Character : MonoBehaviour
 	}
 	public void AddItemFromShop()
 	{
-		if (Money < MoveData.totalPriceShop)
+		if (Money < MoveData.totalPriceShop){
 			Debug.Log("No Money Cant Buy This");
+			SFXmanager.GetInstance().NotEnough();
+		}
 		else
 		{
 			Money -= MoveData.totalPriceShop;
 			for(int i = 1; i <= MoveData.amountShop; i++)
 				Inventory.AddItem(MoveData.shopData.GetCopy());
+			SFXmanager.GetInstance().transac();
 		}
 	}
 	private void OnDestroy()
