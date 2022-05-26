@@ -189,7 +189,7 @@ public class Character : MonoBehaviour
 		else
 		{
 			Money -= MoveData.totalPriceShop;
-			for(int i = 1; i <=++ MoveData.amountShop; i++)
+			for(int i = 1; i <= MoveData.amountShop; i++)
 				Inventory.AddItem(MoveData.shopData.GetCopy());
 		}
 	}
