@@ -1,6 +1,7 @@
 INCLUDE globals.ink
 {isS604 == false:->restriction}
-{isS604 == true: ->604init}
+{isS604 == true && isC604 == false: ->604init}
+{isC604 == true && isD604 == false: ->ENDING}
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
 //#speaker:เทพแห่งไฟ #portrait:FireGod
@@ -8,7 +9,7 @@ INCLUDE globals.ink
 === restriction ===
 ???
 
-ถอยด่วน เจ้านี่เก่งเกินกว่าที่นายจะรับมือได้ #speaker:อาซิลรา #portrait:Azilra
+(มังกรปริศนา สันนิษฐานว่าจะเป็นเทพแห่งไฟ)#speaker:เทพแห่งไฟ #portrait:FireGod
 ->DONE
 
 === 604init ===
@@ -27,4 +28,18 @@ INCLUDE globals.ink
 ย่อมได้ จงอย่าได้ประมาทหละ#speaker:เทพแห่งไฟ #portrait:FireGod
 ~fightBoss = true
 //change isC604 = true when defeated
+->DONE
+
+=== ENDING ===
+~questTurnin = true
+~isD604 = true
+เจ้าทำได้แล้ว ยินดีด้วย #speaker:เทพแห่งไฟ #portrait:FireGod
+
+นายจะทำตามสัญญาใช่มั้ย?#speaker:Player #portrait:Player
+
+แน่นอน แต่ต้องใช้เวลานานเลยหละ แต่ไม่ต้องห่วง เจ้ายังสามารถใช้ชีวิตในโลกนี้ได้ปกติ #speaker:เทพแห่งไฟ #portrait:FireGod
+
+เวลตันแล้ว อะไรตันแล้วมีอะไรให้ทำอีกหรอ?#speaker:Player #portrait:Player
+
+(สมมัติว่าไอคนทำเกมมันอยากสร้างภาคต่อ เดี่ยวมันก็มีแหละมั้ง)#speaker:เทพแห่งไฟ #portrait:FireGod
 ->DONE

@@ -11,6 +11,10 @@ INCLUDE globals.ink
 {isC208 == true && isD208 == false: ->finish208 }
 {isD208 == true && isS209 == false: ->start209}
 {isSS404 == true && isCC404 == false: ->404get}
+.
+
+เมืองของเราพร้อมจะช่วยเหลือเจ้าเสมอนะไอหนู#speaker:เจ้าเมือง #portrait:LordS
+
 
 === 404get ===
 ท่านเจ้าเมือง ผมมีเรื่องจะขอ#speaker:Player #portrait:Player

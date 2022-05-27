@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3502955011306665749}
   - component: {fileID: 4846916529441665218}
   m_Layer: 0
-  m_Name: Redeye_0
+  m_Name: DarkGod(fake)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,10 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80faa0b6022d62a40a6c248779d63679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyID: 6
-  minhp: 5000
-  maxhp: 9999
+  enemyID: 115
+  minhp: 10000
+  maxhp: 10000
   damage: 1200
-  expDrop: 200
-  MoneyDrop: 1500
+  expDrop: 1500
+  MoneyDrop: 5000
   itemDrop: []

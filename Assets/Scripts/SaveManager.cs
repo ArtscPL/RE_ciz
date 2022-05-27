@@ -10,6 +10,9 @@ public class SaveManager : MonoBehaviour
     public DataToFile data;
     public int SaveCalled=0;
     public int GetLoad=0;
+    public float SavePositionX;
+    public float SavePositionY;
+    public float SavePositionZ;  
     public int SaveLV;
     public int SaveExp; 
     public int SaveMoney;
@@ -67,7 +70,14 @@ public class SaveManager : MonoBehaviour
         DialogueManager.GetInstance().dialogueVariables = SaveDialogueVariables;
         BossManager.GetInstance().PlayerFightBossIndex = SaveBossFight;
         SFXmanager.GetInstance().Audio.volume = AudioVolume;
-    
+        //problem with teleporter
+        if(MoveData.UseTP==0){
+            if(MoveData.MoveCalled!=0)
+            Movement2D.GetInstance().GetLocation().transform.position = new Vector3(SavePositionX,SavePositionY,SavePositionZ); 
+        }
+        else{
+            MoveData.UseTP=0;
+        }
     } 
 
     public void SavetoAsset(){

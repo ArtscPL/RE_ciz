@@ -112,6 +112,8 @@ INCLUDE globals.ink
     {isSSS205==true && isD205 == false: ->finish205}
     {isD205 == true && isS206 == false: ->start206}
     {isC206 == true && isD206 == false: ->finish206}
+    ข้ายังไม่มีภารกิจให้เจ้าทำหรอกนะ#speaker:ช่างตีเหล็ก #portrait:BlackS
+    ->DONE
 + [สร้างอุปกรณ์]
     ~Ccraft = true
     [เข้าสู่กระบวนการสร้างอุปกรณ์]

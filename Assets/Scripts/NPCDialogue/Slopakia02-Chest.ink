@@ -5,6 +5,8 @@ INCLUDE globals.ink
 {isS201 == true && (isC201 == false && isD201 == false): ->progress201 | ->general}
 
 === general ===
+.
+
 กล่องปริศนาพิเศษ ต้องมีภารกิจจากยามแห่งเมืองสโลปาเคียร์เท่านั้นถึงจะเปิดได้
 ->DONE
 

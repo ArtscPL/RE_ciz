@@ -9,10 +9,14 @@ INCLUDE globals.ink
 {isD405 == true && isS406 == false: ->start406}
 {isS406 == true:->allDone}
 === NotReady ===
+.
+
 (ผู้เล่นจำเป็นต้องทำภารกิจจากยามให้เสร็จก่อน)
 ->DONE
 
 === allDone ===
+.
+
 อยากกินซีฟู้ดจังเลยน้า#speaker:เจ้าเมือง #portrait:LordP
 ->DONE
 

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 84fdaa39173931d4abc2e6481c56e05d
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/Centriana.unity
     guid: 07d2e016efc94db428c15d047cfaf0d5
   - enabled: 1
@@ -36,12 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/IntegrationTest.unity
     guid: 96865781b8caacf4386642c297f6b8c7
   - enabled: 1
-    path: Assets/Scenes/Battle Scene.unity
-    guid: 690c958f6e72d6743b1d1063e663d5cd
-  - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: f34bcf2996fb1a24c9d9930f585ea8b2
-  - enabled: 1
     path: Assets/Scenes/RealDemo.unity
     guid: 7ca135e83d1a5404789b30e62024af93
+  - enabled: 1
+    path: Assets/Scenes/Battle Scene.unity
+    guid: 690c958f6e72d6743b1d1063e663d5cd
   m_configObjects: {}

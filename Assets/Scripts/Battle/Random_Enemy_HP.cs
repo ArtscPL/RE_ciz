@@ -52,6 +52,13 @@ public class Random_Enemy_HP : MonoBehaviour
             Debug.Log(player.currenthp);
             if (isDead == true)
             {
+                if(MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID>100)
+                {
+                    if( MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID != 115){
+                    BossManager.GetInstance().PlayerFightBossIndex--;
+                    SaveManager.GetInstance().SaveBossFight--;
+                    }
+                }
                 SFXmanager.GetInstance().LostSound();
                 target.gameObject.SetActive(true);
                 SaveManager.GetInstance().SaveDeathC++;

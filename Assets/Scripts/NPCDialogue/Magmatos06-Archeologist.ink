@@ -10,6 +10,8 @@ INCLUDE globals.ink
 //#speaker:นักโบราณคดี #portrait:Ache
 
 === general ===
+.
+
 ระวังตัวให้ดี ๆ หละ ที่นี่ไม่ได้ปลอดภัยอย่างที่คิด#speaker:นักโบราณคดี #portrait:Ache
 ->DONE
 

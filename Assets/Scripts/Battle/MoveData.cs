@@ -5,6 +5,8 @@ using UnityEngine;
 public class MoveData : MonoBehaviour
 {
     public static GameObject enemyPrefabs;
+    public static int MoveCalled=0;
+    public static int UseTP=0;
     public static int P_Hp;
     public static int P_Def;
     public static int P_Eva;

@@ -198,6 +198,7 @@ public class Character : MonoBehaviour
 			for (int i = 0; i < MoveData.usepotionS; i++)
 				Inventory.RemoveItem(PotionS);
 		}
+		
 	}
 	public void AddItemFromShop()
 	{
