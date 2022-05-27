@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.SceneManagement;
+using System;
 
 public class SaveManager : MonoBehaviour
 {
@@ -139,6 +140,7 @@ public class SaveManager : MonoBehaviour
     }
 
     private void Start(){
+        try{
         DataToFile loaddata = LoadSave.GetLoadManager().data;
         if(loaddata.SaveLV != 0){
             data = loaddata;
@@ -151,6 +153,11 @@ public class SaveManager : MonoBehaviour
             }
             LoadtoManager(loaddata);
         }
+        }
+        catch (NullReferenceException){
+            Debug.Log("No data to loaded: null ref ex catched");
+        }
+
         if(SaveLV!=0){
             LoadGameData();
             DialogueManager.GetInstance().LoadInk();

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ChestHandle : MonoBehaviour
 {
@@ -65,6 +66,7 @@ public class ChestHandle : MonoBehaviour
     }
 
     public void InitailizedChest(){
+        try{
         List<int> Solved = Character.GetInstance().ChestSolved;
         foreach(ChestInfo j in ChestLists){
             foreach(int i in Solved){
@@ -73,6 +75,10 @@ public class ChestHandle : MonoBehaviour
                     j.ChestObject.SetActive(false);
                 }
             }
+        }
+        }
+        catch (NullReferenceException){
+            Debug.Log("No data to initialized , you good to go");
         }
     }
 
