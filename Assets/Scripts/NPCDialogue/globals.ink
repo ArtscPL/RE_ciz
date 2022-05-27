@@ -3,6 +3,8 @@ Start = S , make it true when player accepted quest
 Clear = C , make it true when player fulfilled quest's progress
 D = Done , make it true when player get quest reward
 */ 
+VAR intro = false
+
 VAR questAccepted = false
 VAR questTurnin = false
 VAR fightBoss = false
