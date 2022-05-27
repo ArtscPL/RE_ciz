@@ -54,8 +54,10 @@ public class Random_Enemy_HP : MonoBehaviour
             {
                 if(MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID>100)
                 {
+                    if( MoveData.enemyPrefabs.GetComponent<EnemyStat>().enemyID != 115){
                     BossManager.GetInstance().PlayerFightBossIndex--;
                     SaveManager.GetInstance().SaveBossFight--;
+                    }
                 }
                 SFXmanager.GetInstance().LostSound();
                 target.gameObject.SetActive(true);

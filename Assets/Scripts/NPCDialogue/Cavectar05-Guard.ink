@@ -22,6 +22,8 @@ INCLUDE globals.ink
 ->DONE
 
 === general ===
+.
+
 อย่าทำอะไรโง่ๆในเมืองหละ แล้วจะหาว่าไม่เตือน #speaker:ยาม #portrait:GuardCa
 ->DONE
 

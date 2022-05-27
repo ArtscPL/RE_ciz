@@ -4,7 +4,10 @@ INCLUDE globals.ink
 {isC504 == true && isD504 == false: ->finish504}
 {isD505 == true && isS506 == false:->start506}
 {isC506 == true && isD506 == false: ->finish506}
+.
+
 ยินดีต้อนรับสู่เมืองคาเวกตาร์#speaker:เจ้าเมือง #portrait:LordCa
+->DONE
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
 //#speaker:เจ้าเมือง #portrait:LordCa

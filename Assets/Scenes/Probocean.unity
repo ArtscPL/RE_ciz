@@ -46365,6 +46365,7 @@ MonoBehaviour:
   - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
   - {fileID: 8940388230770435564, guid: 7c7dcada50f04e24dba8a5d5c0a8fe06, type: 3}
   - {fileID: 8626152338540966198, guid: 863da6491d6860c46a1dd7916d431310, type: 3}
+  - {fileID: 3502955011306665748, guid: fa33b2327c55e0a4f8f05ba9de66cccd, type: 3}
   - {fileID: 3502955011306665748, guid: 63d1f58219eea9a42a43f98c2a753b45, type: 3}
   - {fileID: 6948831984726534271, guid: 44eba983d930a1e44a8173c2e421e47a, type: 3}
   PlayerFightBossIndex: 0
