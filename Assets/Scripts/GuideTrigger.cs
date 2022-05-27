@@ -16,6 +16,9 @@ public class GuideTrigger : MonoBehaviour
         GuideManager gm = GuideManager.GetInstance();
         if(gm!=null){
             Character.GetInstance().GTrigger = true;
+            Debug.Log(Character.GetInstance().GTrigger);
+            GuideUi.SetActive(true);
+            GuideManager.GetInstance().DestroyMeSenpai();
         }
     }
 

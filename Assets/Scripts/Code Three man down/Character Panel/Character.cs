@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
 	public static Character instance;
 	public float Health00 = 100f;
 
-	public bool GTrigger = false;
+	public bool GTrigger;
 	public int PlayerLv;
 	public int PlayerExp;
 	public int Killcount=0;
@@ -152,7 +152,9 @@ public class Character : MonoBehaviour
 			SaveManager.GetInstance().LoadGameData();
 		}
 		AddRewardFromBattle();
+
 		if(GTrigger){
+			Debug.Log("wait guide supposed to out u dummy");
 			GuideTrigger.GetInstance().GuideUi.SetActive(true);
 		}
 

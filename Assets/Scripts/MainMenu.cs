@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
             File.Delete(pathI);
             File.Delete(pathE);
         }
+        LoadSave.GetLoadManager().data = null;
         SceneManager.LoadScene("Intro");
         StartCoroutine(LoadScene());
     }
