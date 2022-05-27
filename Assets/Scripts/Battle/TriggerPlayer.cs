@@ -113,7 +113,50 @@ public class TriggerPlayer : MonoBehaviour
             }
         }
         else if(nani == "Probocean"){
-
+            switch(enemyAssignedID){
+                case 1:
+                    SaveManager.GetInstance().SavePositionX = (float)-16.1454144;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)4.20636702;
+                    break;
+                case 2:
+                    SaveManager.GetInstance().SavePositionX = (float)-12.1263657;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)7.48598337;
+                    break;
+                case 3:
+                    SaveManager.GetInstance().SavePositionX = (float)-2.66701841;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-1.57765388;
+                    break;
+                case 4:
+                    SaveManager.GetInstance().SavePositionX = (float)2.57497644;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)0.0604065657;
+                    break;
+                case 5:
+                    SaveManager.GetInstance().SavePositionX = (float)7.50845146;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-2.23319674;
+                    break;
+                case 6:
+                    SaveManager.GetInstance().SavePositionX = (float)12.3925638;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)6.46293831;
+                    break;
+                case 7:
+                    SaveManager.GetInstance().SavePositionX = (float)16.9207153;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)3.40372467;
+                    break;
+                case 8:
+                    SaveManager.GetInstance().SavePositionX = (float)-11.1017723;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)0.590304852;
+                    break;
+                default:
+                break;
+            }
         }
         else if(nani == "Cavectar"){
 

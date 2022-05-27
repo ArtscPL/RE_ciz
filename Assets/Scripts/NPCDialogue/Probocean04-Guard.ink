@@ -7,6 +7,8 @@ INCLUDE globals.ink
 //#speaker:ยาม #portrait:GuardP
 
 === general ===
+.
+
 ปราบกบฏเพื่อเมืองของเรา #speaker:ยาม #portrait:GuardP
 ->DONE
 
