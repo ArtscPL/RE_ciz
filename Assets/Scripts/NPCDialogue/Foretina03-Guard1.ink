@@ -70,5 +70,7 @@ INCLUDE globals.ink
 ->DONE
 
 === general ===
+.
+
 ยินดีต้อนรับสู่เมืองแห่งป่าไม้อันสวยงามของเรา#speaker:ยาม1 #portrait:GuardF1
 ->DONE

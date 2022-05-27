@@ -80,9 +80,11 @@ public class QuestionStorage : MonoBehaviour
     public bool CheckAns(int choose){
         if(storage[IndexOnActive].Correct == choose){
             Debug.Log("Correct!");
+            SFXmanager.GetInstance().EpicWin();
             return true;
         }
         else{
+            SFXmanager.GetInstance().CallNope();
             return false;
         }
     }

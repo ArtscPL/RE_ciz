@@ -10,16 +10,21 @@ INCLUDE globals.ink
 {isD305 == true && isS306 == false :->start306}
 {isC306 == true && isD306 == false: ->finish306}
 {isD306 == true: ->AllDone}
+->AllDone
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
 //#speaker:เจ้าเมือง #portrait:LordF
 
 === notTestYet ===
+.
+
 (กลับไปคุยกับยาม1เพื่อทำความเข้าใจกฏของเมืองก่อน)
 ->DONE
 
 === AllDone ===
+.
+
 ขอบคุณสำหรับความพยายามของท่านมากเพื่อช่วยเมืองและโลกของเรา#speaker:เจ้าเมือง #portrait:LordF
 ->DONE
 

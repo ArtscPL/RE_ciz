@@ -121,6 +121,7 @@ public class TeleporterController : MonoBehaviour
     public void Click1(){
         if (text1.text == "Centriana"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Centriana");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Centriana");
@@ -128,6 +129,7 @@ public class TeleporterController : MonoBehaviour
         }
         else if (text1.text == "Slopakia"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Slopakia");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Slopakia");
@@ -141,6 +143,7 @@ public class TeleporterController : MonoBehaviour
     public void Click2(){
         if (text2.text == "Slopakia"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Slopakia");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Slopakia");
@@ -148,6 +151,7 @@ public class TeleporterController : MonoBehaviour
         }
         else if (text2.text == "Foretina"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Foretina");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Foretina");
@@ -161,6 +165,7 @@ public class TeleporterController : MonoBehaviour
     public void Click3(){
         if (text3.text == "Foretina"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Foretina");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Foretina");
@@ -168,6 +173,7 @@ public class TeleporterController : MonoBehaviour
         }
         else if (text3.text == "Probocean"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Probocean");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Probocean");
@@ -181,6 +187,7 @@ public class TeleporterController : MonoBehaviour
     public void Click4(){
         if (text4.text == "Probocean"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Probocean");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Probocean");
@@ -188,6 +195,7 @@ public class TeleporterController : MonoBehaviour
         }
         else if (text4.text == "Cavectar"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Cavectar");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Cavectar");
@@ -201,6 +209,7 @@ public class TeleporterController : MonoBehaviour
     public void Click5(){
         if (text5.text == "Cavectar"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Cavectar");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Cavectar");
@@ -208,6 +217,7 @@ public class TeleporterController : MonoBehaviour
         }
         else if (text5.text == "Magmatos"){
             Debug.Log("from " + SceneManager.GetActiveScene().name + " TP to Magmatos");
+            MoveData.UseTP++;
             SaveManager.GetInstance().SavetoAsset();
             SaveManager.GetInstance().SaveGameData();
             SceneManager.LoadScene("Magmatos");

@@ -71,8 +71,13 @@ public class SaveManager : MonoBehaviour
         BossManager.GetInstance().PlayerFightBossIndex = SaveBossFight;
         SFXmanager.GetInstance().Audio.volume = AudioVolume;
         //problem with teleporter
-        if(MoveData.MoveCalled!=0)
-        Movement2D.GetInstance().GetLocation().transform.position = new Vector3(SavePositionX,SavePositionY,SavePositionZ); 
+        if(MoveData.UseTP==0){
+            if(MoveData.MoveCalled!=0)
+            Movement2D.GetInstance().GetLocation().transform.position = new Vector3(SavePositionX,SavePositionY,SavePositionZ); 
+        }
+        else{
+            MoveData.UseTP=0;
+        }
     } 
 
     public void SavetoAsset(){

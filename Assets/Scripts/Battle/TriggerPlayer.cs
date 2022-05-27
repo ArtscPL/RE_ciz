@@ -50,7 +50,7 @@ public class TriggerPlayer : MonoBehaviour
                 break;
             }
         }
-        if(nani == "Slopakia"){
+        else if(nani == "Slopakia"){
             switch(enemyAssignedID){
                 case 1:
                     SaveManager.GetInstance().SavePositionX = (float)-12.7925701;
@@ -80,6 +80,46 @@ public class TriggerPlayer : MonoBehaviour
                 default:
                 break;
             }
+        }
+        else if(nani == "Foretina"){
+            switch(enemyAssignedID){
+                case 1:
+                    SaveManager.GetInstance().SavePositionX = (float)0.943630219;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)4.20855999;
+                    break;
+                case 2:
+                    SaveManager.GetInstance().SavePositionX = (float)6.17705917;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)1.71969223;
+                    break;
+                case 3:
+                    SaveManager.GetInstance().SavePositionX = (float)-1.15647697;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-3.5889082;
+                    break;
+                case 4:
+                    SaveManager.GetInstance().SavePositionX = (float)14.7683144;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)1.39684868;
+                    break;
+                case 5:
+                    SaveManager.GetInstance().SavePositionX = (float)16.3858719;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-3.03118515;
+                    break;
+                default:
+                break;
+            }
+        }
+        else if(nani == "Probocean"){
+
+        }
+        else if(nani == "Cavectar"){
+
+        }
+        else if(nani == "Magmatos"){
+
         }
     }
 }
