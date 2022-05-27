@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class BattleSystem : MonoBehaviour
 {
-    public GameObject PlayerPrefabs;
     public GameObject EnemyPrefabs;
-    public Transform PlayerStation;
     public Transform EnemyStation;
     void Start()
     {
@@ -15,7 +13,6 @@ public class BattleSystem : MonoBehaviour
     }
     IEnumerator setupBattle()
     {
-        Instantiate(PlayerPrefabs,PlayerStation);
         Instantiate(EnemyPrefabs,EnemyStation);
 
         yield return new WaitForSeconds(2f);

@@ -13,10 +13,11 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
     public List<Marble> marble;
     public int DamageResult;
     public GameObject target;
+    public Animator animator;
 
     void Start()
     {
-        
+        animator.SetBool("Click", false);
     }
     void Update()
     {
@@ -42,6 +43,10 @@ public class Show_Value : MonoBehaviour, IPointerClickHandler
 
     IEnumerator TakeDamage(int DamageFormPlayer)
     {
+        animator.SetBool("Click", true);
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("Click", false);
+
         DamageResult = Mathf.Abs(DamageFormPlayer - HealthFromEnemy);
         yield return new WaitForSeconds(2f);
         RandomEnemyHp.HP = DamageResult;
