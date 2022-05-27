@@ -205,7 +205,50 @@ public class TriggerPlayer : MonoBehaviour
             }
         }
         else if(nani == "Magmatos"){
-
+            switch(enemyAssignedID){
+                case 1:
+                    SaveManager.GetInstance().SavePositionX = (float)10.2076607;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-4.413095;
+                    break;
+                case 2:
+                    SaveManager.GetInstance().SavePositionX = (float)0.761656284;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)4.41648388;
+                    break;
+                case 3:
+                    SaveManager.GetInstance().SavePositionX = (float)-14.5963097;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-0.110899806;
+                    break;
+                case 4:
+                    SaveManager.GetInstance().SavePositionX = (float)-5.45205545;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)6.70268917;
+                    break;
+                case 5:
+                    SaveManager.GetInstance().SavePositionX = (float)9.23766613;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)5.9569664;
+                    break;
+                case 6:
+                    SaveManager.GetInstance().SavePositionX = (float)-2.56495619;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-2.30990148;
+                    break;
+                case 7:
+                    SaveManager.GetInstance().SavePositionX = (float)-14.4152393;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)3.35146427;
+                    break;
+                case 8:
+                    SaveManager.GetInstance().SavePositionX = (float)16.4213104;
+                    SaveManager.GetInstance().SavePositionY = (float)0.330000013;
+                    SaveManager.GetInstance().SavePositionZ = (float)-4.73748493;
+                    break;
+                default:
+                break;
+            }
         }
     }
 }
