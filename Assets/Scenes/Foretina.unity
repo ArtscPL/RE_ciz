@@ -68461,7 +68461,7 @@ MonoBehaviour:
     Todo: "\u0E01\u0E33\u0E08\u0E31\u0E14\u0E1B\u0E35\u0E28\u0E32\u0E08\u0E15\u0E49\u0E19\u0E44\u0E21\u0E49
       5 \u0E15\u0E31\u0E27"
     EnemyID: 3
-    RequiredAmount: 10
+    RequiredAmount: 5
     expReward: 100
     recoinReward: 1500
     Accepted: 0
