@@ -71886,7 +71886,7 @@ MonoBehaviour:
     Todo: "\u0E01\u0E33\u0E08\u0E31\u0E14\u0E42\u0E01\u0E40\u0E25\u0E21\u0E19\u0E4D\u0E49\u0E32\u0E41\u0E02\u0E47\u0E07
       5 \u0E15\u0E31\u0E27"
     EnemyID: 2
-    RequiredAmount: 10
+    RequiredAmount: 5
     expReward: 100
     recoinReward: 1000
     Accepted: 0
@@ -71901,7 +71901,7 @@ MonoBehaviour:
     Todo: "\u0E01\u0E33\u0E08\u0E31\u0E14\u0E42\u0E01\u0E40\u0E25\u0E21\u0E19\u0E4D\u0E49\u0E32\u0E41\u0E02\u0E47\u0E07
       10 \u0E15\u0E31\u0E27"
     EnemyID: 2
-    RequiredAmount: 30
+    RequiredAmount: 10
     expReward: 100
     recoinReward: 1000
     Accepted: 0
