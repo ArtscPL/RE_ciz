@@ -1,8 +1,10 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EquipmentPanel : MonoBehaviour
 {
+	public Text[] textEquip;
 	public EquipmentSlot[] EquipmentSlots;
 	[SerializeField] Transform equipmentSlotsParent;
 
@@ -27,7 +29,6 @@ public class EquipmentPanel : MonoBehaviour
 			EquipmentSlots[i].OnDropEvent += slot => OnDropEvent(slot);
 		}
 	}
-
 	private void OnValidate()
 	{
 		EquipmentSlots = equipmentSlotsParent.GetComponentsInChildren<EquipmentSlot>();
