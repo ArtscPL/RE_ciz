@@ -149,8 +149,7 @@ INCLUDE globals.ink
 ว้าว เจ้าเมืองแห่งน้ำแข็งหลงรักเทพธิดาแห่งพรไพร ช่างเติมแต่งจินตนาการได้ดีเหลือเกิน~ #speaker:เจ้าเมือง #portrait:LordS
 
 อย่าเสียมารยาทเจ้าลูกไฟ!! ขออภัยนะครับ งั้นไว้เจอกันไหม ลาก่อนครับ!!#speaker:Player #portrait:Player
-~isS209 = true
-~questAccepted = true
+
 ->SecondExamIntro
 
 === SecondExamIntro ===
@@ -274,9 +273,11 @@ INCLUDE globals.ink
 
 === BadGrade ===
 เจ้าทำได้แค่นี้งั้นเรอะ!? อย่าหวังเลยว่าจะออกไปจากช่วงเวลานี้ได้ จงติดอยู่ในวังวนอันไร้สิ้นสุดนี้เถอะ เจ้ามนุษย์ #speaker:อาซิลรา #portrait:Azilra
-->question1
+->DONE
 
 === GoodGrade ===
+~isS209 = true
+~questAccepted = true
 เก่งมาก เจ้ามนุษย์ เจ้าสามารถผ่านบททดสอบนี้ได้ แต่ที่เหลือหละ? ข้าหวังว่าเจอกันครั้งหน้า เจ้ายังคงเก่งให้ได้แบบนี้อยู่นะ วะฮะฮะฮ่า! #speaker:อาซิลรา #portrait:Azilra
 
 พูดมากจริงเห้ย! เดี๋ยวเหอะ เดี๋ยวชั้นจะไปกระชากหน้ากากของนายก็มาเอง! #speaker:Player #portrait:Player

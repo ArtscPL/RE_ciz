@@ -8,9 +8,11 @@ INCLUDE globals.ink
 {isD104 == true && isS105 == false: ->start105}
 {isC105 == true && isD105 == false: ->finish105}
 {isD106 == true && isS107 == false: ->start107}
+{isB107 == true && isD107 == false :->finish107}
+{isD107 == true && isS108 == false:->start108}
 {isS205 == true && isSS205 == false: ->205part1}
 {isS406 == true && isCC406 == false: ->406con}
-{isD103 == false || isS108 == true: ->general}
+->general
 
 ===general===
 ??? #speaker:Player #portrait:Player
@@ -87,6 +89,7 @@ INCLUDE globals.ink
 
 + [รับภารกิจ]
     ไม่ต้องห่วงครับ ผมจะจัดการจ้าวหมาป่าลงให้ได้  #speaker:Player #portrait:Player
+    
     ~isS107 = true
     ~questAccepted = true
     ->DONE
@@ -96,14 +99,17 @@ INCLUDE globals.ink
 
 === finish107 ===
 ~questTurnin = true
+~isD107 = true
 โฮะๆๆ เจ้ากลับมาแล้ว ข้าคิดไว้แล้วว่าเจ้าต้องทำสำเร็จ #speaker:เจ้าเมือง #portrait:LordC
 
-เพราะความช่วยเหลือของทุกๆคนผมเลยเอาชนะมาได้ครับ แต่ว่า... มันมีเรื่องน่าสงสัยอยู่
+เพราะความช่วยเหลือของทุกๆคนผมเลยเอาชนะมาได้ครับ แต่ว่า... มันมีเรื่องน่าสงสัยอยู่#speaker:Player #portrait:Player
 
-(เล่าเรื่องทั้งหมดที่เกิดขึ้น)
+(เล่าเรื่องทั้งหมดที่เกิดขึ้น)#speaker:Player #portrait:Player
 
 นี่ไ่ม่ใช่ข่าวดีเลย แสดงว่ายังมีสิ่งมีชีวิตที่เรียกว่าเทพอีกหลายตนที่พยายามจะทำลายเมืองต่าง ๆ หลบอยู่ในมุมมืด #speaker:เจ้าเมือง #portrait:LordC
-->start108
+
+ข้าขอวอนเจ้าหน่อยได้รึเปล่าหละ ถ้าเจ้าจะออกจากเมือง กลับมาที่หาข้าอีกครั้ง#speaker:เจ้าเมือง #portrait:Lord
+->DONE
 
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
@@ -120,7 +126,7 @@ INCLUDE globals.ink
     รับจดหมายแนะนำตัวจากข้าไป และมอบมันให้กับยามรักษาการณ์ของเมือง Slopakia แล้วที่เหลือเขาจะจัดการเอง  #speaker:เจ้าเมือง #portrait:LordC
     
     ผมจะแจ้งทุกเมืองก่อนจะเกิดเหตุร้ายขึ้นอย่างแน่นอน ขอให้ไว้ใจได้เลยครับ #speaker:Player #portrait:Player
-    ~isS108 = true
+    
     ->FirstExamIntro
 + [ปฏิเสธ]
     ->DONE
@@ -329,9 +335,11 @@ INCLUDE globals.ink
 
 === BadGrade ===
 เจ้าทำได้แค่นี้งั้นเรอะ!? อย่าหวังเลยว่าจะออกไปจากช่วงเวลานี้ได้ จงติดอยู่ในวังวนอันไร้สิ้นสุดนี้เถอะ เจ้ามนุษย์ #speaker:อาซิลรา #portrait:Azilra
-->question1
+->DONE
 
 === GoodGrade ===
+~isS108 = true
+~questAccepted = true
 เก่งมาก เจ้ามนุษย์ เจ้าสามารถผ่านบททดสอบนี้ได้ แต่ที่เหลือหละ? ข้าหวังว่าเจอกันครั้งหน้า เจ้ายังคงเก่งให้ได้แบบนี้อยู่นะ วะฮะฮะฮ่า! #speaker:อาซิลรา #portrait:Azilra
 
 พูดมากจริงเห้ย! เดี๋ยวเหอะ เดี๋ยวชั้นจะไปกระชากหน้ากากของนายก็มาเอง! #speaker:Player #portrait:Player
