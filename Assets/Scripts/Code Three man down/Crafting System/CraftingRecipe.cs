@@ -58,6 +58,7 @@ public class CraftingRecipe : ScriptableObject
 			AddResults(itemContainer);
 			Character.GetInstance().CraftUp();
 			SFXmanager.GetInstance().WiseChoice();
+			MoveData.rate = 50;
 		}
 		else if (CanCraft(itemContainer))
 		{
