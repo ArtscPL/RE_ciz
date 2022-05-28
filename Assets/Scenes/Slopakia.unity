@@ -82612,12 +82612,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555de0aaed4df524eae1570ce6215ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SaveUI: {fileID: 773982031}
   Button1: {fileID: 588495441}
   text1: {fileID: 1425162585}
   Button2: {fileID: 1397316231}
   text2: {fileID: 472241074}
   Button3: {fileID: 1276427732}
   text3: {fileID: 1101975012}
+  path1: 
+  path2: 
+  path3: 
 --- !u!4 &1686364396
 Transform:
   m_ObjectHideFlags: 0
