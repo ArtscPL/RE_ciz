@@ -154,8 +154,6 @@ INCLUDE globals.ink
 + [ยอมรับ]
     เอ่อ.. ยังงั้นก็ได้ครับ งั้นไปก่อนนะครับ#speaker:Player #portrait:Player
 
-    ~questAccepted = true
-    ~isS406 = true
     ->ForthExamIntro
 + [ปฏิเสธ]
     คิดๆดูแล้วยังต้องเตรียมตัวมากกว่านี้ เดี๋ยวกลับมาหาครับ#speaker:Player #portrait:Player
@@ -360,9 +358,11 @@ INCLUDE globals.ink
 
 === BadGrade ===
 เจ้าทำได้แค่นี้งั้นเรอะ!? อย่าหวังเลยว่าจะออกไปจากช่วงเวลานี้ได้ จงติดอยู่ในวังวนอันไร้สิ้นสุดนี้เถอะ เจ้ามนุษย์ #speaker:อาซิลรา #portrait:Azilra
-->question1
+->DONE
 
 === GoodGrade ===
+~questAccepted = true
+~isS406 = true
 เก่งมาก เจ้ามนุษย์ เจ้าสามารถผ่านบททดสอบนี้ได้ แต่ที่เหลือหละ? ข้าหวังว่าเจอกันครั้งหน้า เจ้ายังคงเก่งให้ได้แบบนี้อยู่นะ วะฮะฮะฮ่า! #speaker:อาซิลรา #portrait:Azilra
 
 พูดมากจริงเห้ย! เดี๋ยวเหอะ เดี๋ยวชั้นจะไปกระชากหน้ากากของนายก็มาเอง! #speaker:Player #portrait:Player

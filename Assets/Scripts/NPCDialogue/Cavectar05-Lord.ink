@@ -182,8 +182,6 @@ INCLUDE globals.ink
     ->DONE
     
 === finish506 ===
-~questTurnin = true
-~isD506 = true
 ขอบคุณที่ช่วยเมืองนี้ไว้นะเจ้าหนู นี่รางวัลตามที่สัญญาไว้ เกราะคุ้มกันเพลิง มันจะช่วยป้องกันเจ้าจากสภาพแวดล้อมที่โหดร้ายของเขตแมกมาทอสได้กึ่งนึง#speaker:เจ้าเมือง #portrait:LordCa
 
 กึ่งนึง? ไม่ทั้งหมดหรอครับ?#speaker:Player #portrait:Player
@@ -314,9 +312,11 @@ INCLUDE globals.ink
 
 === BadGrade ===
 เจ้าทำได้แค่นี้งั้นเรอะ!? ผ่านมากี่เมืองแล้ว? อย่าหวังเลยว่าจะออกไปจากช่วงเวลานี้ได้ จงติดอยู่ในวังวนอันไร้สิ้นสุดนี้เถอะ เจ้ามนุษย์ #speaker:อาซิลรา #portrait:Azilra
-->question1
+->DONE
 
 === GoodGrade ===
+~questTurnin = true
+~isD506 = true
 เยี่ยม เท่านี้เจ้าก็มีคุณสมบัติเพียงพอแล้ว #speaker:อาซิลรา #portrait:Azilra
 
 คุณสมบัติอะไร? #speaker:Player #portrait:Player
