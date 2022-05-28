@@ -56964,12 +56964,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555de0aaed4df524eae1570ce6215ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SaveUI: {fileID: 674757459}
   Button1: {fileID: 1890249247}
   text1: {fileID: 1857360219}
   Button2: {fileID: 1393033269}
   text2: {fileID: 1420096456}
   Button3: {fileID: 969536595}
   text3: {fileID: 2049777481}
+  path1: 
+  path2: 
+  path3: 
 --- !u!4 &1137776371
 Transform:
   m_ObjectHideFlags: 0

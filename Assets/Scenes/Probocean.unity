@@ -58500,12 +58500,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555de0aaed4df524eae1570ce6215ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SaveUI: {fileID: 1478261288}
   Button1: {fileID: 1065276125}
   text1: {fileID: 1687353940}
   Button2: {fileID: 252393711}
   text2: {fileID: 667788926}
   Button3: {fileID: 1780776447}
   text3: {fileID: 1711469571}
+  path1: 
+  path2: 
+  path3: 
 --- !u!4 &1239464260
 Transform:
   m_ObjectHideFlags: 0
