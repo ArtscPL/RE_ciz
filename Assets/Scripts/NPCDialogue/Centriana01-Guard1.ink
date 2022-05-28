@@ -62,11 +62,11 @@ INCLUDE globals.ink
         ผิด! แค่ข้อแรกก็ยังไม่ผ่านเลยหรือเนี่ย เอาใหม่ ๆ  #speaker:ยาม1 #portrait::Guard1
         ->firstquiz
     + [4]
+        ผิด! แค่ข้อแรกก็ยังไม่ผ่านเลยหรือเนี่ย เอาใหม่ ๆ  #speaker:ยาม1 #portrait::Guard1
+        ->firstquiz
+    + [8]
         ทำได้ดี แต่นี่ก็พึ่งจะข้อแรกเท่านั้น #speaker:ยาม1 #portrait:Guard1
         ->secondquiz
-    + [8]
-        ผิด! แค่ข้อแรกก็ยังไม่ผ่านเลยหรือเนี่ย เอาใหม่ ๆ  #speaker:ยาม1 #portrait:Guard1
-        ->firstquiz
     + [16]
         ผิด! แค่ข้อแรกก็ยังไม่ผ่านเลยหรือเนี่ย เอาใหม่ ๆ  #speaker:ยาม1 #portrait:Guard1
         ->firstquiz
