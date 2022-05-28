@@ -177,6 +177,7 @@ public class DialogueManager : MonoBehaviour
 
     private void QuestClearPopup(){
         //check to find index again
+        PlayerOwnQuest.GetInstance().CurrentAmount = 0;
         QuestManager.GetInstance().FindQuestAvailiable();
         QuestManager.GetInstance().displayQuestUIonClear(QuestManager.GetInstance().QuestIndex);
         DialogueManager.GetInstance().SetVariableState("questTurnin", new Ink.Runtime.BoolValue(false));
