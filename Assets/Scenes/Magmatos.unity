@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13750,7 +13750,7 @@ MonoBehaviour:
       200 \u0E08\u0E32\u0E01\u0E01\u0E32\u0E23\u0E08\u0E31\u0E14\u0E40\u0E25\u0E02\u0E42\u0E14\u0E14
       3 \u0E15\u0E31\u0E27\u0E04\u0E37\u0E2D 1,2,3 \u0E41\u0E25\u0E30\u0E41\u0E15\u0E48\u0E25\u0E30\u0E2B\u0E25\u0E31\u0E01\u0E40\u0E25\u0E02\u0E42\u0E14\u0E14\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E0B\u0E49\u0E33\u0E01\u0E31\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E17\u0E48\u0E32\u0E43\u0E14
       (\u0E04\u0E33\u0E43\u0E1A\u0E49:xx/xx)"
-    ChestAnswer: 11/25
+    ChestAnswer: 11/15
     recoinReward: 5000
     itemReward: 
     ItemInstance: {fileID: 0}

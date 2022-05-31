@@ -4,7 +4,7 @@ INCLUDE globals.ink
 {isD103 == false || (isS104 == true && isC104 == false): ->general}
 {isS104 == false && isD103 == true: ->start104}
 {isC104 == true && isD104 == false: ->finish104}
-
+->general
 //#speaker:Player #portrait:Player
 //#speaker:อาซิลรา #portrait:Azilra
 //#speaker:หัวหน้ายาม #portrait:GuardLeader
