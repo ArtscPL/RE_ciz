@@ -4,7 +4,7 @@ INCLUDE globals.ink
 {
 -isS105 == false: ->restriction
 -isS105 == true && MustLoseInThisFight == false: ->meetMonsterGod
--isS105 == true && MustLoseInThisFight == true: ->lostat105 
+-isS105 == true && MustLoseInThisFight == true &&isC105 == false: ->lostat105 
 -isS107 == true && isB107 == false: ->fightat107
 -isB107 == true && isC107 == false: ->WintheFight
 }
@@ -34,6 +34,8 @@ INCLUDE globals.ink
 ->DONE
 
 === lostat105 ===
+.
+
 อึก... มันแข็งแกร่งเกินไป พลังชีวิตมหาศาลนั่นมันอะไร นี่มันบอสที่ควรอยู่แถวหมู่บ้านเริ่มต้นหรอฟะ! #speaker:Player #portrait:Player
 อย่าลืมว่าเจ้าเมืองให้เรามาสำรวจ! โกยให้ไวเลย! ไปอธิบายให้เจ้าเมืองฟังก่อน! #speaker:อาซิลรา #portrait:Azilra
 ~isC105 = true
