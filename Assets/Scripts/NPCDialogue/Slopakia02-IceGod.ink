@@ -3,8 +3,8 @@
 //#speaker:เทพนํ้าแข็ง #portrait:IceGod
 INCLUDE globals.ink
 
-{isS207 == true && isB107 == false: ->startFight}
-{isB107 == true && isC107 == false: ->finishHim}
+{isS207 == true && isB207 == false: ->startFight}
+{isB207 == true && isC207 == false: ->finishHim}
 ->restriction
 
 === restriction ===
@@ -52,6 +52,8 @@ INCLUDE globals.ink
 ->DONE
 
 === finishHim ===
+.
+
 ไม่ ไม่ ไม่ ไม่!!! เป็นไปไม่ได้! นี่ข้าพ่ายแพ้ให้กับสิ่งมีชีวิตชั้นต่ำอย่างงั้นเหรอ!? ทั้งๆที่ข้าได้รับพลังมาจากท่านผู้นั้นแล้วแท้ๆ!#speaker:เทพนํ้าแข็ง #portrait:IceGod
 
 ท่านผู้นั้น? ผู้นั้นไหน? ใช่คนเดียวกับคนที่โยนบททดสอบสวรรค์มารึเปล่า?#speaker:Player #portrait:Player
