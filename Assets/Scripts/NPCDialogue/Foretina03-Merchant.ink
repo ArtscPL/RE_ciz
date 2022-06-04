@@ -31,11 +31,13 @@ INCLUDE globals.ink
 เอาหละ ถ้าเราต้องการตัดสินเด็กฝึกงานทั้งหมด 5 คน เราต้องการเด็กฝึกงานชาย 2 คนจากผู้สมัครชาย 5 และเด็กฝึกงานหญิง 3 คนจากผู้สมัครหญิง 7 คน เราจะเลือกได้ทั้งหมดกี่วิธี#speaker:ย่าสมุนไพร #portrait:FMerchant
 
 + [150]
-    #speaker:ย่าสมุนไพร #portrait:FMerchant
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 + [300]
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 + [320]
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 + [350]
     ->2ndQuestion
@@ -44,12 +46,15 @@ INCLUDE globals.ink
 แล้วถ้าเกิดว่าตาแก่คนนึงมีหนังสือ 7 เล่ม ในขณะที่ตาแก่อีกคนนึงมีหนังสือ 9 เล่ม ตาแก่ทั้งสองคนนี้จะมีวิธีในการแลกหนังสือกันคนละ 2 เล่มได้กี่วิธี#speaker:ย่าสมุนไพร #portrait:FMerchant
 
 + [777]
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 + [756]
     ->continue302
 + [675]
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 + [765]
+    ยังไม่ดีพอ กลับไปทบทวนมาใหม่#speaker:ย่าสมุนไพร #portrait:FMerchant
     ->DONE
 
 === continue302 ===
@@ -119,6 +124,9 @@ INCLUDE globals.ink
 โปรดไปขอร้องเขาในนามของเมืองฟอเรติน่าด้วยเถอะ #speaker:ย่าสมุนไพร #portrait:FMerchant
 + [ยอมรับ]
     ได้ครับ อย่าหักโหมมากเกินไปนะครับ ผมเกรงว่าท่านย่าจะติดโรคเหมือนกัน#speaker:Player #portrait:Player
+    
+    ~isS304 = true
+    ~questAccepted = true
     ->DONE
 + [ปฏิเสธ]    
     ตอนนี้ผมยังไม่แน่ใจ เดี๋ยวผมกลับมาครับ#speaker:Player #portrait:Player

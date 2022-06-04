@@ -6,7 +6,7 @@ INCLUDE globals.ink
 {isS303 == true && isC303 == false: ->303fight}
 {isC303 == true && isCC303 == false: ->303flee}
 {isS306 == true && isB306 == false: ->306init}
-{isB306 == true && isC306 == true: ->306afterfight}
+{isB306 == true && isC306 == false: ->306afterfight}
 
 === restriction ===
 ???
@@ -47,6 +47,8 @@ INCLUDE globals.ink
 ->DONE
 
 === 303flee ===
+.
+
 เห้ย เดี๋ยวดิ!? เห็นๆอยู่ว่ากำลังชนะ ไหงดูไม่เป็นไรเลย #speaker:Player #portrait:Player
 
 ข้าเป็นอมตะยังไงหละ#speaker:เทพแห่งป่า #portrait:WildGod
@@ -110,6 +112,8 @@ INCLUDE globals.ink
 
 === 306afterfight ===
 ~isC306 = true
+.
+
 เจ้าพวกมนุษย์.... แม้จะชนะข้าได้แล้วก็อย่าพึ่งได้ใจไป เทพตนอื่นๆจะไม่ปล่อยพวกเจ้าไปแน่นอน#speaker:เทพแห่งป่า #portrait:WildGod
 
 ไหนๆก็จะตายแล้ว บอกมาหน่อย ยังเหลือเทพอีกกี่ตน#speaker:Player #portrait:Player
