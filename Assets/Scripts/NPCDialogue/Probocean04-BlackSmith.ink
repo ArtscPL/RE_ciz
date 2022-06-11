@@ -12,7 +12,8 @@ INCLUDE globals.ink
     {isC403 == true && isD403 == false: ->finish403}
     {isS404 == true && isSS404 == false: ->con404}
     {isCC404 == true && isD404 == false: ->finish404}
-    {isD402 == false || isD404 == true: ไม่มีภารกิจให้ทำในขณะนี้->DONE}
+    ไม่มีภารกิจให้ทำในขณะนี้
+    ->DONE
 + [สร้างอุปกรณ์]
     ~Ccraft = true
     [เข้าสู่กระบวนการสร้างอุปกรณ์]
