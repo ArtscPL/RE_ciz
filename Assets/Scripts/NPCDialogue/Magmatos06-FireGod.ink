@@ -33,6 +33,7 @@ INCLUDE globals.ink
 === ENDING ===
 ~questTurnin = true
 ~isD604 = true
+~outro = true
 เจ้าทำได้แล้ว ยินดีด้วย #speaker:เทพแห่งไฟ #portrait:FireGod
 
 นายจะทำตามสัญญาใช่มั้ย?#speaker:Player #portrait:Player

@@ -4,6 +4,7 @@ Clear = C , make it true when player fulfilled quest's progress
 D = Done , make it true when player get quest reward
 */ 
 VAR intro = false
+VAR outro = false
 
 VAR questAccepted = false
 VAR questTurnin = false

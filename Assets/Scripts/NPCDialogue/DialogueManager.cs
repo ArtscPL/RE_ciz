@@ -138,6 +138,9 @@ public class DialogueManager : MonoBehaviour
         bool FightB = ((Ink.Runtime.BoolValue)DialogueManager
             .GetInstance()
             .GetVariableState("fightBoss")).value;
+        bool ClearGame = ((Ink.Runtime.BoolValue)DialogueManager
+            .GetInstance()
+            .GetVariableState("outro")).value;
         Debug.Log("Quest = "+QuestOpen+", Shop = "+ShopOpen+" and Craft = "+CraftOpen);
         if(QuestOpen){
             //quest accept pop up and add quest to player
@@ -160,11 +163,18 @@ public class DialogueManager : MonoBehaviour
             //add boss to fight
             BossFightInit();
         }
+        else if(ClearGame){
+            TriggerOutro();
+        }
     }
 
     public void BossFightInit(){
         DialogueManager.GetInstance().SetVariableState("fightBoss", new Ink.Runtime.BoolValue(false));
         BossManager.GetInstance().TriggerBoss();
+    }
+
+    public void TriggerOutro(){
+        TriggerCongrat.GetInstance().GetGrade();
     }
 
     private void QuestWindowPopup()
