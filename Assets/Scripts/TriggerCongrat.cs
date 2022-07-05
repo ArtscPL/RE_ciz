@@ -36,14 +36,14 @@ public class TriggerCongrat : MonoBehaviour
         int total = CScore+SScore+FScore+PScore+CaScore+chestScore;
         congratUI.SetActive(true);
         Debug.Log(total);
-        if(total > 50)
+        if(total > 49)
         gradegiven.text = "จากการประเมิณผลของเรา\nเกรดของท่านหลังจากเล่นเกมนี้ก็คือ เกรด A (สุดยอด)\n" + "ขอให้ท่านโชคดีกับการทำข้อสอบในชีวิตจริง\n#TeamReCiv";
-        else if(total > 44 && total < 51)
+        else if(total > 39 && total < 50)
         gradegiven.text = "จากการประเมิณผลของเรา\nเกรดของท่านหลังจากเล่นเกมนี้ก็คือ เกรด B (สูง)\n" + "ขอให้ท่านโชคดีกับการทำข้อสอบในชีวิตจริง\n#TeamReCiv";
-        else if(total > 35 && total < 45)
+        else if(total > 29 && total < 40)
         gradegiven.text = "จากการประเมิณผลของเรา\nเกรดของท่านหลังจากเล่นเกมนี้ก็คือ เกรด C (ปานกลาง)\n" + "ขอให้ท่านโชคดีกับการทำข้อสอบในชีวิตจริง\n#TeamReCiv";
-        else if(total < 35)
-        gradegiven.text = "จากการประเมิณผลของเรา\nเกรดของท่านหลังจากเล่นเกมนี้ก็คือ เกรด D (ตํ่า)\n" + "ขอให้ท่านโชคดีกับการทำข้อสอบในชีวิตจริง\n#TeamReCiv";
+        else if(total < 30)
+        gradegiven.text = "จากการประเมิณผลของเรา\nเกรดของท่านหลังจากเล่นเกมนี้ก็คือ เกรด D\n" + "ขอให้ท่านโชคดีกับการทำข้อสอบในชีวิตจริง\n#TeamReCiv";
     }
 
     private void Awake(){
